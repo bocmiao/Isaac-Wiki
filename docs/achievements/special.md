@@ -7,109 +7,136 @@ description: 每日挑战、胜利圈、无伤、限时羔羊、不捡资源、�
 
 <VersionBadge checked="2026-10" />
 
-[全部成就索引](/achievements/)提供每项条件和编号；本页集中解释较容易卡进度的目标。各项在可解锁模式与正确版本中完成，不用控制台或手动种子证明自然解锁。
+每项成就的条件和编号见[全部成就索引](/achievements/)，本页专讲比较容易卡住的成就。以下各项都要在能解锁成就的模式和正确的版本里做，不能靠控制台或手动输入种子来解锁。
 
 ## 每日挑战：参与、获胜与连胜 {#daily}
 
-| 目标 | 对应编号 | 真正要做什么 |
+| 成就 | 编号 | 要做什么 |
 | --- | --- | --- |
-| Dedication | [#325](/achievements/ids-301-400#achievement-325) | 参加 31 次正式每日，允许失败，不要求连续日历天 |
-| Broken Modem | [#354](/achievements/ids-301-400#achievement-354) | 完成 7 次正式每日，需碰终点奖杯 |
-| The Marathon | [#336](/achievements/ids-301-400#achievement-336) | 正式每日连续 5 次获胜，可以隔日参加；实际参加后失败会断连胜 |
-| Win Online Daily | [#640](/achievements/ids-601-641#achievement-640) | 忏悔+官方在线每日胜利，不能用离线每日代替 |
+| Dedication | [#325](/achievements/ids-301-400#achievement-325) | 参加 31 次正式每日挑战。输了也算，不要求连续每天参加 |
+| Broken Modem | [#354](/achievements/ids-301-400#achievement-354) | 赢 7 次正式每日挑战，要碰到终点奖杯才算 |
+| The Marathon | [#336](/achievements/ids-301-400#achievement-336) | 正式每日挑战连赢 5 次。中间可以隔几天不参加，但参加了又输掉，连胜就断了 |
+| Win Online Daily | [#640](/achievements/ids-601-641#achievement-640) | 忏悔+：赢一次官方在线每日挑战，离线每日不算 |
 
 操作顺序：
 
-1. 关闭模组，完全退出游戏；忏悔 / 忏悔+配置中将 `EnableDebugConsole=0`，重启。
-2. 进入正式 Daily Run，先看指定角色与终点。Practice、排行榜浏览、用每日种子另开普通局都不替代正式参与。
-3. 以胜利为目标时先保命，不为分数乱炸或赶路。终点打完后碰奖杯，不能只看到 Boss 死亡就退出。
-4. 记下“已参加”“已获胜”“连续获胜”三种计数；#325 与 #354 的次数不同，#336 不能用总胜利数代替。
-5. 冲 #336 时可跳过把握低的日子；不能用练习胜利补正式失败。每日只有固定正式机会，不用同日反复练习累计多次。
+1. 关闭模组，完全退出游戏。在忏悔 / 忏悔+ 的配置文件里设 `EnableDebugConsole=0`，再重启。
+2. 进入正式的每日挑战（Daily Run），先看今天指定的角色与终点。练习（Practice）、看排行榜、用每日种子另开普通局，都不算正式参加。
+3. 想赢就先保命，别为了分数乱炸或赶路。终点 Boss 打完后要碰奖杯，不能看到 Boss 死了就退出。
+4. 分别记下“已参加”“已获胜”“连续获胜”三个次数。#325 和 #354 要的次数不同；#336 只看连胜，总胜利数再多也不算。
+5. 冲 #336 时，没把握的日子可以不参加。练习模式里赢了，补不回正式挑战的失败。正式机会每天是固定的，同一天反复练习不会多算次数。
 
-每日有自己相关的解锁例外，不能顺便刷普通角色标记。热更新若影响每日稳定性，先核对版本，不把旧版 bug 传闻当作长期规则。
+每日挑战只能解锁和每日相关的成就，不能顺便刷普通角色标记。游戏更新后每日挑战如果出了问题，先核对版本；旧版的 bug 传闻不一定还成立。
 
 ## 胜利圈：一圈、两圈与三圈 {#victory}
 
-1. 正常局带底片走阴间 → 暗室，击败羔羊，接受 Victory Lap。最初这一局不计“已经完成一圈”。
+1. 正常局带着底片（The Negative）走阴间 → 暗室，打败羔羊，选择进入胜利圈（Victory Lap）。刚打完的这一局不算“已完成一圈”。
 2. 第一圈继续拿底片、到暗室打羔羊，完成 [#321](/achievements/ids-301-400#achievement-321)。
 3. 接受并完成第二圈，推进 [#360 Butter!](/achievements/ids-301-400#achievement-360)。
 4. 接受并完成第三圈，按结束提示继续，推进 [#337 RERUN](/achievements/ids-301-400#achievement-337)。
 
-第三圈起会变成游魂；圈间也可能丢失道具，别以为第一局构筑永久保留。每圈检查底片是否还在，妈妈处需要时重新拿。别改走宝箱或虚空终点，那里不能按暗室羔羊继续圈数；R键还会重置整局与圈数。
+注意事项：
 
-离线胜利圈不能刷普通成就与标记，只有圈数自身的相关奖励例外；不要借此完成不捡资源、全角色标记或正常连胜。忏悔+在线胜利圈另有版本规则，先按[联机专题](/topics/coop)核对。
+- 第三圈起角色会变成游魂。
+- 圈与圈之间可能丢失道具，第一局的构筑不会一直保留。
+- 每圈检查底片还在不在，不在就在打妈妈时重新拿。
+- 别改走宝箱层或虚空，打那里的终点不能继续算暗室羔羊的圈数。
+- 按 <KeyCap>R</KeyCap> 重开会把整局和圈数一起清零。
+
+离线胜利圈里，只能拿到和圈数有关的奖励，普通成就与标记都解锁不了。不要指望用它完成不捡资源、全角色标记或正常连胜。忏悔+ 的在线胜利圈规则不同，先看[联机专题](/topics/coop)。
 
 ## 连胜与不同角色 {#streak}
 
-[#322](/achievements/ids-301-400#achievement-322)需要三局正常连胜；[#323](/achievements/ids-301-400#achievement-323)公开表写五局且每局不同角色，同时注明忏悔非加号的三局与异常计数情况。
+- [#322](/achievements/ids-301-400#achievement-322)：正常局连胜三局。
+- [#323](/achievements/ids-301-400#achievement-323)：连胜五局，每局用不同角色。据 wiki 记载，忏悔（非 +）里是三局，而且有计数异常的情况。
 
-建议用五个不同**表角色**完成：以撒、抹大拉、该隐、阿撒泻勒、拉撒路等已经熟练的角色；选择已开放的明确胜利终点，结束后确认连胜数。途中重开或死亡会破坏推进。不要把一个正常局后续的胜利圈当作新角色独立获胜。
+建议用五个不同的**表角色**来做，比如以撒、抹大拉、该隐、阿撒泻勒、拉撒路这类已经熟练的角色。
 
-忏悔旧版对表 / 里对应形态和部分角色存在计数冲突；保守方案避免表里混用。当前版本条件与是否受既有 bug 影响不能凭旧视频断定，完成后检查对应编号是否解锁。Mr. Resetter! 的 PC 条件是连续重开七次，部分主机条件不同，见 [#328](/achievements/ids-301-400#achievement-328)。
+- 选一个已经开放、明确算胜利的终点，打完后确认连胜数。
+- 中途重开或死亡，连胜就断了。
+- 一局正常胜利之后接着打的胜利圈，不算换了新角色的另一场胜利。
+
+旧版忏悔里，表角色和对应的里角色、以及部分角色之间计数会冲突，稳妥起见不要表里角色混用。现在的版本是否还有这个 bug，不能凭旧视频判断，做完后检查对应编号有没有解锁。
+
+Mr. Resetter! 在 PC 上的条件是连续重开七次，部分主机上条件不同，见 [#328](/achievements/ids-301-400#achievement-328)。
 
 ## 无伤与半心章节 {#no-hit}
 
-- [#37–40](/achievements/ids-001-100#achievement-37)及后续重复的无伤奖励按完整章节判定，前四章包含 I / II 两层。不是整局不掉红心，也不是只打章节第二层。
+- [#37–40](/achievements/ids-001-100#achievement-37)及后面同类的无伤奖励，按完整章节算：前四章每章包含 I、II 两层，都要无伤。不是要求整局不掉红心，也不是只看章节第二层。
 - [#83 Dead Boy](/achievements/ids-001-100#achievement-83)要求宝箱层 / 暗室无伤。不要和教堂 / 阴间的第五章混淆。
-- [#329 Living on the edge](/achievements/ids-301-400#achievement-329)要求地下室之后的一整个章节保持总血量仅半颗心；公开表允许游魂。半颗红心外加魂心不满足“总共半颗”。
+- [#329 Living on the edge](/achievements/ids-301-400#achievement-329)要求地下室之后的某一整个章节里，总血量一直只有半颗心。游魂也算。半颗红心再加魂心，就不是“总共半颗”了。
 
-练习流程：先选熟悉角色，提前准备盾与稳定输出，尽量避开自伤机制；进入目标章前确认血量与配置。优先远程清危险敌人，开门前观察地图，避免把献血、诅咒门或献祭的特殊付款混进无伤计划。受伤后可以继续本局其他目标，再另局练这一章。
+练习流程：
+
+1. 选熟悉的角色，提前准备护盾和稳定的输出，尽量避开会伤到自己的机制。
+2. 进入目标章节前，确认血量和道具配置。
+3. 优先在远处清掉危险的敌人，开门前看一眼地图。献血、诅咒门、献祭这类扣血付款，不要放进无伤计划。
+4. 受伤了也可以继续做这局的其他目标，下一局再练这一章。
 
 ## 羔羊：20 分钟与不捡资源 {#lamb}
 
 ### ZIP!：整局 20 分钟内
 
-目标是 [#326](/achievements/ids-301-400#achievement-326)。先开放底片，选清层快的角色，少进无收益房；妈妈拿底片，走阴间 → 暗室，20 分钟内打死羔羊。计时从开局算，不能从进入暗室重新计；实战先练一遍普通路线再提速。
+目标是 [#326](/achievements/ids-301-400#achievement-326)：从开局算起 20 分钟内打死羔羊，不是从进暗室开始算。
+
+1. 先解锁底片，选清层快的角色，少进没收益的房间。
+2. 打完妈妈拿底片，走阴间 → 暗室。
+3. 先按普通节奏练一遍这条路线，再提速。
 
 ### It's the Key：整局不拿心、钱、炸弹
 
-目标是 [#327](/achievements/ids-301-400#achievement-327)。钥匙允许拾取，但三类受限资源整局都要避开，最后仍需击败羔羊。
+目标是 [#327](/achievements/ids-301-400#achievement-327)：整局不捡心、硬币、炸弹，最后打败羔羊。钥匙可以捡。
 
-1. 建议用已经有神圣屏障的游魂降低回血需求，仍要认真避弹。
-2. 绕开地上心、钱、炸弹；在狭窄出口旁有拾取物时先选安全路线，别贴墙自动捡到。
-3. 不带 Bum Friend、Dark Bum、Bumbo、Lil Portal 等可能代捡资源的跟班，也留意 Bumbino 代捡。公开条目明确这些情况可能破坏条件。
-4. 正常带底片通关阴间和暗室，不用胜利圈补；如果误捡了资源，改做其他标记再另开目标局。
+1. 建议用已经解锁神圣屏障（Holy Mantle）的游魂，不太需要回血，但仍要认真躲子弹。
+2. 绕开地上的心、硬币、炸弹。窄出口旁边有拾取物时，先想好安全的路线，别贴墙走过去碰到就自动捡了。
+3. 不带乞丐朋友（Bum Friend）、黑暗乞丐（Dark Bum）、乞丐宝（Bumbo）、黑洞宝宝（Lil Portal）等会帮你捡资源的跟班，也留意 Bumbino 代捡。跟班代捡同样会让条件失败。
+4. 正常带底片打通阴间和暗室，不能靠胜利圈补。如果不小心捡了资源，这局改做其他标记，再另开一局做这个成就。
 
 ## 四级肉块男孩与绷带女孩 {#familiars}
 
-[#144 Super Meat Boy](/achievements/ids-101-200#achievement-144)与 [#19 A Bandage](/achievements/ids-001-100#achievement-19)要求各自四级形态，肉块与绷带球不能混算。
+[#144 Super Meat Boy](/achievements/ids-101-200#achievement-144)与 [#19 A Bandage](/achievements/ids-001-100#achievement-19)分别要求肉块（Cube of Meat）和绷带球（Ball of Bandages）长到四级形态，两者不能混着算。
 
-- **朋友盒方案**：用莉莉丝在贪婪模式找到一个肉块或绷带球，用朋友盒在同一房间反复复制升级。留在竞技场，利用波次充能；或准备电池 / 电池乞丐充能，不要每次用完离开房间让临时复制消失。原文指出一个肉块配三次朋友盒激活能达到所需形态，绷带球同理。
-- **削皮器方案**：拿 Potato Peeler，有足够红心容器时使用四次生成四个肉块。它不能生成绷带球，因此不能直接完成绷带女孩。
-- **常规骑士方案**：启示录帮助遇到天启骑士，逐步拿同一种组件；但掉肉块还是绷带球不能保证，不是稳定四层必成。
+- **朋友盒方案**：用莉莉丝在贪婪模式里找到一个肉块或绷带球，再用朋友盒（Box of Friends）在同一房间反复复制升级。一个肉块配三次朋友盒，就能到四级，绷带球同理。
+  - 朋友盒复制出的跟班是临时的，离开房间就消失，所以要一直留在竞技场里。
+  - 充能靠打完一波敌人，或者准备电池 / 电池乞丐。
+- **削皮器方案**：拿土豆削皮刀（Potato Peeler），在红心容器（红心的血量上限格）足够时用四次，生成四个肉块。它生成不了绷带球，所以做不了绷带女孩。
+- **常规骑士方案**：用启示录增加遇到天启骑士的机会，打骑士逐个拿同一种组件。但骑士掉肉块还是绷带球没法保证，不一定能凑够四级。
 
-Monster Manual、The Twins 等也有辅助方式，按[专项资料](https://bindingofisaacrebirth.wiki.gg/wiki/Unlocking_Super_Meat_Boy_%26_Super_Bandage_Girl)核对。旧版 Blank Card + Jera 的电池复制套路在忏悔已不按原方式工作。
+怪物手册（Monster Manual）、饰品双胞胎（The Twins）等也能帮忙，具体看[专项资料](https://bindingofisaacrebirth.wiki.gg/wiki/Unlocking_Super_Meat_Boy_%26_Super_Bandage_Girl)核对。旧版空白卡牌（Blank Card）+ 收获符文（Jera）配电池复制的套路，在忏悔里已经不能照原样用了。
 
 ## 遗骸、里角色与永久强化 {#characters}
 
-遗骸与骨心的 [#390](/achievements/ids-301-400#achievement-390)、[#391](/achievements/ids-301-400#achievement-391)是同一铲子任务的两项结果，见[完整遗骸流程](/guide/unlocks/order#hidden-forgotten)。不要把新捡到骨心当作已完成任务。
+遗骸与骨心的 [#390](/achievements/ids-301-400#achievement-390)、[#391](/achievements/ids-301-400#achievement-391)是同一个铲子任务的两个结果，见[完整遗骸流程](/guide/unlocks/order#hidden-forgotten)。刚捡到骨心不代表任务已经完成。
 
-[#474–490](/achievements/ids-401-500#achievement-474)分别解锁 17 个里角色：必须由对应表角色上行回家，开隐藏房并接触里角色。每次出发前留好饰品准备钥匙碎片；[回家流程](/guide/unlocks/order#tainted-route)列有完整前置与失败检查。
+[#474–490](/achievements/ids-401-500#achievement-474)分别解锁 17 个里角色：要用对应的表角色走上行回家，打开家里的隐藏房间，碰到里角色。每次出发前留好饰品准备钥匙碎片；[回家流程](/guide/unlocks/order#tainted-route)列有完整前置与失败检查。
 
-D6、游魂屏障、店主硬币心等是独立的初始强化，解锁角色不自动全部拥有，见[开局强化清单](/strategy/character-roster#upgrades)。
+D6、游魂的神圣屏障、店主的硬币心等，是需要单独解锁的初始强化，解锁角色时不会自动一起拿到，见[开局强化清单](/strategy/character-roster#upgrades)。
 
 ## 收集、死亡证明与 Dead God {#collection}
 
-1. 用角色清单补满 34 个角色的困难 / 极贪标记，开放 [#636 Death Certificate](/achievements/ids-601-641#achievement-636)。17 个表角色全满先开放 [#547 Mega Mush](/achievements/ids-501-600#achievement-547)。
-2. 用 Secrets 编号查剩余秘密：挑战、每日、胜利圈、不同角色计数、单局条件等。641 项索引不是只有道具奖励，还包含角色、楼层、挑战入口与功能。
-3. 打开 Stats → Items，记录空白格。查道具正常解锁前置后，在允许记录的局中实际拾取，拿到道具不要求长期携带，主动也要亲自拾取。
-4. 优先在正确道具池寻找，用 D6 等正常重掷提高机会；拿到死亡证明后可以用其特殊区域定向补缺，但要先解锁并实际找到它，不是按控制台编号发道具。
-5. 检查 [#637 Dead God](/achievements/ids-601-641#achievement-637)：其余全部成就与全部要求的道具收集。忏悔+还包含 #638–641，不能照抄忏悔离线收尾清单。
+1. 用角色清单补满 34 个角色的困难 / 极贪标记，开放 [#636 Death Certificate](/achievements/ids-601-641#achievement-636)。在这之前，17 个表角色标记全满时，会先开放 [#547 Mega Mush](/achievements/ids-501-600#achievement-547)。
+2. 按秘密（Secrets）编号查还剩哪些：挑战、每日、胜利圈、不同角色计数、单局条件等。641 项里不只有道具奖励，还有角色、楼层、挑战入口和功能。
+3. 打开 Stats → Items，记下空白格。先查这些道具的解锁条件，再在会记录收集的局里亲手捡起来。捡到就算，不用一直带着；主动道具也要亲手捡。
+4. 优先在道具所属的道具池里找，用 D6 等正常重掷提高机会。
+5. 解锁死亡证明（Death Certificate）这个道具后，可以用它进入的特殊区域定向补缺。前提是先解锁并在局里真正找到它，不能用控制台按编号发。
+6. 检查 [#637 Dead God](/achievements/ids-601-641#achievement-637)：要求其余全部成就，加上全部要求的道具收集。忏悔+ 还多了 #638–641，不能照抄忏悔的离线收尾清单。
 
-变身组件、道具编号、游戏秘密编号、怪物图鉴是不同系统；按对应页面查缺，不只看道具池是否已经开放。旧版 Platinum God、1001%、1000000%都有各自条件，详见编号条目；三个存档都达成是更进一步的目标，不是当前栏位 Dead God 的前置。
+变身组件、道具编号、秘密编号、怪物图鉴是几套不同的记录，要到各自的页面查缺，不能只看道具池开没开。
+
+旧版的 Platinum God、1001%、1000000% 各有条件，详见编号条目。三个存档都达成是更进一步的目标，不是当前存档拿 Dead God 的前提。
 
 ## 已完成却不解锁：按顺序检查 {#troubleshooting}
 
 | 问题 | 先检查 |
 | --- | --- |
 | 击杀了 Boss 但没给奖励 | 当前角色是否正确？是否要求困难 / 极贪？是否属于里角色合并组？ |
-| 看见挑战名字却没奖励道具 | 可能只完成开放成就，还要完成挑战拿奖杯 |
+| 看见挑战名字却没奖励道具 | 可能只拿到了开放挑战的成就，还要打通挑战拿奖杯 |
 | 做了多次仍不够 | 条件是同局、同时持有、不同角色、连胜，还是跨局累计？ |
 | 每日计数不增加 | 是正式 Daily 还是 Practice？参与与获胜的目标有没有混淆？ |
 | 收集页仍空白 | 是否只解锁 / 看见道具，没有实际拾取？本局是否允许记录？ |
-| Steam 与游戏进度不同 | 确认 DLC 与当前存档栏；Secrets 页 Alt+F2 只能按 Steam 已有成就同步，不代替完整收集与路线 |
-| 切忏悔+后缺新增成就 | 忏悔与忏悔+进度需按版本检查，新增在线目标另做 |
+| Steam 与游戏进度不同 | 确认 DLC 与当前存档栏。在 Secrets 页按 Alt+F2，只能按 Steam 上已有的成就同步，代替不了道具收集和路线 |
+| 切忏悔+后缺新增成就 | 忏悔与忏悔+ 的进度要分别检查，新增的在线成就要另外做 |
 
 ## 来源与授权
 
-本页对照 [Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)、[Daily Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Daily_Challenges)、[Victory Lap](https://bindingofisaacrebirth.wiki.gg/wiki/Victory_Lap)、[Collection Page](https://bindingofisaacrebirth.wiki.gg/wiki/Collection_Page_(Repentance))与[四级跟班教程](https://bindingofisaacrebirth.wiki.gg/wiki/Unlocking_Super_Meat_Boy_%26_Super_Bandage_Girl)，核对日期 2026-10-05。基于来源条件的翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布；未在云环境实际运行游戏。
+本页对照 [Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)、[Daily Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Daily_Challenges)、[Victory Lap](https://bindingofisaacrebirth.wiki.gg/wiki/Victory_Lap)、[Collection Page](https://bindingofisaacrebirth.wiki.gg/wiki/Collection_Page_(Repentance))与[四级跟班教程](https://bindingofisaacrebirth.wiki.gg/wiki/Unlocking_Super_Meat_Boy_%26_Super_Bandage_Girl)，核对日期 2026-10-05。基于来源条件的翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。未在游戏中实际运行验证。
