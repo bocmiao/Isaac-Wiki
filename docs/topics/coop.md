@@ -6,13 +6,13 @@ title: 联机专题
 
 <VersionBadge checked="2026-10" />
 
-PC 上想在线联机，要有 Steam 版的 Repentance+。它免费，但要先拥有前面全部 DLC。最多 4 人，所有模式都能在线玩，也能解锁成就。只有一条要记牢：**必须从开局就在队里**，中途加入的人，这一局解锁不了东西。主机版的在线联机要等 2026 年 11 月 19 日，见[主机专题](/topics/console)。
+PC 上想在线联机，要装上 Repentance+。它免费，但要先拥有前面全部 DLC。最多 4 人，所有模式都能在线玩，也能解锁成就。只有一条要记牢：**必须从开局就在队里**，中途加入的人，这一局解锁不了东西。主机版的在线联机要等 2026 年 11 月 19 日，见[主机专题](/topics/console)。
 
 ## 在线联机的基本情况
 
 | 项目 | 说明 |
 | --- | --- |
-| 上线时间 | 2024 年 11 月 18 日随 Repentance+ 在 Steam 推出，官方一直把它叫作 Beta |
+| 上线时间 | 2024 年 11 月 18 日随 Repentance+ 在 Steam 推出，官方发布时把它叫作 Beta |
 | 需要什么 | 本体加胎衣、胎衣+、忏悔，再免费领取 Repentance+，见[版本与 DLC 怎么买](/guide/start/versions) |
 | 人数 | 最多 4 人 |
 | 能玩的模式 | 普通、困难、贪婪模式、Greedier 模式、挑战、每日挑战（Daily Run）、种子局 |
@@ -49,7 +49,7 @@ PC 上想在线联机，要有 Steam 版的 Repentance+。它免费，但要先�
 
 ## 角色、道具和复活规则
 
-从忏悔开始，联机的每个人都是完整角色。下面的规则本地和在线都适用：
+从忏悔开始，联机的队友可以用完整的角色，不再只是联机宝宝。下面的规则本地和在线都适用：
 
 | 规则 | 内容 |
 | --- | --- |
@@ -58,9 +58,9 @@ PC 上想在线联机，要有 Steam 版的 Repentance+。它免费，但要先�
 | Boss 掉落 | 每多一个玩家，多掉一个道具 |
 | 打 Boss | 所有人对 Boss 的伤害都降低 20% |
 | 死了以后 | 变成小幽灵：不能捡道具、不能用主动道具，敌人也不会追你；但能飞，能捡硬币、炸弹、钥匙，能踩地上的按钮，还能射伤害很低的眼泪 |
-| 复活 | 清掉 Boss 房后，所有死去的玩家带 1.5 颗心复活 |
+| 复活 | 清掉 Boss 房后，所有死去的玩家都会复活 |
 
-在线还多了复活机（Revive Machine）。普通和困难模式里，它在每层初始房间上方门的左边；贪婪模式里在每层的商店。撞一下花 1 枚硬币，机器上的数字从 10 往下减，减到 0 就复活一个人，之后每次多要 2 枚。死了好几个人时，由投币的人选复活谁。没人死的时候别去撞，不会复活任何人，还会把计数清零。
+在线还多了复活机（Revive Machine）。普通和困难模式里，它在每层初始房间上方门的左边；贪婪模式里在每层的商店。撞一下花 1 枚硬币，机器上的数字从 10 往下减，减到 0 就复活一个人，之后每次多要 2 枚。死了好几个人时，由投币的人选复活谁。没人死的时候把它撞满，不会复活任何人，计数还会重来，钱就白花了。
 
 ## 本地联机和在线联机的区别
 
@@ -73,14 +73,15 @@ PC 上想在线联机，要有 Steam 版的 Repentance+。它免费，但要先�
 | 成就 | 所有角色都拿完成标记，不管出了多少力 | 从开局就在的人才能解锁 |
 | 复活 | 清掉 Boss 房 | 清掉 Boss 房，或喂复活机 |
 | 交流 | 当面说 | 表情轮盘、文字聊天 |
-| 重开 | 按住 <KeyCap>R</KeyCap> | 所有人一起按住 <KeyCap>R</KeyCap> |
 
-::: tip 没有 Repentance+ 也能远程一起玩
-英文 wiki 提到，Steam 版可以用 Steam 的远程同乐（Remote Play Together）把本地联机搬到网上。
+在线时想重开，要所有人一起按住 <KeyCap>R</KeyCap>。
+
+::: tip 另一种在线玩法：远程同乐
+英文 wiki 提到，Steam 版还可以用 Steam 的远程同乐（Remote Play Together）功能，把本地联机搬到网上玩。
 :::
 
 ::: info PC 的跨平台联机
-2026 年 4 月的 1.9.7.16 更新，加入了 Steam 和 Epic 之间的跨平台联机。按当时的公告，它默认关闭，要手动改 options.ini 才能打开。新手可以先不管。
+2026 年 4 月的 1.9.7.16 更新，加入了 Steam 和 Epic 之间的跨平台联机。按当时的公告，它默认关闭，要手动改 options.ini 里的 EosCrossplay 才能打开。新手可以先不管。
 :::
 
 ## 新手联机建议
@@ -90,7 +91,7 @@ PC 上想在线联机，要有 Steam 版的 Repentance+。它免费，但要先�
 3. 钱、炸弹、钥匙是共用的。谁买商店道具、钥匙开哪个门，花之前说一声。
 4. Boss 道具一人一个，别抢。本地联机时，原来那个被拿走后，其他的才会出现。
 5. 死了别急着退。幽灵还能捡硬币、踩按钮，打完 Boss 就复活；在线时队友也可以喂复活机。
-6. 角色搭配：雅各和以扫（Jacob & Esau）基本不适合当联机队友，一人占两个角色，道具更不够分。游魂（The Lost）一碰就死，但联机时每层都能复活，弱点小了很多。抹大拉（Magdalene）用 Yum Heart 时，会给其他队友各回半颗红心。
+6. 角色搭配：英文 wiki 认为，雅各和以扫（Jacob & Esau）除了刷成就或自找挑战，基本没理由拿来联机。游魂（The Lost）挨一两下就死，但联机时每层都能复活，这个弱点小了很多。抹大拉（Magdalene）用 Yum Heart 时，会给其他队友各回半颗心。
 7. 想发表情，键盘按左 <KeyCap>Alt</KeyCap>，手柄按下右摇杆。网络延迟大的话，游戏里可以手动调输入延迟。
 
 ## 参考资料
@@ -106,13 +107,12 @@ PC 上想在线联机，要有 Steam 版的 Repentance+。它免费，但要先�
 - [Revive Machine（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Revive_Machine)
 - [V1.9.7.8（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/V1.9.7.8)
 - [V1.9.7.9（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/V1.9.7.9)
-- [The Binding of Isaac: Rebirth gets online co-op in the latest update with Repentance+（GamingOnLinux）](https://www.gamingonlinux.com/2024/11/the-binding-of-isaac-rebirth-gets-online-co-op-in-the-latest-update-with-repentance-/page=1/)
+- [The Binding of Isaac: Rebirth gets online co-op in the latest update with Repentance+（GamingOnLinux，2024-11-19）](https://www.gamingonlinux.com/2024/11/the-binding-of-isaac-rebirth-gets-online-co-op-in-the-latest-update-with-repentance-/page=1/)
 
 <!-- 待核实：任务说明与 Siliconera 都写在线联机「2024 年 12 月」上线，但 Steam 商店页（Nov 18, 2024）和官方公告「REPENTANCE+ Is Here」（Steam 新闻 API 时间戳 2024-11-19 00:50 UTC，即美国时间 11 月 18 日）一致为 2024 年 11 月 18 日，正文按官方写 11 月。 -->
 <!-- 待核实：Steam 新闻页面是脚本渲染的，WebFetch 打开只看到导航栏；两篇官方公告的正文是通过 Steam 新闻 API（GetNewsForApp）读到的，引用链接用的是同一篇公告的商店新闻地址。 -->
 <!-- 待核实：「在线模式」在主菜单里的入口名称、三种匹配方式和复活机、联机宝宝等的游戏内名称（Repentance+ 没有中文界面），以及好友房间如何发送邀请（Steam 好友列表邀请还是只能在列表里找房），都没查到可靠来源，正文只写了模式本身。 -->
 <!-- 待核实：「在线局按解锁最少的玩家的存档来算」「中途加入在下一层开始时进场」「在线重开需所有人按住 R」「中途加入有图标提示」出自英文 wiki 的 Online (open beta) 页面（Repentance+ 页面把在线模式链接到这一页），官方公告没有写，正式版是否仍是这样建议实机确认。 -->
-<!-- 待核实：本地联机的重开按键是否和单人一样按住 R，未查到联机专门说明，表格里按单人规则写。 -->
-<!-- 待核实：死亡后复活的血量，Co-op 页写「半颗心」、Repentance Co-Op 页写「1.5 颗红心或魂心」，正文采用后者（忏悔联机专页），建议实机确认。 -->
+<!-- 待核实：死亡后复活的血量，Co-op 页写「半颗心」，Repentance Co-Op 页写「1.5 颗红心或魂心」，Revive Machine 页写复活机复活是「1.5 颗心（店主为 1 个硬币心）」。来源矛盾，正文没写血量。 -->
 <!-- 待核实：Steam 和 Epic 跨平台在 1.9.7.16 之后是否已改为游戏内选项、是否默认开启，未查到。主机与 PC 能否跨平台，官方未公布。 -->
-<!-- 待核实：里雅各（Tainted Jacob）在联机中的问题，英文 wiki 写黑以扫只会伤害雅各类角色，正文未展开。 -->
+<!-- 待核实：里雅各（Tainted Jacob）在联机中的问题，英文 wiki 写黑以扫只会伤害雅各类角色，正文未展开。本地联机怎么重开（是否需要所有人一起按），未查到。 -->

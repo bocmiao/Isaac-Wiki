@@ -16,7 +16,7 @@ export const strategyCategories: StrategyCategory[] = [
     name: '结局与路线',
     icon: 'chest',
     desc: '每个结局的前置条件和分支路线怎么走',
-    plan: ['结局一览与前置条件', '「真结局」全流程', '各分支路线怎么走'],
+    plan: ['结局一览与前置条件', '各分支路线详细打法'],
     batch: 1,
   },
   {

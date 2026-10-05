@@ -30,7 +30,7 @@ export const stages: Stage[] = [
     summary: '认识房间、管好心和资源，打到妈妈并击败她。',
     link: '/guide/first-win/',
     topics: ['房间类型', '心与资源', '第一次打妈妈'],
-    status: 'soon',
+    status: 'ready',
   },
   {
     floor: 3,
@@ -39,8 +39,8 @@ export const stages: Stage[] = [
     title: '解锁主线',
     summary: '按推荐顺序解锁角色和结局，知道每个结局要先做什么。',
     link: '/guide/unlocks/',
-    topics: ['角色解锁顺序', '结局一览', '真结局路线'],
-    status: 'soon',
+    topics: ['角色解锁顺序', '结局一览'],
+    status: 'ready',
   },
   {
     floor: 4,

@@ -286,6 +286,11 @@ body::before {
   border: none;
   border-top: 1px solid var(--ib-line);
 }
+/* 首列多是短标签（编号、名称），给个最小宽度避免一字一行 */
+.vp-doc th:first-child,
+.vp-doc td:first-child {
+  min-width: 4.5em;
+}
 .vp-doc tr,
 .vp-doc tr:nth-child(2n) {
   background: transparent;
