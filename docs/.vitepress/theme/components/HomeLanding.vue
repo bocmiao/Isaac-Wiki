@@ -41,8 +41,13 @@ const faqs = [
     link: '/strategy/unlocks',
   },
   {
+    q: '忏悔+（Repentance+）有中文吗？',
+    a: '没有。官方简体中文只在忏悔里能选，Repentance+ 移除了语言选项，界面是英文。想要中文就关掉 Repentance+ 玩忏悔；想在线联机就只能用英文版，或者自行决定是否装玩家做的中文补丁。',
+    link: '/guide/start/chinese',
+  },
+  {
     q: '在线联机能解锁成就吗？',
-    a: '可以。Repentance+ 的在线联机支持全部模式，包括挑战和每日挑战，联机时也能解锁成就。',
+    a: '可以。Repentance+ 的在线联机支持全部模式，包括挑战和每日挑战。但中途加入别人的局，那一局不能解锁。',
     link: '/topics/coop',
   },
   {
