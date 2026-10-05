@@ -16,7 +16,7 @@ defineProps<{ detailed?: boolean }>()
       <ul v-if="detailed" class="plan">
         <li v-for="p in c.plan" :key="p">{{ p }}</li>
       </ul>
-      <span class="batch" :class="`b${c.batch}`">{{ batchLabel[c.batch] }}</span>
+      <span class="batch" :class="c.ready ? 'ready' : `b${c.batch}`">{{ c.ready ? '已上线' : `${batchLabel[c.batch]} · 写作中` }}</span>
     </a>
   </div>
 </template>
@@ -81,6 +81,11 @@ defineProps<{ detailed?: boolean }>()
   padding: 1px 8px;
   border-radius: 999px;
   border: 1.5px solid currentColor;
+}
+.ready {
+  color: var(--ib-on-dark);
+  background: var(--ib-blood-btn);
+  border-color: var(--ib-outline) !important;
 }
 .b1 {
   color: var(--ib-blood);

@@ -131,6 +131,29 @@ title: 中英译名对照
 | 红箱子 | Red Chest |
 | 标记石头（带 X 记号的石头） | Tinted Rock |
 
+## 机器、乞丐与诅咒
+
+| 中文 | 英文 |
+| --- | --- |
+| 赌博机 | Slot Machine |
+| 预言机 | Fortune Telling Machine |
+| 献血机 | Blood Donation Machine |
+| 夹娃娃机 | Crane Game |
+| 忏悔室 | Confessional |
+| 捐款机 / 贪婪捐款机 | Donation Machine / Greed Donation Machine |
+| 补货机 | Restock Machine |
+| 乞丐 | Beggar |
+| 恶魔乞丐 | Devil Beggar |
+| 钥匙大师 | Key Master |
+| 黑暗诅咒 | Curse of Darkness |
+| 混乱诅咒 | Curse of the Maze |
+| 迷宫诅咒 | Curse of the Labyrinth |
+| 迷失诅咒 | Curse of the Lost |
+| 未知诅咒 | Curse of the Unknown |
+| 致盲诅咒 | Curse of the Blind |
+
+黑暗诅咒、混乱诅咒是 EID 里的叫法；其余诅咒 EID 没有收录，用的是社区常用叫法。
+
 ## 本站提到的道具和卡牌
 
 | 中文 | 英文 |

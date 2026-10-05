@@ -49,8 +49,8 @@ export const stages: Stage[] = [
     title: '进阶思路',
     summary: '恶魔房还是天使房、哪些道具值得换心、每层该做什么。',
     link: '/guide/advanced/',
-    topics: ['恶魔与天使', '道具取舍', 'Boss 打法'],
-    status: 'soon',
+    topics: ['机制详解', '道具取舍', 'Boss 打法'],
+    status: 'ready',
   },
   {
     floor: 5,

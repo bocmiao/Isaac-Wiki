@@ -8,6 +8,8 @@ export interface StrategyCategory {
   desc: string
   plan: string[]
   batch: 1 | 2 | 3
+  /** 已有正式内容 */
+  ready?: boolean
 }
 
 export const strategyCategories: StrategyCategory[] = [
@@ -18,6 +20,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '每个结局的前置条件和分支路线怎么走',
     plan: ['结局一览与前置条件', '各分支路线详细打法'],
     batch: 1,
+    ready: true,
   },
   {
     id: 'unlocks',
@@ -26,6 +29,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '角色解锁顺序、完成标记、全成就规划',
     plan: ['角色解锁顺序', '完成标记说明', '全成就规划'],
     batch: 1,
+    ready: true,
   },
   {
     id: 'mechanics',
@@ -34,6 +38,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '恶魔房与天使房、献祭房、商店、诅咒、隐藏房',
     plan: ['恶魔房与天使房的出现规则', '献祭房', '商店、赌博机与乞丐', '诅咒', '隐藏房怎么找'],
     batch: 2,
+    ready: true,
   },
   {
     id: 'items',
@@ -42,6 +47,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '恶魔交易拿不拿、强力组合、每层该做什么',
     plan: ['恶魔交易怎么取舍', '哪些道具值得换心', '常见强力组合', '每层该做什么'],
     batch: 2,
+    ready: true,
   },
   {
     id: 'characters',
@@ -50,6 +56,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '17 个表角色各自怎么玩、先练哪个',
     plan: ['新手先练哪个角色', '17 个表角色逐个上手'],
     batch: 2,
+    ready: true,
   },
   {
     id: 'bosses',
@@ -58,6 +65,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '终局 Boss 优先，之后补普通 Boss',
     plan: ['妈妈与妈妈的心脏', '以撒与撒但', '羔羊与超级撒但', '死寂、精神错乱、母亲、祸兽', '普通 Boss'],
     batch: 2,
+    ready: true,
   },
   {
     id: 'tainted',
