@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, useId } from 'vue'
 
-// 用游戏里的红心表示进度：每颗心 = 1/total，支持半颗心
-const props = withDefaults(defineProps<{ value: number; hearts?: number; label?: string }>(), {
+// 用游戏里的红心容器表示进度：每颗心 = 1/hearts，支持半颗心
+const props = withDefaults(defineProps<{ value: number; hearts?: number; size?: number; label?: string }>(), {
   hearts: 12,
+  size: 24,
 })
 
 const halves = computed(() => Math.round(Math.max(0, Math.min(1, props.value)) * props.hearts * 2))
@@ -13,18 +14,21 @@ const states = computed(() =>
     return left >= 2 ? 'full' : left === 1 ? 'half' : 'empty'
   }),
 )
-const path = 'M12 20.5s-7.2-4.5-9.4-9A5.2 5.2 0 0 1 12 6.2a5.2 5.2 0 0 1 9.4 5.3c-2.2 4.5-9.4 9-9.4 9z'
+const uid = useId()
+const path =
+  'M16 27.5S5.5 21 3.6 14.6C2.3 10.2 5 5.8 9.4 5.6c2.9-.1 5 1.6 6.6 4 1.6-2.4 3.7-4.1 6.6-4 4.4.2 7.1 4.6 5.8 9C26.5 21 16 27.5 16 27.5z'
 </script>
 
 <template>
   <div class="hearts" role="img" :aria-label="label ?? `进度 ${Math.round(value * 100)}%`">
-    <svg v-for="(s, i) in states" :key="i" viewBox="0 0 24 24" class="heart" :class="s">
+    <svg v-for="(s, i) in states" :key="i" viewBox="0 0 32 32" :width="size" :height="size" class="heart">
       <defs>
-        <clipPath :id="`half-${i}`"><rect x="0" y="0" width="12" height="24" /></clipPath>
+        <clipPath :id="`hm-${uid}-${i}`"><rect x="0" y="0" width="16" height="32" /></clipPath>
       </defs>
-      <path :d="path" class="shell" />
-      <path v-if="s === 'full'" :d="path" class="fill" />
-      <path v-if="s === 'half'" :d="path" class="fill" :clip-path="`url(#half-${i})`" />
+      <path :d="path" class="empty" />
+      <path v-if="s !== 'empty'" :d="path" class="fill" :clip-path="s === 'half' ? `url(#hm-${uid}-${i})` : undefined" />
+      <path :d="path" class="outline" />
+      <ellipse v-if="s !== 'empty'" cx="9.6" cy="11.2" rx="1.8" ry="2.8" class="shine" transform="rotate(-30 9.6 11.2)" />
     </svg>
   </div>
 </template>
@@ -33,19 +37,22 @@ const path = 'M12 20.5s-7.2-4.5-9.4-9A5.2 5.2 0 0 1 12 6.2a5.2 5.2 0 0 1 9.4 5.3
 .hearts {
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 1px;
 }
-.heart {
-  width: 22px;
-  height: 22px;
-}
-.shell {
-  fill: var(--ib-paper-3);
-  stroke: var(--ib-ink);
-  stroke-width: 1.6;
-  stroke-linejoin: round;
+.empty {
+  fill: var(--ib-heart-empty);
 }
 .fill {
-  fill: var(--ib-blood);
+  fill: #d8302a;
+}
+.outline {
+  fill: none;
+  stroke: var(--ib-heart-stroke);
+  stroke-width: 2.4;
+  stroke-linejoin: round;
+}
+.shine {
+  fill: #fff;
+  opacity: 0.75;
 }
 </style>

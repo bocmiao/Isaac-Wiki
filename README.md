@@ -14,16 +14,25 @@ npm run build    # 生成静态站点到 docs/.vitepress/dist
 
 | 路径 | 内容 |
 | --- | --- |
-| `docs/guide/` | 学习路线，五层，每层一个目录 |
+| `docs/guide/` | 新手路线，五层，每层一个目录 |
+| `docs/strategy/` | 攻略库，10 个栏目 |
 | `docs/topics/` | 专题：联机、主机、配置与模组 |
 | `docs/tools/tracker.md` | 解锁清单工具页 |
 | `docs/.vitepress/theme/` | 主题：配色、首页、组件 |
-| `docs/.vitepress/theme/data/` | 角色解锁条件、完成标记、路线阶段数据 |
+| `docs/.vitepress/theme/data/` | 角色解锁条件、完成标记、路线阶段、攻略栏目数据 |
+
+## 视觉风格
+
+- 浅色 = 地下室：土褐色地面、深棕石墙、黑色粗描边、硬投影
+- 深色 = 妈腿层（深处）：冷灰石板地面、近黑石墙、血红强调
+- 图标全部手写 SVG（`GameIcon.vue`），不使用游戏原图素材
 
 ## 写文章用的组件
 
 - `<VersionBadge checked="2026-10" draft />`：文章顶部的适用版本、校对日期、草稿标记
-- `<StageHeader :floor="1" />`：阶段页顶部的楼层进度
+- `<FloorTrack :current="1" compact />`：五层路线进度，标出当前在第几层
+- `<StreakTitle title="标题" sub="小字" />`：仿游戏拾取道具时的黑色笔刷横幅
+- `<GameIcon name="heart" />`：游戏风图标（heart、coin、bomb、key、skull、chest 等）
 - `<KeyCap>E</KeyCap>`：按键样式
 
 ## 投稿

@@ -4,7 +4,7 @@ title: 第 1 层 · 开局准备
 
 # 开局准备
 
-<StageHeader :floor="1" />
+<FloorTrack :current="1" compact />
 
 开第一局之前，花 10 分钟把下面三篇看完。顺序就是推荐的阅读顺序。
 

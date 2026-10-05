@@ -1,21 +1,12 @@
 <script setup lang="ts">
 import { computed, onMounted, reactive, ref, watch } from 'vue'
 import { characters, marks, taintedUnlock } from '../data/characters'
+import { emptyProgress, loadProgress, saveProgress, summarize, totalMarks, type MarkState, type Progress } from '../progress'
+import GameIcon from './GameIcon.vue'
 import HeartMeter from './HeartMeter.vue'
 
-// 进度只存在访客自己的浏览器里；读写都包 try/catch，隐私模式下也能正常使用（只是不保存）
-const STORAGE_KEY = 'isaac-roadbook-progress-v1'
-
-type MarkState = 0 | 1 | 2 // 0 未完成 · 1 普通 · 2 困难
-interface Progress {
-  v: 1
-  chars: Record<string, boolean>
-  tainted: Record<string, boolean>
-  marks: Record<string, MarkState>
-}
-
-const empty = (): Progress => ({ v: 1, chars: { isaac: true }, tainted: {}, marks: {} })
-const state = reactive<Progress>(empty())
+// 进度只存在访客自己的浏览器里；隐私模式下读写失败也能正常使用（只是不保存）
+const state = reactive<Progress>(emptyProgress())
 const tab = ref<'chars' | 'marks'>('chars')
 const showTainted = ref(false)
 const saveOk = ref(true)
@@ -28,25 +19,15 @@ function apply(data: Partial<Progress>) {
 }
 
 onMounted(() => {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY)
-    if (raw) apply(JSON.parse(raw))
-  } catch {
-    saveOk.value = false
-  }
+  const saved = loadProgress()
+  if (saved) apply(saved)
   loaded.value = true
 })
 
 watch(
   state,
   () => {
-    if (!loaded.value) return
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(state))
-      saveOk.value = true
-    } catch {
-      saveOk.value = false
-    }
+    if (loaded.value) saveOk.value = saveProgress(state)
   },
   { deep: true },
 )
@@ -58,13 +39,7 @@ function cycle(key: string) {
   else state.marks[key] = next
 }
 
-const unlockedCount = computed(() => characters.filter((c) => state.chars[c.id]).length)
-const taintedCount = computed(() => characters.filter((c) => state.tainted[c.id]).length)
-const marksDone = computed(() => Object.values(state.marks).filter((v) => v > 0).length)
-const totalMarks = characters.length * 2 * marks.length
-const overall = computed(
-  () => (unlockedCount.value + taintedCount.value + marksDone.value) / (characters.length * 2 + totalMarks),
-)
+const stats = computed(() => summarize(state))
 
 const rows = computed(() => {
   const base = characters.map((c) => ({ ...c, tainted: false, label: c.name }))
@@ -87,7 +62,8 @@ function exportJson() {
 
 const fileInput = ref<HTMLInputElement>()
 async function importJson(e: Event) {
-  const file = (e.target as HTMLInputElement).files?.[0]
+  const input = e.target as HTMLInputElement
+  const file = input.files?.[0]
   if (!file) return
   try {
     const data = JSON.parse(await file.text())
@@ -96,46 +72,46 @@ async function importJson(e: Event) {
   } catch {
     alert('导入失败：文件不是以撒路书导出的进度文件。')
   }
-  ;(e.target as HTMLInputElement).value = ''
+  input.value = ''
 }
 
 function reset() {
-  if (confirm('确定清空全部进度吗？建议先导出备份。')) apply(empty())
+  if (confirm('确定清空全部进度吗？建议先导出备份。')) apply(emptyProgress())
 }
 </script>
 
 <template>
   <div class="tracker">
-    <!-- 总进度 -->
-    <div class="summary">
+    <!-- 状态栏 -->
+    <div class="hud">
       <div class="meter">
-        <div class="meter-label">总进度 {{ Math.round(overall * 100) }}%</div>
-        <HeartMeter :value="overall" :hearts="12" />
+        <div class="meter-label">总进度 {{ Math.round(stats.overall * 100) }}%</div>
+        <HeartMeter :value="stats.overall" :hearts="12" :size="28" />
       </div>
-      <dl class="stats">
-        <div>
-          <dt>角色</dt>
-          <dd>{{ unlockedCount }}<small>/{{ characters.length }}</small></dd>
-        </div>
-        <div>
-          <dt>里角色</dt>
-          <dd>{{ taintedCount }}<small>/{{ characters.length }}</small></dd>
-        </div>
-        <div>
-          <dt>完成标记</dt>
-          <dd>{{ marksDone }}<small>/{{ totalMarks }}</small></dd>
-        </div>
-      </dl>
+      <ul class="counts">
+        <li>
+          <GameIcon name="face" :size="30" />
+          <span><b>{{ stats.unlocked }}</b>/{{ characters.length }}<small>角色</small></span>
+        </li>
+        <li>
+          <GameIcon name="face-dark" :size="30" />
+          <span><b>{{ stats.tainted }}</b>/{{ characters.length }}<small>里角色</small></span>
+        </li>
+        <li>
+          <GameIcon name="trophy" :size="30" />
+          <span><b>{{ stats.marksDone }}</b>/{{ totalMarks }}<small>完成标记</small></span>
+        </li>
+      </ul>
     </div>
 
-    <!-- 标签页 -->
+    <!-- 标签页与操作 -->
     <div class="toolbar">
       <div class="tabs" role="tablist">
         <button role="tab" :aria-selected="tab === 'chars'" :class="{ on: tab === 'chars' }" @click="tab = 'chars'">
-          角色解锁
+          <GameIcon name="key" :size="18" />角色解锁
         </button>
         <button role="tab" :aria-selected="tab === 'marks'" :class="{ on: tab === 'marks' }" @click="tab = 'marks'">
-          完成标记
+          <GameIcon name="skull" :size="18" />完成标记
         </button>
       </div>
       <div class="io">
@@ -163,7 +139,7 @@ function reset() {
           里
         </label>
       </div>
-      <p class="hint">「里」= 对应的里角色是否已解锁。解锁方法：{{ taintedUnlock }}。</p>
+      <p class="hint"><b>「里」</b>表示对应的里角色已解锁。解锁方法：{{ taintedUnlock }}。</p>
     </div>
 
     <!-- 完成标记 -->
@@ -206,50 +182,54 @@ function reset() {
 
 <style scoped>
 .tracker {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 button {
   font: inherit;
   cursor: pointer;
 }
-.summary {
+.hud {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 16px 24px;
-  padding: 18px 20px;
-  border: 2px solid var(--ib-ink);
-  border-radius: 14px;
-  background: var(--vp-c-bg-elv);
-  box-shadow: 0 4px 0 var(--ib-ink);
+  gap: 18px 28px;
+  padding: 18px 22px;
+  border-radius: 12px;
+  background: var(--ib-paper);
+  border: 2.5px solid var(--ib-outline);
+  box-shadow: 0 5px 0 var(--ib-outline);
 }
 .meter-label {
   font-size: 13px;
-  font-weight: 700;
-  color: var(--ib-ink-2);
-  margin-bottom: 6px;
-}
-.stats {
-  display: flex;
-  gap: 24px;
-  margin: 0;
-}
-.stats dt {
-  font-size: 12px;
-  color: var(--ib-ink-3);
-}
-.stats dd {
-  margin: 0;
-  font-size: 24px;
   font-weight: 800;
-  color: var(--ib-ink);
-  line-height: 1.2;
+  color: var(--ib-ink-2);
+  margin-bottom: 4px;
 }
-.stats small {
-  font-size: 13px;
-  font-weight: 500;
+.counts {
+  list-style: none;
+  display: flex;
+  gap: 22px;
+  margin: 0;
+  padding: 0;
+}
+.counts li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   color: var(--ib-ink-3);
+  font-size: 13px;
+}
+.counts b {
+  font-family: var(--vp-font-family-mono);
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--ib-ink);
+}
+.counts small {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
 }
 .toolbar {
   display: flex;
@@ -257,41 +237,43 @@ button {
   justify-content: space-between;
   align-items: center;
   gap: 12px;
-  margin: 24px 0 12px;
+  margin: 26px 0 14px;
 }
 .tabs {
   display: inline-flex;
-  padding: 4px;
-  border-radius: 10px;
-  background: var(--ib-paper-3);
+  gap: 6px;
 }
 .tabs button {
-  border: none;
-  background: transparent;
-  padding: 6px 16px;
-  border-radius: 8px;
-  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 16px;
+  border-radius: 10px;
+  font-weight: 800;
   color: var(--ib-ink-2);
+  background: var(--ib-paper-2);
+  border: 2px solid var(--ib-outline);
+  box-shadow: 0 3px 0 var(--ib-outline);
 }
 .tabs button.on {
-  background: var(--vp-c-bg-elv);
-  color: var(--ib-blood);
-  box-shadow: var(--ib-shadow);
+  background: var(--ib-blood-btn);
+  color: var(--ib-on-dark);
 }
 .io {
   display: flex;
   gap: 6px;
 }
 .ghost {
-  border: 1px solid var(--ib-line);
+  border: 2px solid var(--ib-line);
   background: transparent;
   color: var(--ib-ink-2);
-  padding: 5px 12px;
+  padding: 4px 12px;
   border-radius: 8px;
   font-size: 13px;
+  font-weight: 700;
 }
 .ghost:hover {
-  border-color: var(--ib-ink-2);
+  border-color: var(--ib-outline);
   color: var(--ib-ink);
 }
 .ghost.danger:hover {
@@ -306,7 +288,8 @@ button {
 /* 角色列表 */
 .char-list {
   display: grid;
-  gap: 8px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 .char {
   display: grid;
@@ -314,21 +297,21 @@ button {
   gap: 12px;
   align-items: center;
   padding: 12px 14px;
-  border: 1px solid var(--ib-line);
-  border-radius: 12px;
-  background: var(--vp-c-bg-elv);
-  transition: border-color 0.15s;
+  border-radius: 10px;
+  background: var(--ib-paper);
+  border: 2px solid var(--ib-outline);
+  box-shadow: 0 3px 0 var(--ib-outline);
+}
+.char.done {
+  background: var(--ib-paper-2);
 }
 .char-main {
+  position: relative;
   display: grid;
-  grid-template-columns: 24px 1fr;
+  grid-template-columns: 26px 1fr;
   gap: 12px;
   align-items: center;
   cursor: pointer;
-  position: relative;
-}
-.char:hover {
-  border-color: var(--ib-ink-3);
 }
 .char-main > input {
   position: absolute;
@@ -336,30 +319,29 @@ button {
   pointer-events: none;
 }
 .box {
-  width: 22px;
-  height: 22px;
-  border-radius: 6px;
-  border: 2px solid var(--ib-ink);
-  background: var(--ib-paper);
   position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  border: 2.5px solid var(--ib-outline);
+  background: var(--ib-floor);
 }
 .char.done .box {
-  background: var(--ib-blood);
-  border-color: var(--ib-blood);
+  background: #d8302a;
 }
 .char.done .box::after {
   content: '';
   position: absolute;
   left: 6px;
-  top: 2px;
+  top: 1px;
   width: 6px;
-  height: 11px;
+  height: 12px;
   border: solid #fff8ef;
-  border-width: 0 2.5px 2.5px 0;
+  border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
 .char-main > input:focus-visible + .box {
-  outline: 2px solid var(--ib-soul);
+  outline: 3px solid var(--ib-soul);
   outline-offset: 2px;
 }
 .char-body {
@@ -368,32 +350,34 @@ button {
   min-width: 0;
 }
 .char-name {
-  font-weight: 700;
+  font-weight: 900;
   color: var(--ib-ink);
 }
 .char-name small {
-  font-weight: 400;
+  font-weight: 500;
   color: var(--ib-ink-3);
   margin-left: 4px;
 }
 .char-cond {
-  font-size: 14px;
+  font-size: 13.5px;
   color: var(--ib-ink-2);
   line-height: 1.6;
 }
 .char.done .char-cond {
   color: var(--ib-ink-3);
+  text-decoration: line-through;
+  text-decoration-color: rgba(216, 48, 42, 0.5);
 }
 .t-label {
   position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 36px;
+  height: 36px;
   border-radius: 8px;
-  border: 1.5px dashed var(--ib-ink-3);
-  font-weight: 800;
+  border: 2px dashed var(--ib-ink-3);
+  font-weight: 900;
   color: var(--ib-ink-3);
   cursor: pointer;
 }
@@ -403,16 +387,16 @@ button {
   pointer-events: none;
 }
 .t-label.on {
-  border-style: solid;
-  border-color: var(--ib-ink);
-  background: var(--ib-ink);
-  color: var(--ib-paper);
+  border: 2px solid var(--ib-outline);
+  background: #6a5874;
+  color: #f4e8d0;
 }
 .t-label:has(input:focus-visible) {
-  outline: 2px solid var(--ib-soul);
+  outline: 3px solid var(--ib-soul);
   outline-offset: 2px;
 }
 .hint {
+  grid-column: 1 / -1;
   font-size: 13px;
   color: var(--ib-ink-3);
 }
@@ -424,6 +408,7 @@ button {
   align-items: center;
   gap: 8px 16px;
   font-size: 13px;
+  font-weight: 700;
   color: var(--ib-ink-2);
   margin-bottom: 12px;
 }
@@ -433,11 +418,12 @@ button {
   gap: 6px;
 }
 .legend .cell {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   cursor: default;
 }
 .legend-tip {
+  font-weight: 500;
   color: var(--ib-ink-3);
 }
 .switch {
@@ -449,11 +435,11 @@ button {
 }
 .grid-wrap {
   overflow-x: auto;
-  border: 1px solid var(--ib-line);
-  border-radius: 12px;
-  background: var(--vp-c-bg-elv);
+  border-radius: 10px;
+  background: var(--ib-paper);
+  border: 2.5px solid var(--ib-outline);
+  box-shadow: 0 4px 0 var(--ib-outline);
 }
-.vp-doc .mark-grid,
 .mark-grid {
   display: table;
   width: 100%;
@@ -474,14 +460,14 @@ button {
 }
 .mark-grid thead th {
   font-size: 12px;
-  font-weight: 600;
-  color: var(--ib-ink-3);
+  font-weight: 800;
+  color: var(--ib-on-dark);
   white-space: nowrap;
-  background: var(--ib-paper-3);
+  background: var(--ib-wall);
 }
 .mark-grid tbody th {
   text-align: left;
-  font-weight: 600;
+  font-weight: 800;
   color: var(--ib-ink);
   white-space: nowrap;
   padding-left: 12px;
@@ -489,48 +475,52 @@ button {
 .sticky {
   position: sticky;
   left: 0;
-  background: var(--vp-c-bg-elv) !important;
+  background: var(--ib-paper) !important;
   z-index: 1;
 }
 thead .sticky {
-  background: var(--ib-paper-3) !important;
+  background: var(--ib-wall) !important;
 }
 tr.tainted th {
   color: var(--ib-ink-2);
 }
 .sum {
   font-size: 12px;
+  font-weight: 700;
   color: var(--ib-ink-3);
   white-space: nowrap;
   padding-right: 12px !important;
 }
 .cell {
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 26px;
+  height: 26px;
   border-radius: 6px;
-  border: 1.5px solid var(--ib-line);
-  background: var(--ib-paper);
+  border: 2px solid var(--ib-line);
+  background: var(--ib-floor);
   padding: 0;
   vertical-align: middle;
   transition: transform 0.1s;
 }
 button.cell:hover {
   transform: scale(1.12);
-  border-color: var(--ib-ink-3);
+  border-color: var(--ib-outline);
 }
 .cell.s1 {
-  border: 2px solid var(--ib-blood);
+  border: 2.5px solid #d8302a;
   background: var(--ib-blood-soft);
 }
 .cell.s2 {
-  border: 2px solid var(--ib-blood);
-  background: var(--ib-blood);
+  border: 2.5px solid var(--ib-outline);
+  background: #d8302a;
 }
 
-@media (max-width: 640px) {
-  .stats {
-    gap: 16px;
+@media (max-width: 760px) {
+  .char-list {
+    grid-template-columns: 1fr;
+  }
+  .counts {
+    gap: 14px;
   }
   .switch {
     margin-left: 0;

@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { strategyCategories } from './theme/data/strategy'
 
 // 学习路线的五个阶段，侧栏和首页共用同一套命名
 const guideSidebar = [
@@ -44,10 +45,20 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['meta', { name: 'theme-color', content: '#b3261e' }],
   ],
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '注意',
+      dangerLabel: '危险',
+      infoLabel: '说明',
+      detailsLabel: '详情',
+    },
+  },
   themeConfig: {
     logo: '/favicon.svg',
     nav: [
-      { text: '学习路线', link: '/guide/', activeMatch: '/guide/' },
+      { text: '新手路线', link: '/guide/', activeMatch: '/guide/' },
+      { text: '攻略库', link: '/strategy/', activeMatch: '/strategy/' },
       {
         text: '专题',
         items: [
@@ -61,6 +72,15 @@ export default defineConfig({
     ],
     sidebar: {
       '/guide/': guideSidebar,
+      '/strategy/': [
+        {
+          text: '攻略库',
+          items: [
+            { text: '全部攻略', link: '/strategy/' },
+            ...strategyCategories.map((c) => ({ text: c.name, link: `/strategy/${c.id}` })),
+          ],
+        },
+      ],
       '/topics/': [
         {
           text: '专题',
@@ -74,8 +94,10 @@ export default defineConfig({
     },
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },
-    lastUpdated: { text: '最后更新' },
-    darkModeSwitchLabel: '深色模式',
+    lastUpdated: { text: '最后更新', formatOptions: { dateStyle: 'medium' } },
+    darkModeSwitchLabel: '场景',
+    lightModeSwitchTitle: '切换到地下室（浅色）',
+    darkModeSwitchTitle: '切换到妈腿层（深色）',
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',
     search: {

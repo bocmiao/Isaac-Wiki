@@ -1,36 +1,67 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
-import { stages } from '../data/stages'
 import { marks } from '../data/characters'
-import DungeonMap from './DungeonMap.vue'
+import FloorTrack from './FloorTrack.vue'
+import GameIcon, { type IconName } from './GameIcon.vue'
 import HeartMeter from './HeartMeter.vue'
+import RoomHero from './RoomHero.vue'
+import StrategyGrid from './StrategyGrid.vue'
+import StreakTitle from './StreakTitle.vue'
 
-const topics = [
+// 「选择角色」：按玩家现在的状态给入口，对应计划书里的三类目标用户
+const personas: { icon: IconName; name: string; state: string; go: string; link: string }[] = [
+  { icon: 'face', name: '刚入坑', state: '还没打败过妈妈', go: '从第 1 层开始', link: '/guide/start/' },
+  { icon: 'chest', name: '通关过几次', state: '想解锁更多角色和结局', go: '去第 3 层：解锁主线', link: '/guide/unlocks/' },
+  { icon: 'trophy', name: '冲白金神', state: '里角色、挑战、全成就', go: '打开解锁清单', link: '/tools/tracker' },
+  { icon: 'gamepad', name: '主机 / 联机', state: '11 月 19 日主机版上线', go: '看联机专题', link: '/topics/coop' },
+]
+
+const topics: { icon: IconName; title: string; desc: string; link: string; tag?: string }[] = [
   {
-    tag: '11 月 19 日主机版发售',
+    icon: 'coop',
     title: '联机专题',
-    desc: '在线联机怎么开、中途加入为什么不能解锁成就、四人联机的角色搭配。',
+    desc: '在线联机怎么开、四人联机的角色搭配、联机时的解锁规则。',
+    link: '/topics/coop',
+    tag: '11 月 19 日',
+  },
+  { icon: 'gamepad', title: '主机专题', desc: '手柄操作、没有模组时怎么认道具、主机和 PC 版的区别。', link: '/topics/console' },
+  { icon: 'wrench', title: '配置与模组', desc: '中文、道具说明模组、什么时候能装模组。', link: '/topics/mods' },
+]
+
+// 常见问题：只放已经对照 wiki 或官方信息核实过的答案
+const faqs = [
+  {
+    q: '里角色怎么解锁？',
+    a: '到达「家」这一层，用红钥匙、破碎的钥匙或该隐之魂打开左侧墙上的衣柜。第一次到「家」时，打开妈妈卧室里的箱子必定能拿到红钥匙。',
+    link: '/strategy/tainted',
+  },
+  {
+    q: '游魂（The Lost）怎么解锁？',
+    a: '携带饰品「寻人启事」在献祭房死亡。寻人启事要先用以撒击败羔羊才会解锁。',
+    link: '/strategy/unlocks',
+  },
+  {
+    q: '在线联机能解锁成就吗？',
+    a: '可以。Repentance+ 的在线联机支持全部模式，包括挑战和每日挑战，联机时也能解锁成就。',
     link: '/topics/coop',
   },
   {
-    tag: 'Switch 2 / PS5 / Xbox',
-    title: '主机专题',
-    desc: '手柄操作、没有模组时怎么认道具、主机和 PC 版有什么不同。',
+    q: '主机版什么时候出？',
+    a: '《Repentance+ Online》2026 年 11 月 19 日登陆 PS5、Xbox Series X|S 和 Switch 2，包含全部 DLC 和最多四人在线联机。',
     link: '/topics/console',
   },
   {
-    tag: 'PC',
-    title: '配置与模组',
-    desc: '中文、道具说明模组、什么时候能装模组，以及成就不解锁怎么办。',
-    link: '/topics/mods',
+    q: '伊甸和雅各与以扫怎么解锁？',
+    a: '伊甸：通关第 4 章（子宫）。雅各和以扫：用任意角色击败母亲。',
+    link: '/strategy/unlocks',
   },
 ]
 
-// 清单预览用的示例数据：前 4 个角色，部分标记已完成
+// 清单预览：示例数据
 const previewRows = ['以撒', '抹大拉', '该隐', '犹大']
 const previewDone = [
-  [1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0],
-  [1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  [2, 2, 1, 1, 2, 0, 1, 0, 0, 0, 0, 0],
+  [2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 ]
@@ -38,90 +69,103 @@ const previewDone = [
 
 <template>
   <div class="landing">
-    <!-- 首屏 -->
-    <section class="hero">
-      <div class="hero-text">
-        <p class="eyebrow">适用版本 Repentance+ · 2026 年 10 月更新</p>
-        <h1>从第一局<br />到<span class="red">白金神</span></h1>
-        <p class="lead">中文以撒学习路线。每一层只讲你现在用得上的东西，道具数据直接链到 wiki，不让你在几百个道具里迷路。</p>
-        <div class="actions">
-          <a class="btn brand" :href="withBase('/guide/start/')">我是新手，从第 1 层开始</a>
-          <a class="btn alt" :href="withBase('/tools/tracker')">打开解锁清单</a>
-        </div>
-        <a class="notice" :href="withBase('/topics/coop')">
-          <span class="pill">新</span>
-          主机版《Repentance+ Online》11 月 19 日发售，先看联机专题 →
+    <RoomHero />
+
+    <a class="notice" :href="withBase('/topics/coop')">
+      <GameIcon name="gamepad" :size="26" />
+      <span><b>主机版《Repentance+ Online》11 月 19 日发售</b>，支持四人在线联机。先看联机专题 →</span>
+    </a>
+
+    <!-- 选择角色 -->
+    <section class="section">
+      <header class="section-head">
+        <StreakTitle title="选择你的角色" />
+        <p>按你现在的情况，从最合适的地方开始。</p>
+      </header>
+      <div class="personas">
+        <a v-for="(p, i) in personas" :key="p.name" class="persona" :href="withBase(p.link)" :style="{ '--tilt': `${i % 2 ? 1.2 : -1.2}deg` }">
+          <span class="portrait"><GameIcon :name="p.icon" :size="56" /></span>
+          <span class="p-name">{{ p.name }}</span>
+          <span class="p-state">{{ p.state }}</span>
+          <span class="p-go">{{ p.go }} →</span>
         </a>
-      </div>
-      <div class="hero-art">
-        <DungeonMap />
-        <p class="caption">你在这里。下面是往下走的五层。</p>
       </div>
     </section>
 
-    <!-- 五层路线 -->
+    <!-- 新手路线 -->
     <section class="section">
-      <div class="section-head">
-        <h2>学习路线：往下走五层</h2>
-        <p>按顺序读，也可以直接跳到你卡住的那一层。</p>
+      <header class="section-head">
+        <StreakTitle title="新手路线：往下走五层" />
+        <p>用游戏的楼层做比喻，每一层只讲你当下用得上的东西。</p>
+      </header>
+      <div class="panel">
+        <FloorTrack />
       </div>
-      <ol class="path">
-        <li v-for="s in stages" :key="s.floor" class="stage" :class="s.status">
-          <div class="floor-tag">
-            <span class="num">{{ s.floor }}</span>
-            <span class="place">{{ s.place }}</span>
-          </div>
-          <a class="stage-card" :href="withBase(s.link)">
-            <div class="stage-top">
-              <h3>{{ s.title }}</h3>
-              <span class="status">{{ s.status === 'ready' ? '已上线' : '写作中' }}</span>
-            </div>
-            <p>{{ s.summary }}</p>
-            <div class="chips">
-              <span v-for="t in s.topics" :key="t" class="chip">{{ t }}</span>
-            </div>
-          </a>
-        </li>
-      </ol>
+    </section>
+
+    <!-- 攻略库 -->
+    <section class="section">
+      <header class="section-head row">
+        <div>
+          <StreakTitle title="攻略库" />
+          <p>结局路线、Boss、角色、挑战……按计划分三批上线。</p>
+        </div>
+        <a class="ib-btn paper" :href="withBase('/strategy/')">全部攻略 →</a>
+      </header>
+      <StrategyGrid />
     </section>
 
     <!-- 专题 -->
     <section class="section">
-      <div class="section-head">
-        <h2>专题</h2>
+      <header class="section-head">
+        <StreakTitle title="专题" />
         <p>不在路线上、但新人最常问的问题。</p>
-      </div>
-      <div class="topic-grid">
+      </header>
+      <div class="topics">
         <a v-for="t in topics" :key="t.title" class="topic" :href="withBase(t.link)">
-          <span class="topic-tag">{{ t.tag }}</span>
-          <h3>{{ t.title }}</h3>
-          <p>{{ t.desc }}</p>
-          <span class="more">阅读 →</span>
+          <GameIcon :name="t.icon" :size="40" />
+          <span class="t-body">
+            <span class="t-title">{{ t.title }} <em v-if="t.tag">{{ t.tag }}</em></span>
+            <span class="t-desc">{{ t.desc }}</span>
+          </span>
         </a>
       </div>
     </section>
 
-    <!-- 解锁清单预告 -->
-    <section class="section tracker-promo">
-      <div class="promo-text">
-        <h2>解锁清单：用红心记录进度</h2>
-        <p>17 个角色的解锁条件、34 个角色的完成标记，点一下就记下。进度保存在你自己的浏览器里，不用注册，也可以导出备份。</p>
-        <a class="btn brand" :href="withBase('/tools/tracker')">开始记录</a>
+    <!-- 解锁清单 + 常见问题 -->
+    <section class="section split">
+      <div>
+        <header class="section-head">
+          <StreakTitle title="解锁清单" />
+          <p>17 个角色的解锁条件，34 个角色的完成标记。点一下就记下，进度存在你自己的浏览器里。</p>
+        </header>
+        <a class="tracker-card" :href="withBase('/tools/tracker')">
+          <span class="tc-top">
+            <HeartMeter :value="0.21" :hearts="8" :size="22" />
+            <span class="tc-cta">开始记录 →</span>
+          </span>
+          <span class="mini-grid" aria-hidden="true">
+            <span class="mini-row head">
+              <span class="name"></span>
+              <span v-for="m in marks" :key="m.id" class="cell-head">{{ m.short }}</span>
+            </span>
+            <span v-for="(row, r) in previewRows" :key="row" class="mini-row">
+              <span class="name">{{ row }}</span>
+              <span v-for="(d, c) in previewDone[r]" :key="c" class="cell" :class="`s${d}`" />
+            </span>
+          </span>
+        </a>
       </div>
-      <div class="promo-card" aria-hidden="true">
-        <div class="promo-meter">
-          <span>总进度</span>
-          <HeartMeter :value="0.21" :hearts="8" />
-        </div>
-        <div class="mini-grid">
-          <div class="mini-row head">
-            <span class="name"></span>
-            <span v-for="m in marks" :key="m.id" class="cell-head" :title="m.name">{{ m.short }}</span>
-          </div>
-          <div v-for="(row, r) in previewRows" :key="row" class="mini-row">
-            <span class="name">{{ row }}</span>
-            <span v-for="(d, c) in previewDone[r]" :key="c" class="cell" :class="{ done: d }" />
-          </div>
+      <div>
+        <header class="section-head">
+          <StreakTitle title="常见问题" />
+          <p>新人问得最多的几件事。</p>
+        </header>
+        <div class="faq">
+          <details v-for="(f, i) in faqs" :key="f.q" :open="i === 0">
+            <summary><GameIcon name="pill" :size="20" />{{ f.q }}</summary>
+            <p>{{ f.a }} <a :href="withBase(f.link)">详细 →</a></p>
+          </details>
         </div>
       </div>
     </section>
@@ -130,380 +174,323 @@ const previewDone = [
 
 <style scoped>
 .landing {
-  max-width: 1120px;
+  max-width: 1180px;
   margin: 0 auto;
-  padding: 32px 24px 64px;
-}
-.hero {
-  display: grid;
-  grid-template-columns: 1.25fr 1fr;
-  gap: 48px;
-  align-items: center;
-  padding: 32px 0 48px;
-}
-.eyebrow {
-  display: inline-block;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--ib-blood);
-  background: var(--ib-blood-soft);
-  border: 1px solid var(--ib-blood);
-  padding: 4px 12px;
-  border-radius: 999px;
-  margin: 0 0 20px;
-}
-h1 {
-  font-size: clamp(40px, 6vw, 64px);
-  line-height: 1.12;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-  color: var(--ib-ink);
-  margin: 0 0 20px;
-}
-.red {
-  color: var(--ib-blood);
-}
-.lead {
-  font-size: 18px;
-  line-height: 1.8;
-  color: var(--ib-ink-2);
-  max-width: 34em;
-  margin: 0 0 28px;
-}
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-.btn {
-  display: inline-block;
-  padding: 11px 22px;
-  border-radius: 10px;
-  font-weight: 700;
-  font-size: 15px;
-  text-decoration: none;
-  transition: transform 0.15s, background 0.15s;
-  border: 2px solid var(--ib-ink);
-  box-shadow: 0 3px 0 var(--ib-ink);
-}
-.btn:hover {
-  transform: translateY(-1px);
-}
-.btn:active {
-  transform: translateY(2px);
-  box-shadow: 0 1px 0 var(--ib-ink);
-}
-.btn.brand {
-  background: var(--ib-blood);
-  color: #fff8ef;
-}
-.dark .btn.brand {
-  color: #17120f;
-}
-.btn.alt {
-  background: var(--vp-c-bg-elv);
-  color: var(--ib-ink);
+  padding: 28px 24px 72px;
 }
 .notice {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 14px;
+  gap: 12px;
+  margin: 26px auto 0;
+  max-width: 760px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  background: var(--ib-paper);
+  border: 2px solid var(--ib-outline);
+  box-shadow: 0 3px 0 var(--ib-outline);
+  font-size: 14.5px;
   color: var(--ib-ink-2);
   text-decoration: none;
+  transition: transform 0.15s;
 }
 .notice:hover {
-  color: var(--ib-blood);
+  transform: translateY(-2px);
 }
-.pill {
-  font-size: 12px;
-  font-weight: 700;
-  color: #fff8ef;
-  background: var(--ib-soul);
-  padding: 2px 8px;
-  border-radius: 6px;
-}
-.hero-art {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.caption {
-  margin-top: 12px;
-  font-size: 13px;
-  color: var(--ib-ink-3);
+.notice b {
+  color: var(--ib-ink);
 }
 
 .section {
-  padding: 40px 0;
-  border-top: 1px dashed var(--ib-line);
+  margin-top: 64px;
 }
-.section-head h2 {
-  font-size: 26px;
-  font-weight: 800;
-  margin: 0 0 6px;
-  color: var(--ib-ink);
+.section-head {
+  margin-bottom: 22px;
+}
+.section-head.row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 .section-head p {
-  margin: 0 0 24px;
-  color: var(--ib-ink-2);
-}
-
-/* 五层路线：左侧楼层标签 + 竖线串起来 */
-.path {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
-.path::before {
-  content: '';
-  position: absolute;
-  left: 35px;
-  top: 30px;
-  bottom: 30px;
-  border-left: 3px dashed var(--ib-line);
-}
-.stage {
-  display: grid;
-  grid-template-columns: 72px 1fr;
-  gap: 20px;
-  align-items: center;
-  margin-bottom: 14px;
-  position: relative;
-}
-.floor-tag {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 72px;
-  height: 72px;
-  border-radius: 14px;
-  border: 2px solid var(--ib-ink);
-  background: var(--vp-c-bg-elv);
-  z-index: 1;
-}
-.stage.ready .floor-tag {
-  background: var(--ib-blood);
-  border-color: var(--ib-blood);
-  color: #fff8ef;
-}
-.dark .stage.ready .floor-tag {
-  color: #17120f;
-}
-.num {
-  font-size: 26px;
-  font-weight: 800;
-  line-height: 1;
-}
-.place {
-  font-size: 12px;
-  margin-top: 4px;
-  opacity: 0.85;
-}
-.stage-card {
-  display: block;
-  padding: 16px 20px;
-  border-radius: 14px;
-  border: 1px solid var(--ib-line);
-  background: var(--vp-c-bg-elv);
-  box-shadow: var(--ib-shadow);
-  text-decoration: none;
-  color: inherit;
-  transition: border-color 0.15s, transform 0.15s;
-}
-.stage-card:hover {
-  border-color: var(--ib-blood);
-  transform: translateX(3px);
-}
-.stage-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-}
-.stage-card h3 {
-  margin: 0;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--ib-ink);
-}
-.status {
-  font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 6px;
-  color: var(--ib-ink-3);
-  border: 1px solid var(--ib-line);
-  white-space: nowrap;
-}
-.stage.ready .status {
-  color: var(--ib-blood);
-  border-color: var(--ib-blood);
-}
-.stage-card p {
-  margin: 6px 0 10px;
+  margin: 12px 0 0 6px;
   color: var(--ib-ink-2);
   font-size: 15px;
 }
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.chip {
-  font-size: 12.5px;
-  padding: 2px 10px;
-  border-radius: 999px;
-  background: var(--ib-paper-3);
-  color: var(--ib-ink-2);
+.panel {
+  padding: 22px 16px 26px;
+  border-radius: 12px;
+  background: var(--ib-paper);
+  border: 2.5px solid var(--ib-outline);
+  box-shadow: 0 5px 0 var(--ib-outline);
 }
 
-/* 专题卡片 */
-.topic-grid {
+/* 选择角色：像角色选择界面里画在纸上的卡片 */
+.personas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.persona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px 14px 16px;
+  border-radius: 10px;
+  background: var(--ib-paper);
+  border: 2.5px solid var(--ib-outline);
+  box-shadow: 0 5px 0 var(--ib-outline);
+  text-decoration: none !important;
+  color: inherit !important;
+  transform: rotate(var(--tilt));
+  transition: transform 0.15s;
+}
+.persona:hover {
+  transform: rotate(0) translateY(-4px) scale(1.02);
+}
+.portrait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--ib-paper-2);
+  border: 2px dashed var(--ib-line);
+}
+.persona:hover .portrait {
+  border-color: var(--ib-blood);
+}
+.p-name {
+  margin-top: 12px;
+  font-size: 19px;
+  font-weight: 900;
+  color: var(--ib-ink);
+}
+.p-state {
+  margin-top: 4px;
+  font-size: 13.5px;
+  color: var(--ib-ink-2);
+}
+.p-go {
+  margin-top: 14px;
+  padding-top: 10px;
+  width: 100%;
+  border-top: 2px dashed var(--ib-line);
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--ib-blood);
+}
+
+/* 专题 */
+.topics {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 .topic {
   display: flex;
-  flex-direction: column;
-  padding: 20px;
-  border-radius: 14px;
-  border: 1px solid var(--ib-line);
-  background: var(--vp-c-bg-elv);
-  box-shadow: var(--ib-shadow);
-  text-decoration: none;
-  color: inherit;
-  transition: border-color 0.15s, transform 0.15s;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 18px;
+  border-radius: 10px;
+  background: var(--ib-paper);
+  border: 2.5px solid var(--ib-outline);
+  box-shadow: 0 4px 0 var(--ib-outline);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.15s;
 }
 .topic:hover {
-  border-color: var(--ib-blood);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
-.topic-tag {
-  align-self: flex-start;
-  font-size: 12px;
-  color: var(--ib-soul);
-  background: var(--ib-soul-soft);
-  padding: 2px 8px;
-  border-radius: 6px;
+.t-body {
+  display: flex;
+  flex-direction: column;
 }
-.topic h3 {
-  margin: 12px 0 6px;
-  font-size: 18px;
-  font-weight: 700;
+.t-title {
+  font-size: 17px;
+  font-weight: 900;
   color: var(--ib-ink);
 }
-.topic p {
-  flex: 1;
-  margin: 0 0 12px;
-  font-size: 14.5px;
-  color: var(--ib-ink-2);
-  line-height: 1.7;
+.t-title em {
+  font-style: normal;
+  font-size: 11.5px;
+  font-weight: 800;
+  color: var(--ib-on-dark);
+  background: var(--ib-blood-btn);
+  padding: 1px 7px;
+  border-radius: 6px;
+  margin-left: 6px;
+  vertical-align: 2px;
 }
-.more {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--ib-blood);
+.t-desc {
+  margin-top: 4px;
+  font-size: 13.5px;
+  line-height: 1.65;
+  color: var(--ib-ink-2);
 }
 
-/* 解锁清单预告 */
-.tracker-promo {
+/* 解锁清单 + 常见问题 */
+.split {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items: center;
 }
-.promo-text h2 {
-  font-size: 26px;
-  font-weight: 800;
-  margin: 0 0 10px;
-  color: var(--ib-ink);
+.tracker-card {
+  display: block;
+  padding: 18px;
+  border-radius: 12px;
+  background: var(--ib-paper);
+  border: 2.5px solid var(--ib-outline);
+  box-shadow: 0 5px 0 var(--ib-outline);
+  text-decoration: none !important;
+  transition: transform 0.15s;
 }
-.promo-text p {
-  color: var(--ib-ink-2);
-  margin: 0 0 20px;
-  line-height: 1.8;
+.tracker-card:hover {
+  transform: translateY(-3px);
 }
-.promo-card {
-  padding: 20px;
-  border-radius: 14px;
-  border: 2px solid var(--ib-ink);
-  background: var(--vp-c-bg-elv);
-  box-shadow: 0 4px 0 var(--ib-ink);
-}
-.promo-meter {
+.tc-top {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--ib-ink-2);
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.tc-cta {
+  font-weight: 800;
+  color: var(--ib-blood);
+}
+.mini-grid {
+  display: block;
 }
 .mini-row {
   display: grid;
-  grid-template-columns: 56px repeat(12, 1fr);
+  grid-template-columns: 52px repeat(12, 1fr);
   gap: 4px;
   margin-bottom: 4px;
   align-items: center;
 }
 .name {
   font-size: 13px;
+  font-weight: 700;
   color: var(--ib-ink-2);
 }
 .cell-head {
-  font-size: 11px;
+  font-size: 10.5px;
   text-align: center;
   color: var(--ib-ink-3);
+  white-space: nowrap;
+  overflow: hidden;
 }
 .cell {
   aspect-ratio: 1;
   border-radius: 4px;
-  background: var(--ib-paper-3);
+  border: 1.5px solid var(--ib-line);
+  background: var(--ib-paper-2);
 }
-.cell.done {
-  background: var(--ib-blood);
+.cell.s1 {
+  border: 2px solid var(--ib-blood);
+  background: var(--ib-blood-soft);
+}
+.cell.s2 {
+  border: 2px solid var(--ib-outline);
+  background: #d8302a;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+details {
+  border-radius: 10px;
+  background: var(--ib-paper);
+  border: 2px solid var(--ib-outline);
+  box-shadow: 0 3px 0 var(--ib-outline);
+}
+summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  font-weight: 800;
+  color: var(--ib-ink);
+  cursor: pointer;
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::after {
+  content: '+';
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--ib-ink-3);
+}
+details[open] summary::after {
+  content: '−';
+}
+details p {
+  margin: 0;
+  padding: 0 16px 14px 44px;
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--ib-ink-2);
+}
+details a {
+  font-weight: 800;
+  color: var(--ib-blood);
+  white-space: nowrap;
 }
 
-@media (max-width: 860px) {
-  .hero {
-    grid-template-columns: 1fr;
-    gap: 24px;
-    padding-top: 8px;
+@media (max-width: 960px) {
+  .personas {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .hero-art {
-    order: -1;
-  }
-  .hero-art :deep(.map) {
-    max-width: 220px;
-  }
-  .topic-grid {
+  .topics {
     grid-template-columns: 1fr;
   }
-  .tracker-promo {
+  .split {
     grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .split > div + div {
+    margin-top: 64px;
   }
 }
 @media (max-width: 520px) {
   .landing {
-    padding: 16px 16px 48px;
+    padding: 16px 16px 56px;
   }
-  .stage {
-    grid-template-columns: 56px 1fr;
+  .personas {
     gap: 12px;
   }
-  .floor-tag {
-    width: 56px;
-    height: 56px;
+  .persona {
+    padding: 16px 8px 12px;
   }
-  .path::before {
-    left: 27px;
+  .portrait {
+    width: 64px;
+    height: 64px;
   }
-  .num {
-    font-size: 22px;
+  .portrait :deep(svg) {
+    width: 42px;
+    height: 42px;
+  }
+  .p-name {
+    font-size: 16px;
+  }
+  .section {
+    margin-top: 48px;
+  }
+  .mini-row {
+    grid-template-columns: 44px repeat(12, 1fr);
+    gap: 3px;
+  }
+  .cell-head {
+    font-size: 9px;
   }
 }
 </style>
