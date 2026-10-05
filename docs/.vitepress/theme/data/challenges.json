@@ -105,7 +105,7 @@
     "description": "Glass Cannon 意译：玻璃大炮",
     "character": "犹大",
     "target": "撒但",
-    "rules": "只有 1 红心；史诗胎儿博士、洛基的角（Loki's Horns）",
+    "rules": "只有 1 红心；史诗胎儿博士（Epic Fetus）、洛基的角（Loki's Horns）",
     "reward": "规则卡（Rules Card）",
     "unlock": "完成 The Family Man，击败 Lokii，并已解锁犹大和「它活着」"
   },
@@ -205,7 +205,7 @@
     "description": "XXXXXXXXL 意译：超超超大号",
     "character": "以撒",
     "target": "妈妈的心脏",
-    "rules": "每层都是 XL 大小，但同一章的两层不合并；有宝箱房",
+    "rules": "每层都是 XL 大小（XL 层：平常由同一章两层合并成的加大层），但这里同一章的两层不合并；有宝箱房",
     "reward": "金心（Gold Heart）",
     "unlock": "击败妈妈"
   },

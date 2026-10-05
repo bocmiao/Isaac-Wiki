@@ -11,9 +11,10 @@ class ToolDataTests(unittest.TestCase):
   data=json.loads((DATA/'challenges.json').read_text())
   self.assertEqual([c['id']for c in data],list(range(1,46)))
   for item,cells in zip(data,original):
-   self.assertEqual(item['name'],cells[1].split('<br>')[0])
+   clean=lambda s:re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',re.sub('<[^>]+>',' ',s)).strip()
+   self.assertEqual(item['name'],clean(cells[1].split('<br>')[0]))
    for key,i in [('character',2),('target',3),('rules',4),('reward',5),('unlock',6)]:
-    self.assertEqual(item[key],re.sub('<[^>]+>',' ',cells[i]).strip())
+    self.assertEqual(item[key],clean(cells[i]))
  def test_normal_donations_match_achievement_source(self):
   data=json.loads((DATA/'normal-donations.json').read_text())
   source=json.loads((ROOT/'data/achievement-source.json').read_text())

@@ -110,7 +110,7 @@ title: 中英译名对照
 | 中文 | 英文 |
 | --- | --- |
 | 红心 | Red Heart |
-| 心之容器 | Heart Container |
+| 心之容器（本站常写作「红心容器」） | Heart Container |
 | 魂心 | Soul Heart |
 | 黑心 | Black Heart |
 | 永恒之心 | Eternal Heart |

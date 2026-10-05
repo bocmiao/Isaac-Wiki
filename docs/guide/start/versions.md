@@ -6,7 +6,15 @@ title: 版本与 DLC 怎么买
 
 <VersionBadge checked="2026-10" />
 
-PC 玩家直接在 Steam 买「The Binding of Isaac: Rebirth Complete Bundle」（重生完整包）就行。它包含本体和全部三个付费 DLC：胎衣、胎衣+、忏悔。买完再免费领取 Repentance+，内容就齐了。Steam 经常打折，打折时很便宜，不急的话可以等一等。
+::: tip 速览
+- **PC 直接买重生完整包**，含本体和胎衣、胎衣+、忏悔（[选合集](#新手该买哪个合集)）
+- **DLC 一层叠一层**，不能跳着买（[版本关系](#本体和-dlc-是什么关系)）
+- **Repentance+ 免费领**，主打在线联机，但界面只有英文（[详情](#repentance-是什么)）
+- **Mac / Linux 玩不了忏悔和 Repentance+**（[看提醒](#新手该买哪个合集)）
+- **主机版 2026 年 11 月 19 日发售**，含全部 DLC（[主机版](#主机版)）
+:::
+
+PC 玩家直接在 Steam 买「The Binding of Isaac: Rebirth Complete Bundle」（重生完整包），再免费领取 Repentance+，内容就齐了。
 
 ## 本体和 DLC 是什么关系
 
@@ -15,9 +23,9 @@ PC 玩家直接在 Steam 买「The Binding of Isaac: Rebirth Complete Bundle」�
 | 名称 | 发售日期 | 需要先有 | 主要新内容 |
 | --- | --- | --- | --- |
 | 重生（Rebirth） | 2014-11-04 | 无 | 本体 |
-| 胎衣（Afterbirth） | 2015-10-30 | 本体 | 贪婪模式（Greed Mode）、死寂、每日挑战，新角色莉莉丝、店主 |
-| 胎衣+（Afterbirth+） | 2017-01-03 | 本体、胎衣 | 新章节虚空（The Void）和精神错乱，新角色亚玻伦、遗骸，官方模组支持 |
-| 忏悔（Repentance） | 2021-03-31 | 本体、胎衣、胎衣+ | 一整条新路线和母亲、祸兽，新角色伯大尼和「雅各和以扫」，所有角色的堕化版，本地合作改成最多 4 人 |
+| 胎衣（Afterbirth） | 2015-10-30 | 本体 | 贪婪模式（Greed Mode）、每日挑战、Boss 死寂，新角色莉莉丝、店主 |
+| 胎衣+（Afterbirth+） | 2017-01-03 | 本体、胎衣 | 新章节虚空（The Void）和 Boss 精神错乱，新角色亚玻伦、遗骸，官方模组支持 |
+| 忏悔（Repentance） | 2021-03-31 | 本体、胎衣、胎衣+ | 一整条新路线，Boss 母亲、祸兽，新角色伯大尼和「雅各和以扫」，所有角色的里角色（堕化版），本地合作改成最多 4 人 |
 | Repentance+ | 2024-11-18 | 以上全部 | 免费；在线联机、大量道具加强 |
 
 所以不能跳着买。比如只有本体，就买不了忏悔。
@@ -32,6 +40,8 @@ PC 玩家直接在 Steam 买「The Binding of Isaac: Rebirth Complete Bundle」�
 | The Blue King Collection | 上面四个，加上 The Legend of Bum-Bo、The End is Nigh、初代《以撒的结合》等，共 11 件 | 想顺便收其他游戏再买 |
 | Afterbirth+ Bundle | 本体、胎衣、胎衣+ | 不推荐，缺忏悔 |
 | Iconic Roguelites | 只有本体，加上另外 4 款游戏 | 不推荐，缺全部 DLC |
+
+Steam 经常打折，打折时很便宜，不急的话可以等一等。
 
 ::: tip 已经有一部分也能买合集
 Steam 合集支持「补全」：你已经拥有的部分不会重复收费，只付还没有的那几样，而且照样享受合集折扣。

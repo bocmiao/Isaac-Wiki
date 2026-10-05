@@ -12,4 +12,4 @@ layout: page
   <UnlockTracker />
 </div>
 
-完整秘密编号、每项条件和步骤见[全部成就与详细解锁](/guide/achievements/)；本清单不统计全部 641 项成就。
+完整秘密编号、每项条件和步骤见[全部成就与详细解锁](/achievements/)；本清单不统计全部 641 项成就。

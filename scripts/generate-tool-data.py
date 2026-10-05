@@ -4,12 +4,12 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 p=argparse.ArgumentParser();p.add_argument('--isaacdocs',type=Path,required=True);p.add_argument('--eid',type=Path,required=True);args=p.parse_args()
 text=(root/'docs/strategy/challenges.md').read_text()
-def clean(s):return re.sub('<[^>]+>',' ',s).strip()
+def clean(s):return re.sub(r'\[([^\]]+)\]\([^)]+\)',r'\1',re.sub('<[^>]+>',' ',s)).strip()
 rows=[]
 for line in text.splitlines():
  cells=[c.strip()for c in line.strip('|').split('|')]
  if len(cells)==7 and cells[0].isdigit():
-  num=int(cells[0]);rows.append(dict(id=num,name=cells[1].split('<br>')[0],description=clean(cells[1]),character=cells[2],target=cells[3],rules=clean(cells[4]),reward=clean(cells[5]),unlock=clean(cells[6])))
+  num=int(cells[0]);rows.append(dict(id=num,name=clean(cells[1].split('<br>')[0]),description=clean(cells[1]),character=cells[2],target=cells[3],rules=clean(cells[4]),reward=clean(cells[5]),unlock=clean(cells[6])))
 assert [r['id']for r in rows]==list(range(1,46))
 folder=root/'docs/.vitepress/theme/data'
 (folder/'challenges.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')

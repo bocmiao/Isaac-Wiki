@@ -71,7 +71,7 @@
   --vp-c-warning-1: var(--ib-gold);
   --vp-c-warning-soft: var(--ib-gold-soft);
 
-  --vp-custom-block-tip-bg: var(--ib-soul-soft);
+  --vp-custom-block-tip-bg: #f0dfb8;
   --vp-custom-block-tip-border: var(--ib-outline);
   --vp-custom-block-warning-bg: var(--ib-gold-soft);
   --vp-custom-block-warning-border: var(--ib-outline);
@@ -119,6 +119,7 @@
   --ib-noise-opacity: 0.4;
 
   --vp-custom-block-danger-bg: rgba(236, 90, 78, 0.14);
+  --vp-custom-block-tip-bg: rgba(240, 223, 184, 0.08);
   --vp-c-brand-2: #f07468;
 }
 
@@ -446,7 +447,249 @@ body::before {
   }
 }
 
-/* Interactive tools share keyboard focus, wrapping controls and readable results. */
+/* ---------- 滚动条：细条、木色滑块，和地下室 / 妈腿层配色一致 ---------- */
+:root {
+  --ib-scroll-track: var(--ib-floor-2);
+  --ib-scroll-thumb: var(--ib-wall);
+  --ib-scroll-thumb-hover: var(--ib-blood);
+}
+.dark {
+  --ib-scroll-track: var(--ib-floor-2);
+  --ib-scroll-thumb: #4a4c55;
+}
+html {
+  scrollbar-color: var(--ib-scroll-thumb) var(--ib-scroll-track);
+}
+.VPSidebar,
+.VPDocAsideOutline,
+.VPDoc .aside-container,
+.vp-doc div[class*='language-'] pre,
+.vp-doc table {
+  scrollbar-width: thin;
+  scrollbar-color: var(--ib-scroll-thumb) transparent;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ib-scroll-track);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ib-scroll-thumb);
+  border: 2px solid var(--ib-scroll-track);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ib-scroll-thumb-hover);
+}
+.VPSidebar::-webkit-scrollbar,
+.VPDoc .aside-container::-webkit-scrollbar {
+  width: 6px;
+}
+.VPSidebar::-webkit-scrollbar-track,
+.VPDoc .aside-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.VPSidebar::-webkit-scrollbar-thumb,
+.VPDoc .aside-container::-webkit-scrollbar-thumb {
+  border: 0;
+  background: color-mix(in srgb, var(--ib-scroll-thumb) 55%, transparent);
+}
+
+/* ---------- 道具外链：名字链 wiki.gg 中文站，后面的 IG 链 IsaacGuru ---------- */
+.vp-doc a.item-ref.item-ref {
+  color: var(--ib-ink);
+  font-weight: 600;
+  text-decoration: underline dotted var(--ib-blood);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}
+.vp-doc a.item-ref.item-ref:hover {
+  color: var(--ib-blood);
+}
+.vp-doc a.item-guru.item-guru {
+  display: inline-block;
+  margin: 0 1px 0 2px;
+  padding: 0 3px;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 14px;
+  vertical-align: 4px;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--ib-ink-3);
+  border-radius: 3px;
+  color: var(--ib-ink-3);
+  text-decoration: none;
+}
+.vp-doc a.item-guru.item-guru:hover {
+  color: var(--ib-on-dark, #fff);
+  background: var(--ib-blood);
+  border-color: var(--ib-blood);
+}
+
+/* ---------- 成就编号页 ---------- */
+.vp-doc .ach-jump {
+  position: sticky;
+  top: calc(var(--vp-nav-height) + 4px);
+  z-index: 5;
+  padding: 6px 12px;
+  border: 2px solid var(--ib-outline);
+  border-radius: 8px;
+  background: var(--ib-paper);
+  font-size: 13px;
+}
+.vp-doc .ach-links {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--ib-ink-3);
+}
+.vp-doc h2[id^='achievement-'] {
+  margin-top: 28px;
+  padding-top: 18px;
+  font-size: 19px;
+}
+.vp-doc h2[id^='achievement-'] + p {
+  margin-top: 8px;
+}
+
+/* 提示框（速览）里的链接统一用站点红，不用默认蓝 */
+.vp-doc .custom-block a {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.vp-doc .custom-block a:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* 右侧目录：长标题换行，不截成省略号 */
+.VPDocAsideOutline .outline-link {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.45;
+  padding: 3px 0;
+}
+.vp-doc .item-guru-demo {
+  display: inline-block;
+  padding: 0 3px;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 14px;
+  border: 1px solid var(--ib-ink-3);
+  border-radius: 3px;
+  color: var(--ib-ink-3);
+}
+
+/* ---------- 版心加宽：随屏幕宽度分档放宽，大屏不再两边大片留白 ---------- */
+:root {
+  --vp-layout-max-width: 1680px;
+}
+@media (min-width: 960px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: min(100%, 760px) !important;
+  }
+}
+/* 可用宽度 = 屏宽 − 侧栏 272 − 左右留白 64 − 目录 256 − 正文内边距 64，超出会盖住左侧栏 */
+@media (min-width: 1440px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: 780px !important;
+  }
+}
+@media (min-width: 1600px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: 900px !important;
+  }
+}
+@media (min-width: 1800px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: 980px !important;
+  }
+  .VPDoc .aside {
+    max-width: 280px;
+  }
+  .VPDoc .aside-container {
+    width: 248px;
+  }
+}
+
+/* ---------- 表格：表头不换行；道具名和英文括注尽量不拆开 ---------- */
+.vp-doc th {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.vp-doc td {
+  vertical-align: top;
+}
+.vp-doc table code {
+  white-space: nowrap;
+}
+/* 很窄的数字列（品质、次数、概率）不被压到一字一行 */
+.vp-doc td {
+  min-width: 3em;
+}
+
+/* ---------- 手机：三列以上的表格一行变一张卡片 ---------- */
+@media (max-width: 640px) {
+  .vp-doc table.stack {
+    display: block;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+  }
+  .vp-doc table.stack thead {
+    display: none;
+  }
+  .vp-doc table.stack tbody {
+    display: grid;
+    gap: 10px;
+  }
+  .vp-doc table.stack tr {
+    display: block;
+    border: 2px solid var(--ib-outline);
+    border-radius: 8px;
+    background: var(--ib-paper);
+    overflow: hidden;
+  }
+  .vp-doc table.stack td {
+    display: grid;
+    grid-template-columns: 5.5em 1fr;
+    gap: 8px;
+    min-width: 0;
+    padding: 6px 12px;
+    border-top: 1px dashed var(--ib-line);
+  }
+  .vp-doc table.stack td:first-child {
+    border-top: 0;
+    background: var(--ib-wall);
+    color: var(--ib-on-dark);
+    font-weight: 700;
+    display: block;
+  }
+  .vp-doc table.stack td:first-child a.item-guru {
+    color: var(--ib-on-dark);
+    border-color: currentColor;
+  }
+  .vp-doc table.stack td:first-child::before {
+    display: none;
+  }
+  .vp-doc table.stack td:first-child a {
+    color: var(--ib-on-dark);
+  }
+  .vp-doc table.stack td::before {
+    content: attr(data-label);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ib-ink-3);
+    padding-top: 2px;
+  }
+}
+
 .tool-panel { margin: 20px 0; }
 .tool-panel label { display: block; margin: 10px 0; }
 .tool-panel input:not([type=checkbox]):not([type=file]), .tool-panel select, .tool-panel textarea {

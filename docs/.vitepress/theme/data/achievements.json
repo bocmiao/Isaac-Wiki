@@ -2578,7 +2578,7 @@
   {
     "id": 323,
     "name": "5 Nights at Mom's",
-    "conditionZh": "连续 5 局获胜，每局用不同角色；忏悔非加号有 3 局及计数异常说明。",
+    "conditionZh": "连续 5 局获胜，每局用不同角色。",
     "group": "胜利圈 / 连胜",
     "minimum": "胎衣+",
     "page": "ids-301-400"

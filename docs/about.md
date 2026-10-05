@@ -6,7 +6,7 @@ title: 关于
 
 以撒路书是一个非官方的《以撒的结合》中文教程站，目标是让新玩家按顺序从第一局走到白金神。
 
-- **只写教程和攻略**：道具图鉴请直接看 [wiki.gg 中文站](https://bindingofisaacrebirth.wiki.gg/zh/)或 [IsaacGuru](https://isaacguru.com/)。
+- **只写教程和攻略**：道具效果交给 [wiki.gg 中文站](https://bindingofisaacrebirth.wiki.gg/zh/)和 [IsaacGuru](https://isaacguru.com/)。文章里的道具名可以直接点开查，也可以用[道具速查](/tools/items)。
 - **标注版本**：每篇文章顶部写明适用版本和校对日期。
 - **统一译名**：道具、角色、房间名以 EID 中文版为准，见[中英译名对照](/strategy/glossary)。
 - **事实有出处**：每篇文章末尾列出参考资料，查不到可靠来源的内容不写。

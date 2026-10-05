@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
-import { batchLabel, strategyCategories } from '../data/strategy'
+import { categoryLink, strategyCategories, strategyGroups } from '../data/strategy'
 import GameIcon from './GameIcon.vue'
 
 // 攻略库栏目：每个栏目像一件摆在道具台上的道具
@@ -8,15 +8,27 @@ defineProps<{ detailed?: boolean }>()
 </script>
 
 <template>
-  <div class="grid" :class="{ detailed }">
-    <a v-for="c in strategyCategories" :key="c.id" class="cat sketch" :href="withBase(`/strategy/${c.id}`)">
+  <!-- 攻略库页：按分组排 -->
+  <template v-if="detailed">
+    <section v-for="g in strategyGroups" :key="g" class="group">
+      <h2 class="group-title">{{ g }}</h2>
+      <div class="grid detailed">
+        <a v-for="c in strategyCategories.filter((x) => x.group === g)" :key="c.id" class="cat sketch" :href="withBase(categoryLink(c))">
+          <span class="icon-wrap"><GameIcon :name="c.icon" :size="40" /></span>
+          <span class="name">{{ c.name }}</span>
+          <span class="desc">{{ c.desc }}</span>
+          <ul class="plan">
+            <li v-for="p in c.covers" :key="p">{{ p }}</li>
+          </ul>
+        </a>
+      </div>
+    </section>
+  </template>
+  <div v-else class="grid">
+    <a v-for="c in strategyCategories" :key="c.id" class="cat sketch" :href="withBase(categoryLink(c))">
       <span class="icon-wrap"><GameIcon :name="c.icon" :size="detailed ? 40 : 36" /></span>
       <span class="name">{{ c.name }}</span>
       <span class="desc">{{ c.desc }}</span>
-      <ul v-if="detailed" class="plan">
-        <li v-for="p in c.plan" :key="p">{{ p }}</li>
-      </ul>
-      <span class="batch" :class="c.ready ? 'ready' : `b${c.batch}`">{{ c.ready ? '已上线' : `${batchLabel[c.batch]} · 写作中` }}</span>
     </a>
   </div>
 </template>
@@ -97,6 +109,19 @@ defineProps<{ detailed?: boolean }>()
   color: var(--ib-ink-3);
 }
 
+.group + .group {
+  margin-top: 28px;
+}
+.group-title {
+  margin: 0 0 12px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  font-size: 22px !important;
+}
+.group-title::before,
+.group-title::after {
+  display: none !important;
+}
 /* 攻略库页：横向卡片，列出计划内容 */
 .detailed .cat {
   display: grid;
@@ -104,8 +129,7 @@ defineProps<{ detailed?: boolean }>()
   grid-template-areas:
     'icon name'
     'icon desc'
-    'icon plan'
-    'icon batch';
+    'icon plan';
   text-align: left;
   align-items: start;
   column-gap: 14px;
@@ -134,10 +158,6 @@ defineProps<{ detailed?: boolean }>()
 .plan li {
   margin: 0 !important;
 }
-.detailed .batch {
-  grid-area: batch;
-  justify-self: start;
-}
 @keyframes bob {
   0%,
   100% {
@@ -159,7 +179,7 @@ defineProps<{ detailed?: boolean }>()
   }
   .detailed .cat {
     grid-template-columns: 1fr;
-    grid-template-areas: 'icon' 'name' 'desc' 'plan' 'batch';
+    grid-template-areas: 'icon' 'name' 'desc' 'plan';
   }
 }
 @media (max-width: 420px) {
