@@ -35,8 +35,15 @@ const guideSidebar = [
   },
   {
     text: '第 4 层 · 子宫：进阶思路',
-    collapsed: true,
-    items: [{ text: '阶段总览', link: '/guide/advanced/' }],
+    collapsed: false,
+    items: [
+      { text: '阶段总览', link: '/guide/advanced/' },
+      { text: '机制详解', link: '/strategy/mechanics' },
+      { text: '道具取舍与流派', link: '/strategy/items' },
+      { text: '表角色攻略', link: '/strategy/characters' },
+      { text: 'Boss 打法（一）', link: '/strategy/bosses' },
+      { text: 'Boss 打法（二）', link: '/strategy/bosses-2' },
+    ],
   },
   {
     text: '第 5 层 · 暗室：里角色与白金神',
@@ -87,7 +94,14 @@ export default defineConfig({
           text: '攻略库',
           items: [
             { text: '全部攻略', link: '/strategy/' },
-            ...strategyCategories.map((c) => ({ text: c.name, link: `/strategy/${c.id}` })),
+            ...strategyCategories.flatMap((c) =>
+              c.id === 'bosses'
+                ? [
+                    { text: 'Boss 打法（一）：主线终局', link: '/strategy/bosses' },
+                    { text: 'Boss 打法（二）：死寂到祸兽', link: '/strategy/bosses-2' },
+                  ]
+                : [{ text: c.name, link: `/strategy/${c.id}` }],
+            ),
             { text: '中英译名对照', link: '/strategy/glossary' },
           ],
         },
