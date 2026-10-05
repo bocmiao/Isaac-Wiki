@@ -58,14 +58,18 @@ const guideSidebar = [
   },
 ]
 
+// GitHub Pages 部署在 /Isaac-Wiki/ 子路径下，由 CI 通过 BASE 环境变量传入；本地开发默认根路径
+const base = process.env.BASE ?? '/'
+
 export default defineConfig({
+  base,
   lang: 'zh-CN',
   title: '以撒路书',
   description: '从第一局到白金神的中文以撒学习路线，对齐忏悔 / 忏悔+ 版本',
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
     ['meta', { name: 'theme-color', content: '#b3261e' }],
   ],
   markdown: {
