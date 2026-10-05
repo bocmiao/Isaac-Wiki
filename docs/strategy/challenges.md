@@ -6,9 +6,15 @@ title: 挑战模式
 
 <VersionBadge checked="2026-10" />
 
-挑战模式一共有 45 个挑战。每个挑战都是规则写死的特殊局：角色、开局道具和终点 Boss 都固定，大多数没有宝箱房。完成一个挑战，只解锁这个挑战自己的奖励；挑战进行中，其他成就一律锁定。11 个挑战开局就能玩，其余 34 个要靠主线进度解锁。想让之后的普通局更好打，先做这几类：Aprils Fool（抹大拉以后开局多带一颗体力回满（Full Health）胶囊）；The Family Man（解锁史诗胎儿博士（Epic Fetus），也是 Glass Cannon 的前置）；默认开放、奖励是新道具的 The Host、Computer Savvy、Waka Waka、It's in the Cards；打过妈妈就能做的 PRIDE DAY!。
+::: tip 速览
+- **45 个挑战，11 个默认开放**，其余 34 个靠主线进度解锁（[怎么解锁](#在哪选、怎么解锁)）
+- **挑战里只能解锁该挑战自己的奖励**，其他成就一律锁定（[怎么解锁](#在哪选、怎么解锁)）
+- **先做 [Aprils Fool](#_32-aprils-fool)**：打过妈妈就能做，抹大拉以后开局多带体力回满胶囊（[第一组](#第一组-角色开局道具)）
+- **默认开放的 The Host、Computer Savvy、Waka Waka、It's in the Cards 送新道具**（[第二组](#第二组-新道具和卡牌)）
+- **[The Family Man](#_19-the-family-man) 解锁史诗胎儿博士，也是 Glass Cannon 的前置**（[第二组](#第二组-新道具和卡牌)）
+:::
 
-数据以忏悔+ 为准，来自英文 wiki 的 Challenges 页、各挑战页和成就数据。挑战名没有找到可靠的中文译名，正文保留英文，表里附「意译」帮助理解，不是游戏内的叫法。
+45 个挑战都是规则写死的特殊局：角色、开局道具和终点 Boss 固定，大多数没有宝箱房。数据以忏悔+ 为准，来自英文 wiki 的 Challenges 页、各挑战页和成就数据；挑战名没有找到可靠的中文译名，正文保留英文，表里附「意译」帮助理解，不是游戏内的叫法。
 
 ## 挑战模式是什么
 
@@ -65,11 +71,14 @@ wiki 原话的意思是：除了完成该挑战的那个成就，其他成就在
 - 没有上锁的宝箱房，钥匙可以放开用。
 - 圣经（The Bible）能秒杀妈妈和妈妈的心脏 / 它活着。潘多拉魔盒（Pandora's Box）在子宫 II 这类楼层开出来就是圣经。
 - 骰子房和四面骰（D4）能把开局道具重随掉，摆脱挑战给的负面道具。
-- 蒙眼（不能发射泪弹）的挑战最难。可靠的输出来自跟班，例如硫磺火宝宝（Lil Brimstone）、魅魔（Succubus）、淫魔（Incubus）、作孽双子（Twisted Pair）；回旋镖（The Boomerang）、蓝蜡烛（The Candle）、红蜡烛（Red Candle）按时间充能，不用清房间；忏悔起，虚空之喉（Maw of the Void）、终末天启（Revelation）、水土不服症（Montezuma's Revenge）在蒙眼时也能蓄力使用。
+- 蒙眼（不能发射泪弹）的挑战最难：
+  - 可靠的输出来自跟班，例如硫磺火宝宝（Lil Brimstone）、魅魔（Succubus）、淫魔（Incubus）、作孽双子（Twisted Pair）。
+  - 回旋镖（The Boomerang）、蓝蜡烛（The Candle）、红蜡烛（Red Candle）按时间充能，不用清房间。
+  - 忏悔起，虚空之喉（Maw of the Void）、终末天启（Revelation）、水土不服症（Montezuma's Revenge）在蒙眼时也能蓄力使用。
 
 ## 全部挑战总表
 
-「意译」只帮助理解英文名，不是游戏内译名。「蒙眼」指不能发射泪弹。没写「有宝箱房」的挑战都没有宝箱房。
+名称带链接的 9 个挑战在[重点挑战打法](#重点挑战打法)里有详细打法，点名称直接跳过去。「意译」只帮助理解英文名，不是游戏内译名。「蒙眼」指不能发射泪弹。没写「有宝箱房」的挑战都没有宝箱房。
 
 | # | 名称 | 角色 | 目标 | 特殊规则 | 完成奖励 | 解锁条件 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -81,9 +90,9 @@ wiki 原话的意思是：除了完成该挑战的那个成就，其他成就在
 | 6 | Solar System<br>意译：太阳系 | 以撒 | 妈妈的心脏 | 蒙眼；仰慕之交（Distant Admiration）、孤独一生（Forever Alone）、苍蝇光环（Halo of Flies）、超凡升天（Transcendence） | 签筒符文（Perthro） | 妈妈的心脏累计 3 次 |
 | 7 | Suicide King<br>意译：自杀之王 | 拉撒路 | 以撒（Boss） | 吐根酊（Ipecac）、大爆弹先生（Mr. Mega）、我的镜像（My Reflection）、1 颗随机胶囊 | 自杀之王（Suicide King） | 妈妈的心脏累计 11 次，并已解锁拉撒路 |
 | 8 | Cat Got Your Tongue<br>意译：哑口无言 | 以撒 | 妈妈 | 蒙眼；嗝屁猫的毛球（Guppy's Hairball）、嗝屁猫的头（Guppy's Head）、嗝屁猫的尾巴（Guppy's Tail） | 保护符文（Algiz） | 达成一次嗝屁猫变身（Guppy） |
-| 9 | Demo Man<br>意译：爆破手 | 以撒 | 妈妈的心脏 | 胎儿博士（Dr. Fetus）、起爆器（Remote Detonator）、饰品火柴棍（Match Stick） | 混沌卡（Chaos Card） | 妈妈的心脏累计 9 次 |
-| 10 | Cursed!<br>意译：中咒了！ | 抹大拉 | 妈妈 | 每层都有专属的 Curse of the Cursed；美味的心、生肝（Raw Liver）、指南针（The Compass）、藏宝图（Treasure Map）、蓝地图（Blue Map）、饰品小孩的心脏（Child's Heart）；有宝箱房 | 信用卡（Credit Card） | 同时拥有 7 个或以上红心容器 |
-| 11 | Glass Cannon<br>意译：玻璃大炮 | 犹大 | 撒但 | 只有 1 红心；史诗胎儿博士、洛基的角（Loki's Horns） | 规则卡（Rules Card） | 完成 The Family Man，击败 Lokii，并已解锁犹大和「它活着」 |
+| 9 | [Demo Man](#_9-demo-man)<br>意译：爆破手 | 以撒 | 妈妈的心脏 | 胎儿博士（Dr. Fetus）、起爆器（Remote Detonator）、饰品火柴棍（Match Stick） | 混沌卡（Chaos Card） | 妈妈的心脏累计 9 次 |
+| 10 | [Cursed!](#_10-cursed)<br>意译：中咒了！ | 抹大拉 | 妈妈 | 每层都有专属的 Curse of the Cursed；美味的心、生肝（Raw Liver）、指南针（The Compass）、藏宝图（Treasure Map）、蓝地图（Blue Map）、饰品小孩的心脏（Child's Heart）；有宝箱房 | 信用卡（Credit Card） | 同时拥有 7 个或以上红心容器 |
+| 11 | Glass Cannon<br>意译：玻璃大炮 | 犹大 | 撒但 | 只有 1 红心；史诗胎儿博士（Epic Fetus）、洛基的角（Loki's Horns） | 规则卡（Rules Card） | 完成 The Family Man，击败 Lokii，并已解锁犹大和「它活着」 |
 | 12 | When Life Gives You Lemons<br>意译：生活给你柠檬 | 以撒 | 妈妈 | 9伏特（9 Volt）、修女服（Habit）、烦事柠檬（Lemon Mishap）、1 颗柠檬派对（Lemon Party）胶囊 | 反人类卡（A Card Against Humanity） | 默认开放 |
 | 13 | Beans!<br>意译：豆子！ | 以撒 | 妈妈 | 蒙眼；9伏特、豆子（The Bean）、黑豆（The Black Bean）、屁股炸弹、烟火盛宴（Pyro） | 焦灼硬币（Burnt Penny） | 默认开放 |
 | 14 | It's in the Cards<br>意译：命在牌中 | 以撒 | 妈妈 | 9伏特、蓄电池（The Battery）、卡牌盒（Deck of Cards）、新手牌组（Starter Deck）、2 张随机塔罗牌 | 超级食肉男孩死忠粉（SMB Super Fan） | 默认开放 |
@@ -91,27 +100,27 @@ wiki 原话的意思是：除了完成该挑战的那个成就，其他成就在
 | 16 | Computer Savvy<br>意译：电脑高手 | 以撒 | 妈妈 | 弯勺魔术（Spoon Bender）、科技（Technology）、科技II（Technology 2） | 机器宝宝2.0（Robo-Baby 2.0） | 默认开放 |
 | 17 | Waka Waka<br>意译：吃豆人的音效 | 以撒 | 妈妈 | 反重力（Anti-Gravity）、怪异磁铁（Strange Attractor） | 死神之触（Death's Touch） | 默认开放 |
 | 18 | The Host<br>意译：宿主 | 以撒 | 妈妈 | 虫群复击（The Mulligan）、蜘蛛宝宝（Spiderbaby）、饰品血虱（Tick） | 科技0.5（Tech.5） | 默认开放 |
-| 19 | The Family Man<br>意译：顾家好男人 | 以撒 | 以撒（Boss） | 蒙眼；波比兄弟（Brother Bobby）、玛姬姐妹（Sister Maggy）、腐烂宝宝（Rotten Baby）、好朋友一辈子！（BFFS!）、爸爸的钥匙（Dad's Key） | 史诗胎儿博士 | 一局内从天使身上拿到两块钥匙碎片，且妈妈的心脏累计 11 次 |
+| 19 | [The Family Man](#_19-the-family-man)<br>意译：顾家好男人 | 以撒 | 以撒（Boss） | 蒙眼；波比兄弟（Brother Bobby）、玛姬姐妹（Sister Maggy）、腐烂宝宝（Rotten Baby）、好朋友一辈子！（BFFS!）、爸爸的钥匙（Dad's Key） | 史诗胎儿博士 | 一局内从天使身上拿到两块钥匙碎片，且妈妈的心脏累计 11 次 |
 | 20 | Purist<br>意译：纯粹主义者 | 以撒 | 妈妈的心脏 | 没有开局道具 | 桦木符文（Berkano） | 击败妈妈 |
 | 21 | XXXXXXXXL<br>意译：超超超大号 | 以撒 | 妈妈的心脏 | 每层都是 XL 大小，但同一章的两层不合并；有宝箱房 | 金心（Gold Heart） | 击败妈妈 |
 | 22 | SPEED!<br>意译：速度！ | 以撒 | 妈妈的心脏 | 全程加速，同损坏的怀表（Broken Watch）的加速效果；游戏计时到 16 分钟后每 10 秒受一次伤；有宝箱房 | 免费保释卡（Get Out Of Jail Free Card） | 击败妈妈 |
 | 23 | Blue Bomber<br>意译：蓝色轰炸机 | ??? | 撒但 | 蒙眼；波比兄弟、神风！（Kamikaze!）、纵火狂（Pyromaniac）、大爆弹先生 | 金炸弹（Gold Bomb） | 炸掉 10 个标记石头，且妈妈的心脏累计 11 次 |
-| 24 | PAY TO PLAY<br>意译：付费游玩 | 以撒 | 以撒（Boss） | 金钱=力量（Money = Power）、硬币袋（Sack of Pennies）、50 硬币；每进一扇门花 1 硬币，受伤掉钱，钱花光就死 | 两种胶囊：止痛药！（Percs!）、上瘾！（Addicted!） | 用该隐击败以撒（Boss）。忏悔+ 起不再要求炸 10 个标记石头 |
+| 24 | [PAY TO PLAY](#_24-pay-to-play)<br>意译：付费游玩 | 以撒 | 以撒（Boss） | 金钱=力量（Money = Power）、硬币袋（Sack of Pennies）、50 硬币；每进一扇门花 1 硬币，受伤掉钱，钱花光就死 | 两种胶囊：止痛药！（Percs!）、上瘾！（Addicted!） | 用该隐击败以撒（Boss）。忏悔+ 起不再要求炸 10 个标记石头 |
 | 25 | Have a Heart<br>意译：发发善心 | 以撒 | 妈妈的心脏 | 1 红心 + 11 个空红心容器；吸血鬼之魅（Charm of the Vampire）；原本掉红心改为掉硬币；有宝箱房 | 两种胶囊：放-松（Re-Lax）、？？？ | 击败妈妈 |
 | 26 | I RULE!<br>意译：我最强！ | 以撒 | 超级撒但 | 唯一不是普通难度的挑战；回旋镖、钥匙碎片1（Key Piece 1）、钥匙碎片2（Key Piece 2）、梯子（The Ladder）、妈妈的菜刀（Mom's Knife）、三位一体盾（Trinity Shield） | 筹码（Poker Chip） | 击败超级撒但，并已解锁底片 |
 | 27 | BRAINS!<br>意译：脑子！ | ??? | ???（Boss） | 蒙眼；3 个鲍勃的脑浆子（Bob's Brain）、霹雳大腿 | 饰钉定位器（Stud Finder） | 击败以撒（Boss）5 次 |
-| 28 | PRIDE DAY!<br>意译：骄傲日 | 以撒 | 妈妈的心脏 | 3美元纸币（3 Dollar Bill）、彩虹宝宝（Rainbow Baby）、饰品彩虹虫（Rainbow Worm），彩虹虫不能丢弃或替换 | 八面骰（D8） | 击败妈妈 |
+| 28 | [PRIDE DAY!](#_28-pride-day)<br>意译：骄傲日 | 以撒 | 妈妈的心脏 | 3美元纸币（3 Dollar Bill）、彩虹宝宝（Rainbow Baby）、饰品彩虹虫（Rainbow Worm），彩虹虫不能丢弃或替换 | 八面骰（D8） | 击败妈妈 |
 | 29 | Onan's Streak<br>意译：俄南连射 | 犹大 | 以撒（Boss） | 只有 1 红心；彼列之书（The Book of Belial）、巧克力牛奶（Chocolate Milk）；泪弹打空就扣血；有宝箱房 | 肾结石（Kidney Stone） | 已解锁犹大和「它活着」 |
 | 30 | The Guardian<br>意译：守护者 | 以撒 | 妈妈的心脏 | 蒙眼；圣杯（Holy Grail）、以撒的心脏（Isaac's Heart）、受气包（Punching Bag）、命运之矛（Spear of Destiny）；以撒的心脏跟着受气包走 | 空白符文（Blank Rune） | 击败妈妈 |
-| 31 | Backasswards<br>意译：前后颠倒 | 以撒 | 地下室 I | 从超级撒但战开始倒着往上打；开局 8–10 个随机道具；每往上一层失去 1 个道具和 1 个红心容器 | 拉撒路开局带贫血（Anemic） | 击败超级撒但，并已解锁底片 |
-| 32 | Aprils Fool<br>EID 设置项叫「愚人节」 | 以撒 | 妈妈的心脏 | 地图上的位置、道具外观、血量显示都不可信；主动道具、胶囊、卡牌、符文效果随机；所有 Boss 都是 The Bloat；有宝箱房 | 抹大拉开局带体力回满胶囊 | 击败妈妈 |
+| 31 | [Backasswards](#_31-backasswards)<br>意译：前后颠倒 | 以撒 | 地下室 I | 从超级撒但战开始倒着往上打；开局 8–10 个随机道具；每往上一层失去 1 个道具和 1 个红心容器 | 拉撒路开局带贫血（Anemic） | 击败超级撒但，并已解锁底片 |
+| 32 | [Aprils Fool](#_32-aprils-fool)<br>EID 设置项叫「愚人节」 | 以撒 | 妈妈的心脏 | 地图上的位置、道具外观、血量显示都不可信；主动道具、胶囊、卡牌、符文效果随机；所有 Boss 都是 The Bloat；有宝箱房 | 抹大拉开局带体力回满胶囊 | 击败妈妈 |
 | 33 | Pokey Mans<br>意译：口袋怪兽（戏仿） | 以撒 | 以撒（Boss） | 友好球（Friendly Ball）、妈妈的眼影（Mom's Eyeshadow）；友好球每次使用放出一只随机怪物，怪物死后友好球立刻充满 | 充能钥匙（Charged Key） | 妈妈的心脏累计 11 次 |
-| 34 | Ultra Hard<br>意译：超难 | 以撒 | 超级撒但 | 4 个去不掉的诅咒；能变精英的敌人全是精英；Boss 战尽量变成双 Boss；不掉任何心；钥匙碎片1、2；有宝箱房 | 参孙开局带小孩的心脏 | 击败超级撒但，并已解锁底片 |
+| 34 | [Ultra Hard](#_34-ultra-hard)<br>意译：超难 | 以撒 | 超级撒但 | 4 个去不掉的诅咒；能变精英的敌人全是精英；Boss 战尽量变成双 Boss；不掉任何心；钥匙碎片1、2；有宝箱房 | 参孙开局带小孩的心脏 | 击败超级撒但，并已解锁底片 |
 | 35 | Pong<br>意译：乒乓（同名老游戏） | 以撒 | ???（Boss） | 丘比特之箭、橡胶胶水（Rubber Cement）；伤害和射速被固定 | 贪婪的胃袋（Greed's Gullet） | 击败以撒（Boss）5 次 |
 | 36 | Scat Man<br>意译：大便侠 | 以撒 | 妈妈 | 4 红心；蒙眼；大便（The Poop）、粪臭素（Skatole）、龌龊之心（Dirty Mind）等大便主题道具，饰品神秘糖果（Mysterious Candy）；忏悔+ 起不再带大肠杆菌 | 龌龊之心 | 默认开放 |
 | 37 | Bloody Mary<br>意译：血腥玛丽 | 伯大尼 | 撒但 | 4 红心 + 4 点魂心充能；彼列之书、血袋（Blood Bag）、贫血、血誓（Blood Oath）、饰品小孩的心脏 | 巴风特之印（Sigil of Baphomet） | 已解锁伯大尼、血袋和「它活着」 |
 | 38 | Baptism by Fire<br>意译：火之洗礼 | 伯大尼 | 以撒（Boss） | 蒙眼；灵魂之瓮（Urn of Souls）、书包（Schoolbag）、嗝屁猫的爪子（Guppy's Paw）、饰品抹大拉的信仰（Maggy's Faith） | 炼狱恶鬼（Purgatory） | 用伯大尼击败撒但、妈妈的心脏累计 11 次，并已解锁抹大拉的信仰 |
-| 39 | Isaac's Awakening<br>意译：以撒觉醒 | 以撒 | 母亲 | 英灵剑（Spirit Sword）、三位一体盾、妈妈的手镯（Mom's Bracelet）；不发射泪弹，改为挥剑 | 英灵剑 | 击败母亲 |
+| 39 | [Isaac's Awakening](#_39-isaac-s-awakening)<br>意译：以撒觉醒 | 以撒 | 母亲 | 英灵剑（Spirit Sword）、三位一体盾、妈妈的手镯（Mom's Bracelet）；不发射泪弹，改为挥剑 | 英灵剑 | 击败母亲 |
 | 40 | Seeing Double<br>意译：重影 | 雅各和以扫 | 妈妈的心脏 | 所有敌人和 Boss 都翻倍；雅各、以扫各带一个完美视力（20/20），另有X光透视（X-Ray Vision）；有宝箱房 | 碎掉的眼镜（Broken Glasses） | 击败母亲 |
 | 41 | Pica Run<br>意译：异食癖 | 以撒 | 以撒（Boss） | 所有道具换成随机饰品；妈妈的盒子（Mom's Box）、弹珠袋（Marbles）、妈妈的钱包（Mom's Purse），弹珠袋每次受伤都触发；有宝箱房 | 冰块（Ice Cube） | 妈妈的心脏累计 11 次，并已解锁弹珠袋 |
 | 42 | Hot Potato<br>意译：烫手山芋 | 里遗骸 | 撒但 | 3 魂心；蒙眼，每 2.5 秒爆炸一次，进新房间或拿道具时重置计时 | VII-战车？（VII - The Chariot?） | 已解锁里遗骸 |
@@ -131,7 +140,7 @@ Demo Man、PRIDE DAY!、Have a Heart 三个挑战页把目标写作「妈妈的�
 
 | 挑战 | 奖励 | 开放条件 |
 | --- | --- | --- |
-| #32 Aprils Fool | 抹大拉开局多带一颗体力回满胶囊 | 击败妈妈 |
+| #32 Aprils Fool | 抹大拉开局多带一颗体力回满（Full Health）胶囊 | 击败妈妈 |
 | #31 Backasswards | 拉撒路开局带贫血。忏悔起贫血是射程 +1.5，受伤后在身后留血迹，直到离开房间 | 击败超级撒但，并已解锁底片 |
 | #34 Ultra Hard | 参孙开局带饰品小孩的心脏 | 同上 |
 
@@ -183,7 +192,9 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 
 ### #32 Aprils Fool
 
-规则：地图上的位置、道具外观、血量显示都不可信，所有 Boss 都是 The Bloat。忏悔+ 里，这个挑战还禁用了游戏内的道具说明。
+**卡点**：地图上的位置、道具外观、血量显示都不可信，所有 Boss 都是 The Bloat。
+
+规则补充：忏悔+ 里，这个挑战还禁用了游戏内的道具说明。
 
 - 打 The Bloat 时站到它身后；没有空间就站在它的正斜角。它的硫磺火激光只朝下方和两侧打。
 - 十字准星（Marked）、鲁多维科科技（The Ludovico Technique）这类不用和敌人对齐也能输出的道具，让 The Bloat 战轻松很多。
@@ -191,6 +202,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 - wiki 建议避开恶魔房，等天使房。
 
 ### #19 The Family Man
+
+**卡点**：蒙眼，只能靠射速慢、总落在身后的跟班输出。
 
 规则：蒙眼，只能靠波比兄弟、玛姬姐妹、腐烂宝宝这些跟班输出；终点是教堂的以撒。
 
@@ -201,6 +214,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 
 ### #10 Cursed!
 
+**卡点**：每扇普通门穿过就扣血，飞行也挡不住。
+
 规则：每层都有 Curse of the Cursed，普通房间的门会变成诅咒房那种带刺的门，穿过就扣血。飞行也挡不住这种伤害。
 
 - wiki 的建议是每层直奔 Boss 房，少走房间就少扣血。
@@ -209,6 +224,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 - 饰品扁锉（Flat File）能去掉所有门上的刺。
 
 ### #9 Demo Man
+
+**卡点**：只能用胎儿博士的炸弹攻击，离得太近会炸到自己。
 
 规则：只能用胎儿博士的炸弹攻击，离得太近会炸到自己；炸弹无限。
 
@@ -219,6 +236,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 
 ### #28 PRIDE DAY!
 
+**卡点**：泪弹轨迹和效果一直在变，少数效果有短暂风险。
+
 规则：开局带彩虹虫，泪弹轨迹和效果一直在变，彩虹虫不能丢弃也不能替换。
 
 - wiki 认为多数彩虹泪弹效果整体是有利的。少数效果有短暂风险，例如火焰意志（Fire Mind）可能伤到自己，眼球突出（Proptosis）会缩短射程。
@@ -226,6 +245,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 - 想多带别的饰品，可以用咕噜！（Gulp!）胶囊吞掉饰品，或者拿能装两个饰品的道具。
 
 ### #24 PAY TO PLAY
+
+**卡点**：硬币就是命，进门花钱、受伤掉钱，归零即死。
 
 规则：每进一扇门花 1 硬币，受伤会掉钱，硬币归零直接死。开局 50 硬币。
 
@@ -236,6 +257,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 
 ### #39 Isaac's Awakening
 
+**卡点**：不发射泪弹只能用英灵剑，隐藏路线各层又没有宝箱房补强。
+
 规则：不发射泪弹，改用英灵剑近战；三位一体盾按朝向挡子弹。终点是母亲，要先打通过一次尸宫。
 
 - 进入下水道、矿洞、陵墓都不需要钥匙、炸弹或血，可以直接进。
@@ -245,6 +268,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 
 ### #31 Backasswards
 
+**卡点**：每往上一层就少 1 个心之容器和最早拿到的道具。
+
 规则：从超级撒但战开始，带 8–10 个随机道具和约 10 个心之容器，倒着一层层往上回到地下室 I。每往上一层，失去 1 个心之容器和最早拿到的那个道具。
 
 - 纵火狂配爆炸泪弹（吐根酊、胎儿博士、史诗胎儿博士），被自己炸到就回血，wiki 称这一组合「破坏平衡」。
@@ -253,6 +278,8 @@ The Family Man 还有一层价值：完成它是开放 #11 Glass Cannon 的条�
 - 别拿嗝屁猫（Dead Cat）：拿起时会扣到只剩 1 个红心容器。
 
 ### #34 Ultra Hard
+
+**卡点**：能变精英的全是精英、Boss 战尽量成双、4 个诅咒全程在，而且不掉任何心。
 
 规则：迷宫、致盲、迷失、混乱 4 个诅咒全程都在；能变精英（champion）的敌人全部是精英；Boss 战尽量变成双 Boss；任何心都不会掉落。
 
