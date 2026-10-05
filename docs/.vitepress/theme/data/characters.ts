@@ -43,7 +43,7 @@ export const characters: Character[] = [
   { id: 'jacob', name: '雅各和以扫', en: 'Jacob & Esau', unlock: '用任意角色击败母亲' },
 ]
 
-export const taintedUnlock = '在「家」用红钥匙、破碎的钥匙或该隐之魂打开左侧墙上的衣柜'
+export const taintedUnlock = '在「家」用红钥匙、红钥匙碎片或该隐的魂石打开左侧墙上的衣柜'
 
 export interface Mark {
   id: string

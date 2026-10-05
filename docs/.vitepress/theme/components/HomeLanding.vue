@@ -32,7 +32,7 @@ const topics: { icon: IconName; title: string; desc: string; link: string; tag?:
 const faqs = [
   {
     q: '里角色怎么解锁？',
-    a: '到达「家」这一层，用红钥匙、破碎的钥匙或该隐之魂打开左侧墙上的衣柜。第一次到「家」时，打开妈妈卧室里的箱子必定能拿到红钥匙。',
+    a: '到达「家」这一层，用红钥匙、红钥匙碎片或该隐的魂石打开左侧墙上的衣柜。第一次到「家」时，打开妈妈卧室里的箱子必定能拿到红钥匙。',
     link: '/strategy/tainted',
   },
   {

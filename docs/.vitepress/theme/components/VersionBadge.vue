@@ -5,7 +5,7 @@ defineProps<{ version?: string; checked?: string; draft?: boolean }>()
 
 <template>
   <div class="badge-row">
-    <span class="badge version">适用版本 · {{ version ?? 'Repentance+' }}</span>
+    <span class="badge version">适用版本 · {{ version ?? '忏悔 / 忏悔+' }}</span>
     <span v-if="checked" class="badge">校对于 {{ checked }}</span>
     <span v-if="draft" class="badge draft">草稿 · 待校对</span>
   </div>

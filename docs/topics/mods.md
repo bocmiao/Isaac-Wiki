@@ -39,7 +39,7 @@ PC 的 Steam 版直接用 Steam 创意工坊：
 
 | 模组 | 作用 | 备注 |
 | --- | --- | --- |
-| External Item Descriptions（EID） | 在画面上直接显示道具、饰品、卡牌、符文、药丸的说明 | 支持中文；按 <KeyCap>F2</KeyCap> 显示或隐藏；适用胎衣+、忏悔和 Repentance+ |
+| External Item Descriptions（EID） | 在画面上直接显示道具、饰品、卡牌、符文、胶囊的说明 | 支持中文；按 <KeyCap>F2</KeyCap> 显示或隐藏；适用胎衣+、忏悔和 Repentance+ |
 | Mod Config Menu Impure | 给其他模组提供一个游戏内设置菜单 | EID 推荐搭配它，用来在游戏里改设置；对局中按 <KeyCap>L</KeyCap> 打开，主菜单里打不开 |
 
 想看中文，就在 EID 的设置里把 Language（语言）改成中文。装了 Mod Config Menu Impure 的话，可以直接在游戏里改。

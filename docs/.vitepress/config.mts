@@ -48,7 +48,7 @@ const guideSidebar = [
 export default defineConfig({
   lang: 'zh-CN',
   title: '以撒路书',
-  description: '从第一局到白金神的中文以撒学习路线，对齐 Repentance+ 版本',
+  description: '从第一局到白金神的中文以撒学习路线，对齐忏悔 / 忏悔+ 版本',
   cleanUrls: true,
   lastUpdated: true,
   head: [
@@ -88,6 +88,7 @@ export default defineConfig({
           items: [
             { text: '全部攻略', link: '/strategy/' },
             ...strategyCategories.map((c) => ({ text: c.name, link: `/strategy/${c.id}` })),
+            { text: '中英译名对照', link: '/strategy/glossary' },
           ],
         },
       ],

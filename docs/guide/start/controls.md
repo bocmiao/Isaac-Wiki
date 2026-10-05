@@ -16,7 +16,7 @@ title: 基础操作
 | 射击 | <KeyCap>↑</KeyCap><KeyCap>↓</KeyCap><KeyCap>←</KeyCap><KeyCap>→</KeyCap> |
 | 放炸弹 | <KeyCap>E</KeyCap> |
 | 使用主动道具 | <KeyCap>Space</KeyCap> |
-| 使用卡牌 / 药丸 | <KeyCap>Q</KeyCap> |
+| 使用卡牌 / 胶囊 | <KeyCap>Q</KeyCap> |
 | 查看地图 | 按住 <KeyCap>Tab</KeyCap> |
 | 快速重开 | 按住 <KeyCap>R</KeyCap> |
 | 暂停 | <KeyCap>Esc</KeyCap> |
@@ -41,5 +41,5 @@ title: 基础操作
 
 看完按键，接着读[版本与 DLC 怎么买](./versions)。
 
-<!-- 待核实：手柄完整默认键位（移动、射击、炸弹、主动道具、卡牌/药丸、地图、暂停、重开）没有找到可靠来源。英文 wiki 的 Controls 页面只是跳转到 Options，没有键位表；网上找到的键位表（如 rutab.net）没有出处，未采用；G2A 的键位指南页面打不开（503）。已核实的只有：丢弃 = 右扳机（英文 wiki Marked 页）、按住丢弃约 3 秒丢饰品（Trinkets 页）、表情轮盘 = 按下右摇杆（官方公告 REPENTANCE+ Is Here）。另有线索：英文 wiki HUD 页写旧版 PS4 上看大地图是触摸板或 L2，不一定适用于 2026 年的主机版。 -->
+<!-- 待核实：手柄完整默认键位（移动、射击、炸弹、主动道具、卡牌/胶囊、地图、暂停、重开）没有找到可靠来源。英文 wiki 的 Controls 页面只是跳转到 Options，没有键位表；网上找到的键位表（如 rutab.net）没有出处，未采用；G2A 的键位指南页面打不开（503）。已核实的只有：丢弃 = 右扳机（英文 wiki Marked 页）、按住丢弃约 3 秒丢饰品（Trinkets 页）、表情轮盘 = 按下右摇杆（官方公告 REPENTANCE+ Is Here）。另有线索：英文 wiki HUD 页写旧版 PS4 上看大地图是触摸板或 L2，不一定适用于 2026 年的主机版。 -->
 <!-- 待核实：Options、Controls、Change Controller 在游戏内的中文名称（Repentance+ 没有中文界面）。参考：英文 wiki Options 页（https://bindingofisaacrebirth.wiki.gg/wiki/Options）、Marked 页、Trinkets 页，Steam 商店本体页写有 "Integrated controller support for popular control pads"。 -->

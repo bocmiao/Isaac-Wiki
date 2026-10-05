@@ -14,3 +14,5 @@ aside: false
 ::: info 道具图鉴不在这里
 单个道具的效果和数值请直接查 [wiki.gg 中文站](https://bindingofisaacrebirth.wiki.gg/zh/)或 [IsaacGuru](https://isaacguru.com/)。攻略库只讲怎么用、怎么选。
 :::
+
+名字看不懂？查[中英译名对照](/strategy/glossary)。

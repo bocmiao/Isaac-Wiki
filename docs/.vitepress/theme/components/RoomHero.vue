@@ -56,7 +56,7 @@ const nextTip = () => (tipIndex.value = (tipIndex.value + 1) % tips.length)
         </div>
 
         <div class="center">
-          <p class="version">适用版本 Repentance+ · 2026 年 10 月</p>
+          <p class="version">适用版本 忏悔 / 忏悔+ · 2026 年 10 月</p>
           <h1 class="game-title">以撒路书</h1>
           <p class="tagline">从第一局到白金神的中文以撒学习路线</p>
 
