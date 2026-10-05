@@ -19,12 +19,11 @@ const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const wikiUrl = (zh: string) => `https://bindingofisaacrebirth.wiki.gg/zh/index.php?search=${encodeURIComponent(zh)}&go=Go`
 const guruUrl = ([, kind, id]: Entry) => `https://isaacguru.com/wiki/isaac/${kind}${id}`
 
-function link(text: string, e: Entry) {
-  return (
-    `<a class="item-ref" href="${wikiUrl(e[0])}" target="_blank" rel="noreferrer" title="在 wiki.gg 中文站查看${esc(e[0])}">${esc(text)}</a>` +
-    `<a class="item-guru" href="${guruUrl(e)}" target="_blank" rel="noreferrer" title="在 IsaacGuru 查看（英文）" aria-label="${esc(e[0])}：IsaacGuru">IG</a>`
-  )
-}
+const nameLink = (text: string, e: Entry) =>
+  `<a class="item-ref" href="${wikiUrl(e[0])}" target="_blank" rel="noreferrer" title="在 wiki.gg 中文站查看${esc(e[0])}">${esc(text)}</a>`
+// IsaacGuru 小标放在括号后面，避免和名字连读成「痛悔短祷IG」
+const guruMark = (e: Entry) =>
+  `<a class="item-guru" href="${guruUrl(e)}" target="_blank" rel="noreferrer" title="在 IsaacGuru 查看（英文）" aria-label="${esc(e[0])}：IsaacGuru">IG</a>`
 
 export function itemLinks(md: MarkdownIt) {
   md.core.ruler.push('item_links', (state) => {
@@ -55,10 +54,10 @@ export function itemLinks(md: MarkdownIt) {
           // 中文名在括号前：只链中文名本身（前面可能连着别的字）
           if (before.endsWith(e[0])) {
             const pre = before.slice(0, before.length - e[0].length)
-            html += esc(t.content.slice(last, start)) + esc(pre) + link(e[0], e) + esc(`（${m[2]}）`)
+            html += esc(t.content.slice(last, start)) + esc(pre) + nameLink(e[0], e) + esc(`（${m[2]}）`) + guruMark(e)
           } else if (before === '') {
             // 中文名在前一个 token 里（例如加粗了），链英文名
-            html += esc(t.content.slice(last, start)) + '（' + link(m[2], e) + '）'
+            html += esc(t.content.slice(last, start)) + '（' + nameLink(m[2], e) + '）' + guruMark(e)
           } else continue
           last = start + m[0].length
           seen.add(key)

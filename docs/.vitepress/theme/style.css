@@ -498,17 +498,17 @@ html {
 }
 
 /* ---------- 道具外链：名字链 wiki.gg 中文站，后面的 IG 链 IsaacGuru ---------- */
-.vp-doc a.item-ref {
+.vp-doc a.item-ref.item-ref {
   color: var(--ib-ink);
   font-weight: 600;
   text-decoration: underline dotted var(--ib-blood);
   text-underline-offset: 3px;
   text-decoration-thickness: 2px;
 }
-.vp-doc a.item-ref:hover {
+.vp-doc a.item-ref.item-ref:hover {
   color: var(--ib-blood);
 }
-.vp-doc a.item-guru {
+.vp-doc a.item-guru.item-guru {
   display: inline-block;
   margin: 0 1px 0 2px;
   padding: 0 3px;
@@ -522,7 +522,7 @@ html {
   color: var(--ib-ink-3);
   text-decoration: none;
 }
-.vp-doc a.item-guru:hover {
+.vp-doc a.item-guru.item-guru:hover {
   color: var(--ib-on-dark, #fff);
   background: var(--ib-blood);
   border-color: var(--ib-blood);
@@ -580,4 +580,112 @@ html {
   border: 1px solid var(--ib-ink-3);
   border-radius: 3px;
   color: var(--ib-ink-3);
+}
+
+/* ---------- 版心加宽：随屏幕宽度分档放宽，大屏不再两边大片留白 ---------- */
+:root {
+  --vp-layout-max-width: 1680px;
+}
+@media (min-width: 960px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: min(100%, 760px) !important;
+  }
+}
+/* 可用宽度 = 屏宽 − 侧栏 272 − 左右留白 64 − 目录 256 − 正文内边距 64，超出会盖住左侧栏 */
+@media (min-width: 1440px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: 780px !important;
+  }
+}
+@media (min-width: 1600px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: 900px !important;
+  }
+}
+@media (min-width: 1800px) {
+  .VPDoc .content-container,
+  .VPDoc.has-aside .content-container {
+    max-width: 980px !important;
+  }
+  .VPDoc .aside {
+    max-width: 280px;
+  }
+  .VPDoc .aside-container {
+    width: 248px;
+  }
+}
+
+/* ---------- 表格：表头不换行；道具名和英文括注尽量不拆开 ---------- */
+.vp-doc th {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.vp-doc td {
+  vertical-align: top;
+}
+.vp-doc table code {
+  white-space: nowrap;
+}
+/* 很窄的数字列（品质、次数、概率）不被压到一字一行 */
+.vp-doc td {
+  min-width: 3em;
+}
+
+/* ---------- 手机：三列以上的表格一行变一张卡片 ---------- */
+@media (max-width: 640px) {
+  .vp-doc table.stack {
+    display: block;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+  }
+  .vp-doc table.stack thead {
+    display: none;
+  }
+  .vp-doc table.stack tbody {
+    display: grid;
+    gap: 10px;
+  }
+  .vp-doc table.stack tr {
+    display: block;
+    border: 2px solid var(--ib-outline);
+    border-radius: 8px;
+    background: var(--ib-paper);
+    overflow: hidden;
+  }
+  .vp-doc table.stack td {
+    display: grid;
+    grid-template-columns: 5.5em 1fr;
+    gap: 8px;
+    min-width: 0;
+    padding: 6px 12px;
+    border-top: 1px dashed var(--ib-line);
+  }
+  .vp-doc table.stack td:first-child {
+    border-top: 0;
+    background: var(--ib-wall);
+    color: var(--ib-on-dark);
+    font-weight: 700;
+    display: block;
+  }
+  .vp-doc table.stack td:first-child a.item-guru {
+    color: var(--ib-on-dark);
+    border-color: currentColor;
+  }
+  .vp-doc table.stack td:first-child::before {
+    display: none;
+  }
+  .vp-doc table.stack td:first-child a {
+    color: var(--ib-on-dark);
+  }
+  .vp-doc table.stack td::before {
+    content: attr(data-label);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ib-ink-3);
+    padding-top: 2px;
+  }
 }
