@@ -7,7 +7,15 @@ description: 原版控制台命令用途、语法、debug 1至14、楼层与34�
 
 <VersionBadge checked="2026-10" />
 
-尚未开启？先看[开启与关闭](/topics/debug-console)。下表覆盖公开文档列出的原版命令、未列出命令及旧版命令，不含所有模组扩展。尖括号里的参数说明应替换成实际值，**不要原样输入尖括号**。示例以忏悔 / 忏悔+ 为主；额外版本限制写在对应行。
+::: tip 速览
+- **四种编号别混**：`c` 道具、`t` 饰品、`p` 胶囊效果、`k` 卡牌 / 符文（[四种编号](#ids)）
+- **尖括号里的参数换成实际值**，不要原样输入尖括号
+- **`debug 编号` 是开关**，同号再输一次即关闭，编号不能相加（[debug](#debug)）
+- **宏里的 debug 也是切换**，之前开过的可能被宏关掉（[内置 macro](#macros)）
+- 本页查命令和编号；还没开启先看[开启与关闭](/topics/debug-console)，逐条练习见[练习示例与排错](/topics/debug-console-practice)
+:::
+
+下表覆盖公开文档列出的原版命令、未列出命令及旧版命令，不含所有模组扩展；示例以忏悔 / 忏悔+ 为主，额外版本限制写在对应行。
 
 ## 先分清四种编号 {#ids}
 
@@ -67,7 +75,19 @@ description: 原版控制台命令用途、语法、debug 1至14、楼层与34�
 
 ### 诅咒参数 {#curses}
 
-`curse` 使用位掩码：`1` 黑暗、`2` 迷宫（XL）、`4` 迷失、`8` 未知、`16` 诅咒（Cursed，特殊尖刺门）、`32` 迷途（Maze）、`64` 致盲。`curse 65` 表示黑暗与致盲，`curse 0` 表示不设置诅咒。完整枚举见 [LevelCurse](https://wofsauge.github.io/IsaacDocs/rep/enums/LevelCurse.html)。修改标记不应当作已经重新生成 XL 布局；需要重建楼层另看 `reseed` 的作用。
+`curse` 使用位掩码，多个诅咒把数值相加：
+
+| 数值 | 诅咒 |
+| --- | --- |
+| `1` | 黑暗 |
+| `2` | 迷宫（XL） |
+| `4` | 迷失 |
+| `8` | 未知 |
+| `16` | 诅咒（Cursed，特殊尖刺门） |
+| `32` | 迷途（Maze） |
+| `64` | 致盲 |
+
+`curse 65` 表示黑暗与致盲，`curse 0` 表示不设置诅咒。完整枚举见 [LevelCurse](https://wofsauge.github.io/IsaacDocs/rep/enums/LevelCurse.html)。修改标记不应当作已经重新生成 XL 布局；需要重建楼层另看 `reseed` 的作用。
 
 ### 楼层编号 {#stages}
 
@@ -83,7 +103,10 @@ description: 原版控制台命令用途、语法、debug 1至14、楼层与34�
 | `12` | 虚空 | 忏悔主线终局区域之一 |
 | `13` | 家 | 忏悔起；进入家不等于立刻开始祸兽战 |
 
-楼层数字与后缀要配合使用；`7c` 为尸宫 I，`8c` 为尸宫 II。完整底层编号见 [LevelStage](https://wofsauge.github.io/IsaacDocs/rep/enums/LevelStage.html) 与 [StageType](https://wofsauge.github.io/IsaacDocs/rep/enums/StageType.html)。以上是普通模式的关卡编号；贪婪模式按另一套楼层对应关系，不能照搬。无效楼层（例如 14、15）可能崩溃，不靠随机编号找入口。
+- 楼层数字与后缀要配合使用；`7c` 为尸宫 I，`8c` 为尸宫 II。
+- 以上是普通模式的关卡编号；贪婪模式按另一套楼层对应关系，不能照搬。
+- 无效楼层（例如 14、15）可能崩溃，不靠随机编号找入口。
+- 完整底层编号见 [LevelStage](https://wofsauge.github.io/IsaacDocs/rep/enums/LevelStage.html) 与 [StageType](https://wofsauge.github.io/IsaacDocs/rep/enums/StageType.html)。
 
 ### 34 个正式角色的 restart 编号 {#characters}
 

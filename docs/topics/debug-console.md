@@ -7,9 +7,15 @@ description: 忏悔与忏悔+调试控制台开启方法、配置文件路径、
 
 <VersionBadge checked="2026-10" />
 
-调试控制台能发道具、生成敌人、切楼层、换角色，也能检查房间和运行模组代码。适合练 Boss、比较道具组合和排查模组。它会直接改变游戏状态；练习前先结束想保留的正常局，重要存档先备份。
+::: tip 速览
+- **忏悔 / 忏悔+ 在 `options.ini` 设 `EnableDebugConsole=1`**，不用装模组（[版本](#versions)）
+- **先进入一局，美式键盘按 Esc 下方的反引号键打开**，输入法先切英文（[基本操作](#controls)）
+- **前置未满足时开控制台会阻止解锁**，先在正常局击败妈妈（[成就](#achievements)）
+- **关闭要改回 `0` 并重启**，收起窗口或 `clear` 都不算（[关闭](#disable)）
+- 本系列分三页，本页讲开启与关闭；命令和编号见[命令大全与编号](/topics/debug-console-commands)，练习清单见[练习示例与排错](/topics/debug-console-practice)，工坊模组见[配置与实用模组](/topics/mods)
+:::
 
-本系列分三页：[开启与关闭](/topics/debug-console)、[命令大全与编号](/topics/debug-console-commands)、[练习示例与排错](/topics/debug-console-practice)。这里说的是 PC 游戏内的 Debug Console；Switch、PlayStation、Xbox 等见[主机专题](/topics/console)。
+这里说的是 PC 游戏内的 Debug Console（Switch、PlayStation、Xbox 等见[主机专题](/topics/console)），能发道具、生成敌人、切楼层、换角色，也能检查房间和运行模组代码，适合练 Boss、比较道具组合和排查模组。它会直接改变游戏状态，练习前先结束想保留的正常局，重要存档先备份。
 
 ## 哪个版本能用 {#versions}
 

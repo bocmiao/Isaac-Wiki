@@ -6,7 +6,14 @@ title: 主机专题
 
 <VersionBadge checked="2026-10" />
 
-《The Binding of Isaac: Repentance+ Online》2026 年 11 月 19 日登陆 PS5、Xbox Series X|S 和 Switch 2。它是完整版，本体加胎衣、胎衣+、忏悔、Repentance+ 全部 DLC 都在里面，支持最多 4 人在线联机，Switch 2 还有实体版。主机上没有 Steam 创意工坊，PC 上的 EID 这类道具说明模组装不了，认道具要靠游戏自带的功能。有没有简体中文、上不上国区商店，官方暂未公布，发售后补充。
+::: tip 速览
+- **2026 年 11 月 19 日发售**：PS5、Xbox Series X|S、Switch 2，全部 DLC 都在里面（[发售信息](#发售信息)）
+- **支持最多 4 人在线联机**，Switch 2 还有实体版（[发售信息](#发售信息)）
+- **有没有简体中文、上不上国区，官方暂未公布**，买前先看商店页（[中文和国区](#中文和国区)）
+- **主机装不了 EID**，认道具靠游戏自带的道具说明等功能（[怎么认道具](#没有模组-怎么认道具)）
+:::
+
+主机上的版本叫《The Binding of Isaac: Repentance+ Online》，是本体加全部 DLC 的完整版。
 
 ## 发售信息
 

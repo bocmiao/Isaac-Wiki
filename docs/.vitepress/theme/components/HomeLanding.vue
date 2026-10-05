@@ -12,7 +12,7 @@ import StreakTitle from './StreakTitle.vue'
 const personas: { icon: IconName; name: string; state: string; go: string; link: string }[] = [
   { icon: 'face', name: '刚入坑', state: '还没打败过妈妈', go: '从第 1 层开始', link: '/guide/start/' },
   { icon: 'chest', name: '通关过几次', state: '想解锁更多角色和结局', go: '去第 3 层：解锁主线', link: '/guide/unlocks/' },
-  { icon: 'trophy', name: '冲白金神', state: '里角色、挑战、全成就', go: '打开解锁清单', link: '/tools/tracker' },
+  { icon: 'trophy', name: '冲白金神', state: '里角色、挑战、全成就', go: '打开全成就索引', link: '/achievements/' },
   { icon: 'gamepad', name: '主机 / 联机', state: '11 月 19 日主机版上线', go: '看联机专题', link: '/topics/coop' },
 ]
 
@@ -38,7 +38,7 @@ const faqs = [
   {
     q: '游魂（The Lost）怎么解锁？',
     a: '携带饰品「寻人启事」在献祭房死亡。寻人启事要先用以撒击败羔羊才会解锁。',
-    link: '/strategy/unlocks',
+    link: '/guide/unlocks/order#hidden-lost',
   },
   {
     q: '忏悔+（Repentance+）有中文吗？',
@@ -58,7 +58,7 @@ const faqs = [
   {
     q: '伊甸和雅各与以扫怎么解锁？',
     a: '伊甸：通关第 4 章（子宫）。雅各和以扫：用任意角色击败母亲。',
-    link: '/strategy/unlocks',
+    link: '/guide/unlocks/order',
   },
 ]
 
@@ -113,7 +113,7 @@ const previewDone = [
       <header class="section-head row">
         <div>
           <StreakTitle title="攻略库" />
-          <p>结局路线、Boss、角色、机制、挑战……10 个栏目全部上线。</p>
+          <p>想查具体问题来这里：规则、角色、Boss 与结局、特殊模式，四类十篇。</p>
         </div>
         <a class="ib-btn paper" :href="withBase('/strategy/')">全部攻略 →</a>
       </header>

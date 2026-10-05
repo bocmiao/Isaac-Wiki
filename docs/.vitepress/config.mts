@@ -1,10 +1,11 @@
 import { defineConfig } from 'vitepress'
-import { strategyCategories } from './theme/data/strategy'
+import { itemLinks } from './item-links'
 
-// 学习路线的五个阶段，侧栏和首页共用同一套命名
+// 新手路线只放自己的文章；第 4、5 层的正文在攻略库，这里只留总览页，避免点进去侧栏整个跳走
 const guideSidebar = [
+  { text: '新手路线总览', link: '/guide/' },
   {
-    text: '第 1 层 · 地下室：开局准备',
+    text: '第 1 层 · 开局准备',
     collapsed: false,
     items: [
       { text: '阶段总览', link: '/guide/start/' },
@@ -14,7 +15,7 @@ const guideSidebar = [
     ],
   },
   {
-    text: '第 2 层 · 洞穴：第一次通关',
+    text: '第 2 层 · 第一次通关',
     collapsed: false,
     items: [
       { text: '阶段总览', link: '/guide/first-win/' },
@@ -25,54 +26,112 @@ const guideSidebar = [
     ],
   },
   {
-    text: '第 3 层 · 深处：解锁主线',
+    text: '第 3 层 · 解锁主线',
     collapsed: false,
     items: [
       { text: '阶段总览', link: '/guide/unlocks/' },
-      { text: '角色解锁顺序', link: '/guide/unlocks/order' },
-      { text: '结局一览与前置条件', link: '/guide/unlocks/endings' },
+      { text: '角色解锁步骤', link: '/guide/unlocks/order' },
+      { text: '结局与路线', link: '/guide/unlocks/endings' },
     ],
   },
   {
-    text: '第 4 层 · 子宫：进阶思路',
+    text: '第 4–5 层 · 进阶与白金神',
     collapsed: false,
     items: [
-      { text: '阶段总览', link: '/guide/advanced/' },
+      { text: '第 4 层 · 进阶思路', link: '/guide/advanced/' },
+      { text: '第 5 层 · 里角色与白金神', link: '/guide/platinum/' },
+    ],
+  },
+]
+
+// 攻略库按四类分组，和攻略库首页一致
+const strategySidebar = [
+  { text: '攻略库首页 · 按问题找', link: '/strategy/' },
+  {
+    text: '规则与选择',
+    items: [
       { text: '机制详解', link: '/strategy/mechanics' },
       { text: '道具取舍与流派', link: '/strategy/items' },
-      { text: '角色速查与练习路线', link: '/strategy/character-roster' },
-      { text: '表角色攻略', link: '/strategy/characters' },
-      { text: 'Boss 打法（一）', link: '/strategy/bosses' },
-      { text: 'Boss 打法（二）', link: '/strategy/bosses-2' },
     ],
   },
   {
-    text: '第 5 层 · 暗室：里角色与白金神',
-    collapsed: false,
+    text: '角色',
     items: [
-      { text: '阶段总览', link: '/guide/platinum/' },
-      { text: '全部成就与详细解锁', link: '/guide/achievements/' },
-      { text: '特殊成就详细教程', link: '/guide/achievements/special' },
+      { text: '角色速查与开局强化', link: '/strategy/character-roster' },
+      { text: '表角色攻略', link: '/strategy/characters' },
       { text: '里角色攻略', link: '/strategy/tainted' },
+    ],
+  },
+  {
+    text: 'Boss 与结局',
+    items: [
+      { text: 'Boss（一）：主线终局', link: '/strategy/bosses' },
+      { text: 'Boss（二）：死寂到祸兽', link: '/strategy/bosses-2' },
+      { text: '结局与路线 ↗', link: '/guide/unlocks/endings' },
+    ],
+  },
+  {
+    text: '特殊模式',
+    items: [
       { text: '挑战模式', link: '/strategy/challenges' },
       { text: '贪婪模式', link: '/strategy/greed' },
       { text: '种子', link: '/strategy/seeds' },
     ],
   },
+  {
+    text: '查询',
+    items: [
+      { text: '中英译名对照', link: '/strategy/glossary' },
+      { text: '全成就索引 ↗', link: '/achievements/' },
+    ],
+  },
 ]
 
-guideSidebar.push({
-  text: '全成就 · 编号教程',
-  collapsed: true,
-  items: [
-    { text: '搜索全部 641 项', link: '/guide/achievements/' },
-    { text: '特殊成就与查漏', link: '/guide/achievements/special' },
-    ...[1, 101, 201, 301, 401, 501, 601].map((start) => {
+const achievementSidebar = [
+  {
+    text: '全成就',
+    items: [
+      { text: '搜索全部 641 项', link: '/achievements/' },
+      { text: '推荐推进顺序', link: '/achievements/#roadmap' },
+      { text: '特殊成就教程', link: '/achievements/special' },
+    ],
+  },
+  {
+    text: '按编号查看',
+    collapsed: true,
+    items: [1, 101, 201, 301, 401, 501, 601].map((start) => {
       const end = Math.min(start + 99, 641)
-      return { text: `#${start}–${end} 详细解锁`, link: `/guide/achievements/ids-${String(start).padStart(3, '0')}-${end}` }
+      return { text: `#${start}–${end}`, link: `/achievements/ids-${String(start).padStart(3, '0')}-${end}` }
     }),
-  ],
-})
+  },
+  {
+    text: '配套',
+    items: [
+      { text: '角色解锁清单', link: '/tools/tracker' },
+      { text: '道具速查', link: '/tools/items' },
+      { text: '角色标记与奖励', link: '/strategy/character-roster#marks' },
+    ],
+  },
+]
+
+const topicsSidebar = [
+  {
+    text: '平台与联机',
+    items: [
+      { text: '联机专题', link: '/topics/coop' },
+      { text: '主机专题', link: '/topics/console' },
+    ],
+  },
+  {
+    text: '模组与控制台',
+    items: [
+      { text: '配置与实用模组', link: '/topics/mods' },
+      { text: '调试控制台：开启与关闭', link: '/topics/debug-console' },
+      { text: '控制台练习用法', link: '/topics/debug-console-practice' },
+      { text: '控制台常用指令', link: '/topics/debug-console-commands' },
+    ],
+  },
+]
 
 // GitHub Pages 部署在 /Isaac-Wiki/ 子路径下，由 CI 通过 BASE 环境变量传入；本地开发默认根路径
 const base = process.env.BASE ?? '/'
@@ -89,6 +148,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#b3261e' }],
   ],
   markdown: {
+    config: (md) => {
+      md.use(itemLinks)
+    },
     container: {
       tipLabel: '提示',
       warningLabel: '注意',
@@ -100,52 +162,44 @@ export default defineConfig({
   themeConfig: {
     logo: '/favicon.svg',
     nav: [
-      { text: '新手路线', link: '/guide/', activeMatch: '/guide/' },
-      { text: '攻略库', link: '/strategy/', activeMatch: '/strategy/' },
+      { text: '新手路线', link: '/guide/', activeMatch: '^/guide/' },
+      { text: '攻略库', link: '/strategy/', activeMatch: '^/strategy/' },
+      { text: '全成就', link: '/achievements/', activeMatch: '^/achievements/' },
       {
         text: '专题',
+        activeMatch: '^/topics/',
         items: [
           { text: '联机专题', link: '/topics/coop' },
           { text: '主机专题', link: '/topics/console' },
           { text: '配置与实用模组', link: '/topics/mods' },
-          { text: '调试控制台：开启与关闭', link: '/topics/debug-console' },
+          { text: '调试控制台', link: '/topics/debug-console' },
         ],
       },
-      { text: '全成就', link: '/guide/achievements/', activeMatch: '/guide/achievements/' },
-      { text: '解锁清单', link: '/tools/tracker' },
+      {
+        text: '工具',
+        activeMatch: '^/tools/',
+        items: [
+          { text: '工具总览', link: '/tools/' },
+          { text: '角色解锁清单', link: '/tools/tracker' },
+          { text: '全成就打勾', link: '/achievements/#catalog' },
+          { text: '道具速查', link: '/tools/items' },
+        ],
+      },
       { text: '关于', link: '/about' },
     ],
     sidebar: {
       '/guide/': guideSidebar,
-      '/strategy/': [
+      '/strategy/': strategySidebar,
+      '/achievements/': achievementSidebar,
+      '/topics/': topicsSidebar,
+      '/tools/': [
         {
-          text: '攻略库',
+          text: '工具',
           items: [
-            { text: '全部攻略', link: '/strategy/' },
-            { text: '全部成就与详细解锁', link: '/guide/achievements/' },
-            { text: '角色速查与练习路线', link: '/strategy/character-roster' },
-            ...strategyCategories.flatMap((c) =>
-              c.id === 'bosses'
-                ? [
-                    { text: 'Boss 打法（一）：主线终局', link: '/strategy/bosses' },
-                    { text: 'Boss 打法（二）：死寂到祸兽', link: '/strategy/bosses-2' },
-                  ]
-                : [{ text: c.name, link: `/strategy/${c.id}` }],
-            ),
-            { text: '中英译名对照', link: '/strategy/glossary' },
-          ],
-        },
-      ],
-      '/topics/': [
-        {
-          text: '专题',
-          items: [
-            { text: '联机专题', link: '/topics/coop' },
-            { text: '主机专题', link: '/topics/console' },
-            { text: '配置与实用模组', link: '/topics/mods' },
-            { text: '调试控制台：开启与关闭', link: '/topics/debug-console' },
-            { text: '调试控制台：命令大全', link: '/topics/debug-console-commands' },
-            { text: '调试控制台：练习与排错', link: '/topics/debug-console-practice' },
+            { text: '工具总览', link: '/tools/' },
+            { text: '角色解锁清单', link: '/tools/tracker' },
+            { text: '全成就打勾', link: '/achievements/#catalog' },
+            { text: '道具速查', link: '/tools/items' },
           ],
         },
       ],

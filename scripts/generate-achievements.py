@@ -75,27 +75,27 @@ SPECIAL={
 273:('挑战开放','解锁犹大和它活着（忏悔 / 忏悔+）。','击败撒但解锁犹大；妈妈的心脏累计 11 次开放它活着，再去挑战菜单找 #29。','/strategy/challenges'),
 277:('挑战开放','击败超级撒但，并解锁底片（忏悔 / 忏悔+）。','逐项完成两个前置，挑战 #31 才能选；完成该挑战才会给拉撒路开局贫血。','/strategy/challenges'),
 280:('挑战开放','击败超级撒但，并解锁底片（忏悔 / 忏悔+）。','先完成两个前置再尝试 #34 Ultra Hard；开放挑战不等于拿到参孙强化奖励。','/strategy/challenges'),
-321:('胜利圈 / 连胜','完成 1 个胜利圈：在胜利圈里击败羔羊。','先正常局击败羔羊，接受 Victory Lap，再通关至羔羊；最初进入胜利圈前的正常局不算一圈。','/guide/achievements/special#victory'),
-322:('胜利圈 / 连胜','获得连续 3 局胜利。','用熟悉角色进行可计数的正常局，完成胜利终点；途中死亡或重开会破坏连胜，不用胜利圈代替独立三局。','/guide/achievements/special#streak'),
-323:('胜利圈 / 连胜','连续 5 局获胜，每局用不同角色；忏悔非加号有 3 局及计数异常说明。','以当前公开表的五局条件规划，用五个不同表角色，避免把同一角色表 / 里形态当独立安全计数。忏悔与忏悔+不能直接共用旧版三局攻略。','/guide/achievements/special#streak'),
-324:('收集 / 全成就','收集怪物图鉴全部条目。','正常探索各楼层、特殊房与模式，补没有遇到的敌人和 Boss。公开表记录旧 v1.9.0 计数 bug，不将 bug 当作稳定捷径。','/guide/achievements/special#collection'),
-325:('每日 / 联机','参与 31 次每日挑战，不要求连续日期。','每日关闭模组与控制台后进入实际挑战；开局死亡也计参与，查看排行榜不算。无需为此追求全胜，但同一天重练不能当作多天官方参与。','/guide/achievements/special#daily'),
-326:('限时 / Boss','20 分钟内击败羔羊。','准备已解锁的底片，选择清房快的角色，尽量少回头；妈妈处拿底片走阴间 → 暗室，计时是整局时间，不是暗室用时。','/guide/achievements/special#lamb'),
-327:('探索 / 单局','整局不拾取心、硬币、炸弹，最后击败羔羊。','钥匙可以拿；避开三类地上资源，不带自动捡这些资源的乞丐跟班或 Lil Portal，也避开 Bumbino 等代捡情况。走底片路线，胜利圈不作为解锁途径。','/guide/achievements/special#lamb'),
-328:('胜利圈 / 连胜','PC 连续重开 7 次；部分主机版改为 -10 连败。','PC 在对局中连续重开七次，不把退出菜单当重开；Switch / PS4 按公开表的平台条件核对，不照搬 PC。','/guide/achievements/special#streak'),
-329:('探索 / 单局','地下室之后的一个完整章节，两层从头到尾总血量仅半颗心；可用游魂。','最稳按游魂机制完成一个后续章节，或普通角色控总血量到半颗并保持两层；只有红心半颗但另有魂心不满足。','/guide/achievements/special#no-hit'),
+321:('胜利圈 / 连胜','完成 1 个胜利圈：在胜利圈里击败羔羊。','先正常局击败羔羊，接受 Victory Lap，再通关至羔羊；最初进入胜利圈前的正常局不算一圈。','/achievements/special#victory'),
+322:('胜利圈 / 连胜','获得连续 3 局胜利。','用熟悉角色进行可计数的正常局，完成胜利终点；途中死亡或重开会破坏连胜，不用胜利圈代替独立三局。','/achievements/special#streak'),
+323:('胜利圈 / 连胜','连续 5 局获胜，每局用不同角色；忏悔非加号有 3 局及计数异常说明。','以当前公开表的五局条件规划，用五个不同表角色，避免把同一角色表 / 里形态当独立安全计数。忏悔与忏悔+不能直接共用旧版三局攻略。','/achievements/special#streak'),
+324:('收集 / 全成就','收集怪物图鉴全部条目。','正常探索各楼层、特殊房与模式，补没有遇到的敌人和 Boss。公开表记录旧 v1.9.0 计数 bug，不将 bug 当作稳定捷径。','/achievements/special#collection'),
+325:('每日 / 联机','参与 31 次每日挑战，不要求连续日期。','每日关闭模组与控制台后进入实际挑战；开局死亡也计参与，查看排行榜不算。无需为此追求全胜，但同一天重练不能当作多天官方参与。','/achievements/special#daily'),
+326:('限时 / Boss','20 分钟内击败羔羊。','准备已解锁的底片，选择清房快的角色，尽量少回头；妈妈处拿底片走阴间 → 暗室，计时是整局时间，不是暗室用时。','/achievements/special#lamb'),
+327:('探索 / 单局','整局不拾取心、硬币、炸弹，最后击败羔羊。','钥匙可以拿；避开三类地上资源，不带自动捡这些资源的乞丐跟班或 Lil Portal，也避开 Bumbino 等代捡情况。走底片路线，胜利圈不作为解锁途径。','/achievements/special#lamb'),
+328:('胜利圈 / 连胜','PC 连续重开 7 次；部分主机版改为 -10 连败。','PC 在对局中连续重开七次，不把退出菜单当重开；Switch / PS4 按公开表的平台条件核对，不照搬 PC。','/achievements/special#streak'),
+329:('探索 / 单局','地下室之后的一个完整章节，两层从头到尾总血量仅半颗心；可用游魂。','最稳按游魂机制完成一个后续章节，或普通角色控总血量到半颗并保持两层；只有红心半颗但另有魂心不满足。','/achievements/special#no-hit'),
 330:('探索 / 单局','同局获得 50 件道具。','多层积累道具，利用能增加底座或道具的构筑；同一被动 / 跟班重复份数计入，例如多个早餐。不要按“50种不同道具”误算。','/strategy/items'),
-336:('每日 / 联机','每日挑战连续 5 次获胜；不要求连续日历天。','只参加把握较高的每日，完整碰终点奖杯。可以隔日参加，已参加的局死亡会断连胜；练习模式不计正式胜利。','/guide/achievements/special#daily'),
-337:('胜利圈 / 连胜','完成 3 个胜利圈，均以击败羔羊结束。','正常局击败羔羊后接受胜利圈，再连续完成三圈；后期圈会变为游魂，规划保命。三圈后按提示继续以触发 RERUN 条件。','/guide/achievements/special#victory'),
+336:('每日 / 联机','每日挑战连续 5 次获胜；不要求连续日历天。','只参加把握较高的每日，完整碰终点奖杯。可以隔日参加，已参加的局死亡会断连胜；练习模式不计正式胜利。','/achievements/special#daily'),
+337:('胜利圈 / 连胜','完成 3 个胜利圈，均以击败羔羊结束。','正常局击败羔羊后接受胜利圈，再连续完成三圈；后期圈会变为游魂，规划保命。三圈后按提示继续以触发 RERUN 条件。','/achievements/special#victory'),
 339:('收集 / 全成就','忏悔起：解锁任意 402 项成就，收集页记录至少 510 件道具。','先用角色标记、挑战与累计目标补成就数，再拾取未收集道具；旧胎衣+全道具 / 图鉴条件不能直接套用。','/guide/platinum/#remaining'),
-354:('每日 / 联机','完成 7 次每日挑战，需触碰终点奖杯。','这项按胜利计，不是参与七次；逐日完成正式 Daily Run，不用练习模式或普通种子复现代替。','/guide/achievements/special#daily'),
+354:('每日 / 联机','完成 7 次每日挑战，需触碰终点奖杯。','这项按胜利计，不是参与七次；逐日完成正式 Daily Run，不用练习模式或普通种子复现代替。','/achievements/special#daily'),
 355:('探索 / 单局','同局拾取 5 个跟班。','选择跟班资源较多的路线，记录实际拾取的跟班；公开资料中的临时效果计数 bug 不作为计划依据。','/strategy/items'),
 358:('探索 / 累计','使用小电池充能 20 次。','持有未满充能主动再拾取小电池，多局继续积累；满充时无法正常拾取不能当充能次数。','/guide/first-win/pickups'),
 359:('探索 / 累计','睡一次床。','找到卧室、按床的互动规则睡眠；只是看见床不够。','/guide/first-win/rooms'),
-360:('胜利圈 / 连胜','完成 2 个胜利圈，均击败羔羊。','首次正常局不算一圈，接受并完成两次 Victory Lap；顺路继续第三圈可推进 RERUN。','/guide/achievements/special#victory'),
+360:('胜利圈 / 连胜','完成 2 个胜利圈，均击败羔羊。','首次正常局不算一圈，接受并完成两次 Victory Lap；顺路继续第三圈可推进 RERUN。','/achievements/special#victory'),
 361:('探索 / 单局','体型达到初始的 3 倍；按效果倍率通常需要 5–7 次增大。','收集 One Makes You Larger 等真正增大体型的效果，多次使用；不要仅按拿到“大个子外观”判断。','/strategy/items'),
 362:('探索 / 累计','使用卡牌和符文累计 20 次。','实际按消耗品键使用，不是只拾取；在允许解锁的局中逐步积累。','/guide/first-win/pickups'),
-363:('收集 / 全成就','收集页同时记录损坏的怀表与怀表。','先完成普通捐款 999 枚解锁怀表，再实际拾取两件；不要求两件同局持有。','/guide/achievements/special#collection'),
+363:('收集 / 全成就','收集页同时记录损坏的怀表与怀表。','先完成普通捐款 999 枚解锁怀表，再实际拾取两件；不要求两件同局持有。','/achievements/special#collection'),
 364:('探索 / 累计','在商店、恶魔房和 / 或黑市累计购买 50 次。','购买道具或拾取物逐渐累积，三种场所合计；单纯进入房间不算购买。','/strategy/mechanics'),
 366:('探索 / 单局','在暗室使用潘多拉魔盒。','先获得 Pandora’s Box，带到暗室再使用；在阴间或宝箱层开不满足地点要求。','/guide/unlocks/endings'),
 367:('探索 / 单局','同局拾取 2 件带 battery 标签的道具。','按当前道具标签找电池相关道具；地上普通小电池不是两件收藏道具。','https://bindingofisaacrebirth.wiki.gg/wiki/Item_Tags_battery'),
@@ -106,7 +106,7 @@ SPECIAL={
 377:('探索 / 累计','累计获得血块（Blood Clot）10 次。','反复正常局在 Boss 等池取得该道具；不是击杀十个名字相似的敌人。','/strategy/items'),
 378:('探索 / 单局','同局获得 10 个射速上升道具或胶囊。','寻找明确 Tears Up 的道具与胶囊效果，累计十次；射速属性已到上限不等于目标次数够了。','/strategy/items'),
 379:('探索 / 单局','同局进入 6 个商店。','前六层逐层进商店，带钥匙；若商店被贪婪替换或路线改变要继续寻找有效商店，不是同一房进出六次。','/strategy/mechanics'),
-381:('收集 / 全成就','收集页记录蓄电池、9伏特与车载电池。','分别实际拾取 The Battery、9 Volt、Car Battery，跨局补齐三件，不要求同时持有。','/guide/achievements/special#collection'),
+381:('收集 / 全成就','收集页记录蓄电池、9伏特与车载电池。','分别实际拾取 The Battery、9 Volt、Car Battery，跨局补齐三件，不要求同时持有。','/achievements/special#collection'),
 382:('探索 / 累计','累计获得橡胶胶水（Rubber Cement）5 次。','先累计击败妈妈的心脏 2 次解锁，再在正常局实际拾取该道具累积。','/strategy/items'),
 384:('探索 / 单局','死于自己造成的爆炸毒泪弹。','最直接是拿吐根酊后，让自己的爆炸造成致命伤；也可用原文列出的爆炸与毒组合。先确认当前局允许解锁。','/strategy/items'),
 385:('探索 / 累计','累计睡 10 次床。','探索卧室并实际完成睡眠，多局累积；床出现但没睡不计。','/guide/first-win/rooms'),
@@ -138,7 +138,7 @@ SPECIAL={
 582:('探索 / 单局','同一间商店消费至少 40 枚硬币。','准备 40+ 钱，在同一商店多次购买，可用补货辅助；不同楼层商店花钱相加不满足。','/strategy/mechanics'),
 583:('探索 / 单局','同局先持有 99 枚硬币，再把它们全部花光。','先把显示的钱攒到 99，再通过购物、机器等消费降到 0；仅累计捡到 99 枚但从未同时持有不够。','/strategy/mechanics'),
 636:('收集 / 全成就','34 个表 / 里角色完成全部困难标记，贪婪格为极贪。','先解锁全部里角色；每行十二格补齐困难状态，包括极贪，才能开放死亡证明。它仍不是 Dead God。','/strategy/character-roster#marks'),
-637:('收集 / 全成就','解锁其余全部成就，并收集全部要求的道具；忏悔+包括新增四项。','先清角色标记与挑战，再补每日 / 特殊条件，最后检查物品收集页；已经解锁但没有实际拾取的道具仍要补。','/guide/achievements/special#collection'),
+637:('收集 / 全成就','解锁其余全部成就，并收集全部要求的道具；忏悔+包括新增四项。','先清角色标记与挑战，再补每日 / 特殊条件，最后检查物品收集页；已经解锁但没有实际拾取的道具仍要补。','/achievements/special#collection'),
 638:('每日 / 联机','参加一次官方在线游戏（仅忏悔+）。','关闭全部模组并重启，使用游戏官方在线入口从头开始参与；不是 Steam 远程同乐或本地双人。','/topics/coop'),
 639:('每日 / 联机','赢得一次官方在线游戏（仅忏悔+）。','从开局加入官方在线局，和队友打到正常胜利终点；中途加入不能按同样规则判断解锁。','/topics/coop'),
 640:('每日 / 联机','赢得一次官方在线每日挑战（仅忏悔+）。','关闭模组与控制台，使用在线每日入口，与队友完整打到每日终点；普通在线局和离线每日不替代它。','/topics/coop'),
@@ -195,7 +195,7 @@ def translate(x):
  if m:
   chapter,extra,num=m.groups();chapter=int(chapter);label={1:'地下室章节',2:'洞穴章节',3:'深牢章节',4:'子宫章节',6:'宝箱层 / 暗室'}[chapter]
   if extra==' without taking damage':
-   return finish('探索 / 无伤',f'完成{label}且不受伤。',['选熟悉的角色，优先魂心、护盾与安全输出；护盾替你挡伤不代表可以随意碰撞。',f'在{label}从进入到结束保持无伤。前四章包含 I / II 两层，不能只完成第二层；自伤与特殊扣血按保守无伤策略避开。','“不掉红心”并不等于不受伤，魂心受伤也应避免；无需整局所有其他章节一起无伤。'],'/guide/achievements/special#no-hit')
+   return finish('探索 / 无伤',f'完成{label}且不受伤。',['选熟悉的角色，优先魂心、护盾与安全输出；护盾替你挡伤不代表可以随意碰撞。',f'在{label}从进入到结束保持无伤。前四章包含 I / II 两层，不能只完成第二层；自伤与特殊扣血按保守无伤策略避开。','“不掉红心”并不等于不受伤，魂心受伤也应避免；无需整局所有其他章节一起无伤。'],'/achievements/special#no-hit')
   return finish('主线 / Boss',f'完成{label}'+(f'累计 {num} 次。'if num else'。'),[f'正常路线推进到{label}，完成章节终点 Boss。','若有累计次数，跨有效局补齐；前四章正常走完 II 层才算章节通关。','替代楼层属于相应章节，但特殊模式的计数不要未经核对当作普通局。'],'/guide/unlocks/endings')
  m=re.fullmatch(r'Destroy (\d+) (Tinted Rocks|rocks|poops|rainbow poops)',c)
  if m:
@@ -235,13 +235,51 @@ for x in source:
  minimum=next(label for end,label in [(178,'重生'),(276,'胎衣'),(403,'胎衣+'),(637,'忏悔'),(641,'忏悔+')]if x['id']<=end)
  r={**x,'conditionZh':zh,'steps':steps,'group':group,'minimum':minimum,'page':f"ids-{((x['id']-1)//100)*100+1:03d}-{min(((x['id']-1)//100+1)*100,641):03d}"}
  records.append(r)
+# 页面只保留每条特有的信息；通用提醒集中写在索引页「使用前先确认」，避免 641 条重复同样的话。
+GENERIC={
+ '准备可解锁的目标存档，并按本条检查指定版本、角色、模式或道具前置。',
+ '完成后回到 Stats → Secrets 检查本编号；若是道具奖励，解锁与物品实际收集是两件事。',
+ '按该挑战的固定角色、装备与终点规则推进；打完目标 Boss 后亲自拾取奖杯。',
+ '普通局用类似装备击败同一 Boss 不算完成挑战；奖励道具开放后还要实际拾取才能记入收集页。',
+ '本条未额外写困难要求时，普通模式也可解锁；为全困难标记规划可直接用困难。极贪奖励必须选择极贪。',
+ '先确认对应路线已开放，选择可解锁的普通局。',
+ '本条没有限定角色；若同场还要拿角色专属奖励，再按其他成就选择角色。',
+ '相关挑战开放和角色奖励可能同时推进；完成后按本编号检查秘密页。',
+ '在可解锁的正常局准备所需资源与目标房间。',
+ '单局目标必须同局完成；标成“累计”的目标可以跨正常局推进。',
+ '此项只开放同名挑战；还要在 Challenges 菜单完成该挑战并拿奖杯，才得到其完成奖励。',
+}
+PAGE_NAMES={'/guide/unlocks/endings':'结局与路线','/guide/unlocks/order':'角色解锁步骤','/guide/first-win/mom':'第一次打妈妈',
+ '/guide/first-win/rooms':'房间类型','/guide/first-win/pickups':'心、钱、炸弹、钥匙','/guide/platinum/':'白金神收尾检查',
+ '/strategy/challenges':'挑战模式','/strategy/items':'道具取舍','/strategy/mechanics':'机制详解','/strategy/character-roster':'角色标记',
+ '/strategy/greed':'贪婪模式','/strategy/bosses':'Boss 打法（一）','/strategy/bosses-2':'Boss 打法（二）','/strategy/characters':'表角色攻略',
+ '/strategy/tainted':'里角色攻略','/achievements/special':'特殊成就教程','/topics/coop':'联机专题'}
+GUIDE_RE=re.compile(r'^路线、机制与操作细节见\[对应攻略\]\(([^)]+)\)。$')
+ACTOR_RE=re.compile(r'^在选人菜单选择(.+?)，确认当前局允许解锁。角色机制与开局配置见(\[[^]]+\]\([^)]+\))。$')
+def render(r):
+ links,steps=[],[]
+ for st in r['steps']:
+  if st in GENERIC:continue
+  if m:=GUIDE_RE.match(st):
+   url=m[1];links.append(f"[{PAGE_NAMES.get(url.split('#')[0],'相关攻略')}]({url})");continue
+  if m:=ACTOR_RE.match(st):
+   links.insert(0,m[2]);continue
+  steps.append(st)
+ tags=f"<Badge type=\"info\" text=\"{r['group']}\" /> <Badge type=\"tip\" text=\"{r['minimum']}\" />"
+ out=[f"## #{r['id']} · {r['name']} {{#achievement-{r['id']}}}",f"**条件**：{r['conditionZh']} {tags}"]
+ if steps:out.append('\n'.join(f'- {s}' for s in steps))
+ links.append(f"[wiki 原条目]({r['source']})")
+ out.append('相关：'+' · '.join(links)+' {.ach-links}')
+ return out
 for start in range(1,642,100):
  end=min(start+99,641);subset=[r for r in records if start<=r['id']<=end]
- lines=[f'---\ntitle: 全成就 #{start}–{end}：详细解锁\noutline: false\n---',f'# 全成就 #{start}–{end}：详细解锁','<VersionBadge checked="2026-10" />','[返回可搜索的全成就索引](/guide/achievements/) · [特殊目标详细教程](/guide/achievements/special)','本页以 PC 忏悔 / 忏悔+ 的当前条件为主。成就英文名称和游戏内 Secrets 编号保留原表；中文条件、步骤为本站整理。先确认本局没有禁用解锁，条件中的角色、模式、同局 / 累计范围必须匹配。']
- for r in subset:
-  lines.extend([f"## #{r['id']} · {r['name']} {{#achievement-{r['id']}}}",f"**条件**：{r['conditionZh']}",f"**分类**：{r['group']}。**加入版本**：{r['minimum']}；该标签不表示沿用旧版条件。",'**解锁步骤**：', '\n'.join(f'{i}. {s}'for i,s in enumerate(r['steps'],1)),f"[原条目与奖励说明]({r['source']}) · [成就表原文](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)"])
+ jumps=' · '.join(f'[#{i}](#achievement-{i})' for i in range(start,end+1,10))
+ lines=[f'---\ntitle: 全成就 #{start}–{end}\noutline: false\n---',f'# 全成就 #{start}–{end}','<VersionBadge checked="2026-10" />',
+  f'[← 返回搜索](/achievements/) · 编号对应游戏内 Stats → Secrets。做之前先看[通用规则](/achievements/#rules)：哪些局不能解锁、困难与普通的区别、挑战开放和完成是两回事。',
+  f'跳到：{jumps} {{.ach-jump}}']
+ for r in subset:lines.extend(render(r))
  lines.extend(['## 来源与授权','成就编号、名称、条件事实来自 [The Binding of Isaac: Rebirth Wiki · Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)，2026-10-05 保存的修订版 269014。本文对其条件进行翻译并补充操作说明，按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布，此页适用该授权而非站点默认的非商业授权。未在云环境逐项运行游戏解锁。'])
- (ROOT/f"docs/guide/achievements/{subset[0]['page']}.md").write_text('\n\n'.join(lines)+'\n')
+ (ROOT/f"docs/achievements/{subset[0]['page']}.md").write_text('\n\n'.join(lines)+'\n')
 # The UI uses only searchable fields; source facts stay in data/achievement-source.json.
 ui=[{k:r[k]for k in ['id','name','conditionZh','group','minimum','page']}for r in records]
 (ROOT/'docs/.vitepress/theme/data/achievements.json').write_text(json.dumps(ui,ensure_ascii=False,indent=2)+'\n')

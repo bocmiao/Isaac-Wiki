@@ -10,8 +10,8 @@ title: 第 5 层 · 里角色与白金神
 
 ## 现在就能用的
 
-- [全部成就与详细解锁](/guide/achievements/)：641 项可搜索索引，每项中文条件与步骤。
-- [特殊成就详细教程](/guide/achievements/special)：每日、胜利圈、连胜、无伤与道具收集查漏。
+- [全部成就与详细解锁](/achievements/)：641 项可搜索索引，每项中文条件与步骤。
+- [特殊成就详细教程](/achievements/special)：每日、胜利圈、连胜、无伤与道具收集查漏。
 
 - [角色速查与练习路线](/strategy/character-roster)：34 个角色的攻略入口、开局强化和困难标记规划。
 

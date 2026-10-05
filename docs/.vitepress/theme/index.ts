@@ -21,6 +21,7 @@ export default {
     app.component('HomeLanding', HomeLanding)
     app.component('UnlockTracker', UnlockTracker)
     app.component('AchievementCatalog', defineAsyncComponent(() => import('./components/AchievementCatalog.vue')))
+    app.component('ItemFinder', defineAsyncComponent(() => import('./components/ItemFinder.vue')))
     app.component('VersionBadge', VersionBadge)
     app.component('FloorTrack', FloorTrack)
     app.component('StrategyGrid', StrategyGrid)
