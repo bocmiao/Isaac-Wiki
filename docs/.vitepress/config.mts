@@ -16,12 +16,22 @@ const guideSidebar = [
   {
     text: '第 2 层 · 洞穴：第一次通关',
     collapsed: false,
-    items: [{ text: '阶段总览', link: '/guide/first-win/' }],
+    items: [
+      { text: '阶段总览', link: '/guide/first-win/' },
+      { text: '新手前 10 局', link: '/guide/first-win/first-runs' },
+      { text: '房间类型入门', link: '/guide/first-win/rooms' },
+      { text: '心、钱、炸弹、钥匙', link: '/guide/first-win/pickups' },
+      { text: '第一次打妈妈', link: '/guide/first-win/mom' },
+    ],
   },
   {
     text: '第 3 层 · 深处：解锁主线',
-    collapsed: true,
-    items: [{ text: '阶段总览', link: '/guide/unlocks/' }],
+    collapsed: false,
+    items: [
+      { text: '阶段总览', link: '/guide/unlocks/' },
+      { text: '角色解锁顺序', link: '/guide/unlocks/order' },
+      { text: '结局一览与前置条件', link: '/guide/unlocks/endings' },
+    ],
   },
   {
     text: '第 4 层 · 子宫：进阶思路',
