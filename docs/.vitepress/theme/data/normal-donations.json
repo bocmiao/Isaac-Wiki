@@ -1,0 +1,52 @@
+[
+  {
+    "coins": 10,
+    "id": 134,
+    "name": "Blue Map"
+  },
+  {
+    "coins": 20,
+    "id": 151,
+    "name": "Store Upgrade lv.1"
+  },
+  {
+    "coins": 50,
+    "id": 135,
+    "name": "There's Options"
+  },
+  {
+    "coins": 100,
+    "id": 152,
+    "name": "Store Upgrade lv.2"
+  },
+  {
+    "coins": 150,
+    "id": 136,
+    "name": "Black Candle"
+  },
+  {
+    "coins": 200,
+    "id": 153,
+    "name": "Store Upgrade lv.3"
+  },
+  {
+    "coins": 400,
+    "id": 137,
+    "name": "Red Candle"
+  },
+  {
+    "coins": 600,
+    "id": 154,
+    "name": "Store Upgrade lv.4"
+  },
+  {
+    "coins": 900,
+    "id": 59,
+    "name": "Blue Candle"
+  },
+  {
+    "coins": 999,
+    "id": 138,
+    "name": "Stop Watch"
+  }
+]

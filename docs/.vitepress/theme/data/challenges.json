@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "name": "Pitch Black",
+    "description": "Pitch Black 意译：一片漆黑",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "黑暗诅咒 + 未知诅咒；没有开局道具；有宝箱房，没有商店",
+    "reward": "冰雹符文（Hagalaz）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 2,
+    "name": "High Brow",
+    "description": "High Brow 意译：高雅人士",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "小号（Number One）、大肠杆菌（E. Coli）、屁股炸弹（Butt Bombs）、冲水！（Flush!）、饰品石化大便（Petrified Poop）",
+    "reward": "收获符文（Jera）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 3,
+    "name": "Head Trauma",
+    "description": "Head Trauma 意译：头部创伤",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "小小星球（Tiny Planet）、豆奶（Soy Milk）、小石头（The Small Rock）、铁块（Iron Bar）",
+    "reward": "马骑符文（Ehwaz）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 4,
+    "name": "Darkness Falls",
+    "description": "Darkness Falls 意译：黑暗降临",
+    "character": "夏娃",
+    "target": "撒但",
+    "rules": "2 红心；五芒星（Pentagram）、死鸟（Dead Bird）、巴比伦大淫妇（Whore of Babylon）、剃刀片（Razor Blade）、献祭匕首（Sacrificial Dagger）、暗物质（Dark Matter）",
+    "reward": "朝夕符文（Dagaz）",
+    "unlock": "妈妈的心脏累计 11 次，并用夏娃击败 ???（Boss）"
+  },
+  {
+    "id": 5,
+    "name": "The Tank",
+    "description": "The Tank 意译：坦克",
+    "character": "抹大拉",
+    "target": "妈妈",
+    "rules": "耻辱假面（Infamy）、桶装猪油（Bucket of Lard）、霹雳大腿（Thunder Thighs）、美味的心（Yum Heart）",
+    "reward": "诸神符文（Ansuz）",
+    "unlock": "同时拥有 7 个或以上红心容器"
+  },
+  {
+    "id": 6,
+    "name": "Solar System",
+    "description": "Solar System 意译：太阳系",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "蒙眼；仰慕之交（Distant Admiration）、孤独一生（Forever Alone）、苍蝇光环（Halo of Flies）、超凡升天（Transcendence）",
+    "reward": "签筒符文（Perthro）",
+    "unlock": "妈妈的心脏累计 3 次"
+  },
+  {
+    "id": 7,
+    "name": "Suicide King",
+    "description": "Suicide King 意译：自杀之王",
+    "character": "拉撒路",
+    "target": "以撒（Boss）",
+    "rules": "吐根酊（Ipecac）、大爆弹先生（Mr. Mega）、我的镜像（My Reflection）、1 颗随机胶囊",
+    "reward": "自杀之王（Suicide King）",
+    "unlock": "妈妈的心脏累计 11 次，并已解锁拉撒路"
+  },
+  {
+    "id": 8,
+    "name": "Cat Got Your Tongue",
+    "description": "Cat Got Your Tongue 意译：哑口无言",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "蒙眼；嗝屁猫的毛球（Guppy's Hairball）、嗝屁猫的头（Guppy's Head）、嗝屁猫的尾巴（Guppy's Tail）",
+    "reward": "保护符文（Algiz）",
+    "unlock": "达成一次嗝屁猫变身（Guppy）"
+  },
+  {
+    "id": 9,
+    "name": "Demo Man",
+    "description": "Demo Man 意译：爆破手",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "胎儿博士（Dr. Fetus）、起爆器（Remote Detonator）、饰品火柴棍（Match Stick）",
+    "reward": "混沌卡（Chaos Card）",
+    "unlock": "妈妈的心脏累计 9 次"
+  },
+  {
+    "id": 10,
+    "name": "Cursed!",
+    "description": "Cursed! 意译：中咒了！",
+    "character": "抹大拉",
+    "target": "妈妈",
+    "rules": "每层都有专属的 Curse of the Cursed；美味的心、生肝（Raw Liver）、指南针（The Compass）、藏宝图（Treasure Map）、蓝地图（Blue Map）、饰品小孩的心脏（Child's Heart）；有宝箱房",
+    "reward": "信用卡（Credit Card）",
+    "unlock": "同时拥有 7 个或以上红心容器"
+  },
+  {
+    "id": 11,
+    "name": "Glass Cannon",
+    "description": "Glass Cannon 意译：玻璃大炮",
+    "character": "犹大",
+    "target": "撒但",
+    "rules": "只有 1 红心；史诗胎儿博士、洛基的角（Loki's Horns）",
+    "reward": "规则卡（Rules Card）",
+    "unlock": "完成 The Family Man，击败 Lokii，并已解锁犹大和「它活着」"
+  },
+  {
+    "id": 12,
+    "name": "When Life Gives You Lemons",
+    "description": "When Life Gives You Lemons 意译：生活给你柠檬",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "9伏特（9 Volt）、修女服（Habit）、烦事柠檬（Lemon Mishap）、1 颗柠檬派对（Lemon Party）胶囊",
+    "reward": "反人类卡（A Card Against Humanity）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 13,
+    "name": "Beans!",
+    "description": "Beans! 意译：豆子！",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "蒙眼；9伏特、豆子（The Bean）、黑豆（The Black Bean）、屁股炸弹、烟火盛宴（Pyro）",
+    "reward": "焦灼硬币（Burnt Penny）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 14,
+    "name": "It's in the Cards",
+    "description": "It's in the Cards 意译：命在牌中",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "9伏特、蓄电池（The Battery）、卡牌盒（Deck of Cards）、新手牌组（Starter Deck）、2 张随机塔罗牌",
+    "reward": "超级食肉男孩死忠粉（SMB Super Fan）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 15,
+    "name": "Slow Roll",
+    "description": "Slow Roll 意译：慢慢滚",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "丘比特之箭（Cupid's Arrow）、我的镜像、巨人独眼（Polyphemus）",
+    "reward": "被吞下的硬币（Swallowed Penny）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 16,
+    "name": "Computer Savvy",
+    "description": "Computer Savvy 意译：电脑高手",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "弯勺魔术（Spoon Bender）、科技（Technology）、科技II（Technology 2）",
+    "reward": "机器宝宝2.0（Robo-Baby 2.0）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 17,
+    "name": "Waka Waka",
+    "description": "Waka Waka 意译：吃豆人的音效",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "反重力（Anti-Gravity）、怪异磁铁（Strange Attractor）",
+    "reward": "死神之触（Death's Touch）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 18,
+    "name": "The Host",
+    "description": "The Host 意译：宿主",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "虫群复击（The Mulligan）、蜘蛛宝宝（Spiderbaby）、饰品血虱（Tick）",
+    "reward": "科技0.5（Tech.5）",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 19,
+    "name": "The Family Man",
+    "description": "The Family Man 意译：顾家好男人",
+    "character": "以撒",
+    "target": "以撒（Boss）",
+    "rules": "蒙眼；波比兄弟（Brother Bobby）、玛姬姐妹（Sister Maggy）、腐烂宝宝（Rotten Baby）、好朋友一辈子！（BFFS!）、爸爸的钥匙（Dad's Key）",
+    "reward": "史诗胎儿博士",
+    "unlock": "一局内从天使身上拿到两块钥匙碎片，且妈妈的心脏累计 11 次"
+  },
+  {
+    "id": 20,
+    "name": "Purist",
+    "description": "Purist 意译：纯粹主义者",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "没有开局道具",
+    "reward": "桦木符文（Berkano）",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 21,
+    "name": "XXXXXXXXL",
+    "description": "XXXXXXXXL 意译：超超超大号",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "每层都是 XL 大小，但同一章的两层不合并；有宝箱房",
+    "reward": "金心（Gold Heart）",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 22,
+    "name": "SPEED!",
+    "description": "SPEED! 意译：速度！",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "全程加速，同损坏的怀表（Broken Watch）的加速效果；游戏计时到 16 分钟后每 10 秒受一次伤；有宝箱房",
+    "reward": "免费保释卡（Get Out Of Jail Free Card）",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 23,
+    "name": "Blue Bomber",
+    "description": "Blue Bomber 意译：蓝色轰炸机",
+    "character": "???",
+    "target": "撒但",
+    "rules": "蒙眼；波比兄弟、神风！（Kamikaze!）、纵火狂（Pyromaniac）、大爆弹先生",
+    "reward": "金炸弹（Gold Bomb）",
+    "unlock": "炸掉 10 个标记石头，且妈妈的心脏累计 11 次"
+  },
+  {
+    "id": 24,
+    "name": "PAY TO PLAY",
+    "description": "PAY TO PLAY 意译：付费游玩",
+    "character": "以撒",
+    "target": "以撒（Boss）",
+    "rules": "金钱=力量（Money = Power）、硬币袋（Sack of Pennies）、50 硬币；每进一扇门花 1 硬币，受伤掉钱，钱花光就死",
+    "reward": "两种胶囊：止痛药！（Percs!）、上瘾！（Addicted!）",
+    "unlock": "用该隐击败以撒（Boss）。忏悔+ 起不再要求炸 10 个标记石头"
+  },
+  {
+    "id": 25,
+    "name": "Have a Heart",
+    "description": "Have a Heart 意译：发发善心",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "1 红心 + 11 个空红心容器；吸血鬼之魅（Charm of the Vampire）；原本掉红心改为掉硬币；有宝箱房",
+    "reward": "两种胶囊：放-松（Re-Lax）、？？？",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 26,
+    "name": "I RULE!",
+    "description": "I RULE! 意译：我最强！",
+    "character": "以撒",
+    "target": "超级撒但",
+    "rules": "唯一不是普通难度的挑战；回旋镖、钥匙碎片1（Key Piece 1）、钥匙碎片2（Key Piece 2）、梯子（The Ladder）、妈妈的菜刀（Mom's Knife）、三位一体盾（Trinity Shield）",
+    "reward": "筹码（Poker Chip）",
+    "unlock": "击败超级撒但，并已解锁底片"
+  },
+  {
+    "id": 27,
+    "name": "BRAINS!",
+    "description": "BRAINS! 意译：脑子！",
+    "character": "???",
+    "target": "???（Boss）",
+    "rules": "蒙眼；3 个鲍勃的脑浆子（Bob's Brain）、霹雳大腿",
+    "reward": "饰钉定位器（Stud Finder）",
+    "unlock": "击败以撒（Boss）5 次"
+  },
+  {
+    "id": 28,
+    "name": "PRIDE DAY!",
+    "description": "PRIDE DAY! 意译：骄傲日",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "3美元纸币（3 Dollar Bill）、彩虹宝宝（Rainbow Baby）、饰品彩虹虫（Rainbow Worm），彩虹虫不能丢弃或替换",
+    "reward": "八面骰（D8）",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 29,
+    "name": "Onan's Streak",
+    "description": "Onan's Streak 意译：俄南连射",
+    "character": "犹大",
+    "target": "以撒（Boss）",
+    "rules": "只有 1 红心；彼列之书（The Book of Belial）、巧克力牛奶（Chocolate Milk）；泪弹打空就扣血；有宝箱房",
+    "reward": "肾结石（Kidney Stone）",
+    "unlock": "已解锁犹大和「它活着」"
+  },
+  {
+    "id": 30,
+    "name": "The Guardian",
+    "description": "The Guardian 意译：守护者",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "蒙眼；圣杯（Holy Grail）、以撒的心脏（Isaac's Heart）、受气包（Punching Bag）、命运之矛（Spear of Destiny）；以撒的心脏跟着受气包走",
+    "reward": "空白符文（Blank Rune）",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 31,
+    "name": "Backasswards",
+    "description": "Backasswards 意译：前后颠倒",
+    "character": "以撒",
+    "target": "地下室 I",
+    "rules": "从超级撒但战开始倒着往上打；开局 8–10 个随机道具；每往上一层失去 1 个道具和 1 个红心容器",
+    "reward": "拉撒路开局带贫血（Anemic）",
+    "unlock": "击败超级撒但，并已解锁底片"
+  },
+  {
+    "id": 32,
+    "name": "Aprils Fool",
+    "description": "Aprils Fool EID 设置项叫「愚人节」",
+    "character": "以撒",
+    "target": "妈妈的心脏",
+    "rules": "地图上的位置、道具外观、血量显示都不可信；主动道具、胶囊、卡牌、符文效果随机；所有 Boss 都是 The Bloat；有宝箱房",
+    "reward": "抹大拉开局带体力回满胶囊",
+    "unlock": "击败妈妈"
+  },
+  {
+    "id": 33,
+    "name": "Pokey Mans",
+    "description": "Pokey Mans 意译：口袋怪兽（戏仿）",
+    "character": "以撒",
+    "target": "以撒（Boss）",
+    "rules": "友好球（Friendly Ball）、妈妈的眼影（Mom's Eyeshadow）；友好球每次使用放出一只随机怪物，怪物死后友好球立刻充满",
+    "reward": "充能钥匙（Charged Key）",
+    "unlock": "妈妈的心脏累计 11 次"
+  },
+  {
+    "id": 34,
+    "name": "Ultra Hard",
+    "description": "Ultra Hard 意译：超难",
+    "character": "以撒",
+    "target": "超级撒但",
+    "rules": "4 个去不掉的诅咒；能变精英的敌人全是精英；Boss 战尽量变成双 Boss；不掉任何心；钥匙碎片1、2；有宝箱房",
+    "reward": "参孙开局带小孩的心脏",
+    "unlock": "击败超级撒但，并已解锁底片"
+  },
+  {
+    "id": 35,
+    "name": "Pong",
+    "description": "Pong 意译：乒乓（同名老游戏）",
+    "character": "以撒",
+    "target": "???（Boss）",
+    "rules": "丘比特之箭、橡胶胶水（Rubber Cement）；伤害和射速被固定",
+    "reward": "贪婪的胃袋（Greed's Gullet）",
+    "unlock": "击败以撒（Boss）5 次"
+  },
+  {
+    "id": 36,
+    "name": "Scat Man",
+    "description": "Scat Man 意译：大便侠",
+    "character": "以撒",
+    "target": "妈妈",
+    "rules": "4 红心；蒙眼；大便（The Poop）、粪臭素（Skatole）、龌龊之心（Dirty Mind）等大便主题道具，饰品神秘糖果（Mysterious Candy）；忏悔+ 起不再带大肠杆菌",
+    "reward": "龌龊之心",
+    "unlock": "默认开放"
+  },
+  {
+    "id": 37,
+    "name": "Bloody Mary",
+    "description": "Bloody Mary 意译：血腥玛丽",
+    "character": "伯大尼",
+    "target": "撒但",
+    "rules": "4 红心 + 4 点魂心充能；彼列之书、血袋（Blood Bag）、贫血、血誓（Blood Oath）、饰品小孩的心脏",
+    "reward": "巴风特之印（Sigil of Baphomet）",
+    "unlock": "已解锁伯大尼、血袋和「它活着」"
+  },
+  {
+    "id": 38,
+    "name": "Baptism by Fire",
+    "description": "Baptism by Fire 意译：火之洗礼",
+    "character": "伯大尼",
+    "target": "以撒（Boss）",
+    "rules": "蒙眼；灵魂之瓮（Urn of Souls）、书包（Schoolbag）、嗝屁猫的爪子（Guppy's Paw）、饰品抹大拉的信仰（Maggy's Faith）",
+    "reward": "炼狱恶鬼（Purgatory）",
+    "unlock": "用伯大尼击败撒但、妈妈的心脏累计 11 次，并已解锁抹大拉的信仰"
+  },
+  {
+    "id": 39,
+    "name": "Isaac's Awakening",
+    "description": "Isaac's Awakening 意译：以撒觉醒",
+    "character": "以撒",
+    "target": "母亲",
+    "rules": "英灵剑（Spirit Sword）、三位一体盾、妈妈的手镯（Mom's Bracelet）；不发射泪弹，改为挥剑",
+    "reward": "英灵剑",
+    "unlock": "击败母亲"
+  },
+  {
+    "id": 40,
+    "name": "Seeing Double",
+    "description": "Seeing Double 意译：重影",
+    "character": "雅各和以扫",
+    "target": "妈妈的心脏",
+    "rules": "所有敌人和 Boss 都翻倍；雅各、以扫各带一个完美视力（20/20），另有X光透视（X-Ray Vision）；有宝箱房",
+    "reward": "碎掉的眼镜（Broken Glasses）",
+    "unlock": "击败母亲"
+  },
+  {
+    "id": 41,
+    "name": "Pica Run",
+    "description": "Pica Run 意译：异食癖",
+    "character": "以撒",
+    "target": "以撒（Boss）",
+    "rules": "所有道具换成随机饰品；妈妈的盒子（Mom's Box）、弹珠袋（Marbles）、妈妈的钱包（Mom's Purse），弹珠袋每次受伤都触发；有宝箱房",
+    "reward": "冰块（Ice Cube）",
+    "unlock": "妈妈的心脏累计 11 次，并已解锁弹珠袋"
+  },
+  {
+    "id": 42,
+    "name": "Hot Potato",
+    "description": "Hot Potato 意译：烫手山芋",
+    "character": "里遗骸",
+    "target": "撒但",
+    "rules": "3 魂心；蒙眼，每 2.5 秒爆炸一次，进新房间或拿道具时重置计时",
+    "reward": "VII-战车？（VII - The Chariot?）",
+    "unlock": "已解锁里遗骸"
+  },
+  {
+    "id": 43,
+    "name": "Cantripped!",
+    "description": "Cantripped! 意译：戏法上身",
+    "character": "里该隐",
+    "target": "妈妈",
+    "rules": "卡牌和胶囊全部换成「道具卡」，使用时触发一个随机主动道具的效果；Boss 掉落换成新手牌组",
+    "reward": "VIII-正义？（VIII - Justice?）",
+    "unlock": "已解锁里该隐"
+  },
+  {
+    "id": 44,
+    "name": "Red Redemption",
+    "description": "Red Redemption 意译：红色救赎",
+    "character": "里雅各",
+    "target": "母亲",
+    "rules": "爸爸的钥匙、红钥匙（Red Key）；起始房不连任何房间，要用红钥匙开路，用满 20 次会出现 Dark Esau；有宝箱房",
+    "reward": "IX-隐者？（IX - The Hermit?）",
+    "unlock": "已解锁里雅各"
+  },
+  {
+    "id": 45,
+    "name": "DELETE THIS",
+    "description": "DELETE THIS 意译：删掉这个",
+    "character": "以撒",
+    "target": "???（Boss）",
+    "rules": "所有道具由错误技（TMTRAINER）随机生成；场景、障碍物、音乐随机；商店价格 1–99 硬币；在列表里不显示文字；有宝箱房",
+    "reward": "XIV-节制？（XIV - Temperance?）",
+    "unlock": "已解锁里伊甸"
+  }
+]

@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict'
+import { emptyRoutes,parseRoutes,parseCombos,missingGates,synergyState } from '../docs/.vitepress/theme/tools/planning'
+import routes from '../docs/.vitepress/theme/data/routes.json'
+import synergies from '../docs/.vitepress/theme/data/synergies.json'
+assert.equal(routes.length,11)
+assert.equal(new Set(routes.map(r=>r.id)).size,11)
+assert.equal(synergies.length,8)
+assert(synergies.find(c=>c.items.includes(656)))
+assert(!synergies.some(c=>c.items.includes(577)))
+assert.deepEqual(missingGates('hush',['heart11']),[])
+assert.deepEqual(missingGates('delirium',['hush3']),[])
+assert.deepEqual(missingGates('mother',['hush1']).map(g=>g.id),['hush3'])
+assert.deepEqual(missingGates('mega',['chapter6','heart11','isaac5'],'blue'),[])
+assert.deepEqual(missingGates('mega',['chapter6','heart11','isaac5'],'lamb').map(g=>g.id),['satan5'])
+assert.deepEqual(missingGates('mega',['chapter6']).map(g=>g.id),['heart11','isaac5'])
+assert.deepEqual(missingGates('greed',[]),[])
+assert.deepEqual(missingGates('greedier',[]).map(g=>g.id),['greed500'])
+assert.equal(synergyState([118,114],[]),'none')
+assert.equal(synergyState([118,114],[118]),'partial')
+assert.equal(synergyState([118,114],[114,118]),'ready')
+assert.deepEqual(parseCombos({v:1,owned:[118,118,114]}),{v:1,owned:[114,118]})
+for(const x of [{v:2,owned:[]},{v:1,owned:[105]},{v:1,owned:['118']},{v:1,owned:[-1]},[]])assert.equal(parseCombos(x),null)
+assert.deepEqual(parseRoutes(emptyRoutes()),emptyRoutes())
+assert.deepEqual(parseRoutes({...emptyRoutes(),completed:{blue:['blue-1','blue-1']}})?.completed,{blue:['blue-1']})
+for(const x of [{...emptyRoutes(),target:'fake'},{...emptyRoutes(),unlocks:['fake']},{...emptyRoutes(),completed:{mother:['blue-1']}},{...emptyRoutes(),completed:{fake:[]}},{...emptyRoutes(),completed:{blue:'blue-1'}},{v:1,owned:[]}])assert.equal(parseRoutes(x),null)
+console.log('PASS route prerequisites, branch choice, progress isolation, synergy ownership and malformed imports')

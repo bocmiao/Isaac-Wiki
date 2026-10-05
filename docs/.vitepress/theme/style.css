@@ -445,3 +445,22 @@ body::before {
     padding: 24px 16px 56px;
   }
 }
+
+/* Interactive tools share keyboard focus, wrapping controls and readable results. */
+.tool-panel { margin: 20px 0; }
+.tool-panel label { display: block; margin: 10px 0; }
+.tool-panel input:not([type=checkbox]):not([type=file]), .tool-panel select, .tool-panel textarea {
+  display: block; width: 100%; max-width: 100%; min-width: 0; padding: 8px 10px;
+  border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg); color: var(--vp-c-text-1);
+}
+.tool-panel input[type=checkbox] { margin-right: 6px; }
+.tool-panel textarea { font-family: var(--vp-font-family-mono); }
+.tool-panel button { padding: 7px 12px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-soft); }
+.tool-panel button:disabled { opacity: .5; cursor: not-allowed; }
+.tool-panel :is(input,select,textarea,button):focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
+.tool-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(230px,100%),1fr)); gap: 0 18px; }
+.tool-grid > * { min-width: 0; }
+.tool-result, .tool-card { padding: 14px; margin: 14px 0; border: 1px solid var(--vp-c-divider); border-radius: 8px; overflow-wrap: anywhere; }
+.tool-result { background: var(--vp-c-bg-soft); }
+.tool-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0; }
+.tool-import input { display: block; max-width: 100%; }

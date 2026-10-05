@@ -1,0 +1,275 @@
+[
+  {
+    "id": "satan",
+    "title": "撒但 · 阴间",
+    "requirements": [
+      "heart11"
+    ],
+    "steps": [
+      {
+        "id": "satan-1",
+        "text": "妈妈房后进入子宫，打败心脏 / 它活着。"
+      },
+      {
+        "id": "satan-2",
+        "text": "选择向下的活板门进入阴间，打败撒但。"
+      }
+    ],
+    "note": "未解锁它活着时，也可通过心脏房随机出现的恶魔房继续；工具按稳定路线检查前置。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "isaac",
+    "title": "以撒 · 教堂",
+    "requirements": [
+      "heart11"
+    ],
+    "steps": [
+      {
+        "id": "isaac-1",
+        "text": "妈妈房后进入子宫，打败心脏 / 它活着。"
+      },
+      {
+        "id": "isaac-2",
+        "text": "选择光柱进入教堂，打败以撒。"
+      }
+    ],
+    "note": "未解锁它活着时，也可通过心脏房随机出现的天使房继续；工具按稳定路线检查前置。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "blue",
+    "title": "??? · 宝箱",
+    "requirements": [
+      "heart11",
+      "isaac5"
+    ],
+    "steps": [
+      {
+        "id": "blue-1",
+        "text": "打败妈妈后拿全家福；底片对应另一条路线。"
+      },
+      {
+        "id": "blue-2",
+        "text": "打败它活着后走光柱去教堂，打败以撒。"
+      },
+      {
+        "id": "blue-3",
+        "text": "带着全家福碰以撒房的箱子，进入宝箱并打败 ???。"
+      }
+    ],
+    "note": "",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "lamb",
+    "title": "羔羊 · 暗室",
+    "requirements": [
+      "heart11",
+      "satan5"
+    ],
+    "steps": [
+      {
+        "id": "lamb-1",
+        "text": "打败妈妈后拿底片；全家福对应另一条路线。"
+      },
+      {
+        "id": "lamb-2",
+        "text": "打败它活着后走活板门去阴间，打败撒但。"
+      },
+      {
+        "id": "lamb-3",
+        "text": "带着底片碰撒但房的箱子，进入暗室并打败羔羊。"
+      }
+    ],
+    "note": "",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "mega",
+    "title": "超级撒但 · 金门",
+    "requirements": [
+      "chapter6"
+    ],
+    "steps": [
+      {
+        "id": "mega-1",
+        "text": "先选择可进入宝箱或暗室的一条分支；还要满足对应照片解锁条件。"
+      },
+      {
+        "id": "mega-2",
+        "text": "本局拿齐钥匙碎片 1、2，或准备爸爸的钥匙等开门道具。"
+      },
+      {
+        "id": "mega-3",
+        "text": "到宝箱或暗室起始房，打开金门并打败超级撒但。"
+      }
+    ],
+    "note": "钥匙碎片来自炸醒天使雕像后击败天使。Repentance+ 打完会出现去虚空的传送门；不据此保证其他版本的出口。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "hush",
+    "title": "死寂 · 蓝子宫",
+    "requirements": [
+      "heart10"
+    ],
+    "steps": [
+      {
+        "id": "hush-1",
+        "text": "妈妈房后进入子宫。"
+      },
+      {
+        "id": "hush-2",
+        "text": "本局 30 分钟内打败妈妈的心脏 / 它活着，立即进入蓝子宫。"
+      },
+      {
+        "id": "hush-3",
+        "text": "打败死寂。"
+      }
+    ],
+    "note": "超过 30 分钟后离开再回来，蓝子宫入口会消失。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "delirium",
+    "title": "精神错乱 · 虚空",
+    "requirements": [
+      "hush1"
+    ],
+    "steps": [
+      {
+        "id": "delirium-1",
+        "text": "准备进入虚空：可规划再次打死寂，或寻找其他 Boss 后的传送门。"
+      },
+      {
+        "id": "delirium-2",
+        "text": "发现虚空传送门后进入；进入会转去虚空路线。"
+      },
+      {
+        "id": "delirium-3",
+        "text": "探索多个 Boss 房，找到并打败精神错乱。"
+      }
+    ],
+    "note": "攻略的死寂出口版本描述有待核实，工具不保证首次死寂后的出口。Repentance+ 打完 ???、羔羊、超级撒但、母亲也必定出现入口；其他版本与 Boss 不作必出承诺。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "mother",
+    "title": "母亲 · 尸宫",
+    "requirements": [
+      "hush3"
+    ],
+    "steps": [
+      {
+        "id": "mother-1",
+        "text": "地下室章 Boss 后用 1 把钥匙进入下水道分支。"
+      },
+      {
+        "id": "mother-2",
+        "text": "下水道 II 碰白火变幽灵，穿镜子去镜像宝箱房拿菜刀碎片 1。"
+      },
+      {
+        "id": "mother-3",
+        "text": "用 2 个炸弹打开矿洞入口，前往矿洞 II。"
+      },
+      {
+        "id": "mother-4",
+        "text": "矿洞 II 按三个黄色按钮，坐矿车拿菜刀碎片 2，逃回入口。"
+      },
+      {
+        "id": "mother-5",
+        "text": "深处 I 或矿洞 II Boss 后进入陵墓，开门扣 2 颗完整的心。"
+      },
+      {
+        "id": "mother-6",
+        "text": "陵墓 II 打败加强版妈妈，用完整菜刀刺开肉门，打败门后的心脏。"
+      },
+      {
+        "id": "mother-7",
+        "text": "进入尸宫，前往尸宫 II 并打败母亲。"
+      }
+    ],
+    "note": "没有碎片 1，碎片 2 的房间不会生成。尸宫伤害按整颗心扣。特殊角色的门费处理请另查角色攻略，工具不自动判定是否能存活。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "beast",
+    "title": "祸兽 · 回家",
+    "requirements": [
+      "mother1"
+    ],
+    "steps": [
+      {
+        "id": "beast-1",
+        "text": "深处 II 留好传送手段：炸特殊头骨拿 0-愚者最稳。"
+      },
+      {
+        "id": "beast-2",
+        "text": "打败妈妈拿全家福或底片，用传送回到起始房。"
+      },
+      {
+        "id": "beast-3",
+        "text": "用照片打开奇怪的门；照片会被消耗。"
+      },
+      {
+        "id": "beast-4",
+        "text": "门后的特殊陵墓 II 捡起爸爸的便条，开始上行。"
+      },
+      {
+        "id": "beast-5",
+        "text": "每层从 Boss 房走到起始房找光柱，返回地下室 I，再进家。"
+      },
+      {
+        "id": "beast-6",
+        "text": "在家依次打败 Dogma、强化四骑士与祸兽。"
+      }
+    ],
+    "note": "上行途中受伤按整颗心扣。第一次到家，妈妈卧室箱子必给红钥匙，可顺路解锁里角色。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "greed",
+    "title": "究极贪婪 · 贪婪模式",
+    "requirements": [],
+    "steps": [
+      {
+        "id": "greed-1",
+        "text": "从主菜单选择贪婪模式。"
+      },
+      {
+        "id": "greed-2",
+        "text": "推进各层，打败究极贪婪。"
+      },
+      {
+        "id": "greed-3",
+        "text": "向贪婪捐款机捐款，记录本次实际成功投入的硬币。"
+      }
+    ],
+    "note": "独立模式，不能从普通局中途切入。捐款进度用捐款机工具记录。",
+    "source": "/guide/unlocks/endings"
+  },
+  {
+    "id": "greedier",
+    "title": "极贪模式 · 究极贪婪",
+    "requirements": [
+      "greed500"
+    ],
+    "steps": [
+      {
+        "id": "greedier-1",
+        "text": "从主菜单选择极贪模式。"
+      },
+      {
+        "id": "greedier-2",
+        "text": "推进各层，打败究极贪婪的两阶段。"
+      },
+      {
+        "id": "greedier-3",
+        "text": "记录本次实际成功投入的贪婪捐款。"
+      }
+    ],
+    "note": "需贪婪捐款机累计 500 枚硬币解锁模式。",
+    "source": "/guide/unlocks/endings"
+  }
+]

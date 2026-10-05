@@ -1,0 +1,90 @@
+[
+  {
+    "id": "combo-1",
+    "items": [
+      118,
+      114
+    ],
+    "title": "硫磺火 + 妈妈的菜刀",
+    "individual": "蓄力血激光；可投掷的菜刀",
+    "effect": "菜刀优先，不吃硫磺火的射速惩罚。扔出菜刀后再射出一小串菜刀，忏悔起每把造成 2 倍伤害",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-2",
+    "items": [
+      118,
+      2
+    ],
+    "title": "硫磺火 + 内眼（The Inner Eye）",
+    "individual": "血激光；内眼一次发 3 颗泪弹、射速降低（宝箱房道具）",
+    "effect": "一次射 3 道激光。wiki 说内眼虽有射速惩罚，总输出提升比完美视力（20/20，2 道激光）更明显",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-3",
+    "items": [
+      643,
+      528
+    ],
+    "title": "终末天启 + 天使棱镜（Angelic Prism）",
+    "individual": "圣光激光；天使棱镜是大半径环绕物，泪弹穿过会分裂成 4 颗",
+    "effect": "激光打到棱镜，分成 4 道",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-4",
+    "items": [
+      579,
+      114
+    ],
+    "title": "英灵剑 + 妈妈的菜刀",
+    "individual": "挥剑攻击；投掷菜刀",
+    "effect": "蓄力旋转攻击时把剑扔出去一小段，边飞边转",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-5",
+    "items": [
+      579,
+      533
+    ],
+    "title": "英灵剑 + 三圣颂（Trisagion）",
+    "individual": "挥剑攻击；三圣颂把泪弹换成穿刺光波，单次 33% 伤害但每秒最多打 15 次",
+    "effect": "剑气换成三圣颂光波，伤害更高",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-6",
+    "items": [
+      415,
+      313
+    ],
+    "title": "光明之冠 + 神圣屏障",
+    "individual": "满血时伤害 ×2、受伤就熄；每房间挡一次伤害",
+    "effect": "屏障挡下的那一下不会让冠冕熄灭",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-7",
+    "items": [
+      656,
+      313
+    ],
+    "title": "达摩克里斯之剑 + 神圣屏障",
+    "individual": "道具翻倍、受伤后可能掉剑；每房间挡一次伤害",
+    "effect": "被屏障挡下的伤害不算受伤，不会开始掉剑的判定。剑真的落下时，屏障挡不住",
+    "source": "/strategy/items"
+  },
+  {
+    "id": "combo-8",
+    "items": [
+      133,
+      81
+    ],
+    "title": "嗝屁猫的爪子（Guppy's Paw）+ 嗝屁猫（Dead Cat）",
+    "individual": "爪子是主动道具，1 个红心容器换 3 个魂心；嗝屁猫把红心容器设为 1 个，给 9 条命，每次复活带 1 个红心容器",
+    "effect": "每次复活后把那个容器换成 3 魂心，wiki 说相当于血量变成 3 倍。两件都算嗝屁猫变身（Guppy）的组件，都在恶魔房道具池",
+    "source": "/strategy/items"
+  }
+]

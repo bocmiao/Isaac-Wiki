@@ -112,11 +112,22 @@ export default defineConfig({
         ],
       },
       { text: '全成就', link: '/guide/achievements/', activeMatch: '/guide/achievements/' },
-      { text: '解锁清单', link: '/tools/tracker' },
+      { text: '工具', link: '/tools/', activeMatch: '/tools/' },
       { text: '关于', link: '/about' },
     ],
     sidebar: {
       '/guide/': guideSidebar,
+      '/tools/': [{ text: '实用工具', items: [
+        { text: '工具首页', link: '/tools/' },
+        { text: '角色解锁清单', link: '/tools/tracker' },
+        { text: '恶魔 / 天使房概率', link: '/tools/deal-chance' },
+        { text: '献祭房奖励查询', link: '/tools/sacrifice' },
+        { text: '挑战进度清单', link: '/tools/challenges' },
+        { text: '捐款机进度', link: '/tools/donations' },
+        { text: '道具组合查询', link: '/tools/synergies' },
+        { text: '主线路线规划', link: '/tools/routes' },
+        { text: '控制台命令生成器', link: '/tools/console-generator' },
+      ] }],
       '/strategy/': [
         {
           text: '攻略库',

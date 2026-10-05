@@ -21,6 +21,15 @@ export default {
     app.component('HomeLanding', HomeLanding)
     app.component('UnlockTracker', UnlockTracker)
     app.component('AchievementCatalog', defineAsyncComponent(() => import('./components/AchievementCatalog.vue')))
+    for (const [name,loader] of Object.entries({
+      DealCalculator: () => import('./components/DealCalculator.vue'),
+      SacrificeLookup: () => import('./components/SacrificeLookup.vue'),
+      ChallengeChecklist: () => import('./components/ChallengeChecklist.vue'),
+      DonationTracker: () => import('./components/DonationTracker.vue'),
+      SynergyFinder: () => import('./components/SynergyFinder.vue'),
+      RoutePlanner: () => import('./components/RoutePlanner.vue'),
+      ConsoleGenerator: () => import('./components/ConsoleGenerator.vue'),
+    })) app.component(name, defineAsyncComponent(loader))
     app.component('VersionBadge', VersionBadge)
     app.component('FloorTrack', FloorTrack)
     app.component('StrategyGrid', StrategyGrid)
