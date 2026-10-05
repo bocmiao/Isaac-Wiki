@@ -18,7 +18,7 @@ for line in open(f'{eid_root}/descriptions/names/zh_cn.lua', encoding='utf-8'):
     if r and kind:
         names.setdefault(r.group(2).lower().replace('’', "'"), r.group(1))
 
-pair = re.compile(r'([一-鿿「」·0-9A-Za-z\-？?！!]{1,16})[（(]([A-Za-z0-9][A-Za-z0-9 .,\'’!?&+\-]+?)[）)]')
+pair = re.compile(r'([一-鿿「」·0-9A-Za-z\-？?！!.…]{1,16})[（(]([A-Za-z0-9][A-Za-z0-9 .,\'’!?&+\-]+?)[）)]')
 for f in files:
     text = open(f, encoding='utf-8').read()
     text = re.sub(r'<!--.*?-->', '', text, flags=re.S)  # 跳过待核实注释
