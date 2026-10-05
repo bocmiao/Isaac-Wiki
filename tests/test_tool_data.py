@@ -29,4 +29,9 @@ class ToolDataTests(unittest.TestCase):
   for n,name in [(1,'The Sad Onion'),(105,'The D6'),(118,'Brimstone'),(723,'Spindown Dice')]:
    self.assertEqual(by_id[n]['en'],name)
   self.assertTrue(all(i['id']>0 and i['name'] and i['en'] and i['enum'].startswith('COLLECTIBLE_')for i in data))
+  # 每一条都要和 EID 名称表一致（曾出现 3 号被解析成「2-3」的问题）
+  ref=json.loads((DATA/'item-reference-links.json').read_text())
+  names={v[2]:(v[0],v[3]) for v in ref.values() if v[1]=='c'}
+  for i in data:
+   if i['id'] in names:self.assertEqual((i['name'],i['en']),names[i['id']],i['id'])
 if __name__=='__main__':unittest.main()

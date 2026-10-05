@@ -14,11 +14,27 @@ function toggle(id:number){data.value.completed=data.value.completed.includes(id
   <p class="tool-result" aria-live="polite">完成 {{data.completed.length}} / 45 · 当前显示 {{rows.length}} 项</p>
   <div class="tool-actions"><button @click="exportFile">导出挑战进度</button><label class="tool-import">导入并替换挑战进度<input type="file" accept="application/json,.json" @change="importFile" /></label></div>
   <p role="status">{{message}}</p><p v-if="storageError" role="alert">{{storageError}}</p>
-  <article v-for="c in rows" :key="c.id" class="tool-card">
-   <label><input type="checkbox" :checked="data.completed.includes(c.id)" @change="toggle(c.id)" />#{{c.id}} {{c.name}} 已完成</label>
-   <p>{{c.description}} · {{c.character}} → {{c.target}}</p><p><strong>开放条件：</strong>{{c.unlock}}</p><p><strong>规则：</strong>{{c.rules}}</p><p><strong>奖励：</strong>{{c.reward}}</p>
-   <a :href="withBase('/strategy/challenges#全部挑战总表')">查看挑战攻略</a>
+  <article v-for="c in rows" :key="c.id" class="tool-card ch" :class="{ done: data.completed.includes(c.id) }">
+   <label class="ch-head"><input type="checkbox" :checked="data.completed.includes(c.id)" :aria-label="`#${c.id} ${c.name} 已完成`" @change="toggle(c.id)" /><b>#{{c.id}} {{c.name}}</b><span class="ch-sub">{{c.description.replace(c.name,'').trim()}}</span></label>
+   <dl>
+    <dt>角色</dt><dd>{{c.character}} → {{c.target}}</dd>
+    <dt>开放</dt><dd>{{c.unlock}}</dd>
+    <dt>规则</dt><dd>{{c.rules}}</dd>
+    <dt>奖励</dt><dd>{{c.reward}}</dd>
+   </dl>
   </article>
+  <p><a :href="withBase('/strategy/challenges#全部挑战总表')">挑战怎么打、先做哪些 → 挑战模式攻略</a></p>
   <p v-if="!rows.length">没有符合条件的挑战。</p>
  </div>
 </template>
+
+<style scoped>
+.ch-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin: 0 0 6px !important; }
+.ch-head b { font-size: 16px; }
+.ch-sub { font-size: 13px; color: var(--ib-ink-3); }
+.ch dl { display: grid; grid-template-columns: 3em 1fr; gap: 2px 10px; margin: 0; font-size: 14px; line-height: 1.6; }
+.ch dt { color: var(--ib-ink-3); font-weight: 700; }
+.ch dd { margin: 0; }
+.ch.done { opacity: .6; }
+.ch.done b { text-decoration: line-through; }
+</style>

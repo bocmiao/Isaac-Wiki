@@ -6,14 +6,18 @@ title: 控制台命令生成器
 
 <VersionBadge checked="2026-10" />
 
-先看[开启控制台](/topics/debug-console)。这里按[命令大全](/topics/debug-console-commands)生成单条或多行命令，支持收藏道具、34个角色、普通主线楼层、debug开关及读取命令。它不执行命令，也不连接你的游戏。
+选好要做的事，生成可以直接粘贴进游戏控制台的命令，可以攒成多行一起复制。只生成文字，不会连接或操作你的游戏。
+
+还没开控制台先看[开启与关闭](/topics/debug-console)；每条命令什么意思见[命令大全](/topics/debug-console-commands)。
 
 <ConsoleGenerator />
 
-## 编号来源与使用范围
+## 注意 {#编号来源与使用范围}
 
-`item-links.json`在本仓库原先不存在，本次补建：道具编号对照 [IsaacDocs CollectibleType](https://wofsauge.github.io/IsaacDocs/rep/enums/CollectibleType.html)，中英文名称对照[EID作者资料](https://github.com/wofsauge/External-Item-Descriptions)，取两边均能核对的720项。名称不是手动拼出编号；代码使用 `c105` 等明确编号，不靠模糊名称匹配。
+- 「直接给道具」（`g c编号`）是直接进身上；「生成地上道具底座」（`spawn 5.100.编号`）是在房间里放一个可以捡的。给主动道具会顶掉你原来那一格。
+- 「指定角色开新局」会直接替换当前这一局，也不会永久解锁这个角色。
+- `debug 编号` 是开关：同一个编号再执行一次就关掉。
+- 只支持 PC 忏悔 / 忏悔+ 的原版道具（720 件），不含模组道具、饰品、卡牌和胶囊。
+- 用了控制台的存档要先在正常局打败过妈妈才能继续拿成就，详见[开启与关闭](/topics/debug-console)。
 
-此处面向 PC 忏悔 / 忏悔+，不包含模组新增道具或任意实体生成，也不把饰品、卡牌、胶囊的编号当收藏道具。`g`直接给道具，`spawn 5.100.ID`生成地上底座，主动道具可能替换原有槽位。切角色会替换当前局，debug同号重复是切换而非强制开启；复制多行前先看清执行顺序。
-
-道具编号数据对照2026-10-05已有源快照：EID提交 `ee7f463a00c11263272ee737a52961fb562d26b8` 与 IsaacDocs提交 `e05b1fd90e33608a7a7a8dcb70a89cef908cc41a` 的枚举。生成脚本是 `scripts/generate-tool-data.py`，需明确传入本地来源仓库路径，不联网抓取或自动猜补缺失编号。
+道具编号来自 [IsaacDocs](https://wofsauge.github.io/IsaacDocs/rep/enums/CollectibleType.html)，中英文名来自 [EID](https://github.com/wofsauge/External-Item-Descriptions)，只收两边都能对上的道具。

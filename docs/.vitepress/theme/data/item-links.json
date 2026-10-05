@@ -13,8 +13,8 @@
   },
   {
     "id": 3,
-    "en": "2-3",
-    "name": "2-3",
+    "en": "Spoon Bender",
+    "name": "弯勺魔术",
     "enum": "COLLECTIBLE_SPOON_BENDER"
   },
   {
@@ -37,8 +37,8 @@
   },
   {
     "id": 7,
-    "en": "6",
-    "name": "6",
+    "en": "Blood of the Martyr",
+    "name": "殉道者之血",
     "enum": "COLLECTIBLE_BLOOD_OF_THE_MARTYR"
   },
   {
@@ -3278,7 +3278,7 @@
   {
     "id": 551,
     "en": "Broken Shovel",
-    "name": "铲子碎片",
+    "name": "铲子碎片（第二块）",
     "enum": "COLLECTIBLE_BROKEN_SHOVEL_2"
   },
   {
@@ -3878,7 +3878,7 @@
   {
     "id": 656,
     "en": "Damocles",
-    "name": "达摩克里斯之剑",
+    "name": "达摩克里斯之剑（被动形态）",
     "enum": "COLLECTIBLE_DAMOCLES_PASSIVE"
   },
   {

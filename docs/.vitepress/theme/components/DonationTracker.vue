@@ -39,9 +39,15 @@ function donate(){
   <p>总累计和角色历史累计独立填写；不知道角色历史时不要从总累计推算。普通机可能因炸机变化，按游戏当前显示校正。</p>
   <div class="tool-grid"><label>贪婪机总累计（0–1000）<input v-model.number="greedDraft" type="number" min="0" max="1000" /></label><label>普通机当前累计（0–999）<input v-model.number="normalDraft" type="number" min="0" max="999" /></label><label>此角色历史累计<input v-model.number="charDraft" type="number" min="0" max="1000000" /></label></div>
   <button @click="setTotals">保存校正数值</button>
-  <h2>贪婪里程碑</h2><ul><li v-for="[n,name] in greedMilestones" :key="n">{{data.greed>=n?'已达到':'未达到'}} · {{n}} 枚：{{name}}</li></ul>
+  <h2>贪婪里程碑</h2><table class="ms"><thead><tr><th></th><th>累计</th><th>解锁</th><th>还差</th></tr></thead><tbody><tr v-for="[n,name] in greedMilestones" :key="n" :class="{ got: data.greed>=n }"><td>{{data.greed>=n?'✓':''}}</td><td>{{n}}</td><td>{{name}}</td><td>{{data.greed>=n?'—':`${n-data.greed} 枚`}}</td></tr></tbody></table>
   <h2>普通捐款机</h2><p>当前数字对应的商店等级：{{level}}。炸机降低数字不会撤销已解锁等级，实际最高等级以游戏存档为准；困难模式仍会随机。</p>
-  <ul><li v-for="m in normalMilestones" :key="m.id">{{data.normal>=m.coins?'当前数字已达到':'当前数字未达到'}} · {{m.coins}} 枚：{{m.name}}（秘密 #{{m.id}}）</li></ul>
+  <table class="ms"><thead><tr><th></th><th>累计</th><th>成就</th><th>还差</th></tr></thead><tbody><tr v-for="m in normalMilestones" :key="m.id" :class="{ got: data.normal>=m.coins }"><td>{{data.normal>=m.coins?'✓':''}}</td><td>{{m.coins}}</td><td>{{m.name}}（#{{m.id}}）</td><td>{{data.normal>=m.coins?'—':`${m.coins-data.normal} 枚`}}</td></tr></tbody></table>
   <div class="tool-actions"><button @click="exportFile">导出捐款进度</button><label class="tool-import">导入并替换捐款进度<input type="file" accept="application/json,.json" @change="importFile" /></label></div><p role="status">{{message}}</p><p v-if="storageError" role="alert">{{storageError}}</p>
  </div>
 </template>
+
+<style scoped>
+.ms td:last-child, .ms td:nth-child(2) { white-space: nowrap; }
+.ms td:first-child, .ms th:first-child { width: 2em; min-width: 0; padding-left: 6px; padding-right: 0; text-align: center; color: var(--ib-blood); font-weight: 800; }
+.ms tr.got { opacity: .6; }
+</style>

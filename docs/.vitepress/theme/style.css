@@ -690,20 +690,33 @@ html {
   }
 }
 
-.tool-panel { margin: 20px 0; }
-.tool-panel label { display: block; margin: 10px 0; }
+/* ---------- 工具页通用样式：沿用站点的描边纸片风格 ---------- */
+.tool-panel { margin: 20px 0; accent-color: var(--ib-blood); }
+.tool-panel label { display: block; margin: 10px 0; font-size: 14px; }
+.tool-panel label:has(> input[type=checkbox]) { display: flex; align-items: flex-start; gap: 8px; margin: 6px 0; font-size: 15px; cursor: pointer; }
+.tool-panel input[type=checkbox] { flex: none; width: 18px; height: 18px; margin: 3px 0 0; cursor: pointer; }
 .tool-panel input:not([type=checkbox]):not([type=file]), .tool-panel select, .tool-panel textarea {
-  display: block; width: 100%; max-width: 100%; min-width: 0; padding: 8px 10px;
-  border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg); color: var(--vp-c-text-1);
+  display: block; width: 100%; max-width: 100%; min-width: 0; margin-top: 6px; padding: 8px 10px; font-size: 15px;
+  border: 2px solid var(--ib-outline); border-radius: 6px; background: var(--ib-paper); color: var(--vp-c-text-1);
 }
-.tool-panel input[type=checkbox] { margin-right: 6px; }
-.tool-panel textarea { font-family: var(--vp-font-family-mono); }
-.tool-panel button { padding: 7px 12px; border: 1px solid var(--vp-c-divider); border-radius: 6px; background: var(--vp-c-bg-soft); }
-.tool-panel button:disabled { opacity: .5; cursor: not-allowed; }
+.tool-panel textarea { font-family: var(--vp-font-family-mono); font-size: 14px; }
+.tool-panel button, .tool-panel label:has(> input[type=file]) {
+  display: inline-flex; align-items: center; margin: 0; padding: 6px 14px; font-size: 14px; font-weight: 700;
+  border: 2px solid var(--ib-outline); border-radius: 6px; background: var(--ib-paper); color: var(--ib-ink);
+  box-shadow: 0 2px 0 var(--ib-outline); cursor: pointer;
+}
+.tool-panel button:hover, .tool-panel label:has(> input[type=file]):hover { background: var(--ib-gold-soft); }
+.tool-panel button:active { transform: translateY(1px); box-shadow: 0 1px 0 var(--ib-outline); }
+/* 原生文件选择框（英文的 Choose File）藏起来，整个标签当按钮用 */
+.tool-panel label > input[type=file] { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.tool-panel label:has(> input[type=file]:focus-visible) { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
+.tool-panel button:disabled { opacity: .45; cursor: not-allowed; box-shadow: none; }
 .tool-panel :is(input,select,textarea,button):focus-visible { outline: 2px solid var(--vp-c-brand-1); outline-offset: 2px; }
+.tool-panel h2 { margin-top: 28px; }
 .tool-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(230px,100%),1fr)); gap: 0 18px; }
 .tool-grid > * { min-width: 0; }
-.tool-result, .tool-card { padding: 14px; margin: 14px 0; border: 1px solid var(--vp-c-divider); border-radius: 8px; overflow-wrap: anywhere; }
-.tool-result { background: var(--vp-c-bg-soft); }
+.tool-result, .tool-card { padding: 12px 16px; margin: 12px 0; border: 2px solid var(--ib-outline); border-radius: 8px; background: var(--ib-paper); overflow-wrap: anywhere; }
+.tool-result { background: var(--ib-gold-soft); font-size: 15px; }
+.tool-result p { margin: 4px 0; }
+.tool-card p { margin: 4px 0; }
 .tool-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 14px 0; }
-.tool-import input { display: block; max-width: 100%; }

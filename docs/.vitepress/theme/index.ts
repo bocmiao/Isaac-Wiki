@@ -22,7 +22,7 @@ export default {
     const route = useRoute()
     const label = () =>
       nextTick(() => {
-        document.querySelectorAll<HTMLTableElement>('.vp-doc table').forEach((table) => {
+        document.querySelectorAll<HTMLTableElement>('.vp-doc table:not(.tool-panel table)').forEach((table) => {
           const heads = [...table.querySelectorAll('thead th')].map((th) => th.textContent?.trim() ?? '')
           if (heads.length < 3) return
           table.classList.add('stack')

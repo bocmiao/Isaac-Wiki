@@ -29,13 +29,29 @@ const angelFlags:[keyof DealInput,string][]=[['paid','本局做过恶魔交易']
    <label>本层忏悔室祝福次数<input v-model.number="input.confessions" type="number" min="0" max="10" /></label>
   </div>
   <p v-if="!valid" role="alert">魂火请输入0–8整数，忏悔室祝福请输入0–10整数。</p>
-  <div v-else class="tool-result" aria-live="polite">
-   <p>加成合计 {{ result.raw.toFixed(2) }}% × {{ result.penalty }}，再封顶；山羊头 / 圣餐另行保底。</p>
-   <strong>交易门概率：{{ percent(result.door) }}</strong>
-   <template v-if="!result.uncertain"><p>开门后选天使的比例：{{ percent(result.angel) }}（{{ result.reason }}）</p><p>最终天使房：{{ percent(result.angelTotal) }} · 最终恶魔房：{{ percent(result.devilTotal) }}</p></template>
-   <p v-else>同时满足天使强制保底与恶魔乞丐反向判定，来源未写优先级；不输出该组合的最终房型概率。</p>
+  <div v-else class="tool-result deal-result" aria-live="polite">
+   <div class="deal-nums">
+    <span><small>出现交易门</small><b>{{ percent(result.door) }}</b></span>
+    <template v-if="!result.uncertain">
+     <span><small>最终是天使房</small><b>{{ percent(result.angelTotal) }}</b></span>
+     <span><small>最终是恶魔房</small><b>{{ percent(result.devilTotal) }}</b></span>
+    </template>
+   </div>
+   <p v-if="!result.uncertain">开门后是天使房的比例 {{ percent(result.angel) }}：{{ result.reason }}</p>
+   <p v-else>同时满足天使保底和恶魔乞丐的反向判定，资料没写哪个优先，这种组合不给最终房型概率。</p>
+   <p class="deal-note">开门加成合计 {{ result.raw.toFixed(2) }}% × 惩罚 {{ result.penalty }}，超过 100% 按 100% 算；山羊头 / 圣餐直接必开。</p>
   </div>
   <details v-if="valid"><summary>查看加成与独立判定明细</summary><ul><li v-for="[name,value] in result.terms" :key="name">{{name}}：+{{value}}%</li></ul><p>天使普通判定为 1 − 所有失败概率的乘积。</p><ul><li v-for="[name,value] in result.checks" :key="name">{{name}}：{{percent(value)}}</li></ul></details>
   <button type="button" @click="Object.assign(input,defaultDeal())">重置条件</button>
  </div>
 </template>
+
+<style scoped>
+/* 结果贴在屏幕底部：往上勾选条件时随时能看到数字变化 */
+.deal-result { position: sticky; bottom: 12px; z-index: 5; box-shadow: 0 4px 0 var(--ib-outline); background: var(--ib-paper); }
+.deal-nums { display: flex; flex-wrap: wrap; gap: 8px 24px; }
+.deal-nums span { display: flex; flex-direction: column; }
+.deal-nums small { font-size: 12px; color: var(--ib-ink-3); }
+.deal-nums b { font-family: var(--ib-font-display); font-size: 26px; font-weight: 400; line-height: 1.2; color: var(--ib-blood); }
+.deal-note { font-size: 12.5px; color: var(--ib-ink-3); }
+</style>

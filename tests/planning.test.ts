@@ -5,8 +5,8 @@ import synergies from '../docs/.vitepress/theme/data/synergies.json'
 assert.equal(routes.length,11)
 assert.equal(new Set(routes.map(r=>r.id)).size,11)
 assert.equal(synergies.length,8)
-assert(synergies.find(c=>c.items.includes(656)))
-assert(!synergies.some(c=>c.items.includes(577)))
+assert(synergies.find(c=>c.items.includes(577)))
+assert(!synergies.some(c=>c.items.includes(656))) // 用底座上那件（577），不用使用后得到的被动形态（656）
 assert.deepEqual(missingGates('hush',['heart11']),[])
 assert.deepEqual(missingGates('delirium',['hush3']),[])
 assert.deepEqual(missingGates('mother',['hush1']).map(g=>g.id),['hush3'])
