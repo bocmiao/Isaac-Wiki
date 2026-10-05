@@ -1,4 +1,4 @@
-import { h } from 'vue'
+import { defineAsyncComponent, h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import type { Theme } from 'vitepress'
 import '@fontsource/zcool-kuaile/index.css'
@@ -20,6 +20,7 @@ export default {
   enhanceApp({ app }) {
     app.component('HomeLanding', HomeLanding)
     app.component('UnlockTracker', UnlockTracker)
+    app.component('AchievementCatalog', defineAsyncComponent(() => import('./components/AchievementCatalog.vue')))
     app.component('VersionBadge', VersionBadge)
     app.component('FloorTrack', FloorTrack)
     app.component('StrategyGrid', StrategyGrid)

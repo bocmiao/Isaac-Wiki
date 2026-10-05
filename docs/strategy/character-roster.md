@@ -1,0 +1,111 @@
+---
+title: 角色速查与练习路线
+description: 17 个表角色与 17 个里角色的攻略入口、开局强化和完成标记规划。
+---
+
+# 角色速查与练习路线
+
+<VersionBadge />
+
+先找角色，再看对应攻略中的「开局怎么打」「资源优先级」和「常见失误与练习目标」。这里按单人忏悔 / 忏悔+ 规划；加号版本差异在各角色正文中单独说明。中文沿用本站社区译名，里角色在游戏内称「堕化」。雅各和以扫是一组表角色，对应的里角色是里雅各，里以扫不是另一个可选角色。
+
+## 角色怎么获得
+
+- [17 个表角色的获取条件](/guide/unlocks/order#推荐顺序)：普通条件、主线 Boss 与模式要求。
+- [隐藏角色获取](/guide/unlocks/order#hidden)：游魂、店主、遗骸的完整特殊任务。
+- [17 个里角色的对应表与回家流程](/guide/unlocks/order#tainted-unlocks)：不是独立难度模式，需要逐个用对应表角色解锁。
+- [变身与 NPC 的区别](/guide/unlocks/order#character-forms)：黑犹大、复活的拉撒路、遗骸之魂和里以扫。
+
+## 34 个角色攻略入口
+
+| 表角色 | 先练的基本功 | 对应里角色 | 先练的基本功 |
+| --- | --- | --- | --- |
+| [以撒](/strategy/characters#isaac) | 判断道具是否值得重置 | [里以撒](/strategy/tainted#isaac) | 管理八个被动格，围绕核心组合换道具 |
+| [抹大拉](/strategy/characters#magdalene) | 用回血主动管理血量资源 | [里抹大拉](/strategy/tainted#magdalene) | 区分可近身击杀的小怪和需要远射的 Boss |
+| [该隐](/strategy/characters#cain) | 单眼瞄准、钥匙与金箱子的取舍 | [里该隐](/strategy/tainted#cain) | 区分保命资源和合成材料 |
+| [犹大](/strategy/characters#judas) | 主动加伤配合低血量走位 | [里犹大](/strategy/tainted#judas) | 暗仪刺刀穿弹幕后安全落点 |
+| [???](/strategy/characters#bluebaby) | 魂心续航，给以撒解锁六面骰 | [里???](/strategy/tainted#bluebaby) | 用大便补输出并保留爆炸手段 |
+| [夏娃](/strategy/characters#eve) | 红心压血与魂心保护 | [里夏娃](/strategy/tainted#eve) | 长按造血团、点射保血、主动召回 |
+| [参孙](/strategy/characters#samson) | 在回血够用时利用受伤加成 | [里参孙](/strategy/tainted#samson) | 狂暴切换和击杀链 |
+| [阿撒泻勒](/strategy/characters#azazel) | 短激光的接近、蓄力与撤退 | [里阿撒泻勒](/strategy/tainted#azazel) | 喷嚏标记接长激光，不依赖飞行 |
+| [拉撒路](/strategy/characters#lazarus) | 每层复活取舍；伯大尼解锁局不死 | [里拉撒路](/strategy/tainted#lazarus) | 两套构筑与生死逆转充能 |
+| [伊甸](/strategy/characters#eden) | 判断随机开局的短板 | [里伊甸](/strategy/tainted#eden) | 受伤重置后的重新判断 |
+| [游魂](/strategy/characters#lost) | 破盾后立即转为保命走位 | [里游魂](/strategy/tainted#lost) | 管理不会自动刷新的神圣卡保护 |
+| [莉莉丝](/strategy/characters#lilith) | 淫魔位置与朋友盒充能 | [里莉莉丝](/strategy/tainted#lilith) | 短按甩胎儿与长按远射 |
+| [店主](/strategy/characters#keeper) | 地上留硬币，木制镍币先充先用 | [里店主](/strategy/tainted#keeper) | 安全捡短时硬币，买道具前留钱 |
+| [亚玻伦](/strategy/characters#apollyon) | 拿强道具，吞无用道具 | [里亚玻伦](/strategy/tainted#apollyon) | 比较本体道具和蝗虫输出 |
+| [遗骸](/strategy/characters#forgotten) | 分别照顾身体和灵魂血量 | [里遗骸](/strategy/tainted#forgotten) | 投掷与安全回收身体 |
+| [伯大尼](/strategy/characters#bethany) | 红心保命，魂心充能养魂火 | [里伯大尼](/strategy/tainted#bethany) | 魂心保命，红心充能养道具魂火 |
+| [雅各和以扫](/strategy/characters#jacob) | 对齐站位，分别照顾两条血量 | [里雅各](/strategy/tainted#jacob) | 听冲刺提示，锁链控里以扫 |
+
+## 开局强化先做哪些 {#upgrades}
+
+解锁角色不等于已经有完整的开局配置。下面这些条件可以在[解锁清单](/tools/tracker)之外作为近期目标；清单里的「角色已解锁」只表示角色能选。
+
+| 受益角色 | 目标 | 得到什么 | 建议 |
+| --- | --- | --- | --- |
+| 以撒 | 用 ??? 击败以撒（Boss） | 开局六面骰（The D6） | 先用 ??? 走教堂路线，不必同时赶限时 Boss |
+| 抹大拉 | 完成挑战 #32 Aprils Fool | 开局体力回满胶囊 | 先看[挑战攻略](/strategy/challenges)，不要把挑战规则套到正常局 |
+| 该隐 | 贪婪捐款机累计 68 枚 | 开局回形针（Paper Clip） | 和莉莉丝、店主目标一起推进 |
+| 夏娃 | 贪婪捐款机累计 439 枚 | 开局剃刀片（Razor Blade） | 主动压血方便，但仍要准备魂心保护 |
+| 参孙 | 完成挑战 #34 Ultra Hard | 开局小孩的心脏（Child's Heart） | 挑战很难，不是开始玩参孙的前提 |
+| 拉撒路 | 完成挑战 #31 Backasswards | 开局贫血（Anemic） | 不能代替伯大尼解锁局的全程不死要求 |
+| 游魂 | 贪婪捐款机累计 879 枚 | 自带神圣屏障（Holy Mantle）效果 | 建议先完成，再用游魂补标记 |
+| 店主 | 用店主击败以撒（Boss） | 开局木制镍币（Wooden Nickel） | 优先拿，改善硬币续航；普通模式也能解锁 |
+| 店主 | 用店主击败撒但 | 开局商店钥匙（Store Key） | 商店路线更方便 |
+| 店主 | 用店主击败死寂 | 开局第 3 个硬币心和 1 硬币 | 拿到木制镍币后再尝试限时路线 |
+
+## 从选人到补标记
+
+1. **还没解锁角色**：按[角色解锁顺序](/guide/unlocks/order)完成条件。正常非种子局、可获得成就的存档中操作；不要用禁用成就的模式验证解锁。
+2. **刚解锁角色**：先读对应攻略，练清房和血量规则。初期可用普通模式拿关键开局强化；后续想补困难标记，再切困难模式。
+3. **要开里角色**：用对应表角色回家，带可开隐藏房的钥匙手段，接触里角色。解锁后这局无需击败祸兽才生效。
+4. **要补标记**：开局先选目标，看时间门槛、分支道具和入口。主线进程尚未开放的路线，要先完成前置，不是换角色就能去。
+5. **结束一局**：在[解锁清单](/tools/tracker)记录实际完成的难度；道具是否解锁以游戏内成就为准。
+
+## 十二格、困难标记与奖励 {#marks}
+
+34 个角色各有十二个目标，共 408 格。普通与困难是同一格的两个完成状态，困难完成也覆盖普通完成；清单的「已完成」会统计两种状态，「困难 / 极贪」只统计最高状态。它记录角色进度，不是游戏全部成就的百分比。
+
+| 目标 | 去哪里 / 前置要点 | 可以顺路完成什么 |
+| --- | --- | --- |
+| 妈妈的心脏 / 它活着 | 子宫 II | 大部分普通主线都会经过 |
+| 以撒、??? | 教堂 → 宝箱层，妈妈处拿全家福 | 同一局可补以撒与 ??? |
+| 撒但、羔羊 | 阴间 → 暗室，妈妈处拿底片 | 同一局可补撒但与羔羊 |
+| 超级撒但 | 宝箱层或暗室的金门，准备开门手段 | 可接在对应路线终点后；战后能否继续不要当作必然 |
+| Boss Rush | 通常 20 分钟内击败妈妈后进门 | 可继续本局主线，做时间规划时先决定是否赶门 |
+| 死寂 | 已开放蓝子宫，通常 30 分钟内击败心脏 / 它活着 | 击败后可接虚空，补精神错乱 |
+| 精神错乱 | 虚空 | 随机入口不保证出现；死寂战后入口适合稳定规划 |
+| 母亲 | 隐藏路线，集齐菜刀碎片进尸宫 | 按独立分支规划 |
+| 祸兽 | 特殊门 → 爸爸的便条 → 上行 → 家 | 路上先开对应里角色；祸兽作为本局终点 |
+| 究极贪婪 / 究极贪婪加强版 | 选人时开贪婪 / 极贪模式 | 必须另开模式；R键不能从普通主线切过来 |
+
+完整入口步骤见[结局与路线](/guide/unlocks/endings)，战斗见[Boss 攻略](/strategy/bosses)与[Boss 攻略（二）](/strategy/bosses-2)。没有赶上限时入口时，可以继续补本局其他目标，不必直接重开。
+
+### 里角色的七组奖励
+
+里角色有十二格，但常规标记奖励按七组发放：
+
+| 奖励组 | 要完成的标记 | 注意 |
+| --- | --- | --- |
+| 主线四终点 | 以撒 + ??? + 撒但 + 羔羊 | 四格全部完成才满足这一组 |
+| 限时双目标 | Boss Rush + 死寂 | 两格都要完成，可以分不同对局 |
+| 超级撒但 | 超级撒但 | 单独一组 |
+| 极贪 | 极贪模式 | 贪婪模式的普通状态不满足 |
+| 精神错乱 | 精神错乱 | 单独一组 |
+| 母亲 | 母亲 | 单独一组 |
+| 祸兽 | 祸兽 | 单独一组 |
+
+心脏 / 它活着和普通贪婪没有对应的独立里角色奖励，仍要为全困难标记补齐。想避免以后返工，普通主线统一用困难模式，贪婪列最终补成极贪。七组各给什么会随角色变化，[里角色攻略](/strategy/tainted#完成标记)列有里以撒的示例。
+
+**死亡证明（Death Certificate）**要求全部 34 个角色的全套困难完成标记，贪婪列按极贪完成。**白金神（Dead God）**还要求其他成就和道具收集，不能只凭清单全满判断。解锁道具后还需要按收集条件实际拾取，查看游戏内收集页和成就页确认；忏悔+新增成就的要求见[白金神剩余检查](/guide/platinum/#remaining)。
+
+## 版本与资料
+
+本站的练习建议是基于角色机制的操作思路，不是固定最优解。忏悔+ 的联机、热更新和不同平台可能影响细节；尤其不要把旧版里该隐配方或旧版拉撒路的复活规则直接套用。现有角色文章中标出的待核实差异需要继续对照当前游戏版本，本文不补未经复核的精确数值。
+
+- [Characters](https://bindingofisaacrebirth.wiki.gg/wiki/Characters)
+- [Tainted Characters](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Characters)
+- [Completion Marks](https://bindingofisaacrebirth.wiki.gg/wiki/Completion_Marks)
+- [Death Certificate](https://bindingofisaacrebirth.wiki.gg/wiki/Death_Certificate)
+- 各角色与道具的具体来源见[表角色攻略](/strategy/characters#参考资料)和[里角色攻略](/strategy/tainted#参考资料)。

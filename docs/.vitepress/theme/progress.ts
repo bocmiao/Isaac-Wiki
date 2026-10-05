@@ -13,12 +13,40 @@ export interface Progress {
 
 export const emptyProgress = (): Progress => ({ v: 1, chars: { isaac: true }, tainted: {}, marks: {} })
 
+const characterIds = new Set(characters.map((c) => c.id))
+const markKeys = new Set(characters.flatMap((c) =>
+  [c.id, `${c.id}-t`].flatMap((id) => marks.map((m) => `${id}:${m.id}`)),
+))
+
+const isRecord = (value: unknown): value is Record<string, unknown> =>
+  value !== null && typeof value === 'object' && !Array.isArray(value)
+
+// Keep v1 exports compatible, ignore unknown entries, and validate before replacing any progress.
+export function parseProgress(value: unknown): Progress | null {
+  if (!isRecord(value) || value.v !== 1) return null
+  if (!isRecord(value.chars) || !isRecord(value.tainted) || !isRecord(value.marks)) return null
+  const result = emptyProgress()
+  for (const field of ['chars', 'tainted'] as const) {
+    for (const [id, unlocked] of Object.entries(value[field])) {
+      if (!characterIds.has(id)) continue
+      if (typeof unlocked !== 'boolean') return null
+      result[field][id] = unlocked
+    }
+  }
+  result.chars.isaac = true
+  for (const [key, state] of Object.entries(value.marks)) {
+    if (!markKeys.has(key)) continue
+    if (state !== 0 && state !== 1 && state !== 2) return null
+    if (state !== 0) result.marks[key] = state
+  }
+  return result
+}
+
 export function loadProgress(): Progress | null {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
     if (!raw) return null
-    const data = JSON.parse(raw)
-    return data?.v === 1 ? data : null
+    return parseProgress(JSON.parse(raw))
   } catch {
     return null
   }
@@ -38,7 +66,7 @@ export const totalMarks = characters.length * 2 * marks.length
 export function summarize(p: Progress) {
   const unlocked = characters.filter((c) => p.chars[c.id]).length
   const tainted = characters.filter((c) => p.tainted[c.id]).length
-  const marksDone = Object.values(p.marks).filter((v) => v > 0).length
+  const marksDone = Object.entries(p.marks).filter(([key, v]) => markKeys.has(key) && (v === 1 || v === 2)).length
   const overall = (unlocked + tainted + marksDone) / (characters.length * 2 + totalMarks)
   return { unlocked, tainted, marksDone, overall }
 }

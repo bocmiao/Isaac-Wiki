@@ -40,6 +40,7 @@ const guideSidebar = [
       { text: '阶段总览', link: '/guide/advanced/' },
       { text: '机制详解', link: '/strategy/mechanics' },
       { text: '道具取舍与流派', link: '/strategy/items' },
+      { text: '角色速查与练习路线', link: '/strategy/character-roster' },
       { text: '表角色攻略', link: '/strategy/characters' },
       { text: 'Boss 打法（一）', link: '/strategy/bosses' },
       { text: 'Boss 打法（二）', link: '/strategy/bosses-2' },
@@ -50,6 +51,8 @@ const guideSidebar = [
     collapsed: false,
     items: [
       { text: '阶段总览', link: '/guide/platinum/' },
+      { text: '全部成就与详细解锁', link: '/guide/achievements/' },
+      { text: '特殊成就详细教程', link: '/guide/achievements/special' },
       { text: '里角色攻略', link: '/strategy/tainted' },
       { text: '挑战模式', link: '/strategy/challenges' },
       { text: '贪婪模式', link: '/strategy/greed' },
@@ -57,6 +60,19 @@ const guideSidebar = [
     ],
   },
 ]
+
+guideSidebar.push({
+  text: '全成就 · 编号教程',
+  collapsed: true,
+  items: [
+    { text: '搜索全部 641 项', link: '/guide/achievements/' },
+    { text: '特殊成就与查漏', link: '/guide/achievements/special' },
+    ...[1, 101, 201, 301, 401, 501, 601].map((start) => {
+      const end = Math.min(start + 99, 641)
+      return { text: `#${start}–${end} 详细解锁`, link: `/guide/achievements/ids-${String(start).padStart(3, '0')}-${end}` }
+    }),
+  ],
+})
 
 // GitHub Pages 部署在 /Isaac-Wiki/ 子路径下，由 CI 通过 BASE 环境变量传入；本地开发默认根路径
 const base = process.env.BASE ?? '/'
@@ -91,9 +107,11 @@ export default defineConfig({
         items: [
           { text: '联机专题', link: '/topics/coop' },
           { text: '主机专题', link: '/topics/console' },
-          { text: '配置与模组', link: '/topics/mods' },
+          { text: '配置与实用模组', link: '/topics/mods' },
+          { text: '调试控制台：开启与关闭', link: '/topics/debug-console' },
         ],
       },
+      { text: '全成就', link: '/guide/achievements/', activeMatch: '/guide/achievements/' },
       { text: '解锁清单', link: '/tools/tracker' },
       { text: '关于', link: '/about' },
     ],
@@ -104,6 +122,8 @@ export default defineConfig({
           text: '攻略库',
           items: [
             { text: '全部攻略', link: '/strategy/' },
+            { text: '全部成就与详细解锁', link: '/guide/achievements/' },
+            { text: '角色速查与练习路线', link: '/strategy/character-roster' },
             ...strategyCategories.flatMap((c) =>
               c.id === 'bosses'
                 ? [
@@ -122,7 +142,10 @@ export default defineConfig({
           items: [
             { text: '联机专题', link: '/topics/coop' },
             { text: '主机专题', link: '/topics/console' },
-            { text: '配置与模组', link: '/topics/mods' },
+            { text: '配置与实用模组', link: '/topics/mods' },
+            { text: '调试控制台：开启与关闭', link: '/topics/debug-console' },
+            { text: '调试控制台：命令大全', link: '/topics/debug-console-commands' },
+            { text: '调试控制台：练习与排错', link: '/topics/debug-console-practice' },
           ],
         },
       ],
@@ -150,7 +173,7 @@ export default defineConfig({
     },
     footer: {
       message: '非官方粉丝站。《以撒的结合》相关素材版权归 Edmund McMillen 与 Nicalis 所有。',
-      copyright: '内容以 CC BY-NC-SA 4.0 发布',
+      copyright: '内容以 CC BY-NC-SA 4.0 发布；另有授权注明的成就系列除外',
     },
   },
 })

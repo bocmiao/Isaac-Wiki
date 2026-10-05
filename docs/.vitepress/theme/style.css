@@ -296,6 +296,14 @@ body::before {
   background: transparent;
 }
 
+@media (max-width: 640px) {
+  .vp-doc table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
 /* 提示框：粗描边 + 硬投影，像游戏里的纸条 */
 .custom-block {
   --sk-bw: 2px;

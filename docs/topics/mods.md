@@ -1,83 +1,147 @@
 ---
-title: 配置与模组
+title: 配置与实用模组
+description: Steam 创意工坊实用模组推荐：中文道具说明、配置菜单、Boss 血条、小地图与星象房概率，含安装、兼容和冲突排查。
 ---
 
-# 配置与模组
+# 配置与实用模组
 
-<VersionBadge checked="2026-10" />
+<VersionBadge />
 
-第一次打败妈妈之前，先别装模组。打败之后，在 Steam 创意工坊点「订阅」就能装，最推荐的是道具说明模组 External Item Descriptions（EID），它支持中文。记住两条规则：开着模组时解锁成就有前提条件；想在线联机，必须先把模组全部关掉。
+新手先在不开模组、不开控制台的正常局里打败一次妈妈，再考虑安装。最小组合是 **EID 中文道具说明 + Mod Config Menu - Impure**；之后按需要加 Boss 血条、小地图或星象房概率，不必一次订阅一整套合集。Steam 官方在线联机前要关闭全部模组并重启，详见[联机专题](/topics/coop)。
 
-## 模组从哪装
+## 按用途选模组 {#recommended}
 
-PC 的 Steam 版直接用 Steam 创意工坊：
+点名称打开对应 Steam 创意工坊页面。下面的链接、功能和限制对照工坊原页面、作者公开 README 与元数据；版本支持只写作者明确说明的范围，不把“能订阅”当作“已兼容”。
 
-1. 在创意工坊打开模组页面，点「订阅」。
-2. 启动游戏。游戏会显示一个加载画面，把模组装进去，装好后默认就是启用的。
-3. 不想要了就取消订阅，下次启动游戏时会自动卸载。
+| 模组与工坊入口 | 解决什么问题 | 什么时候装 | 版本 / 前置与注意事项 |
+| --- | --- | --- | --- |
+| [External Item Descriptions（EID）](https://steamcommunity.com/sharedfiles/filedetails/?id=836319872) | 显示道具、饰品、卡牌、符文、胶囊等说明，支持中文 | 打败妈妈后优先装 | 作者安装指南列出胎衣+、忏悔、忏悔+；基础说明不要求 REPENTOGON，部分扩展功能另需前置 |
+| [Mod Config Menu - Impure](https://steamcommunity.com/sharedfiles/filedetails/?id=3701683951) | 给支持它的模组提供游戏内设置菜单 | 和 EID 一起装，方便改语言与显示 | 作者明确支持胎衣+、忏悔、忏悔+；不要同时启用 Pure、旧版或其他独立配置菜单版本 |
+| [Enhanced Boss Bars](https://steamcommunity.com/sharedfiles/filedetails/?id=2635267643) | 按 Boss / 分段显示血条和图标，方便观察多目标战斗 | 经常打多 Boss 房、想看清剩余血量 | 工坊标题标为 `[REP(+)]`，即忏悔 / 忏悔+；作者明确列出与其他修改 Boss 血条设计的模组冲突 |
+| [MinimapAPI](https://steamcommunity.com/sharedfiles/filedetails/?id=1978904635) | 小地图缩放、掉落物与乞丐图标、显示自定义 | 经常回头拿资源，原版地图不够清楚 | 既是地图工具，也是其他模组的前置；它本身不是快捷传送。工坊标题标为 `[AB+|Rep(+)]`，支持胎衣+、忏悔 / 忏悔+；已核对维护仓库的功能与工坊入口 |
+| [Planetarium Chance](https://steamcommunity.com/sharedfiles/filedetails/?id=2489006943) | 在 HUD 显示当前楼层的星象房生成概率 | 已解锁星象房，想规划跳宝箱房路线 | 作者元数据当前标为 `[REP+]`；不会替你解锁或强制生成星象房。概率变化与续局显示有边界，见下文 |
 
-游戏里有一个 Mods（模组）菜单，可以单独开关每个模组。
+### 最小组合与逐步加装
 
-::: tip 装完记得重启一次
-英文 wiki 提醒：刚订阅、更新或在菜单里开关模组后，模组的图片和动画可能加载不全。最稳的办法是重启一次游戏再玩。
+1. **第一次打败妈妈前**：先不开模组。需要认道具时，用[网页图鉴](/about)。
+2. **开始刷角色和完成标记**：EID + Impure 配置菜单。先确认中文说明、设置入口和本局可解锁状态正常。
+3. **想看清战斗**：再加 Enhanced Boss Bars，只保留一套修改 Boss 血条的模组。
+4. **想看清走图资源**：再加 MinimapAPI；有了它不代表可以传送。
+5. **已经解锁星象房**：按需装 Planetarium Chance；还没解锁时先满足游戏条件，显示模组不会开放房间。
+
+每次只加一个新模组，重启后开一局检查；这样出问题时能找到是哪一个引起的。
+
+## EID：中文道具说明 {#eid}
+
+EID 的用途是解释已有道具与机制，尤其适合学习角色、恶魔交易取舍、里该隐合成材料和里以撒八格被动管理。它还能按配置显示额外构筑信息；说明来自模组资料，游戏热更新后仍要留意作者更新。
+
+- 按 <KeyCap>F2</KeyCap> 显示 / 隐藏说明。
+- 在支持 EID 的配置菜单里，把 Language 改成简体中文。作者配置文件中的语言代码是 `zh_cn`。
+- 默认语言代码为 `auto`：在忏悔中会尝试跟随游戏语言；如果游戏没有中文语言选项，就手动选择，不要只等自动切换。
+- EID 不等于完整汉化：它的中文说明不会把所有菜单、剧情和其他模组一并翻成中文。
+- REPENTOGON 是另外的模组扩展，不是点订阅 EID 就自动装好的部分。作者只为部分扩展功能要求它，新手看基础中文说明先不用额外装扩展。
+
+不想装配置菜单时，作者也提供修改 `eid_config.lua` 的方法；普通玩家优先用菜单，避免编辑错文件或被更新覆盖。
+
+::: info 忏悔+ 自带说明能否代替 EID
+忏悔+ 已有游戏内道具说明功能，但显示条件、语言和内容范围与 EID 不同。只想保持原版或在线联机，先看游戏设置中的 Item Descriptions；需要中文或扩展说明再考虑 EID。具体版本规则见[中文设置与常见问题](/guide/start/chinese)。
 :::
 
-不是所有模组都通用。有的只支持某个版本，有的还要先装别的前置模组。订阅前看一眼模组页面写的支持版本和需求。
+## Impure：配置菜单怎么打开 {#config-menu}
 
-## 模组对成就的影响
+它本身不增加道具，也不会自动修改其他模组；只有已接入该菜单的模组才会出现设置项。
 
-规则是这样的：
+1. 进入一局游戏，清空当前房间，确认没有战斗危险。
+2. 默认按 <KeyCap>L</KeyCap> 打开。作者 README 还列出固定备用键 <KeyCap>F10</KeyCap>；手柄默认按下右摇杆。
+3. 选 EID 等对应模组，改语言、字号或显示位置；退出菜单再看效果。
 
-- 只要启用了任何模组，就不能解锁成就。
-- 解除限制的办法：先关掉全部模组，打败一次妈妈。之后再开模组，就能正常解锁了。
-- 调试控制台（Debug Console）也一样。它要手动改配置文件才能打开，新手用不到。打开后同样不能解锁，直到你在不开模组、不开控制台的情况下打败一次妈妈。
-- 开着模组或控制台时，玩不了每日挑战（Daily Run）。当天的每日挑战打完后，练习模式可以开模组。
+**主菜单里打不开**。按键响蜂鸣而没有菜单，可能是它检测到危险；先清房再试。找不到入口时，确认 Mods 菜单中确实启用了它、没有同时开 Pure 或旧版，然后重启游戏。不要因为某个旧教程推荐 Pure，就把它和 Impure 全部打开。
 
-想确认这一局能不能解锁，看界面上钥匙数量的下面：有被划掉的奖杯图标，就是不能解锁。其他导致成就不解锁的情况，见[中文设置与常见问题](/guide/start/chinese)。
+## Enhanced Boss Bars：看清多目标血条 {#boss-bars}
 
-## 新手推荐的模组
+作者列出的主要功能是独立 Boss 图标、多种血条设计，以及按 Boss / 分段分别显示血量。它帮助判断该先处理哪个目标，不会改变 Boss 的攻击套路，也不能替代[Boss 打法](/strategy/bosses)。
 
-| 模组 | 作用 | 备注 |
+如果同时看到原版与模组的两套血条，先关掉其他 Boss 血条模组并重启。作者也提到首次安装或切换游戏语言可能出现重复显示。旧资料中的 Better Boss Bar、Paper Healthbars 等是其他血条方案，不必和本模组叠装。
+
+## MinimapAPI：记资源，不等于传送 {#minimap}
+
+地图可调整大小和显示方式，并用图标记录掉落物、机器与乞丐，适合清层后回收红心、硬币和钥匙。它还为其他地图模组提供接口，所以有时会作为“必需物品”列在工坊页面。
+
+- 先调到能看清的大小，避免挡住角色血量或 EID 说明。
+- 小地图与掉落物图标不等于完整揭示未探索房间，不要把图标当作无条件开图。
+- 作者元数据提醒：出现两张小地图时先重启。重复出现再排查其他地图替换模组。
+- 传送通常来自另一个模组，不是安装 MinimapAPI 后默认获得的能力。
+
+## Planetarium Chance：显示的是当前层概率 {#planetarium}
+
+它显示本层生成星象房的概率，适合判断跳过宝箱房的收益。先满足游戏里星象房的解锁条件，再考虑这项信息；没解锁时，即使安装模组也不会自动得到星象房。
+
+作者说明有两处容易误读：
+
+- **当前楼层的布局已经生成**。拿到影响星象房概率的道具后，要到下一层才反映为新一层的概率，不会把本层即时重新生成。
+- **退出后续局**时，当前层显示可能不准，下一层会恢复。不要把一个显示数值当作本层一定有房间的证据。
+
+作者当前元数据还记录了忏悔+ 相关着色器显示问题与临时处理，因此安装后要留意图标显示；显示异常不等于存档的星象房条件被重置。
+
+## 快捷回程：按需查阅，不混入信息模组组合 {#fast-travel}
+
+[Goodtrip MLX's Tweak](https://steamcommunity.com/sharedfiles/filedetails/?id=3749565569)属于 GoodTrip 快捷走图系列。本次已读取工坊原页面：必需前置是 **MinimapAPI**，配置菜单为可选；使用前停用原 Goodtrip。它会改变走图方式，按需要额外安装。
+
+默认操作是按住 Tab 显示地图光标，用射击方向键选择房间，松开 Tab 传送。作者说明支持镜像地图，默认关闭诅咒房传送，光标速度默认 2；可在配置菜单或配置文件调整。页面未明确列出完整游戏版本支持范围，使用前核对当前版本表现。
+
+这类模组减少往返，**会改变走图玩法**；不同分支对房间是否已探索、战斗、门锁、诅咒房付血、限时奖励入口的处理并不完全相同。订阅前看清当前作者说明和依赖；不要同时启用原版、Fixed、MLX 等多个传送分支。正在练习原版限时路线或献祭、诅咒房的资源取舍时，先按正常走图规则练。
+
+MinimapAPI、星象房概率、EID 与快捷传送的用途不同。额外内容类大模组也会改变道具池、角色和房间，建议等熟悉原版后再按它们自己的说明安装。
+
+## Steam 订阅、启用与卸载 {#install}
+
+这套步骤用于 PC 的 Steam 版，并需要模组页要求的 DLC；重生本体或胎衣的旧式资源替换，不按这里的 Lua 模组流程安装。主机玩家看[主机专题](/topics/console)。
+
+1. 在上面的工坊入口确认模组名称、作者、支持 DLC，以及“必需物品 / Required Items”；别只按相似名称装一个转载版。
+2. 点“订阅”，等待 Steam 下载完成；前置模组也要分别确认已订阅，不要默认已经一并下载。
+3. 启动游戏，在 Mods 菜单确认目标模组已启用。
+4. 完全退出并重启游戏，再进入正常局检查实际效果。不要只看到已订阅，就认为加载成功。
+5. 想暂时停用，在 Mods 菜单关掉；想卸载，在工坊取消订阅。订阅状态和游戏内启用状态是两回事。
+
+### 什么时候能解锁成就 {#achievements}
+
+- **初始阶段启用模组会阻止正常成就解锁**。先关闭模组与调试控制台，在正常非种子局中击败妈妈，再使用模组。
+- **满足前置后**，启用模组本身不再一概禁止普通解锁，但种子、每日挑战、普通挑战和胜利圈等仍有各自规则。每局看钥匙数量下方是否有划掉的奖杯。
+- 换存档栏、切忏悔 / 忏悔+ 或更换 DLC 后，重新确认当前进度和可解锁状态；不要仅凭另一版本已经打过妈妈来判断。
+- 每日挑战前关闭模组与控制台；官方在线联机前关闭全部模组并重启游戏。
+
+遇到没有解锁角色或标记，先按[成就排查表](/guide/start/chinese#成就为什么不解锁)检查游戏条件。不要把“信息类模组”误解成“任何模式都能解锁”的保证。
+
+## 常见故障按这个顺序查 {#troubleshooting}
+
+| 现象 | 先查什么 | 下一步 |
 | --- | --- | --- |
-| External Item Descriptions（EID） | 在画面上直接显示道具、饰品、卡牌、符文、胶囊的说明 | 支持中文；按 <KeyCap>F2</KeyCap> 显示或隐藏；适用胎衣+、忏悔和 Repentance+ |
-| Mod Config Menu Impure | 给其他模组提供一个游戏内设置菜单 | EID 推荐搭配它，用来在游戏里改设置；对局中按 <KeyCap>L</KeyCap> 打开，主菜单里打不开 |
+| 订阅了但没效果 | Steam 下载是否完成、Mods 中是否启用、DLC 是否匹配 | 完全退出重启，只启用目标模组与必需前置 |
+| EID 还是英文 | Language 是否为 `auto`，游戏本身有没有中文选项 | 手动选择中文 / `zh_cn`，不要再订阅第二个相同 EID |
+| EID 说明消失 | 是否按过 F2、是否启用了其他 HUD 模组 | F2 切换一次，调整说明位置，再逐个排查 |
+| 配置菜单打不开 | 是否在对局中、房间是否安全、是否同时启用 Pure / 旧版 | 清房后按 L 或 F10，保留一个菜单版本并重启 |
+| 重复 Boss 血条 | 是否同时装了其他 Boss 血条替换 | 只保留一套并重启 |
+| 两张小地图 | 首次安装未重启、多个地图模组重复渲染 | 重启，再停用重叠功能的模组 |
+| 星象房概率看起来没变 | 是否仍在当前楼层、是否刚续局、房间是否已解锁 | 到下一层再检查，概率不是必出保证 |
+| 更新后闪退或显示异常 | 游戏与模组是否同步更新，前置是否符合作者要求 | 先关闭最近新增的模组；逐个恢复，记录游戏版本再向作者反馈 |
+| 官方在线联机不可用 | 是否还有模组启用或修改游戏文件的补丁 | 关闭模组并重启；文件修改类补丁按其作者说明处理 |
 
-想看中文，就在 EID 的设置里把 Language（语言）改成中文。装了 Mod Config Menu Impure 的话，可以直接在游戏里改。
+要用控制台排查模组或练习道具，见[调试控制台系列](/topics/debug-console)；开启控制台不等于订阅模组。
 
-::: info 不装模组也能看道具说明
-Repentance+ 自带道具说明，打败一次妈妈后在选项里解锁，每个道具要先捡到过一次才会显示。不过 Repentance+ 没有中文，这些说明是英文的。打败妈妈之前想查道具，就用网页图鉴，推荐的图鉴网站见[关于本站](/about)。
-:::
+普通工坊模组取消订阅，与运行外部程序修改游戏文件的中文补丁不是同一种安装方式。涉及文件替换的补丁，参考[中文设置](/guide/start/chinese)，不能靠关掉 Mods 菜单就认定已经恢复。
 
-## 联机时的限制
+## 资料与核对范围
 
-Repentance+ 的在线联机不能开模组。官方的说法是：在线玩之前，要把所有模组关掉并重启游戏。所以想联机的话，EID 这类模组就用不了了。在线联机的其他规则看[联机专题](/topics/coop)。
+本次（2026-10-05）已读取上面六个模组的工坊原页面，并对照下面的作者仓库 README、配置与工坊元数据。这里不包含实际游戏中的模组安装测试，也不将无法复核的当前工坊版本标作已兼容。
 
-## 主机版
+- [EID 作者 README](https://github.com/wofsauge/External-Item-Descriptions)与[安装指南](https://github.com/wofsauge/External-Item-Descriptions/wiki/How-to-install-the-mod)、[语言配置](https://github.com/wofsauge/External-Item-Descriptions/blob/ee7f463a00c11263272ee737a52961fb562d26b8/eid_config.lua)。
+- [Mod Config Menu - Impure 作者 README](https://github.com/piber20/Mod-Config-Menu-Impure)。
+- [Enhanced Boss Bars 作者 README 与元数据](https://github.com/wofsauge/Enhanced-Boss-Bars)。
+- [MinimapAPI 作者项目与文档](https://github.com/TazTxUK/MinimapAPI)。本次对照维护仓库 2026-03-31 的提交，未将早期镜像作为当前发布依据。
+- [Planetarium Chance 作者 README 与元数据](https://github.com/Sectimus/isaac-planetarium-chance)。
+- [GoodTripPlus 作者 README](https://github.com/Jamlet-T/GoodTripPlus)：仅用于核对其引用的 MLX 工坊入口与分支差异，没有把这个未确认工坊发布的派生项目当成一键订阅推荐。
+- [REPENTANCE+ Is Here（Steam 官方新闻）](https://store.steampowered.com/news/app/250900/view/1783238125358311)：在线联机前关闭模组的规则。
+- [Modding（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Modding_(Afterbirth_%E2%80%A0))、[Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)、[Daily Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Daily_Challenges)：模组和特殊模式的成就规则。
 
-官方的模组支持是围绕 Steam 创意工坊做的，这篇讲的装法只适用于 Steam 上的 PC 版。英文 wiki 也写明，主机版打不开调试控制台。主机版发售公告里列的功能也没有提到模组。主机上怎么认道具，看[主机专题](/topics/console)。
-
-## 下一步
-
-想和朋友一起玩，接着读[联机专题](/topics/coop)。
-
-## 参考资料
-
-- [Modding (Afterbirth †)（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Modding_(Afterbirth_%E2%80%A0))
-- [Achievements（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)
-- [Booster Packs（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Booster_Packs)
-- [Debug Console（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Debug_Console)
-- [Daily Challenges（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Daily_Challenges)
-- [Options（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/Options)
-- [V1.9.7.7（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/V1.9.7.7)
-- [V1.9.7.13（英文 wiki）](https://bindingofisaacrebirth.wiki.gg/wiki/V1.9.7.13)
-- [REPENTANCE+ Is Here（Steam 官方新闻，2024-11-18）](https://store.steampowered.com/news/app/250900/view/1783238125358311)
-- [[AB+|Rep(+)] Internal Item Descriptions（Steam 官方新闻，2025-09-10）](https://store.steampowered.com/news/app/250900/view/1810503566367174)
-- [[AB+|Rep(+)] External Item Descriptions（Steam 创意工坊）](https://steamcommunity.com/sharedfiles/filedetails/?id=836319872)
-- [Mod Config Menu - Impure（Steam 创意工坊）](https://steamcommunity.com/sharedfiles/filedetails/?id=3701683951)
-- [The Binding of Isaac: Repentance+ Online launches November 19 for PS5, Xbox Series, and Switch 2（Gematsu）](https://www.gematsu.com/2026/08/the-binding-of-isaac-repentance-online-launches-november-19-for-ps5-xbox-series-and-switch-2)
-
-<!-- 待核实：「主机版不能用模组」没有找到官方或 wiki 的明确说法，正文只写了创意工坊属于 Steam、主机版打不开调试控制台、主机版公告没提模组。 -->
-<!-- 待核实：「先打败一次妈妈」才能开模组解锁，这个条件是按存档算还是全局算，来源矛盾：英文 wiki 模组页说不需要每个存档都打一次；Options 页（EnableMods）说会阻止「在新存档上」解锁。 -->
-<!-- 待核实：EID 是否会自动跟随游戏语言、默认语言是什么，模组页面没写。 -->
-<!-- 待核实：本地（同屏）合作时能否开模组，未查到。 -->
-<!-- 待核实：Repentance+ 1.9.7.7 的补丁说明原文是「尝试修复，禁止在线时使用模组」，之后是否彻底生效未查到；正文按官方问答写「要关掉模组并重启」。 -->
+<!-- 待核实：未进行游戏内加载测试；Goodtrip mlxtweak 页面未明确列出完整版本范围，评论中的热更新兼容问题未作为可靠结论。 -->
+<!-- 待核实：首次击败妈妈解除模组解锁限制的精确存档作用域；既有 wiki 资料存在矛盾，正文推荐在目标存档确认可解锁状态，不推断全局或逐存档规则。 -->

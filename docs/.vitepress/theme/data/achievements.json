@@ -1,0 +1,5130 @@
+[
+  {
+    "id": 1,
+    "name": "Magdalene",
+    "conditionZh": "同时有至少 7 个红心容器。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 2,
+    "name": "Cain",
+    "conditionZh": "同时持有 55 枚硬币。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 3,
+    "name": "Judas",
+    "conditionZh": "击败撒但。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 4,
+    "name": "The Womb",
+    "conditionZh": "击败妈妈。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 5,
+    "name": "The Harbingers",
+    "conditionZh": "击败妈妈。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 6,
+    "name": "A Cube of Meat",
+    "conditionZh": "击败妈妈。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 7,
+    "name": "The Book of Revelations",
+    "conditionZh": "击败一位天启骑士。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 8,
+    "name": "A Noose",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 3 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 9,
+    "name": "The Nail",
+    "conditionZh": "用阿撒泻勒完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 10,
+    "name": "A Quarter",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 8 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 11,
+    "name": "A Fetus in a Jar",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 9 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 12,
+    "name": "A Small Rock",
+    "conditionZh": "累计破坏 100 个标记石头。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 13,
+    "name": "Monstro's Tooth",
+    "conditionZh": "完成地下室章节。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 14,
+    "name": "Lil' Chubby",
+    "conditionZh": "完成洞穴章节。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 15,
+    "name": "Loki's Horns",
+    "conditionZh": "击败Lokii。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 16,
+    "name": "Something From The Future",
+    "conditionZh": "累计完成地下室 40 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 17,
+    "name": "Something Cute",
+    "conditionZh": "完成洞穴章节累计 30 次。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 18,
+    "name": "Something Sticky",
+    "conditionZh": "完成深牢章节累计 20 次。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 19,
+    "name": "A Bandage",
+    "conditionZh": "同局拾取 4 个绷带球，组成超级绷带女孩。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 20,
+    "name": "A Cross",
+    "conditionZh": "用抹大拉击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 21,
+    "name": "A Bag of Pennies",
+    "conditionZh": "用该隐击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 22,
+    "name": "The Book of Sin",
+    "conditionZh": "累计击败七宗罪的全部 7 种。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 23,
+    "name": "Little Gish",
+    "conditionZh": "击败Gish。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 24,
+    "name": "Little Steven",
+    "conditionZh": "击败Steven。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 25,
+    "name": "Little C.H.A.D.",
+    "conditionZh": "击败C.H.A.D.。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 26,
+    "name": "A Gamekid",
+    "conditionZh": "累计进入 10 个赌博房。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 27,
+    "name": "A Halo",
+    "conditionZh": "用圣经，或忏悔起的逆位恶魔卡，击败妈妈、妈妈的心脏或它活着之一。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 28,
+    "name": "Mr. Mega",
+    "conditionZh": "累计破坏 10 个标记石头。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 29,
+    "name": "The D6",
+    "conditionZh": "用小蓝人击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 30,
+    "name": "The Scissors",
+    "conditionZh": "累计死亡 100 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 31,
+    "name": "The Parasite",
+    "conditionZh": "同局拾取 2 件带 dead 标签的道具（忏悔 / 忏悔+）。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 32,
+    "name": "???",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 10 次。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 33,
+    "name": "Everything Is Terrible!!!",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 5 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 34,
+    "name": "It Lives!",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 11 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 35,
+    "name": "Mom's Contact",
+    "conditionZh": "同局获得 3 件妈妈变身（Yes Mother?）组件。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 36,
+    "name": "The Necronomicon",
+    "conditionZh": "累计使用死亡卡 4 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 37,
+    "name": "Basement Boy",
+    "conditionZh": "完成地下室章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 38,
+    "name": "Spelunker Boy",
+    "conditionZh": "完成洞穴章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 39,
+    "name": "Dark Boy",
+    "conditionZh": "完成深牢章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 40,
+    "name": "Mama's Boy",
+    "conditionZh": "完成子宫章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 41,
+    "name": "Golden God!",
+    "conditionZh": "击败小蓝人（Boss）和羔羊。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 42,
+    "name": "Eve",
+    "conditionZh": "连续两层不拾取任何心。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 43,
+    "name": "Mom's Knife",
+    "conditionZh": "用以撒击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 44,
+    "name": "The Razor",
+    "conditionZh": "用夏娃击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 45,
+    "name": "Guardian Angel",
+    "conditionZh": "用抹大拉击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 46,
+    "name": "A Bag of Bombs",
+    "conditionZh": "用该隐击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 47,
+    "name": "Demon Baby",
+    "conditionZh": "用阿撒泻勒击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 48,
+    "name": "Forget Me Now",
+    "conditionZh": "用小蓝人击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 49,
+    "name": "The D20",
+    "conditionZh": "用以撒击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 50,
+    "name": "Celtic Cross",
+    "conditionZh": "用抹大拉击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 51,
+    "name": "Abel",
+    "conditionZh": "用该隐击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 52,
+    "name": "Curved Horn",
+    "conditionZh": "用犹大击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 53,
+    "name": "Sacrificial Dagger",
+    "conditionZh": "用夏娃击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 54,
+    "name": "Bloody Lust",
+    "conditionZh": "用参孙击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 55,
+    "name": "Blood Penny",
+    "conditionZh": "用参孙击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 56,
+    "name": "Blood Rights",
+    "conditionZh": "用参孙击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 57,
+    "name": "The Polaroid",
+    "conditionZh": "累计击败以撒（Boss） 5 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 58,
+    "name": "Dad's Key",
+    "conditionZh": "同局从天使获得两块钥匙碎片。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 59,
+    "name": "Blue Candle",
+    "conditionZh": "向普通捐款机累计捐 900 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 60,
+    "name": "Burnt Penny",
+    "conditionZh": "完成挑战 #13 Beans!。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 61,
+    "name": "Lucky Toe",
+    "conditionZh": "累计炸掉 20 个房间里的店主。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 62,
+    "name": "Epic Fetus",
+    "conditionZh": "完成挑战 #19 The Family Man。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 63,
+    "name": "SMB Super Fan",
+    "conditionZh": "完成挑战 #14 It's in the Cards。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 64,
+    "name": "Counterfeit Coin",
+    "conditionZh": "累计玩猜壳游戏或忏悔起的 Hell Game 100 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 65,
+    "name": "Guppy's Hairball",
+    "conditionZh": "达成嗝屁猫（Guppy）变身。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 66,
+    "name": "A Forgotten Horseman",
+    "conditionZh": "累计拿 10 件天使房道具。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 67,
+    "name": "Samson",
+    "conditionZh": "连续完成两层且不受伤。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 68,
+    "name": "Something Icky",
+    "conditionZh": "累计击败以撒（Boss） 10 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 69,
+    "name": "!Platinum God!",
+    "conditionZh": "收集重生本体道具，完成本体秘密与结局；不包含游魂及其 6 件专属解锁。",
+    "group": "收集 / 全成就",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 70,
+    "name": "Isaac's Head",
+    "conditionZh": "用以撒完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 71,
+    "name": "Maggy's Faith",
+    "conditionZh": "用抹大拉击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 72,
+    "name": "Judas' Tongue",
+    "conditionZh": "用犹大击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 73,
+    "name": "???'s Soul",
+    "conditionZh": "用小蓝人击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 74,
+    "name": "Samson's Lock",
+    "conditionZh": "用参孙击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 75,
+    "name": "Cain's Eye",
+    "conditionZh": "用该隐击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 76,
+    "name": "Eve's Bird Foot",
+    "conditionZh": "用夏娃击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 77,
+    "name": "The Left Hand",
+    "conditionZh": "任意角色击败 Ultra Pride，或用犹大击败小蓝人（Boss）。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 78,
+    "name": "The Negative",
+    "conditionZh": "累计击败撒但 5 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 79,
+    "name": "Azazel",
+    "conditionZh": "同局完成 3 次恶魔交易。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 80,
+    "name": "Lazarus",
+    "conditionZh": "同时持有至少 4 颗魂心。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 81,
+    "name": "Eden",
+    "conditionZh": "完成子宫章节。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 82,
+    "name": "The Lost",
+    "conditionZh": "携带寻人启事，在献祭房内死亡（胎衣以后，包括忏悔）。",
+    "group": "角色获取",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 83,
+    "name": "Dead Boy",
+    "conditionZh": "完成宝箱层 / 暗室且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 84,
+    "name": "The Real Platinum God",
+    "conditionZh": "收集全部重生本体道具，完成全部本体秘密与结局。",
+    "group": "收集 / 全成就",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 85,
+    "name": "Lucky Rock",
+    "conditionZh": "累计破坏 100 个石头。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 86,
+    "name": "The Cellar",
+    "conditionZh": "击败所有地下室章节 Boss；忏悔起不要求 Baby Plum。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 87,
+    "name": "The Catacombs",
+    "conditionZh": "击败所有洞穴章节 Boss；忏悔起不要求 Bumbino。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 88,
+    "name": "The Necropolis",
+    "conditionZh": "击败所有深牢章节 Boss；忏悔起不要求 Reap Creep。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 89,
+    "name": "Rune of Hagalaz",
+    "conditionZh": "完成挑战 #1 Pitch Black。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 90,
+    "name": "Rune of Jera",
+    "conditionZh": "完成挑战 #2 High Brow。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 91,
+    "name": "Rune of Ehwaz",
+    "conditionZh": "完成挑战 #3 Head Trauma。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 92,
+    "name": "Rune of Dagaz",
+    "conditionZh": "完成挑战 #4 Darkness Falls。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 93,
+    "name": "Rune of Ansuz",
+    "conditionZh": "完成挑战 #5 The Tank。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 94,
+    "name": "Rune of Perthro",
+    "conditionZh": "完成挑战 #6 Solar System。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 95,
+    "name": "Rune of Berkano",
+    "conditionZh": "完成挑战 #20 Purist。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 96,
+    "name": "Rune of Algiz",
+    "conditionZh": "完成挑战 #8 Cat Got Your Tongue。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 97,
+    "name": "Chaos Card",
+    "conditionZh": "完成挑战 #9 Demo Man。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 98,
+    "name": "Credit Card",
+    "conditionZh": "完成挑战 #10 Cursed!。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 99,
+    "name": "Rules Card",
+    "conditionZh": "完成挑战 #11 Glass Cannon。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 100,
+    "name": "Card Against Humanity",
+    "conditionZh": "完成挑战 #12 When Life Gives You Lemons。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-001-100"
+  },
+  {
+    "id": 101,
+    "name": "Swallowed Penny",
+    "conditionZh": "完成挑战 #15 Slow Roll。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 102,
+    "name": "Robo-Baby 2.0",
+    "conditionZh": "完成挑战 #16 Computer Savvy。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 103,
+    "name": "Death's Touch",
+    "conditionZh": "完成挑战 #17 Waka Waka。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 104,
+    "name": "Technology .5",
+    "conditionZh": "完成挑战 #18 The Host。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 105,
+    "name": "Missing No.",
+    "conditionZh": "用拉撒路完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 106,
+    "name": "Isaac's Tears",
+    "conditionZh": "用以撒击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 107,
+    "name": "Guillotine",
+    "conditionZh": "用犹大击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 108,
+    "name": "Judas' Shadow",
+    "conditionZh": "用犹大完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 109,
+    "name": "Maggy's Bow",
+    "conditionZh": "用抹大拉完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 110,
+    "name": "Cain's Other Eye",
+    "conditionZh": "用该隐完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 111,
+    "name": "Black Lipstick",
+    "conditionZh": "用夏娃击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 112,
+    "name": "Eve's Mascara",
+    "conditionZh": "用夏娃完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 113,
+    "name": "Fate",
+    "conditionZh": "用小蓝人击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 114,
+    "name": "???'s Only Friend",
+    "conditionZh": "用小蓝人完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 115,
+    "name": "Samson's Chains",
+    "conditionZh": "用参孙完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 116,
+    "name": "Lazarus' Rags",
+    "conditionZh": "用拉撒路击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 117,
+    "name": "Broken Ankh",
+    "conditionZh": "用拉撒路击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 118,
+    "name": "Store Credit",
+    "conditionZh": "用拉撒路击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 119,
+    "name": "Pandora's Box",
+    "conditionZh": "用拉撒路击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 120,
+    "name": "Suicide King",
+    "conditionZh": "完成挑战 #7 Suicide King。",
+    "group": "挑战奖励",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 121,
+    "name": "Blank Card",
+    "conditionZh": "用伊甸击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 122,
+    "name": "Book of Secrets",
+    "conditionZh": "用伊甸击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 123,
+    "name": "Mysterious Paper",
+    "conditionZh": "用伊甸击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 124,
+    "name": "Mystery Sack",
+    "conditionZh": "用伊甸击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 125,
+    "name": "Undefined",
+    "conditionZh": "用伊甸完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 126,
+    "name": "Satanic Bible",
+    "conditionZh": "用阿撒泻勒击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 127,
+    "name": "Daemon's Tail",
+    "conditionZh": "用阿撒泻勒击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 128,
+    "name": "Abaddon",
+    "conditionZh": "用阿撒泻勒击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 129,
+    "name": "Isaac's Heart",
+    "conditionZh": "用游魂击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 130,
+    "name": "The Mind",
+    "conditionZh": "用游魂击败撒但。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 131,
+    "name": "The Body",
+    "conditionZh": "用游魂击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 132,
+    "name": "The Soul",
+    "conditionZh": "用游魂击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 133,
+    "name": "The D100",
+    "conditionZh": "用游魂完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 134,
+    "name": "Blue Map",
+    "conditionZh": "向普通捐款机累计捐 10 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 135,
+    "name": "There's Options",
+    "conditionZh": "向普通捐款机累计捐 50 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 136,
+    "name": "Black Candle",
+    "conditionZh": "向普通捐款机累计捐 150 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 137,
+    "name": "Red Candle",
+    "conditionZh": "向普通捐款机累计捐 400 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 138,
+    "name": "Stop Watch",
+    "conditionZh": "向普通捐款机累计捐 999 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 139,
+    "name": "Wire Coat Hanger",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 4 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 140,
+    "name": "Ipecac",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 6 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 141,
+    "name": "Experimental Treatment",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 7 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 142,
+    "name": "Krampus",
+    "conditionZh": "累计从恶魔房取得 20 件道具。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 143,
+    "name": "Head of Krampus",
+    "conditionZh": "击败Krampus。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 144,
+    "name": "Super Meat Boy",
+    "conditionZh": "同局拾取 4 个肉块，组成超级肉块男孩。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 145,
+    "name": "Butter Bean",
+    "conditionZh": "累计破坏 100 个大便。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 146,
+    "name": "Little Baggy",
+    "conditionZh": "同局拾取 2 件带 syringe 标签的道具。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 147,
+    "name": "Blood Bag",
+    "conditionZh": "累计使用献血机 30 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 148,
+    "name": "The D4",
+    "conditionZh": "累计炸掉 30 个赌博机。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 149,
+    "name": "Missing Poster",
+    "conditionZh": "用以撒击败羔羊。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 150,
+    "name": "Rubber Cement",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 2 次。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 151,
+    "name": "Store Upgrade lv.1",
+    "conditionZh": "向普通捐款机累计捐 20 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 152,
+    "name": "Store Upgrade lv.2",
+    "conditionZh": "向普通捐款机累计捐 100 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 153,
+    "name": "Store Upgrade lv.3",
+    "conditionZh": "向普通捐款机累计捐 200 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 154,
+    "name": "Store Upgrade lv.4",
+    "conditionZh": "向普通捐款机累计捐 600 枚硬币。",
+    "group": "探索 / 累计",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 155,
+    "name": "Angels",
+    "conditionZh": "完成宝箱层 / 暗室。",
+    "group": "主线 / Boss",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 156,
+    "name": "Godhead",
+    "conditionZh": "用游魂完成全部 12 格困难标记，贪婪格为极贪（忏悔 / 忏悔+）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 157,
+    "name": "Darkness Falls",
+    "conditionZh": "累计击败妈妈的心脏 11 次，并用夏娃击败小蓝人（Boss）。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 158,
+    "name": "The Tank",
+    "conditionZh": "同时有至少 7 个红心容器。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 159,
+    "name": "Solar System",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 3 次。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 160,
+    "name": "Suicide King",
+    "conditionZh": "累计击败妈妈的心脏 11 次，并解锁拉撒路。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 161,
+    "name": "Cat Got Your Tongue",
+    "conditionZh": "达成嗝屁猫（Guppy）变身。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 162,
+    "name": "Demo Man",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 9 次。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 163,
+    "name": "Cursed!",
+    "conditionZh": "同时有至少 7 个红心容器。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 164,
+    "name": "Glass Cannon",
+    "conditionZh": "完成挑战 #19、击败 Lokii，并解锁犹大与它活着。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 165,
+    "name": "The Family Man",
+    "conditionZh": "同局从天使获得两块钥匙碎片。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 166,
+    "name": "Purist",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 167,
+    "name": "Lost Baby",
+    "conditionZh": "用以撒在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 168,
+    "name": "Cute Baby",
+    "conditionZh": "用抹大拉在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 169,
+    "name": "Crow Baby",
+    "conditionZh": "用夏娃在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 170,
+    "name": "Shadow Baby",
+    "conditionZh": "用犹大在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 171,
+    "name": "Glass Baby",
+    "conditionZh": "用该隐在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 172,
+    "name": "Wrapped Baby",
+    "conditionZh": "用拉撒路在困难模式击败心脏 / 它活着（胎衣+以后）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 173,
+    "name": "Begotten Baby",
+    "conditionZh": "用阿撒泻勒在困难模式击败心脏 / 它活着（胎衣+以后）。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 174,
+    "name": "Dead Baby",
+    "conditionZh": "用小蓝人在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 175,
+    "name": "-0- Baby",
+    "conditionZh": "用游魂在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 176,
+    "name": "Glitch Baby",
+    "conditionZh": "用伊甸在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 177,
+    "name": "Fighting Baby",
+    "conditionZh": "用参孙在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 178,
+    "name": "Lord of the Flies",
+    "conditionZh": "达成苍蝇王（Beelzebub）变身。",
+    "group": "探索 / 单局",
+    "minimum": "重生",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 179,
+    "name": "Fart Baby",
+    "conditionZh": "用以撒击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 180,
+    "name": "Purity",
+    "conditionZh": "用抹大拉击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 181,
+    "name": "D12",
+    "conditionZh": "用该隐击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 182,
+    "name": "Betrayal",
+    "conditionZh": "用犹大击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 183,
+    "name": "Fate's Reward",
+    "conditionZh": "用小蓝人击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 184,
+    "name": "Athame",
+    "conditionZh": "用夏娃击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 185,
+    "name": "Blind Rage",
+    "conditionZh": "用参孙击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 186,
+    "name": "Maw of the Void",
+    "conditionZh": "用阿撒泻勒击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 187,
+    "name": "Empty Vessel",
+    "conditionZh": "用拉撒路击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 188,
+    "name": "Eden's Blessing",
+    "conditionZh": "用伊甸击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 189,
+    "name": "Sworn Protector",
+    "conditionZh": "用游魂击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 190,
+    "name": "Incubus",
+    "conditionZh": "用莉莉丝击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 191,
+    "name": "Keeper now holds... A Penny!",
+    "conditionZh": "用店主击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 192,
+    "name": "Lil' Chest",
+    "conditionZh": "用以撒击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 193,
+    "name": "Censer",
+    "conditionZh": "用抹大拉击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 194,
+    "name": "Evil Eye",
+    "conditionZh": "用该隐击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 195,
+    "name": "My Shadow",
+    "conditionZh": "用犹大击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 196,
+    "name": "Cracked Dice",
+    "conditionZh": "用小蓝人击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 197,
+    "name": "Black Feather",
+    "conditionZh": "用夏娃击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 198,
+    "name": "Lusty Blood",
+    "conditionZh": "用参孙击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 199,
+    "name": "Lilith",
+    "conditionZh": "用阿撒泻勒击败究极贪婪。",
+    "group": "角色获取",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 200,
+    "name": "Key Bum",
+    "conditionZh": "用拉撒路击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-101-200"
+  },
+  {
+    "id": 201,
+    "name": "GB Bug",
+    "conditionZh": "用伊甸击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 202,
+    "name": "Zodiac",
+    "conditionZh": "用游魂击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 203,
+    "name": "Box of Friends",
+    "conditionZh": "用莉莉丝击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 204,
+    "name": "Rib of Greed",
+    "conditionZh": "用店主击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 205,
+    "name": "Cry Baby",
+    "conditionZh": "用以撒击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 206,
+    "name": "Red Baby",
+    "conditionZh": "用抹大拉击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 207,
+    "name": "Green Baby",
+    "conditionZh": "用该隐击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 208,
+    "name": "Brown Baby",
+    "conditionZh": "用犹大击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 209,
+    "name": "Blue Baby",
+    "conditionZh": "用小蓝人击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 210,
+    "name": "Lil' Baby",
+    "conditionZh": "用夏娃击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 211,
+    "name": "Rage Baby",
+    "conditionZh": "用参孙击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 212,
+    "name": "Black Baby",
+    "conditionZh": "用阿撒泻勒击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 213,
+    "name": "Long Baby",
+    "conditionZh": "用拉撒路击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 214,
+    "name": "Yellow Baby",
+    "conditionZh": "用伊甸击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 215,
+    "name": "White Baby",
+    "conditionZh": "用游魂击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 216,
+    "name": "Big Baby",
+    "conditionZh": "用莉莉丝击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 217,
+    "name": "Noose Baby",
+    "conditionZh": "用店主击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 218,
+    "name": "Rune Bag",
+    "conditionZh": "用莉莉丝击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 219,
+    "name": "Cambion Conception",
+    "conditionZh": "用莉莉丝击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 220,
+    "name": "Serpent's Kiss",
+    "conditionZh": "用莉莉丝击败撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 221,
+    "name": "Succubus",
+    "conditionZh": "用莉莉丝击败羔羊。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 222,
+    "name": "Immaculate Conception",
+    "conditionZh": "用莉莉丝完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 223,
+    "name": "Goat Head Baby",
+    "conditionZh": "用莉莉丝在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 224,
+    "name": "Gold Heart",
+    "conditionZh": "完成挑战 #21 XXXXXXXXL。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 225,
+    "name": "Get out of Jail Free Card",
+    "conditionZh": "完成挑战 #22 SPEED!。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 226,
+    "name": "Gold Bomb",
+    "conditionZh": "完成挑战 #23 Blue Bomber。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 227,
+    "name": "2 new pills",
+    "conditionZh": "完成挑战 #24 PAY TO PLAY。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 228,
+    "name": "2 new pills",
+    "conditionZh": "完成挑战 #25 Have a Heart。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 229,
+    "name": "Poker Chip",
+    "conditionZh": "完成挑战 #26 I RULE!。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 230,
+    "name": "Stud Finder",
+    "conditionZh": "完成挑战 #27 BRAINS!。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 231,
+    "name": "D8",
+    "conditionZh": "完成挑战 #28 PRIDE DAY!。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 232,
+    "name": "Kidney Stone",
+    "conditionZh": "完成 Onan’s Streak，挑战 #29（胎衣+以后）。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 233,
+    "name": "Blank Rune",
+    "conditionZh": "完成 The Guardian，挑战 #30（胎衣+以后）。",
+    "group": "挑战奖励",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 234,
+    "name": "Blue Womb",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 10 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 235,
+    "name": "1001%",
+    "conditionZh": "忏悔起：解锁任意 275 项成就，收集页记录至少 510 件道具。",
+    "group": "收集 / 全成就",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 236,
+    "name": "Keeper holds Wooden Nickel",
+    "conditionZh": "用店主击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 237,
+    "name": "Keeper holds Store Key",
+    "conditionZh": "用店主击败撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 238,
+    "name": "Deep Pockets",
+    "conditionZh": "用店主击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 239,
+    "name": "Karma",
+    "conditionZh": "用店主击败羔羊。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 240,
+    "name": "Sticky Nickels",
+    "conditionZh": "用店主完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 241,
+    "name": "Super Greed Baby",
+    "conditionZh": "用店主在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 242,
+    "name": "Lucky Pennies",
+    "conditionZh": "向贪婪捐款机累计捐 2 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 243,
+    "name": "Special Hanging Shopkeepers",
+    "conditionZh": "向贪婪捐款机累计捐 14 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 244,
+    "name": "Wooden Nickel",
+    "conditionZh": "向贪婪捐款机累计捐 33 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 245,
+    "name": "Cain holds Paperclip",
+    "conditionZh": "向贪婪捐款机累计捐 68 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 246,
+    "name": "Everything is Terrible 2!!!",
+    "conditionZh": "向贪婪捐款机累计捐 111 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 247,
+    "name": "Special Shopkeepers",
+    "conditionZh": "向贪婪捐款机累计捐 234 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 248,
+    "name": "Eve now holds Razor Blade",
+    "conditionZh": "向贪婪捐款机累计捐 439 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 249,
+    "name": "Store Key",
+    "conditionZh": "向贪婪捐款机累计捐 666 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 250,
+    "name": "Lost holds Holy Mantle",
+    "conditionZh": "向贪婪捐款机累计捐 879 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 251,
+    "name": "Keeper",
+    "conditionZh": "向贪婪捐款机累计捐 1000 枚硬币。",
+    "group": "角色获取",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 252,
+    "name": "Hive Baby",
+    "conditionZh": "用小蓝人完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 253,
+    "name": "Buddy Baby",
+    "conditionZh": "用以撒完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 254,
+    "name": "Colorful Baby",
+    "conditionZh": "用抹大拉完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 255,
+    "name": "Whore Baby",
+    "conditionZh": "用夏娃完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 256,
+    "name": "Cracked Baby",
+    "conditionZh": "用伊甸完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 257,
+    "name": "Dripping Baby",
+    "conditionZh": "用拉撒路完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 258,
+    "name": "Blinding Baby",
+    "conditionZh": "持有太阳卡时使用空白卡牌。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 259,
+    "name": "Sucky Baby",
+    "conditionZh": "用阿撒泻勒完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 260,
+    "name": "Dark Baby",
+    "conditionZh": "用莉莉丝完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 261,
+    "name": "Picky Baby",
+    "conditionZh": "用该隐完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 262,
+    "name": "Revenge Baby",
+    "conditionZh": "用参孙完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 263,
+    "name": "Belial Baby",
+    "conditionZh": "用犹大完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 264,
+    "name": "Sale Baby",
+    "conditionZh": "用店主完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 265,
+    "name": "XXXXXXXXL",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 266,
+    "name": "SPEED!",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 267,
+    "name": "Blue Bomber",
+    "conditionZh": "炸毁 10 个标记石头，并累计击败妈妈的心脏 11 次。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 268,
+    "name": "PAY TO PLAY",
+    "conditionZh": "用该隐击败以撒（Boss）；忏悔非加号还要求炸 10 个标记石头。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 269,
+    "name": "Have a Heart",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 270,
+    "name": "I RULE!",
+    "conditionZh": "击败超级撒但，并解锁底片（忏悔 / 忏悔+）。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 271,
+    "name": "BRAINS!",
+    "conditionZh": "累计击败以撒（Boss） 5 次。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 272,
+    "name": "PRIDE DAY!",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 273,
+    "name": "Onan's Streak",
+    "conditionZh": "解锁犹大和它活着（忏悔 / 忏悔+）。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 274,
+    "name": "The Guardian",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 275,
+    "name": "Generosity",
+    "conditionZh": "向贪婪捐款机累计捐 999 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 276,
+    "name": "Mega",
+    "conditionZh": "全部 17 个表角色分别击败超级撒但；忏悔起不包含里角色。",
+    "group": "角色标记",
+    "minimum": "胎衣",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 277,
+    "name": "Backasswards",
+    "conditionZh": "击败超级撒但，并解锁底片（忏悔 / 忏悔+）。",
+    "group": "挑战开放",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 278,
+    "name": "Aprils fool",
+    "conditionZh": "击败妈妈。",
+    "group": "挑战开放",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 279,
+    "name": "Pokey Mans",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 11 次。",
+    "group": "挑战开放",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 280,
+    "name": "Ultra Hard",
+    "conditionZh": "击败超级撒但，并解锁底片（忏悔 / 忏悔+）。",
+    "group": "挑战开放",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 281,
+    "name": "PONG",
+    "conditionZh": "累计击败以撒（Boss） 5 次。",
+    "group": "挑战开放",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 282,
+    "name": "D infinity",
+    "conditionZh": "用以撒击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 283,
+    "name": "Eucharist",
+    "conditionZh": "用抹大拉击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 284,
+    "name": "Silver Dollar",
+    "conditionZh": "用该隐击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 285,
+    "name": "Shade",
+    "conditionZh": "用犹大击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 286,
+    "name": "King Baby",
+    "conditionZh": "用小蓝人击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 287,
+    "name": "Bloody Crown",
+    "conditionZh": "用参孙击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 288,
+    "name": "Dull Razor",
+    "conditionZh": "用夏娃击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 289,
+    "name": "Eden's Soul",
+    "conditionZh": "用伊甸击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 290,
+    "name": "Dark Prince's Crown",
+    "conditionZh": "用阿撒泻勒击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 291,
+    "name": "Compound Fracture",
+    "conditionZh": "用拉撒路击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 292,
+    "name": "Euthanasia",
+    "conditionZh": "用莉莉丝击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 293,
+    "name": "Holy Card",
+    "conditionZh": "用游魂击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 294,
+    "name": "Crooked Penny",
+    "conditionZh": "用店主击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 295,
+    "name": "Void",
+    "conditionZh": "用亚玻伦击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 296,
+    "name": "D1",
+    "conditionZh": "用以撒击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 297,
+    "name": "Glyph of Balance",
+    "conditionZh": "用抹大拉击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 298,
+    "name": "Sack of Sacks",
+    "conditionZh": "用该隐击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 299,
+    "name": "Eye of Belial",
+    "conditionZh": "用犹大击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 300,
+    "name": "Meconium",
+    "conditionZh": "用小蓝人击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-201-300"
+  },
+  {
+    "id": 301,
+    "name": "Stem Cell",
+    "conditionZh": "用参孙击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 302,
+    "name": "Crow Heart",
+    "conditionZh": "用夏娃击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 303,
+    "name": "Metronome",
+    "conditionZh": "用伊甸击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 304,
+    "name": "Bat Wing",
+    "conditionZh": "用阿撒泻勒击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 305,
+    "name": "Plan C",
+    "conditionZh": "用拉撒路击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 306,
+    "name": "Duality",
+    "conditionZh": "用莉莉丝击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 307,
+    "name": "Dad's Lost Coin",
+    "conditionZh": "用游魂击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 308,
+    "name": "Eye of Greed",
+    "conditionZh": "用店主击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 309,
+    "name": "Black Rune",
+    "conditionZh": "用亚玻伦击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 310,
+    "name": "Locust of Wrath",
+    "conditionZh": "用亚玻伦击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 311,
+    "name": "Locust of Pestilence",
+    "conditionZh": "用亚玻伦击败撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 312,
+    "name": "Locust of Famine",
+    "conditionZh": "用亚玻伦击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 313,
+    "name": "Locust of Death",
+    "conditionZh": "用亚玻伦击败羔羊。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 314,
+    "name": "Locust of Conquest",
+    "conditionZh": "用亚玻伦完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 315,
+    "name": "Hushy",
+    "conditionZh": "用亚玻伦击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 316,
+    "name": "Brown Nugget",
+    "conditionZh": "用亚玻伦击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 317,
+    "name": "Mort Baby",
+    "conditionZh": "用亚玻伦击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 318,
+    "name": "Smelter",
+    "conditionZh": "用亚玻伦在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 319,
+    "name": "Apollyon Baby",
+    "conditionZh": "用亚玻伦完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 320,
+    "name": "New Area",
+    "conditionZh": "击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 321,
+    "name": "Once More with Feeling!",
+    "conditionZh": "完成 1 个胜利圈：在胜利圈里击败羔羊。",
+    "group": "胜利圈 / 连胜",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 322,
+    "name": "Hat trick!",
+    "conditionZh": "获得连续 3 局胜利。",
+    "group": "胜利圈 / 连胜",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 323,
+    "name": "5 Nights at Mom's",
+    "conditionZh": "连续 5 局获胜，每局用不同角色；忏悔非加号有 3 局及计数异常说明。",
+    "group": "胜利圈 / 连胜",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 324,
+    "name": "Sin collector",
+    "conditionZh": "收集怪物图鉴全部条目。",
+    "group": "收集 / 全成就",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 325,
+    "name": "Dedication",
+    "conditionZh": "参与 31 次每日挑战，不要求连续日期。",
+    "group": "每日 / 联机",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 326,
+    "name": "ZIP!",
+    "conditionZh": "20 分钟内击败羔羊。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 327,
+    "name": "It's the Key",
+    "conditionZh": "整局不拾取心、硬币、炸弹，最后击败羔羊。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 328,
+    "name": "Mr. Resetter!",
+    "conditionZh": "PC 连续重开 7 次；部分主机版改为 -10 连败。",
+    "group": "胜利圈 / 连胜",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 329,
+    "name": "Living on the edge",
+    "conditionZh": "地下室之后的一个完整章节，两层从头到尾总血量仅半颗心；可用游魂。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 330,
+    "name": "U Broke It!",
+    "conditionZh": "同局获得 50 件道具。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 331,
+    "name": "Laz Bleeds More!",
+    "conditionZh": "完成挑战 #31 Backasswards。",
+    "group": "挑战奖励",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 332,
+    "name": "Maggy Now Holds a Pill!",
+    "conditionZh": "完成挑战 #32 Aprils Fool。",
+    "group": "挑战奖励",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 333,
+    "name": "Charged Key",
+    "conditionZh": "完成挑战 #33 Pokey Mans。",
+    "group": "挑战奖励",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 334,
+    "name": "Samson Feels Healthy!",
+    "conditionZh": "完成挑战 #34 Ultra Hard。",
+    "group": "挑战奖励",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 335,
+    "name": "Greed's Gullet",
+    "conditionZh": "完成挑战 #35 Pong。",
+    "group": "挑战奖励",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 336,
+    "name": "The Marathon",
+    "conditionZh": "每日挑战连续 5 次获胜；不要求连续日历天。",
+    "group": "每日 / 联机",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 337,
+    "name": "RERUN",
+    "conditionZh": "完成 3 个胜利圈，均以击败羔羊结束。",
+    "group": "胜利圈 / 连胜",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 338,
+    "name": "Delirious",
+    "conditionZh": "击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 339,
+    "name": "1000000%",
+    "conditionZh": "忏悔起：解锁任意 402 项成就，收集页记录至少 510 件道具。",
+    "group": "收集 / 全成就",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 340,
+    "name": "Apollyon",
+    "conditionZh": "击败超级撒但。",
+    "group": "角色获取",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 341,
+    "name": "Greedier!",
+    "conditionZh": "向贪婪捐款机累计捐 500 枚硬币。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 342,
+    "name": "Burning Basement",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 11 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 343,
+    "name": "Flooded Caves",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 16 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 344,
+    "name": "Dank Depths",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 21 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 345,
+    "name": "Scarred Womb",
+    "conditionZh": "累计击败妈妈的心脏 / 它活着 30 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 346,
+    "name": "Something wicked this way comes!",
+    "conditionZh": "用 3 个不同角色击败小蓝人（Boss）。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 347,
+    "name": "Something wicked this way comes+!",
+    "conditionZh": "用 6 个不同角色击败小蓝人（Boss）。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 348,
+    "name": "The gate is open!",
+    "conditionZh": "击败羔羊。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 349,
+    "name": "Black Hole",
+    "conditionZh": "击败 20 个传送门敌人。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 350,
+    "name": "Mystery Gift",
+    "conditionZh": "累计破坏 500 个石头。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 351,
+    "name": "Sprinkler",
+    "conditionZh": "完成地下室章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 352,
+    "name": "Angry Fly",
+    "conditionZh": "达成苍蝇王（Beelzebub）变身。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 353,
+    "name": "Bozo",
+    "conditionZh": "累计破坏 5 个彩虹大便。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 354,
+    "name": "Broken Modem",
+    "conditionZh": "完成 7 次每日挑战，需触碰终点奖杯。",
+    "group": "每日 / 联机",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 355,
+    "name": "Buddy in a Box",
+    "conditionZh": "同局拾取 5 个跟班。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 356,
+    "name": "Fast Bombs",
+    "conditionZh": "累计击败Little Horn 20 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 357,
+    "name": "Lil Delirium",
+    "conditionZh": "击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 358,
+    "name": "Hairpin",
+    "conditionZh": "使用小电池充能 20 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 359,
+    "name": "Wooden Cross",
+    "conditionZh": "睡一次床。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 360,
+    "name": "Butter!",
+    "conditionZh": "完成 2 个胜利圈，均击败羔羊。",
+    "group": "胜利圈 / 连胜",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 361,
+    "name": "Huge Growth",
+    "conditionZh": "体型达到初始的 3 倍；按效果倍率通常需要 5–7 次增大。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 362,
+    "name": "Ancient Recall",
+    "conditionZh": "使用卡牌和符文累计 20 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 363,
+    "name": "Era Walk",
+    "conditionZh": "收集页同时记录损坏的怀表与怀表。",
+    "group": "收集 / 全成就",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 364,
+    "name": "Coupon",
+    "conditionZh": "在商店、恶魔房和 / 或黑市累计购买 50 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 365,
+    "name": "Telekinesis",
+    "conditionZh": "完成洞穴章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 366,
+    "name": "Moving Box",
+    "conditionZh": "在暗室使用潘多拉魔盒。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 367,
+    "name": "Jumper Cables",
+    "conditionZh": "同局拾取 2 件带 battery 标签的道具。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 368,
+    "name": "Leprosy",
+    "conditionZh": "完成深牢章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 369,
+    "name": "Technology Zero",
+    "conditionZh": "同局拾取 2 件带 tech 标签的道具。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 370,
+    "name": "Filigree Feather",
+    "conditionZh": "获得钥匙碎片 1 和钥匙碎片 2。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 371,
+    "name": "Mr. ME!",
+    "conditionZh": "累计打开 20 个上锁箱子。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 372,
+    "name": "7 Seals",
+    "conditionZh": "击败全部 5 位天启骑士。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 373,
+    "name": "Angelic Prism",
+    "conditionZh": "累计击败天使 10 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 374,
+    "name": "Pop!",
+    "conditionZh": "完成子宫章节且不受伤。",
+    "group": "探索 / 无伤",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 375,
+    "name": "Door Stop",
+    "conditionZh": "累计炸开门与隐藏房墙壁 50 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 376,
+    "name": "Death's List",
+    "conditionZh": "累计完成 25 次恶魔交易。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 377,
+    "name": "Haemolacria",
+    "conditionZh": "累计获得血块（Blood Clot）10 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 378,
+    "name": "Lachryphagy",
+    "conditionZh": "同局获得 10 个射速上升道具或胶囊。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 379,
+    "name": "Schoolbag",
+    "conditionZh": "同局进入 6 个商店。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 380,
+    "name": "Trisagion",
+    "conditionZh": "累计取得 25 件天使房道具。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 381,
+    "name": "Extension Cord",
+    "conditionZh": "收集页记录蓄电池、9伏特与车载电池。",
+    "group": "收集 / 全成就",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 382,
+    "name": "Flat Stone",
+    "conditionZh": "累计获得橡胶胶水（Rubber Cement）5 次。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 383,
+    "name": "Sacrificial Altar",
+    "conditionZh": "累计完成 50 次恶魔交易。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 384,
+    "name": "Lil Spewer",
+    "conditionZh": "死于自己造成的爆炸毒泪弹。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 385,
+    "name": "Blanket",
+    "conditionZh": "累计睡 10 次床。",
+    "group": "探索 / 累计",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 386,
+    "name": "Marbles",
+    "conditionZh": "同局使用 5 次 Gulp! 胶囊；安慰剂使用计入。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 387,
+    "name": "Mystery Egg",
+    "conditionZh": "同一房间生成 3 个被魅惑的敌人。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 388,
+    "name": "Rotten Penny",
+    "conditionZh": "同时拥有 20 只蓝苍蝇。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 389,
+    "name": "Baby-Bender",
+    "conditionZh": "已经有追踪泪弹时，使用魔术师卡或傻瓜心灵感应。",
+    "group": "探索 / 单局",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 390,
+    "name": "The Forgotten",
+    "conditionZh": "完成铲子任务，解锁遗骸。",
+    "group": "角色获取",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 391,
+    "name": "Bone Heart",
+    "conditionZh": "解锁遗骸，同时开放骨心。",
+    "group": "角色获取",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 392,
+    "name": "Marrow",
+    "conditionZh": "用遗骸在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 393,
+    "name": "Slipped Rib",
+    "conditionZh": "用遗骸击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 394,
+    "name": "Pointy Rib",
+    "conditionZh": "用遗骸击败撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 395,
+    "name": "Jaw Bone",
+    "conditionZh": "用遗骸击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 396,
+    "name": "Brittle Bones",
+    "conditionZh": "用遗骸击败羔羊。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 397,
+    "name": "Divorce Papers",
+    "conditionZh": "用遗骸完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 398,
+    "name": "Hallowed Ground",
+    "conditionZh": "用遗骸击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 399,
+    "name": "Finger Bone",
+    "conditionZh": "用遗骸击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 400,
+    "name": "Dad's Ring",
+    "conditionZh": "用遗骸击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "胎衣+",
+    "page": "ids-301-400"
+  },
+  {
+    "id": 401,
+    "name": "Book of the Dead",
+    "conditionZh": "用遗骸击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 402,
+    "name": "Bone Baby",
+    "conditionZh": "用遗骸完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 403,
+    "name": "Bound Baby",
+    "conditionZh": "用遗骸击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "胎衣+",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 404,
+    "name": "Bethany",
+    "conditionZh": "用拉撒路在困难模式击败心脏 / 它活着，全程不死亡。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 405,
+    "name": "Jacob and Esau",
+    "conditionZh": "击败母亲。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 406,
+    "name": "The Planetarium",
+    "conditionZh": "同局收集 3 件带 stars 标签的道具，开放星象房。",
+    "group": "探索 / 单局",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 407,
+    "name": "A Secret Exit",
+    "conditionZh": "累计击败死寂 3 次。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 408,
+    "name": "Forgotten Lullaby",
+    "conditionZh": "击败塞壬后炸毁她留下的头骨。",
+    "group": "探索 / 单局",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 409,
+    "name": "Fruity Plum",
+    "conditionZh": "累计击败Baby Plum 10 次。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 410,
+    "name": "Plum Flute",
+    "conditionZh": "让 Baby Plum 逃走，不击杀她。",
+    "group": "探索 / 单局",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 411,
+    "name": "Rotten Heart",
+    "conditionZh": "第一次进入尸宫。",
+    "group": "主线 / Boss",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 412,
+    "name": "Dross",
+    "conditionZh": "击败下水道的全部 Boss。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 413,
+    "name": "Ashpit",
+    "conditionZh": "击败矿井的全部 Boss。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 414,
+    "name": "Gehenna",
+    "conditionZh": "击败陵墓的全部 Boss。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 415,
+    "name": "Red Key",
+    "conditionZh": "打开家里妈妈卧室的箱子。",
+    "group": "主线 / Boss",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 416,
+    "name": "Wisp Baby",
+    "conditionZh": "用伯大尼在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 417,
+    "name": "Book of Virtues",
+    "conditionZh": "用伯大尼击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 418,
+    "name": "Urn of Souls",
+    "conditionZh": "用伯大尼击败撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 419,
+    "name": "Blessed Penny",
+    "conditionZh": "用伯大尼击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 420,
+    "name": "Alabaster Box",
+    "conditionZh": "用伯大尼击败羔羊。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 421,
+    "name": "Beth's Faith",
+    "conditionZh": "用伯大尼完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 422,
+    "name": "Soul Locket",
+    "conditionZh": "用伯大尼击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 423,
+    "name": "Divine Intervention",
+    "conditionZh": "用伯大尼击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 424,
+    "name": "Vade Retro",
+    "conditionZh": "用伯大尼击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 425,
+    "name": "Star of Bethlehem",
+    "conditionZh": "用伯大尼击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 426,
+    "name": "Hope Baby",
+    "conditionZh": "用伯大尼完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 427,
+    "name": "Glowing Baby",
+    "conditionZh": "用伯大尼击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 428,
+    "name": "Double Baby",
+    "conditionZh": "用雅各与以扫在困难模式击败妈妈的心脏 / 它活着。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 429,
+    "name": "The Stairway",
+    "conditionZh": "用雅各与以扫击败以撒（Boss）。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 430,
+    "name": "Red Stew",
+    "conditionZh": "用雅各与以扫击败撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 431,
+    "name": "Birthright",
+    "conditionZh": "用雅各与以扫击败小蓝人（Boss）。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 432,
+    "name": "Damocles",
+    "conditionZh": "用雅各与以扫击败羔羊。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 433,
+    "name": "Rock Bottom",
+    "conditionZh": "用雅各与以扫完成 Boss Rush。",
+    "group": "限时 / Boss",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 434,
+    "name": "Inner Child",
+    "conditionZh": "用雅各与以扫击败究极贪婪。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 435,
+    "name": "Vanishing Twin",
+    "conditionZh": "用雅各与以扫击败死寂。",
+    "group": "限时 / Boss",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 436,
+    "name": "Genesis",
+    "conditionZh": "用雅各与以扫击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 437,
+    "name": "Suplex!",
+    "conditionZh": "用雅各与以扫击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 438,
+    "name": "Solomon's Baby",
+    "conditionZh": "用雅各与以扫完成全部困难标记，贪婪格按极贪。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 439,
+    "name": "Illusion Baby",
+    "conditionZh": "用雅各与以扫击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 440,
+    "name": "Meat Cleaver",
+    "conditionZh": "用以撒击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 441,
+    "name": "Options?",
+    "conditionZh": "用以撒击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 442,
+    "name": "Yuck Heart",
+    "conditionZh": "用抹大拉击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 443,
+    "name": "Candy Heart",
+    "conditionZh": "用抹大拉击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 444,
+    "name": "Guppy's Eye",
+    "conditionZh": "用该隐击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 445,
+    "name": "A Pound of Flesh",
+    "conditionZh": "用该隐击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 446,
+    "name": "Akeldama",
+    "conditionZh": "用犹大击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 447,
+    "name": "Redemption",
+    "conditionZh": "用犹大击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 448,
+    "name": "Eternal D6",
+    "conditionZh": "用小蓝人击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 449,
+    "name": "Montezuma's Revenge",
+    "conditionZh": "用小蓝人击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 450,
+    "name": "Bird Cage",
+    "conditionZh": "用夏娃击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 451,
+    "name": "Cracked Orb",
+    "conditionZh": "用夏娃击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 452,
+    "name": "Bloody Gust",
+    "conditionZh": "用参孙击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 453,
+    "name": "Empty Heart",
+    "conditionZh": "用参孙击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 454,
+    "name": "Devil's Crown",
+    "conditionZh": "用阿撒泻勒击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 455,
+    "name": "Lil Abaddon",
+    "conditionZh": "用阿撒泻勒击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 456,
+    "name": "Tinytoma",
+    "conditionZh": "用拉撒路击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 457,
+    "name": "Astral Projection",
+    "conditionZh": "用拉撒路击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 458,
+    "name": "'M",
+    "conditionZh": "用伊甸击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 459,
+    "name": "Everything Jar",
+    "conditionZh": "用伊甸击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 460,
+    "name": "Lost Soul",
+    "conditionZh": "用游魂击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 461,
+    "name": "Hungry Soul",
+    "conditionZh": "用游魂击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 462,
+    "name": "Blood Puppy",
+    "conditionZh": "用莉莉丝击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 463,
+    "name": "C Section",
+    "conditionZh": "用莉莉丝击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 464,
+    "name": "Keeper's Sack",
+    "conditionZh": "用店主击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 465,
+    "name": "Keeper's Box",
+    "conditionZh": "用店主击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 466,
+    "name": "Lil Portal",
+    "conditionZh": "用亚玻伦击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 467,
+    "name": "Worm Friend",
+    "conditionZh": "用亚玻伦击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 468,
+    "name": "Bone Spurs",
+    "conditionZh": "用遗骸击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 469,
+    "name": "Spirit Shackles",
+    "conditionZh": "用遗骸击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 470,
+    "name": "Revelation",
+    "conditionZh": "用伯大尼击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 471,
+    "name": "Jar of Wisps",
+    "conditionZh": "用伯大尼击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 472,
+    "name": "Magic Skin",
+    "conditionZh": "用雅各与以扫击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 473,
+    "name": "Friend Finder",
+    "conditionZh": "用雅各与以扫击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 474,
+    "name": "The Broken",
+    "conditionZh": "用以撒回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 475,
+    "name": "The Dauntless",
+    "conditionZh": "用抹大拉回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 476,
+    "name": "The Hoarder",
+    "conditionZh": "用该隐回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 477,
+    "name": "The Deceiver",
+    "conditionZh": "用犹大回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 478,
+    "name": "The Soiled",
+    "conditionZh": "用小蓝人回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 479,
+    "name": "The Curdled",
+    "conditionZh": "用夏娃回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 480,
+    "name": "The Savage",
+    "conditionZh": "用参孙回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 481,
+    "name": "The Benighted",
+    "conditionZh": "用阿撒泻勒回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 482,
+    "name": "The Enigma",
+    "conditionZh": "用拉撒路回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 483,
+    "name": "The Capricious",
+    "conditionZh": "用伊甸回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 484,
+    "name": "The Baleful",
+    "conditionZh": "用游魂回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 485,
+    "name": "The Harlot",
+    "conditionZh": "用莉莉丝回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 486,
+    "name": "The Miser",
+    "conditionZh": "用店主回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 487,
+    "name": "The Empty",
+    "conditionZh": "用亚玻伦回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 488,
+    "name": "The Fettered",
+    "conditionZh": "用遗骸回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 489,
+    "name": "The Zealot",
+    "conditionZh": "用伯大尼回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 490,
+    "name": "The Deserter",
+    "conditionZh": "用雅各与以扫回家，开启隐藏房并解锁对应里角色。",
+    "group": "角色获取",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 491,
+    "name": "Glitched Crown",
+    "conditionZh": "用里以撒击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 492,
+    "name": "Belly Jelly",
+    "conditionZh": "用里抹大拉击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 493,
+    "name": "Blue Key",
+    "conditionZh": "用里该隐击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 494,
+    "name": "Sanguine Bond",
+    "conditionZh": "用里犹大击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 495,
+    "name": "The Swarm",
+    "conditionZh": "用里小蓝人击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 496,
+    "name": "Heartbreak",
+    "conditionZh": "用里夏娃击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 497,
+    "name": "Larynx",
+    "conditionZh": "用里参孙击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 498,
+    "name": "Azazel's Rage",
+    "conditionZh": "用里阿撒泻勒击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 499,
+    "name": "Salvation",
+    "conditionZh": "用里拉撒路击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 500,
+    "name": "TMTRAINER",
+    "conditionZh": "用里伊甸击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-401-500"
+  },
+  {
+    "id": 501,
+    "name": "Sacred Orb",
+    "conditionZh": "用里游魂击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 502,
+    "name": "Twisted Pair",
+    "conditionZh": "用里莉莉丝击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 503,
+    "name": "Strawman",
+    "conditionZh": "用里店主击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 504,
+    "name": "Echo Chamber",
+    "conditionZh": "用里亚玻伦击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 505,
+    "name": "Isaac's Tomb",
+    "conditionZh": "用里遗骸击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 506,
+    "name": "Vengeful Spirit",
+    "conditionZh": "用里伯大尼击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 507,
+    "name": "Esau Jr.",
+    "conditionZh": "用里雅各击败祸兽。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 508,
+    "name": "Bloody Mary",
+    "conditionZh": "解锁伯大尼、血袋和它活着。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 509,
+    "name": "Baptism by Fire",
+    "conditionZh": "用伯大尼击败撒但，心脏累计 11 次，并解锁抹大拉的信仰。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 510,
+    "name": "Isaac's Awakening",
+    "conditionZh": "击败母亲。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 511,
+    "name": "Seeing Double",
+    "conditionZh": "击败母亲。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 512,
+    "name": "Pica Run",
+    "conditionZh": "心脏累计击败 11 次，并解锁弹珠（Marbles）。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 513,
+    "name": "Hot Potato",
+    "conditionZh": "解锁里遗骸。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 514,
+    "name": "Cantripped!",
+    "conditionZh": "解锁里该隐。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 515,
+    "name": "Red Redemption",
+    "conditionZh": "解锁里雅各。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 516,
+    "name": "DELETE THIS",
+    "conditionZh": "解锁里伊甸。",
+    "group": "挑战开放",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 517,
+    "name": "Dirty Mind",
+    "conditionZh": "完成挑战 #36 Scat Man。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 518,
+    "name": "Sigil of Baphomet",
+    "conditionZh": "完成挑战 #37 Bloody Mary。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 519,
+    "name": "Purgatory",
+    "conditionZh": "完成挑战 #38 Baptism by Fire。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 520,
+    "name": "Spirit Sword",
+    "conditionZh": "完成挑战 #39 Isaac's Awakening。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 521,
+    "name": "Broken Glasses",
+    "conditionZh": "完成挑战 #40 Seeing Double。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 522,
+    "name": "Ice Cube",
+    "conditionZh": "完成挑战 #41 Pica Run。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 523,
+    "name": "Charged Penny",
+    "conditionZh": "给电池乞丐捐钱，累计使其给出道具 5 次。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 524,
+    "name": "The Fool",
+    "conditionZh": "用里游魂击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 525,
+    "name": "The Magician",
+    "conditionZh": "用里犹大击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 526,
+    "name": "The High Priestess",
+    "conditionZh": "用里莉莉丝击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 527,
+    "name": "The Empress",
+    "conditionZh": "用里夏娃击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 528,
+    "name": "The Emperor",
+    "conditionZh": "用里小蓝人击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 529,
+    "name": "The Hierophant",
+    "conditionZh": "用里伯大尼击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 530,
+    "name": "The Lovers",
+    "conditionZh": "用里抹大拉击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 531,
+    "name": "The Chariot",
+    "conditionZh": "完成挑战 #42 Hot Potato。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 532,
+    "name": "Justice",
+    "conditionZh": "完成挑战 #43 Cantripped。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 533,
+    "name": "The Hermit",
+    "conditionZh": "完成挑战 #44 Red Redemption。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 534,
+    "name": "Wheel of Fortune",
+    "conditionZh": "用里该隐击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 535,
+    "name": "Strength",
+    "conditionZh": "用里参孙击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 536,
+    "name": "The Hanged Man",
+    "conditionZh": "用里店主击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 537,
+    "name": "Death",
+    "conditionZh": "用里遗骸击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 538,
+    "name": "Temperance",
+    "conditionZh": "完成挑战 #45 DELETE THIS。",
+    "group": "挑战奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 539,
+    "name": "The Devil",
+    "conditionZh": "用里阿撒泻勒击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 540,
+    "name": "The Tower",
+    "conditionZh": "用里亚玻伦击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 541,
+    "name": "The Stars",
+    "conditionZh": "用里以撒击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 542,
+    "name": "The Sun and the Moon",
+    "conditionZh": "用里雅各击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 543,
+    "name": "Judgement",
+    "conditionZh": "用里拉撒路击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 544,
+    "name": "The World",
+    "conditionZh": "用里伊甸击败究极贪婪加强版。",
+    "group": "贪婪 / 捐款",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 545,
+    "name": "Old Capacitor",
+    "conditionZh": "击杀 10 个电池乞丐。",
+    "group": "探索 / 累计",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 546,
+    "name": "Brimstone Bombs",
+    "conditionZh": "打破 Hornfel 矿车后，在他逃走前击杀他。",
+    "group": "探索 / 单局",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 547,
+    "name": "Mega Mush",
+    "conditionZh": "17 个表角色完成全部困难标记，贪婪格为极贪。",
+    "group": "收集 / 全成就",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 548,
+    "name": "Mom's Lock",
+    "conditionZh": "用里以撒分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 549,
+    "name": "Dice Bag",
+    "conditionZh": "用里以撒击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 550,
+    "name": "Holy Crown",
+    "conditionZh": "用里抹大拉分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 551,
+    "name": "Mother's Kiss",
+    "conditionZh": "用里抹大拉击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 552,
+    "name": "Gilded Key",
+    "conditionZh": "用里该隐分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 553,
+    "name": "Lucky Sack",
+    "conditionZh": "用里该隐击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 554,
+    "name": "Your Soul",
+    "conditionZh": "用里犹大分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 555,
+    "name": "Number Magnet",
+    "conditionZh": "用里犹大击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 556,
+    "name": "Dingle Berry",
+    "conditionZh": "用里小蓝人分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 557,
+    "name": "Ring Cap",
+    "conditionZh": "用里小蓝人击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 558,
+    "name": "Strange Key",
+    "conditionZh": "用里夏娃分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 559,
+    "name": "Lil Clot",
+    "conditionZh": "用里夏娃击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 560,
+    "name": "Temporary Tattoo",
+    "conditionZh": "用里参孙分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 561,
+    "name": "Swallowed M80",
+    "conditionZh": "用里参孙击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 562,
+    "name": "Wicked Crown",
+    "conditionZh": "用里阿撒泻勒分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 563,
+    "name": "Azazel's Stump",
+    "conditionZh": "用里阿撒泻勒击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 564,
+    "name": "Torn Pocket",
+    "conditionZh": "用里拉撒路分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 565,
+    "name": "Torn Card",
+    "conditionZh": "用里拉撒路击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 566,
+    "name": "Nuh Uh!",
+    "conditionZh": "用里伊甸分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 567,
+    "name": "Modeling Clay",
+    "conditionZh": "用里伊甸击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 568,
+    "name": "Kid's Drawing",
+    "conditionZh": "用里游魂分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 569,
+    "name": "Crystal Key",
+    "conditionZh": "用里游魂击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 570,
+    "name": "The Twins",
+    "conditionZh": "用里莉莉丝分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 571,
+    "name": "Adoption Papers",
+    "conditionZh": "用里莉莉丝击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 572,
+    "name": "Keeper's Bargain",
+    "conditionZh": "用里店主分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 573,
+    "name": "Cursed Penny",
+    "conditionZh": "用里店主击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 574,
+    "name": "Cricket Leg",
+    "conditionZh": "用里亚玻伦分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 575,
+    "name": "Apollyon's Best Friend",
+    "conditionZh": "用里亚玻伦击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 576,
+    "name": "Polished Bone",
+    "conditionZh": "用里遗骸分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 577,
+    "name": "Hollow Heart",
+    "conditionZh": "用里遗骸击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 578,
+    "name": "Expansion Pack",
+    "conditionZh": "用里伯大尼分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 579,
+    "name": "Beth's Essence",
+    "conditionZh": "用里伯大尼击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 580,
+    "name": "RC Remote",
+    "conditionZh": "用里雅各分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 581,
+    "name": "Found Soul",
+    "conditionZh": "用里雅各击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 582,
+    "name": "Member Card",
+    "conditionZh": "同一间商店消费至少 40 枚硬币。",
+    "group": "探索 / 单局",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 583,
+    "name": "Golden Razor",
+    "conditionZh": "同局先持有 99 枚硬币，再把它们全部花光。",
+    "group": "探索 / 单局",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 584,
+    "name": "Spindown Dice",
+    "conditionZh": "用里以撒击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 585,
+    "name": "Hypercoagulation",
+    "conditionZh": "用里抹大拉击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 586,
+    "name": "Bag of Crafting",
+    "conditionZh": "用里该隐击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 587,
+    "name": "Dark Arts",
+    "conditionZh": "用里犹大击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 588,
+    "name": "IBS",
+    "conditionZh": "用里小蓝人击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 589,
+    "name": "Sumptorium",
+    "conditionZh": "用里夏娃击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 590,
+    "name": "Berserk!",
+    "conditionZh": "用里参孙击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 591,
+    "name": "Hemoptysis",
+    "conditionZh": "用里阿撒泻勒击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 592,
+    "name": "Flip",
+    "conditionZh": "用里拉撒路击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 593,
+    "name": "Corrupted Data",
+    "conditionZh": "用里伊甸击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 594,
+    "name": "Ghost Bombs",
+    "conditionZh": "用里游魂击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 595,
+    "name": "Gello",
+    "conditionZh": "用里莉莉丝击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 596,
+    "name": "Keeper's Kin",
+    "conditionZh": "用里店主击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 597,
+    "name": "Abyss",
+    "conditionZh": "用里亚玻伦击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 598,
+    "name": "Decap Attack",
+    "conditionZh": "用里遗骸击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 599,
+    "name": "Lemegeton",
+    "conditionZh": "用里伯大尼击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 600,
+    "name": "Anima Sola",
+    "conditionZh": "用里雅各击败精神错乱。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-501-600"
+  },
+  {
+    "id": 601,
+    "name": "Mega Chest",
+    "conditionZh": "用里以撒击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 602,
+    "name": "Queen of Hearts",
+    "conditionZh": "用里抹大拉击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 603,
+    "name": "Gold Pill",
+    "conditionZh": "用里该隐击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 604,
+    "name": "Black Sack",
+    "conditionZh": "用里犹大击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 605,
+    "name": "Charming Poop",
+    "conditionZh": "用里小蓝人击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 606,
+    "name": "Horse Pill",
+    "conditionZh": "用里夏娃击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 607,
+    "name": "Crane Game",
+    "conditionZh": "用里参孙击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 608,
+    "name": "Hell Game",
+    "conditionZh": "用里阿撒泻勒击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 609,
+    "name": "Wooden Chest",
+    "conditionZh": "用里拉撒路击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 610,
+    "name": "Wild Card",
+    "conditionZh": "用里伊甸击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 611,
+    "name": "Haunted Chest",
+    "conditionZh": "用里游魂击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 612,
+    "name": "Fool's Gold",
+    "conditionZh": "用里莉莉丝击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 613,
+    "name": "Golden Penny",
+    "conditionZh": "用里店主击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 614,
+    "name": "Rotten Beggar",
+    "conditionZh": "用里亚玻伦击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 615,
+    "name": "Golden Battery",
+    "conditionZh": "用里遗骸击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 616,
+    "name": "Confessional",
+    "conditionZh": "用里伯大尼击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 617,
+    "name": "Golden Trinket",
+    "conditionZh": "用里雅各击败超级撒但。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 618,
+    "name": "Soul of Isaac",
+    "conditionZh": "用里以撒完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 619,
+    "name": "Soul of Magdalene",
+    "conditionZh": "用里抹大拉完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 620,
+    "name": "Soul of Cain",
+    "conditionZh": "用里该隐完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 621,
+    "name": "Soul of Judas",
+    "conditionZh": "用里犹大完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 622,
+    "name": "Soul of ???",
+    "conditionZh": "用里小蓝人完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 623,
+    "name": "Soul of Eve",
+    "conditionZh": "用里夏娃完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 624,
+    "name": "Soul of Samson",
+    "conditionZh": "用里参孙完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 625,
+    "name": "Soul of Azazel",
+    "conditionZh": "用里阿撒泻勒完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 626,
+    "name": "Soul of Lazarus",
+    "conditionZh": "用里拉撒路完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 627,
+    "name": "Soul of Eden",
+    "conditionZh": "用里伊甸完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 628,
+    "name": "Soul of the Lost",
+    "conditionZh": "用里游魂完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 629,
+    "name": "Soul of Lilith",
+    "conditionZh": "用里莉莉丝完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 630,
+    "name": "Soul of the Keeper",
+    "conditionZh": "用里店主完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 631,
+    "name": "Soul of Apollyon",
+    "conditionZh": "用里亚玻伦完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 632,
+    "name": "Soul of the Forgotten",
+    "conditionZh": "用里遗骸完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 633,
+    "name": "Soul of Bethany",
+    "conditionZh": "用里伯大尼完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 634,
+    "name": "Soul of Jacob and Esau",
+    "conditionZh": "用里雅各完成 Boss Rush 与死寂，两项齐全。",
+    "group": "里角色合并奖励",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 635,
+    "name": "A Strange Door",
+    "conditionZh": "击败母亲。",
+    "group": "角色标记",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 636,
+    "name": "Death Certificate",
+    "conditionZh": "34 个表 / 里角色完成全部困难标记，贪婪格为极贪。",
+    "group": "收集 / 全成就",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 637,
+    "name": "Dead God",
+    "conditionZh": "解锁其余全部成就，并收集全部要求的道具；忏悔+包括新增四项。",
+    "group": "收集 / 全成就",
+    "minimum": "忏悔",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 638,
+    "name": "Play Online",
+    "conditionZh": "参加一次官方在线游戏（仅忏悔+）。",
+    "group": "每日 / 联机",
+    "minimum": "忏悔+",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 639,
+    "name": "Win Online",
+    "conditionZh": "赢得一次官方在线游戏（仅忏悔+）。",
+    "group": "每日 / 联机",
+    "minimum": "忏悔+",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 640,
+    "name": "Win Online Daily",
+    "conditionZh": "赢得一次官方在线每日挑战（仅忏悔+）。",
+    "group": "每日 / 联机",
+    "minimum": "忏悔+",
+    "page": "ids-601-641"
+  },
+  {
+    "id": 641,
+    "name": "Item Descriptions",
+    "conditionZh": "击败妈妈。",
+    "group": "主线 / Boss",
+    "minimum": "忏悔+",
+    "page": "ids-601-641"
+  }
+]
