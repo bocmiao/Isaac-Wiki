@@ -29,7 +29,9 @@ defineProps<{ title: string; sub?: string; tag?: 'h1' | 'h2' | 'h3' | 'div'; siz
   );
 }
 .streak-title {
-  font-weight: 900;
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  letter-spacing: 0.06em;
 }
 .streak-sub {
   font-size: 13px;
@@ -39,15 +41,15 @@ defineProps<{ title: string; sub?: string; tag?: 'h1' | 'h2' | 'h3' | 'div'; siz
   margin-top: 2px;
 }
 .lg .streak-title {
-  font-size: 26px;
+  font-size: 32px;
 }
 .md .streak-title {
-  font-size: 21px;
+  font-size: 25px;
 }
 .sm {
   padding: 6px 22px 8px;
 }
 .sm .streak-title {
-  font-size: 15px;
+  font-size: 19px;
 }
 </style>

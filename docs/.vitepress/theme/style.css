@@ -47,6 +47,8 @@
   --vp-font-family-base: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', 'Source Han Sans SC',
     system-ui, -apple-system, 'Segoe UI', sans-serif;
   --vp-font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  /* 标题、数字用手写感字体（站酷快乐体，OFL 授权，随站点自托管） */
+  --ib-font-display: 'ZCOOL KuaiLe', var(--vp-font-family-base);
 
   --vp-c-bg: var(--ib-floor);
   --vp-c-bg-alt: var(--ib-floor-2);
@@ -180,14 +182,18 @@ body::before {
   display: none;
 }
 .VPNavBarTitle .title {
-  font-weight: 900;
-  font-size: 18px;
-  letter-spacing: 0.04em;
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.06em;
   border-bottom: none !important;
 }
 .VPNavBarMenuLink,
 .VPNavBarMenuGroup .button {
-  font-weight: 700 !important;
+  font-family: var(--ib-font-display);
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  letter-spacing: 0.04em;
 }
 .VPNavBarSearch .DocSearch-Button {
   background: rgba(0, 0, 0, 0.3);
@@ -200,7 +206,10 @@ body::before {
   border-right: 3px solid var(--ib-outline);
 }
 .VPSidebarItem.level-0 > .item .text {
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 .VPSidebarItem.is-active > .item .link > .text {
   font-weight: 800;
@@ -209,12 +218,23 @@ body::before {
 /* ---------- 文档 = 铺在地上的一张纸 ---------- */
 @media (min-width: 960px) {
   .VPDoc .content-container {
+    position: relative;
+    isolation: isolate;
     max-width: 760px !important;
-    background: var(--ib-paper);
-    border: 2.5px solid var(--ib-outline);
-    border-radius: 8px;
-    box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.28);
     padding: 36px 44px 28px;
+  }
+  .VPDoc .content-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: 6px;
+    border: 3px solid var(--ib-outline);
+    background-color: var(--ib-paper);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.3 0 0 0 0 0.2 0 0 0 0.08 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    box-shadow: 7px 7px 0 rgba(0, 0, 0, 0.3);
+    filter: url(#ib-rough);
+    pointer-events: none;
   }
   .VPDoc.has-aside .content-container {
     max-width: 720px !important;
@@ -226,17 +246,23 @@ body::before {
 .vp-doc {
   line-height: 1.85;
 }
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
 .vp-doc h1 {
-  font-weight: 900;
-  letter-spacing: 0.02em;
+  font-size: 36px;
 }
 .vp-doc h2 {
-  font-weight: 900;
+  font-size: 26px;
   border-top: 2px dashed var(--ib-line);
   padding-top: 28px;
 }
 .vp-doc h3 {
-  font-weight: 800;
+  font-size: 20px;
 }
 .vp-doc a {
   font-weight: 600;
@@ -267,13 +293,27 @@ body::before {
 
 /* 提示框：粗描边 + 硬投影，像游戏里的纸条 */
 .custom-block {
-  border-width: 2px !important;
-  border-style: solid;
-  border-radius: 8px;
-  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+  --sk-bw: 2px;
+  --sk-shadow: 3px 3px 0 rgba(0, 0, 0, 0.22);
+}
+.custom-block.tip {
+  --sk-bg: var(--vp-custom-block-tip-bg);
+}
+.custom-block.warning {
+  --sk-bg: var(--vp-custom-block-warning-bg);
+}
+.custom-block.danger {
+  --sk-bg: var(--vp-custom-block-danger-bg);
+}
+.custom-block.info,
+.custom-block.details {
+  --sk-bg: var(--vp-custom-block-info-bg);
 }
 .custom-block .custom-block-title {
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
 }
 
 .VPFooter {
@@ -285,13 +325,51 @@ body::before {
 
 /* 上一篇 / 下一篇 */
 .VPDocFooter .pager-link {
-  border: 2px solid var(--ib-outline) !important;
+  --sk-bw: 2px;
+  --sk-bg: var(--ib-paper-2);
+  --sk-shadow: 0 3px 0 var(--ib-outline);
   border-radius: 10px !important;
-  background: var(--ib-paper-2);
-  box-shadow: 0 3px 0 var(--ib-outline);
+}
+.VPDocFooter .pager-link .title {
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  font-size: 16px;
 }
 .VPDocFooter .pager-link:hover {
   transform: translateY(-2px);
+}
+
+/* ---------- 通用：手绘纸片 ----------
+ * 加上 .sketch 的元素，背景、描边、投影都改由 ::before 绘制，
+ * 再套上 #ib-rough 抖动滤镜，得到原版菜单那种手画的边。文字不受滤镜影响。
+ * 用 --sk-bg / --sk-shadow / --sk-bw 调整外观。 */
+.sketch,
+.custom-block,
+.VPDocFooter .pager-link,
+.ib-btn {
+  position: relative;
+  isolation: isolate;
+  background: transparent !important;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-width: var(--sk-bw, 2.5px) !important;
+  box-shadow: none !important;
+}
+.sketch::before,
+.custom-block::before,
+.VPDocFooter .pager-link::before,
+.ib-btn::before {
+  content: '';
+  position: absolute;
+  inset: calc(-1 * var(--sk-bw, 2.5px));
+  z-index: -1;
+  border-radius: inherit;
+  border: var(--sk-bw, 2.5px) solid var(--sk-line, var(--ib-outline));
+  background: var(--sk-bg, var(--ib-paper));
+  box-shadow: var(--sk-shadow, 0 4px 0 var(--ib-outline));
+  filter: url(#ib-rough);
+  pointer-events: none;
+  transition: background-color 0.15s, box-shadow 0.12s;
 }
 
 /* ---------- 通用：游戏风按钮 ---------- */
@@ -299,30 +377,30 @@ body::before {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 20px;
+  padding: 9px 20px;
   border-radius: 10px;
-  font-weight: 800;
-  font-size: 15px;
+  font-family: var(--ib-font-display);
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.04em;
   text-decoration: none !important;
-  border: 2.5px solid var(--ib-outline);
-  box-shadow: 0 4px 0 var(--ib-outline);
-  transition: transform 0.12s, box-shadow 0.12s;
+  transition: transform 0.12s;
   cursor: pointer;
 }
 .ib-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 0 var(--ib-outline);
+  --sk-shadow: 0 6px 0 var(--ib-outline);
 }
 .ib-btn:active {
   transform: translateY(3px);
-  box-shadow: 0 1px 0 var(--ib-outline);
+  --sk-shadow: 0 1px 0 var(--ib-outline);
 }
 .ib-btn.red {
-  background: var(--ib-blood-btn);
+  --sk-bg: var(--ib-blood-btn);
   color: var(--ib-on-dark) !important;
 }
 .ib-btn.paper {
-  background: var(--ib-paper);
+  --sk-bg: var(--ib-paper);
   color: var(--ib-ink) !important;
 }
 
@@ -345,6 +423,7 @@ body::before {
   margin-bottom: 26px;
 }
 .tool-head p {
+  font-size: 15px;
   margin: 14px 0 0 4px;
   color: var(--ib-ink-2);
 }

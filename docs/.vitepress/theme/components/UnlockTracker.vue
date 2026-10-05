@@ -83,7 +83,7 @@ function reset() {
 <template>
   <div class="tracker">
     <!-- 状态栏 -->
-    <div class="hud">
+    <div class="hud sketch">
       <div class="meter">
         <div class="meter-label">总进度 {{ Math.round(stats.overall * 100) }}%</div>
         <HeartMeter :value="stats.overall" :hearts="12" :size="28" />
@@ -107,10 +107,10 @@ function reset() {
     <!-- 标签页与操作 -->
     <div class="toolbar">
       <div class="tabs" role="tablist">
-        <button role="tab" :aria-selected="tab === 'chars'" :class="{ on: tab === 'chars' }" @click="tab = 'chars'">
+        <button role="tab" class="sketch" :aria-selected="tab === 'chars'" :class="{ on: tab === 'chars' }" @click="tab = 'chars'">
           <GameIcon name="key" :size="18" />角色解锁
         </button>
-        <button role="tab" :aria-selected="tab === 'marks'" :class="{ on: tab === 'marks' }" @click="tab = 'marks'">
+        <button role="tab" class="sketch" :aria-selected="tab === 'marks'" :class="{ on: tab === 'marks' }" @click="tab = 'marks'">
           <GameIcon name="skull" :size="18" />完成标记
         </button>
       </div>
@@ -125,7 +125,7 @@ function reset() {
 
     <!-- 角色解锁 -->
     <div v-show="tab === 'chars'" class="char-list">
-      <div v-for="c in characters" :key="c.id" class="char" :class="{ done: state.chars[c.id] }">
+      <div v-for="c in characters" :key="c.id" class="char sketch" :class="{ done: state.chars[c.id] }">
         <label class="char-main">
           <input v-model="state.chars[c.id]" type="checkbox" :disabled="c.id === 'isaac'" />
           <span class="box" aria-hidden="true" />
@@ -189,6 +189,7 @@ button {
   cursor: pointer;
 }
 .hud {
+  --sk-shadow: 0 5px 0 var(--ib-outline);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -221,9 +222,9 @@ button {
   font-size: 13px;
 }
 .counts b {
-  font-family: var(--vp-font-family-mono);
-  font-size: 24px;
-  font-weight: 900;
+  font-family: var(--ib-font-display);
+  font-size: 30px;
+  font-weight: 400;
   color: var(--ib-ink);
 }
 .counts small {
@@ -244,19 +245,20 @@ button {
   gap: 6px;
 }
 .tabs button {
+  --sk-bw: 2px;
+  --sk-bg: var(--ib-paper-2);
+  --sk-shadow: 0 3px 0 var(--ib-outline);
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 7px 16px;
+  padding: 6px 16px;
   border-radius: 10px;
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-size: 17px;
   color: var(--ib-ink-2);
-  background: var(--ib-paper-2);
-  border: 2px solid var(--ib-outline);
-  box-shadow: 0 3px 0 var(--ib-outline);
 }
 .tabs button.on {
-  background: var(--ib-blood-btn);
+  --sk-bg: var(--ib-blood-btn);
   color: var(--ib-on-dark);
 }
 .io {
@@ -292,6 +294,8 @@ button {
   gap: 10px;
 }
 .char {
+  --sk-bw: 2px;
+  --sk-shadow: 0 3px 0 var(--ib-outline);
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 12px;
@@ -303,7 +307,7 @@ button {
   box-shadow: 0 3px 0 var(--ib-outline);
 }
 .char.done {
-  background: var(--ib-paper-2);
+  --sk-bg: var(--ib-paper-2);
 }
 .char-main {
   position: relative;
@@ -350,8 +354,13 @@ button {
   min-width: 0;
 }
 .char-name {
-  font-weight: 900;
+  font-family: var(--ib-font-display);
+  font-size: 18px;
+  letter-spacing: 0.03em;
   color: var(--ib-ink);
+}
+.char-name small {
+  font-family: var(--vp-font-family-base);
 }
 .char-name small {
   font-weight: 500;
@@ -459,15 +468,18 @@ button {
   background: transparent;
 }
 .mark-grid thead th {
-  font-size: 12px;
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-size: 14px;
+  font-weight: 400;
   color: var(--ib-on-dark);
   white-space: nowrap;
   background: var(--ib-wall);
 }
 .mark-grid tbody th {
   text-align: left;
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-size: 15px;
+  font-weight: 400;
   color: var(--ib-ink);
   white-space: nowrap;
   padding-left: 12px;

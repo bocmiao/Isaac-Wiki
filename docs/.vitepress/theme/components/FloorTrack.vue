@@ -20,7 +20,7 @@ const at = () => props.current ?? 1
           <span class="marker" aria-hidden="true">
             <GameIcon v-if="s.floor === at()" name="face" :size="compact ? 26 : 30" />
           </span>
-          <span class="room">
+          <span class="room sketch" :style="{ '--sk-bg': s.color }">
             <span class="num">{{ s.floor }}</span>
           </span>
           <span class="place">{{ s.place }}</span>
@@ -78,16 +78,13 @@ li {
 }
 .room {
   position: relative;
-  width: 52px;
+  width: 54px;
   height: 46px;
   margin-top: 4px;
-  border-radius: 8px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--ib-paper);
-  border: 2.5px solid var(--ib-outline);
-  box-shadow: 0 4px 0 var(--ib-outline);
   transition: transform 0.15s;
 }
 .compact .room {
@@ -97,19 +94,20 @@ li {
 .node-link:hover .room {
   transform: translateY(-3px);
 }
-.past .room {
-  background: var(--ib-paper-2);
-}
+/* 当前所在层：像小地图里的当前房间一样加白框 */
 .here .room {
-  background: var(--ib-blood-btn);
+  outline: 3px solid #fbf7ef;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+.dark .here .room {
+  outline-color: #e9e3d6;
 }
 .num {
-  font-size: 20px;
-  font-weight: 900;
-  color: var(--ib-ink);
-}
-.here .num {
-  color: var(--ib-on-dark);
+  font-family: var(--ib-font-display);
+  font-size: 24px;
+  color: #f6ecd8;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
 }
 .place {
   margin-top: 12px;
@@ -119,13 +117,14 @@ li {
   letter-spacing: 0.1em;
 }
 .title {
-  font-size: 15px;
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-size: 18px;
+  letter-spacing: 0.03em;
   color: var(--ib-ink);
   line-height: 1.4;
 }
 .compact .title {
-  font-size: 13px;
+  font-size: 15px;
 }
 .here .title {
   color: var(--ib-blood);

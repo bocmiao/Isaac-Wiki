@@ -9,7 +9,7 @@ defineProps<{ detailed?: boolean }>()
 
 <template>
   <div class="grid" :class="{ detailed }">
-    <a v-for="c in strategyCategories" :key="c.id" class="cat" :href="withBase(`/strategy/${c.id}`)">
+    <a v-for="c in strategyCategories" :key="c.id" class="cat sketch" :href="withBase(`/strategy/${c.id}`)">
       <span class="icon-wrap"><GameIcon :name="c.icon" :size="detailed ? 40 : 36" /></span>
       <span class="name">{{ c.name }}</span>
       <span class="desc">{{ c.desc }}</span>
@@ -47,7 +47,7 @@ defineProps<{ detailed?: boolean }>()
 }
 .cat:hover {
   transform: translateY(-3px);
-  box-shadow: 0 7px 0 var(--ib-outline);
+  --sk-shadow: 0 7px 0 var(--ib-outline);
 }
 .icon-wrap {
   display: flex;
@@ -63,8 +63,9 @@ defineProps<{ detailed?: boolean }>()
 }
 .name {
   margin-top: 8px;
-  font-size: 15.5px;
-  font-weight: 900;
+  font-family: var(--ib-font-display);
+  font-size: 19px;
+  letter-spacing: 0.04em;
   color: var(--ib-ink);
 }
 .desc {
@@ -111,7 +112,7 @@ defineProps<{ detailed?: boolean }>()
 .detailed .name {
   grid-area: name;
   margin: 0;
-  font-size: 17px;
+  font-size: 21px;
 }
 .detailed .desc {
   grid-area: desc;

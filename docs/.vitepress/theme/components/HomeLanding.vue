@@ -71,7 +71,7 @@ const previewDone = [
   <div class="landing">
     <RoomHero />
 
-    <a class="notice" :href="withBase('/topics/coop')">
+    <a class="notice sketch" :href="withBase('/topics/coop')">
       <GameIcon name="gamepad" :size="26" />
       <span><b>主机版《Repentance+ Online》11 月 19 日发售</b>，支持四人在线联机。先看联机专题 →</span>
     </a>
@@ -83,7 +83,7 @@ const previewDone = [
         <p>按你现在的情况，从最合适的地方开始。</p>
       </header>
       <div class="personas">
-        <a v-for="(p, i) in personas" :key="p.name" class="persona" :href="withBase(p.link)" :style="{ '--tilt': `${i % 2 ? 1.2 : -1.2}deg` }">
+        <a v-for="(p, i) in personas" :key="p.name" class="persona sketch" :href="withBase(p.link)" :style="{ '--tilt': `${i % 2 ? 1.2 : -1.2}deg` }">
           <span class="portrait"><GameIcon :name="p.icon" :size="56" /></span>
           <span class="p-name">{{ p.name }}</span>
           <span class="p-state">{{ p.state }}</span>
@@ -98,7 +98,7 @@ const previewDone = [
         <StreakTitle title="新手路线：往下走五层" />
         <p>用游戏的楼层做比喻，每一层只讲你当下用得上的东西。</p>
       </header>
-      <div class="panel">
+      <div class="panel sketch">
         <FloorTrack />
       </div>
     </section>
@@ -122,7 +122,7 @@ const previewDone = [
         <p>不在路线上、但新人最常问的问题。</p>
       </header>
       <div class="topics">
-        <a v-for="t in topics" :key="t.title" class="topic" :href="withBase(t.link)">
+        <a v-for="t in topics" :key="t.title" class="topic sketch" :href="withBase(t.link)">
           <GameIcon :name="t.icon" :size="40" />
           <span class="t-body">
             <span class="t-title">{{ t.title }} <em v-if="t.tag">{{ t.tag }}</em></span>
@@ -139,7 +139,7 @@ const previewDone = [
           <StreakTitle title="解锁清单" />
           <p>17 个角色的解锁条件，34 个角色的完成标记。点一下就记下，进度存在你自己的浏览器里。</p>
         </header>
-        <a class="tracker-card" :href="withBase('/tools/tracker')">
+        <a class="tracker-card sketch" :href="withBase('/tools/tracker')">
           <span class="tc-top">
             <HeartMeter :value="0.21" :hearts="8" :size="22" />
             <span class="tc-cta">开始记录 →</span>
@@ -162,7 +162,7 @@ const previewDone = [
           <p>新人问得最多的几件事。</p>
         </header>
         <div class="faq">
-          <details v-for="(f, i) in faqs" :key="f.q" :open="i === 0">
+          <details v-for="(f, i) in faqs" :key="f.q" class="sketch" :open="i === 0">
             <summary><GameIcon name="pill" :size="20" />{{ f.q }}</summary>
             <p>{{ f.a }} <a :href="withBase(f.link)">详细 →</a></p>
           </details>
@@ -179,6 +179,8 @@ const previewDone = [
   padding: 28px 24px 72px;
 }
 .notice {
+  --sk-bw: 2px;
+  --sk-shadow: 0 3px 0 var(--ib-outline);
   display: flex;
   align-items: center;
   gap: 12px;
@@ -220,6 +222,7 @@ const previewDone = [
   font-size: 15px;
 }
 .panel {
+  --sk-shadow: 0 5px 0 var(--ib-outline);
   padding: 22px 16px 26px;
   border-radius: 12px;
   background: var(--ib-paper);
@@ -234,6 +237,7 @@ const previewDone = [
   gap: 18px;
 }
 .persona {
+  --sk-shadow: 0 5px 0 var(--ib-outline);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -266,8 +270,9 @@ const previewDone = [
 }
 .p-name {
   margin-top: 12px;
-  font-size: 19px;
-  font-weight: 900;
+  font-family: var(--ib-font-display);
+  font-size: 24px;
+  letter-spacing: 0.06em;
   color: var(--ib-ink);
 }
 .p-state {
@@ -280,8 +285,9 @@ const previewDone = [
   padding-top: 10px;
   width: 100%;
   border-top: 2px dashed var(--ib-line);
-  font-size: 14px;
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-size: 16px;
+  letter-spacing: 0.03em;
   color: var(--ib-blood);
 }
 
@@ -312,8 +318,9 @@ const previewDone = [
   flex-direction: column;
 }
 .t-title {
-  font-size: 17px;
-  font-weight: 900;
+  font-family: var(--ib-font-display);
+  font-size: 21px;
+  letter-spacing: 0.04em;
   color: var(--ib-ink);
 }
 .t-title em {
@@ -341,6 +348,7 @@ const previewDone = [
   gap: 40px;
 }
 .tracker-card {
+  --sk-shadow: 0 5px 0 var(--ib-outline);
   display: block;
   padding: 18px;
   border-radius: 12px;
@@ -360,7 +368,8 @@ const previewDone = [
   margin-bottom: 14px;
 }
 .tc-cta {
-  font-weight: 800;
+  font-family: var(--ib-font-display);
+  font-size: 18px;
   color: var(--ib-blood);
 }
 .mini-grid {
@@ -405,6 +414,8 @@ const previewDone = [
   gap: 10px;
 }
 details {
+  --sk-bw: 2px;
+  --sk-shadow: 0 3px 0 var(--ib-outline);
   border-radius: 10px;
   background: var(--ib-paper);
   border: 2px solid var(--ib-outline);
@@ -414,8 +425,10 @@ summary {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 12px 14px;
-  font-weight: 800;
+  padding: 11px 14px;
+  font-family: var(--ib-font-display);
+  font-size: 17px;
+  letter-spacing: 0.03em;
   color: var(--ib-ink);
   cursor: pointer;
   list-style: none;

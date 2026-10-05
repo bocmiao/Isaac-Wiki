@@ -22,6 +22,8 @@ export type IconName =
   | 'map'
   | 'rock'
   | 'poop'
+  | 'lock'
+  | 'eye'
 
 withDefaults(defineProps<{ name: IconName; size?: number | string }>(), { size: 32 })
 </script>
@@ -183,6 +185,22 @@ withDefaults(defineProps<{ name: IconName; size?: number | string }>(), { size: 
         fill="#7a4f2c"
       />
       <path d="M9 21.5c3 1 9 1 14-1M11.5 16c2.5.7 6 .5 9-.8" fill="none" stroke-width="1.5" opacity=".5" />
+    </template>
+
+    <template v-else-if="name === 'lock'">
+      <path d="M10.5 14v-3.5a5.5 5.5 0 0 1 11 0V14" fill="none" stroke-width="3" />
+      <path d="M10.5 14v-3.5a5.5 5.5 0 0 1 11 0V14" fill="none" stroke="#c9ccd2" stroke-width="1.2" />
+      <rect x="7" y="13.5" width="18" height="14" rx="3" fill="#e8b23a" />
+      <circle cx="16" cy="19.5" r="2" fill="var(--ib-outline)" stroke="none" />
+      <path d="M16 20.5v3.5" stroke-width="2" />
+    </template>
+
+    <template v-else-if="name === 'eye'">
+      <path d="M2.5 16C6 9.5 11 7 16 7s10 2.5 13.5 9C26 22.5 21 25 16 25S6 22.5 2.5 16z" fill="#f2e6d8" />
+      <path d="M6 13.5l4 1.5M26 13.5l-4 1.5M8 19.5l3-1" fill="none" stroke="#c0392b" stroke-width="1" />
+      <circle cx="16" cy="16" r="6.2" fill="#b3241c" />
+      <circle cx="16" cy="16" r="2.8" fill="var(--ib-outline)" stroke="none" />
+      <circle cx="14" cy="13.8" r="1.3" fill="#fff" stroke="none" />
     </template>
   </svg>
 </template>
