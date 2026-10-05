@@ -47,8 +47,14 @@ const guideSidebar = [
   },
   {
     text: '第 5 层 · 暗室：里角色与白金神',
-    collapsed: true,
-    items: [{ text: '阶段总览', link: '/guide/platinum/' }],
+    collapsed: false,
+    items: [
+      { text: '阶段总览', link: '/guide/platinum/' },
+      { text: '里角色攻略', link: '/strategy/tainted' },
+      { text: '挑战模式', link: '/strategy/challenges' },
+      { text: '贪婪模式', link: '/strategy/greed' },
+      { text: '种子', link: '/strategy/seeds' },
+    ],
   },
 ]
 

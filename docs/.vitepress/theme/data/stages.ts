@@ -59,7 +59,7 @@ export const stages: Stage[] = [
     title: '里角色与白金神',
     summary: '里角色逐个上手，规划全成就，走完最后一段路。',
     link: '/guide/platinum/',
-    topics: ['里角色', '挑战模式', '全成就规划'],
-    status: 'soon',
+    topics: ['里角色', '挑战模式', '贪婪模式'],
+    status: 'ready',
   },
 ]

@@ -74,6 +74,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '17 个里角色的解锁、机制和上手思路',
     plan: ['里角色怎么解锁', '17 个里角色逐个上手'],
     batch: 3,
+    ready: true,
   },
   {
     id: 'challenges',
@@ -82,6 +83,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '全部挑战逐个讲解，先做解锁重要道具的',
     plan: ['挑战优先级', '全部挑战逐个讲解'],
     batch: 3,
+    ready: true,
   },
   {
     id: 'greed',
@@ -90,6 +92,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '贪婪与极贪打法、捐款机与相关解锁',
     plan: ['贪婪模式入门', '极贪模式', '捐款机与相关解锁'],
     batch: 3,
+    ready: true,
   },
   {
     id: 'seeds',
@@ -98,6 +101,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '彩蛋种子、特殊种子、种子怎么输',
     plan: ['种子怎么输入', '彩蛋种子与特殊种子'],
     batch: 3,
+    ready: true,
   },
 ]
 

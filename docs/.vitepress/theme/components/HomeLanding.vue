@@ -113,7 +113,7 @@ const previewDone = [
       <header class="section-head row">
         <div>
           <StreakTitle title="攻略库" />
-          <p>结局路线、Boss、角色、挑战……按计划分三批上线。</p>
+          <p>结局路线、Boss、角色、机制、挑战……10 个栏目全部上线。</p>
         </div>
         <a class="ib-btn paper" :href="withBase('/strategy/')">全部攻略 →</a>
       </header>
