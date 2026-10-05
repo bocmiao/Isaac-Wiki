@@ -1,0 +1,174 @@
+/*
+ * 以撒路书 主题
+ * 浅色：旧纸张 + 墨色 + 血红强调；深色：地下室的暗褐色。
+ * 只用系统字体，国内访问不依赖外部字体服务。
+ */
+
+:root {
+  --ib-paper: #f5eee2;
+  --ib-paper-2: #ece2d0;
+  --ib-paper-3: #e2d4bc;
+  --ib-ink: #2b2320;
+  --ib-ink-2: #5a4c44;
+  --ib-ink-3: #8a7a6e;
+  --ib-line: #d6c6ac;
+  --ib-blood: #b3261e;
+  --ib-blood-soft: rgba(179, 38, 30, 0.1);
+  --ib-soul: #3d6fb6;
+  --ib-soul-soft: #e1e8f3;
+  --ib-gold: #b07d12;
+  --ib-gold-soft: rgba(176, 125, 18, 0.14);
+  --ib-shadow: 0 1px 0 rgba(43, 35, 32, 0.06), 0 6px 18px -10px rgba(43, 35, 32, 0.35);
+
+  --vp-font-family-base: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', 'Source Han Sans SC',
+    system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  --vp-c-bg: var(--ib-paper);
+  --vp-c-bg-alt: var(--ib-paper-2);
+  --vp-c-bg-elv: #fbf6ec;
+  --vp-c-bg-soft: var(--ib-paper-2);
+  --vp-c-text-1: var(--ib-ink);
+  --vp-c-text-2: var(--ib-ink-2);
+  --vp-c-text-3: var(--ib-ink-3);
+  --vp-c-divider: var(--ib-line);
+  --vp-c-gutter: var(--ib-line);
+  --vp-c-border: var(--ib-line);
+
+  --vp-c-brand-1: var(--ib-blood);
+  --vp-c-brand-2: #c9372e;
+  --vp-c-brand-3: var(--ib-blood);
+  --vp-c-brand-soft: var(--ib-blood-soft);
+
+  --vp-c-tip-1: var(--ib-soul);
+  --vp-c-tip-soft: var(--ib-soul-soft);
+  --vp-c-warning-1: var(--ib-gold);
+  --vp-c-warning-soft: var(--ib-gold-soft);
+
+  --vp-button-brand-bg: var(--ib-blood);
+  --vp-button-brand-hover-bg: #c9372e;
+  --vp-button-brand-active-bg: #8f1d17;
+  --vp-button-alt-bg: var(--ib-paper-3);
+  --vp-button-alt-text: var(--ib-ink);
+
+  --vp-custom-block-tip-bg: var(--ib-soul-soft);
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-warning-bg: var(--ib-gold-soft);
+  --vp-custom-block-warning-border: transparent;
+  --vp-custom-block-danger-bg: var(--ib-blood-soft);
+  --vp-custom-block-danger-border: transparent;
+  --vp-custom-block-info-bg: var(--ib-paper-3);
+  --vp-custom-block-info-border: transparent;
+
+  --vp-nav-bg-color: rgba(245, 238, 226, 0.92);
+  --vp-sidebar-bg-color: var(--ib-paper-2);
+  --vp-code-bg: var(--ib-paper-3);
+  --vp-local-search-bg: var(--ib-paper);
+  --vp-local-search-result-bg: #fbf6ec;
+}
+
+.dark {
+  --ib-paper: #17120f;
+  --ib-paper-2: #1f1915;
+  --ib-paper-3: #2a221d;
+  --ib-ink: #ecdfcb;
+  --ib-ink-2: #c3b29c;
+  --ib-ink-3: #8f7f6d;
+  --ib-line: #3a2f28;
+  --ib-blood: #e5554b;
+  --ib-blood-soft: rgba(229, 85, 75, 0.14);
+  --ib-soul: #7ea6e6;
+  --ib-soul-soft: rgba(126, 166, 230, 0.14);
+  --ib-gold: #e0ac3c;
+  --ib-gold-soft: rgba(224, 172, 60, 0.14);
+  --ib-shadow: 0 1px 0 rgba(0, 0, 0, 0.4), 0 8px 22px -12px rgba(0, 0, 0, 0.8);
+
+  --vp-c-bg-elv: #221b17;
+  --vp-c-brand-2: #f06b61;
+  --vp-button-brand-text: #17120f;
+  --vp-button-brand-hover-text: #17120f;
+  --vp-button-brand-active-text: #17120f;
+  --vp-button-brand-hover-bg: #f06b61;
+  --vp-button-brand-active-bg: #c9443b;
+  --vp-nav-bg-color: rgba(23, 18, 15, 0.9);
+  --vp-local-search-result-bg: #221b17;
+}
+
+/* 纸张纹理：两层很淡的径向渐变，避免大面积纯色显得平 */
+body {
+  background-color: var(--ib-paper);
+  background-image: radial-gradient(circle at 20% 0%, rgba(176, 125, 18, 0.06), transparent 40%),
+    radial-gradient(circle at 90% 30%, rgba(179, 38, 30, 0.04), transparent 35%);
+  background-attachment: fixed;
+}
+
+.VPNav .VPNavBar.has-sidebar .content-body,
+.VPNavBar:not(.home) {
+  backdrop-filter: saturate(140%) blur(8px);
+}
+
+/* 正文排版：中文行高放宽，标题加一点墨感 */
+.vp-doc {
+  line-height: 1.85;
+}
+.vp-doc h1 {
+  letter-spacing: 0.02em;
+}
+.vp-doc h2 {
+  border-top: none;
+  padding-top: 8px;
+  position: relative;
+}
+.vp-doc h2::before {
+  content: '';
+  position: absolute;
+  left: -16px;
+  top: 22px;
+  width: 6px;
+  height: 18px;
+  border-radius: 3px;
+  background: var(--ib-blood);
+  opacity: 0.85;
+}
+@media (max-width: 767px) {
+  .vp-doc h2::before {
+    display: none;
+  }
+}
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+.vp-doc th {
+  background: var(--ib-paper-3);
+}
+.vp-doc tr:nth-child(2n) {
+  background: transparent;
+}
+
+/* 提示框：TIP 用魂心蓝，WARNING 用金币黄，DANGER 用血红 */
+.custom-block {
+  border-radius: 10px;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+.custom-block.tip {
+  border-left-color: var(--ib-soul);
+}
+.custom-block.warning {
+  border-left-color: var(--ib-gold);
+}
+.custom-block.danger {
+  border-left-color: var(--ib-blood);
+}
+.custom-block.info {
+  border-left-color: var(--ib-ink-3);
+}
+
+.VPSidebarItem.level-0 > .item .text {
+  font-weight: 700;
+}
+
+.VPFooter {
+  background: var(--ib-paper-2) !important;
+}

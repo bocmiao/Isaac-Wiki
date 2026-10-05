@@ -1,0 +1,13 @@
+---
+title: 关于
+---
+
+# 关于以撒路书
+
+以撒路书是一个非官方的《以撒的结合》中文教程站，目标是让新玩家按顺序从第一局走到白金神。
+
+- **只写教程和攻略**：道具图鉴请直接看 [wiki.gg 中文站](https://bindingofisaacrebirth.wiki.gg/zh/)或 [IsaacGuru](https://isaacguru.com/)。
+- **标注版本**：每篇文章顶部写明适用版本和校对日期。
+- **欢迎投稿**：内容托管在 GitHub，发现错误或想写攻略，可以直接提交修改。
+
+《以撒的结合》相关名称和素材版权归 Edmund McMillen 与 Nicalis 所有。
