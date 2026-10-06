@@ -1,14 +1,14 @@
 ---
 title: 角色速查与练习路线
-description: 17 个表角色与 17 个里角色的攻略入口、开局强化和完成标记规划。
+description: 34 个角色的发育思路、清房与 Boss 打法入口，以及开局强化和完成标记规划。
 ---
 
 # 角色速查与练习路线
 
-<VersionBadge />
+<VersionBadge checked="2026-10" />
 
 ::: tip 速览
-- **先在入口表找角色**，再看攻略里的「定位」「怎么玩」「要注意」（[攻略入口](#_34-个角色攻略入口)）
+- **先在入口表找角色**，再看「发育思路与道具取舍」「清房与 Boss 打法」「路线与标记建议」（[攻略入口](#_34-个角色攻略入口)）
 - **开局强化先做**：店主打以撒拿木制镍币，游魂捐满 879 枚（[开局强化](#upgrades)）
 - **34 个角色各十二格，共 408 格**，困难完成覆盖普通（[十二格](#marks)）
 - **少返工：普通主线统一打困难，贪婪列补成极贪**（[七组奖励](#里角色的七组奖励)）
@@ -24,27 +24,37 @@ description: 17 个表角色与 17 个里角色的攻略入口、开局强化和
 - [17 个里角色的对应表与回家流程](/guide/unlocks/order#tainted-unlocks)：不是独立难度模式，需要逐个用对应表角色解锁。
 - [变身与 NPC 的区别](/guide/unlocks/order#character-forms)：黑犹大、复活的拉撒路、遗骸之魂和里以扫。
 
+## 发育思路怎么查 {#development}
+
+每个角色都有同样三部分，可从下面表格直接进入：
+
+1. **发育**：按前两层、中期、成型后安排资源与道具取舍。先补角色实际短板，再围绕本局拿到的组合提高收益。
+2. **打法**：分清房与 Boss 操作，尤其关注近战起手、主动结束落点、双形态切换和破盾后的应对。
+3. **路线**：每个角色正文都附路线与标记建议；先确认入口前置，再按当前构筑决定是否赶限时门。
+
+本次补充核对于 **2026-10-06**，按单人忏悔 / 忏悔+ 写。开局强化未解锁时按当前实际配置玩，不把解锁后的优势当成开局必有。工具可配合使用：[道具速查](/tools/items)、[组合查询](/tools/synergies)、[路线规划](/tools/routes)。
+
 ## 34 个角色攻略入口
 
 | 表角色 | 先练什么 | 里角色 | 先练什么 |
 | --- | --- | --- | --- |
-| [以撒](/strategy/characters#isaac) | 判断道具是否值得重置 | [里以撒](/strategy/tainted#isaac) | 管理八个被动格，围绕核心组合换道具 |
-| [抹大拉](/strategy/characters#magdalene) | 用回血主动管理血量资源 | [里抹大拉](/strategy/tainted#magdalene) | 区分可近身击杀的小怪和需要远射的 Boss |
-| [该隐](/strategy/characters#cain) | 单眼瞄准、钥匙与金箱子的取舍 | [里该隐](/strategy/tainted#cain) | 区分保命资源和合成材料 |
-| [犹大](/strategy/characters#judas) | 主动加伤配合低血量走位 | [里犹大](/strategy/tainted#judas) | 暗仪刺刀穿弹幕后安全落点 |
-| [???](/strategy/characters#bluebaby) | 魂心续航，给以撒解锁六面骰 | [里???](/strategy/tainted#bluebaby) | 用大便补输出并保留爆炸手段 |
-| [夏娃](/strategy/characters#eve) | 红心压血与魂心保护 | [里夏娃](/strategy/tainted#eve) | 长按造血团、点射保血、主动召回 |
-| [参孙](/strategy/characters#samson) | 在回血够用时利用受伤加成 | [里参孙](/strategy/tainted#samson) | 狂暴切换和击杀链 |
-| [阿撒泻勒](/strategy/characters#azazel) | 短激光的接近、蓄力与撤退 | [里阿撒泻勒](/strategy/tainted#azazel) | 喷嚏标记接长激光，不依赖飞行 |
-| [拉撒路](/strategy/characters#lazarus) | 每层复活取舍；伯大尼解锁局不死 | [里拉撒路](/strategy/tainted#lazarus) | 两套构筑与生死逆转充能 |
-| [伊甸](/strategy/characters#eden) | 判断随机开局的短板 | [里伊甸](/strategy/tainted#eden) | 受伤重置后的重新判断 |
-| [游魂](/strategy/characters#lost) | 破盾后立即转为保命走位 | [里游魂](/strategy/tainted#lost) | 管理不会自动刷新的神圣卡保护 |
-| [莉莉丝](/strategy/characters#lilith) | 淫魔位置与朋友盒充能 | [里莉莉丝](/strategy/tainted#lilith) | 短按甩胎儿与长按远射 |
-| [店主](/strategy/characters#keeper) | 地上留硬币，木制镍币先充先用 | [里店主](/strategy/tainted#keeper) | 安全捡短时硬币，买道具前留钱 |
-| [亚玻伦](/strategy/characters#apollyon) | 拿强道具，吞无用道具 | [里亚玻伦](/strategy/tainted#apollyon) | 比较本体道具和蝗虫输出 |
-| [遗骸](/strategy/characters#forgotten) | 分别照顾身体和灵魂血量 | [里遗骸](/strategy/tainted#forgotten) | 投掷与安全回收身体 |
-| [伯大尼](/strategy/characters#bethany) | 红心保命，魂心充能养魂火 | [里伯大尼](/strategy/tainted#bethany) | 魂心保命，红心充能养道具魂火 |
-| [雅各和以扫](/strategy/characters#jacob) | 对齐站位，分别照顾两条血量 | [里雅各](/strategy/tainted#jacob) | 听冲刺提示，锁链控里以扫 |
+| [以撒](/strategy/characters#isaac) · [发育](/strategy/characters#isaac-build) · [打法](/strategy/characters#isaac-combat) | 判断道具是否值得重置 | [里以撒](/strategy/tainted#isaac) · [发育](/strategy/tainted#isaac-build) · [打法](/strategy/tainted#isaac-combat) | 管理八个被动格，围绕核心组合换道具 |
+| [抹大拉](/strategy/characters#magdalene) · [发育](/strategy/characters#magdalene-build) · [打法](/strategy/characters#magdalene-combat) | 用回血主动管理血量资源 | [里抹大拉](/strategy/tainted#magdalene) · [发育](/strategy/tainted#magdalene-build) · [打法](/strategy/tainted#magdalene-combat) | 区分可近身击杀的小怪和需要远射的 Boss |
+| [该隐](/strategy/characters#cain) · [发育](/strategy/characters#cain-build) · [打法](/strategy/characters#cain-combat) | 单眼瞄准、钥匙与金箱子的取舍 | [里该隐](/strategy/tainted#cain) · [发育](/strategy/tainted#cain-build) · [打法](/strategy/tainted#cain-combat) | 区分保命资源和合成材料 |
+| [犹大](/strategy/characters#judas) · [发育](/strategy/characters#judas-build) · [打法](/strategy/characters#judas-combat) | 主动加伤配合低血量走位 | [里犹大](/strategy/tainted#judas) · [发育](/strategy/tainted#judas-build) · [打法](/strategy/tainted#judas-combat) | 暗仪刺刀穿弹幕后安全落点 |
+| [???](/strategy/characters#bluebaby) · [发育](/strategy/characters#bluebaby-build) · [打法](/strategy/characters#bluebaby-combat) | 魂心续航，给以撒解锁六面骰 | [里???](/strategy/tainted#bluebaby) · [发育](/strategy/tainted#bluebaby-build) · [打法](/strategy/tainted#bluebaby-combat) | 用大便补输出并保留爆炸手段 |
+| [夏娃](/strategy/characters#eve) · [发育](/strategy/characters#eve-build) · [打法](/strategy/characters#eve-combat) | 红心压血与魂心保护 | [里夏娃](/strategy/tainted#eve) · [发育](/strategy/tainted#eve-build) · [打法](/strategy/tainted#eve-combat) | 长按造血团、点射保血、主动召回 |
+| [参孙](/strategy/characters#samson) · [发育](/strategy/characters#samson-build) · [打法](/strategy/characters#samson-combat) | 在回血够用时利用受伤加成 | [里参孙](/strategy/tainted#samson) · [发育](/strategy/tainted#samson-build) · [打法](/strategy/tainted#samson-combat) | 狂暴切换和击杀链 |
+| [阿撒泻勒](/strategy/characters#azazel) · [发育](/strategy/characters#azazel-build) · [打法](/strategy/characters#azazel-combat) | 短激光的接近、蓄力与撤退 | [里阿撒泻勒](/strategy/tainted#azazel) · [发育](/strategy/tainted#azazel-build) · [打法](/strategy/tainted#azazel-combat) | 喷嚏标记接长激光，不依赖飞行 |
+| [拉撒路](/strategy/characters#lazarus) · [发育](/strategy/characters#lazarus-build) · [打法](/strategy/characters#lazarus-combat) | 每层复活取舍；伯大尼解锁局不死 | [里拉撒路](/strategy/tainted#lazarus) · [发育](/strategy/tainted#lazarus-build) · [打法](/strategy/tainted#lazarus-combat) | 两套构筑与生死逆转充能 |
+| [伊甸](/strategy/characters#eden) · [发育](/strategy/characters#eden-build) · [打法](/strategy/characters#eden-combat) | 判断随机开局的短板 | [里伊甸](/strategy/tainted#eden) · [发育](/strategy/tainted#eden-build) · [打法](/strategy/tainted#eden-combat) | 受伤重置后的重新判断 |
+| [游魂](/strategy/characters#lost) · [发育](/strategy/characters#lost-build) · [打法](/strategy/characters#lost-combat) | 破盾后立即转为保命走位 | [里游魂](/strategy/tainted#lost) · [发育](/strategy/tainted#lost-build) · [打法](/strategy/tainted#lost-combat) | 管理不会自动刷新的神圣卡保护 |
+| [莉莉丝](/strategy/characters#lilith) · [发育](/strategy/characters#lilith-build) · [打法](/strategy/characters#lilith-combat) | 淫魔位置与朋友盒充能 | [里莉莉丝](/strategy/tainted#lilith) · [发育](/strategy/tainted#lilith-build) · [打法](/strategy/tainted#lilith-combat) | 短按甩胎儿与长按远射 |
+| [店主](/strategy/characters#keeper) · [发育](/strategy/characters#keeper-build) · [打法](/strategy/characters#keeper-combat) | 地上留硬币，木制镍币先充先用 | [里店主](/strategy/tainted#keeper) · [发育](/strategy/tainted#keeper-build) · [打法](/strategy/tainted#keeper-combat) | 安全捡短时硬币，买道具前留钱 |
+| [亚玻伦](/strategy/characters#apollyon) · [发育](/strategy/characters#apollyon-build) · [打法](/strategy/characters#apollyon-combat) | 拿强道具，吞无用道具 | [里亚玻伦](/strategy/tainted#apollyon) · [发育](/strategy/tainted#apollyon-build) · [打法](/strategy/tainted#apollyon-combat) | 比较本体道具和蝗虫输出 |
+| [遗骸](/strategy/characters#forgotten) · [发育](/strategy/characters#forgotten-build) · [打法](/strategy/characters#forgotten-combat) | 分别照顾身体和灵魂血量 | [里遗骸](/strategy/tainted#forgotten) · [发育](/strategy/tainted#forgotten-build) · [打法](/strategy/tainted#forgotten-combat) | 投掷与安全回收身体 |
+| [伯大尼](/strategy/characters#bethany) · [发育](/strategy/characters#bethany-build) · [打法](/strategy/characters#bethany-combat) | 红心保命，魂心充能养魂火 | [里伯大尼](/strategy/tainted#bethany) · [发育](/strategy/tainted#bethany-build) · [打法](/strategy/tainted#bethany-combat) | 魂心保命，红心充能养道具魂火 |
+| [雅各和以扫](/strategy/characters#jacob) · [发育](/strategy/characters#jacob-build) · [打法](/strategy/characters#jacob-combat) | 对齐站位，分别照顾两条血量 | [里雅各](/strategy/tainted#jacob) · [发育](/strategy/tainted#jacob-build) · [打法](/strategy/tainted#jacob-combat) | 听冲刺提示，锁链控里以扫 |
 
 - 里角色在游戏内称「堕化」。
 - 雅各和以扫是一组表角色，对应的里角色是里雅各；里以扫不是另一个可选角色。
