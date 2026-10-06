@@ -425,7 +425,7 @@
     "description": "Cantripped! 意译：戏法上身",
     "character": "里该隐",
     "target": "妈妈",
-    "rules": "卡牌和胶囊全部换成「道具卡」，使用时触发一个随机主动道具的效果；Boss 掉落换成新手牌组",
+    "rules": "道具以特殊「道具卡」形式使用，卡牌和胶囊也被替换；道具卡可提供道具能力或主动效果；Boss 掉落换成新手牌组",
     "reward": "VIII-正义？（VIII - Justice?）",
     "unlock": "已解锁里该隐"
   },

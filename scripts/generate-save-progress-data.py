@@ -56,9 +56,16 @@ for index, profile in enumerate(profiles):
     characters.append({'id': profile['id'], 'name': profile['name'], 'en': profile['en'], 'group': profile['group'],
                        'achievement': 0 if unlock_code == 'ISAAC' else ach_ids[unlock_code],
                        'marks': marks, 'donationCounter': events[donation_code]})
+challenges = json.loads((DOCS / '.vitepress/theme/data/challenges.json').read_text())
+challenge_guides = json.loads((ROOT / 'data/challenge-guides.json').read_text())
+assert [row['id'] for row in challenges] == [row['id'] for row in challenge_guides] == list(range(1, 46))
+for challenge, guide in zip(challenges, challenge_guides):
+    challenge['tutorial'] = '\n\n'.join([guide['focus'], '前期：' + guide['early'],
+                                         '中期：' + guide['middle'], '终点：' + guide['boss'],
+                                         '易错点：' + guide['pitfall']])
 result = {'isaacScriptCommit': subprocess.check_output(['git','-C',str(reference),'rev-parse','HEAD'], text=True).strip(),
           'achievements': achievements, 'items': items, 'characters': characters,
-          'challenges': json.loads((DOCS / '.vitepress/theme/data/challenges.json').read_text()),
+          'challenges': challenges,
           'donations': {'normal': events['DONATION_MACHINE_COUNTER'], 'greed': events['GREED_DONATION_MACHINE_COUNTER']}}
 out = ROOT / 'local-tools/progress/data.json'
 out.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n')

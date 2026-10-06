@@ -53,8 +53,8 @@ function rebuild(keepFilters = false) {
   if (tab === 'challenges') rows = lookup.challenges.map(row => {
     const value=flag(save.challenges,row.id)
     return {id:String(row.id),name:row.name,group:row.character,state:value===null?'unknown':value?'done':'todo',
-      detail:`${row.description}\n目标：${row.target}\n规则：${row.rules}\n开放前置：${row.unlock}\n奖励：${row.reward}`,
-      link:'/strategy/challenges'}
+      detail:`${row.description}\n目标：${row.target}\n规则：${row.rules}\n开放前置：${row.unlock}\n奖励：${row.reward}\n\n${row.tutorial}`,
+      link:`/challenges/${row.id}`}
   })
   if (tab === 'donations') rows = [
     {id:'normal',name:'普通捐款机',group:'机器总计',state:'unlocked',detail:`当前计数：${save.counters[lookup.donations.normal]} 枚。炸机器可能减少当前余额；已获得的里程碑解锁应另看成就。`,link:'/tools/donations'},

@@ -1,9 +1,12 @@
 import { defineConfig } from 'vitepress'
 import { itemLinks } from './item-links'
 import { tableLabels } from './table-labels'
+import { outlineGuard } from './outline-guard'
 import characterEntries from './theme/data/catalog/characters.json'
 import roomEntries from './theme/data/catalog/rooms.json'
 import floorEntries from './theme/data/catalog/floors.json'
+import modeEntries from './theme/data/catalog/modes.json'
+import challengeEntries from './theme/data/catalog/challenges.json'
 
 const catalogLinks = [
   { text: '人物图鉴', link: '/characters/' },
@@ -99,6 +102,8 @@ const strategySidebar = [
   {
     text: '特殊模式',
     items: [
+      { text: '全部模式与玩法', link: '/modes/' },
+      { text: '45 个挑战独立攻略', link: '/challenges/' },
       { text: '挑战模式', link: '/strategy/challenges' },
       { text: '贪婪模式', link: '/strategy/greed' },
       { text: '种子', link: '/strategy/seeds' },
@@ -169,6 +174,7 @@ export default defineConfig({
   description: '从第一局到白金神的中文以撒学习路线，对齐忏悔 / 忏悔+ 版本',
   cleanUrls: true,
   lastUpdated: true,
+  vite: { plugins: [outlineGuard()] },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}favicon.svg` }],
     ['meta', { name: 'theme-color', content: '#b3261e' }],
@@ -192,6 +198,15 @@ export default defineConfig({
       { text: '新手路线', link: '/guide/', activeMatch: '^/guide/' },
       { text: '攻略库', link: '/strategy/', activeMatch: '^/strategy/' },
       { text: '图鉴', activeMatch: '^/(characters|rooms|floors|items)/', items: catalogLinks },
+      { text: '模式', activeMatch: '^/(modes|challenges)/', items: [
+        { text: '全部模式与玩法', link: '/modes/' },
+        { text: '普通 / 困难', link: '/modes/normal' },
+        { text: '贪婪 / 极贪', link: '/modes/greed' },
+        { text: '45 个挑战独立攻略', link: '/challenges/' },
+        { text: '每日挑战', link: '/modes/daily' },
+        { text: '胜利圈 / 重跑', link: '/modes/victory-lap' },
+        { text: '合作玩法', link: '/modes/online-coop' },
+      ] },
       { text: '全成就', link: '/achievements/', activeMatch: '^/achievements/' },
       {
         text: '专题',
@@ -226,6 +241,29 @@ export default defineConfig({
     sidebar: {
       '/guide/': guideSidebar,
       '/strategy/': strategySidebar,
+      '/modes/': [
+        { text: '全部模式与玩法', link: '/modes/' },
+        ...[...new Set(modeEntries.map(entry => entry.group))].map(group => ({
+          text: group,
+          items: modeEntries.filter(entry => entry.group === group).map(entry => ({ text: entry.name, link: entry.link })),
+        })),
+        { text: '进度与查询', items: [
+          { text: '45 个挑战图鉴', link: '/challenges/' },
+          { text: '本地存档对照', link: '/tools/local-progress' },
+          { text: '挑战进度清单', link: '/tools/challenges' },
+        ] },
+      ],
+      '/challenges/': [
+        { text: '挑战图鉴 · 搜索 45 项', link: '/challenges/' },
+        { text: '规则与推荐顺序', link: '/strategy/challenges' },
+        { text: '挑战进度清单', link: '/tools/challenges' },
+        ...[0, 10, 20, 30, 40].map(start => ({
+          text: `#${start + 1}–${Math.min(start + 10, 45)}`,
+          collapsed: true,
+          items: challengeEntries.slice(start, start + 10).map(entry => ({ text: entry.name, link: entry.link })),
+        })),
+        { text: '每日与其他模式', link: '/modes/' },
+      ],
       '/characters/': entrySidebar('人物图鉴', '/characters/', characterEntries),
       '/rooms/': entrySidebar('房间图鉴', '/rooms/', roomEntries),
       '/floors/': entrySidebar('楼层图鉴', '/floors/', floorEntries),

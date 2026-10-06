@@ -1,0 +1,16 @@
+[
+  { "id": "normal", "name": "普通模式", "en": "Normal", "group": "基础难度", "summary": "随机正常局推进主线、角色和普通解锁，适合入门；普通标记不替代困难红标记。", "icon": "heart", "link": "/modes/normal", "aliases": [] },
+  { "id": "hard", "name": "困难模式", "en": "Hard", "group": "基础难度", "summary": "资源与战斗压力更大，完成对应目标取得困难红标记，是冲白金神的主线选择。", "icon": "skull", "link": "/modes/hard", "aliases": [] },
+  { "id": "greed", "name": "贪婪模式", "en": "Greed", "group": "基础难度", "summary": "七层固定竞技场刷波拿钱，前期购物补强，打究极贪婪后推进贪婪捐款机。", "icon": "coin", "link": "/modes/greed", "aliases": [] },
+  { "id": "greedier", "name": "极贪模式", "en": "Greedier", "group": "基础难度", "summary": "贪婪捐款累计 500 枚开放，9 个普通波、更紧的资金和金色终局二阶段，完成取得红边标记。", "icon": "crown", "link": "/modes/greedier", "aliases": [] },
+  { "id": "challenges", "name": "编号挑战", "en": "Challenges", "group": "特殊开局", "summary": "45 个固定角色与规则的挑战，11 个默认开放；领取奖杯解锁该挑战奖励，每个都有独立攻略。", "icon": "trophy", "link": "/modes/challenges", "aliases": [] },
+  { "id": "daily", "name": "每日挑战", "en": "Daily Run", "group": "特殊开局", "summary": "每天一次正式机会，固定角色、种子与终点，排行榜及参与、胜利、连胜、在线每日奖励分别计算。", "icon": "trophy", "link": "/modes/daily", "aliases": [] },
+  { "id": "seeded", "name": "种子局与特殊种子", "en": "Seeded Run / Easter Eggs", "group": "特殊开局", "summary": "输入种子复盘地图与构筑，彩蛋修改规则；手动指定普通种子禁成就，特殊种子逐项判断。", "icon": "dice", "link": "/modes/seeded", "aliases": [] },
+  { "id": "victory-lap", "name": "胜利圈", "en": "Victory Lap", "group": "通关后延续", "summary": "打羔羊后重新跑圈，第三圈起变游魂，完成一、二、三圈分别推进专属奖励。", "icon": "map", "link": "/modes/victory-lap", "aliases": [] },
+  { "id": "rerun", "name": "重跑", "en": "RERUN", "group": "通关后延续", "summary": "通过三圈胜利圈奖励解锁，胜利后延续角色与构筑开新地图，不用于普通成就和角色标记。", "icon": "dice", "link": "/modes/rerun", "aliases": [] },
+  { "id": "local-coop", "name": "本地合作与宝宝", "en": "Local Co-op", "group": "合作方式", "summary": "忏悔起完整角色同屏合作，离开起始房前加入；共享消耗品，分别管理道具与血量。", "icon": "coop", "link": "/modes/local-coop", "aliases": [] },
+  { "id": "online-coop", "name": "官方在线合作", "en": "Repentance+ Online Co-op", "group": "合作方式", "summary": "忏悔+ 最多四人联网，禁用模组后进入，包含复活机、在线每日和在线专属成就规则。", "icon": "coop", "link": "/modes/online-coop", "aliases": [] },
+  { "id": "remote-play", "name": "远程同屏合作", "en": "Steam Remote Play Together", "group": "合作方式", "summary": "主机串流画面并接收朋友输入，内部仍按本地合作处理，不替代官方在线成就。", "icon": "gamepad", "link": "/modes/remote-play", "aliases": [] },
+  { "id": "custom-challenges", "name": "自定义挑战与模组局", "en": "Custom Challenges / Modded Runs", "group": "特殊开局", "summary": "TAB 切换模组挑战列表，按作者定义的版本、规则与奖励游玩，不替代官方 45 项奖励。", "icon": "wrench", "link": "/modes/custom-challenges", "aliases": [] },
+  { "id": "practice", "name": "练习局与控制台训练", "en": "Practice / Debug Console", "group": "练习方式", "summary": "区分每日练习、种子复盘和控制台搭场景，练操作、Boss 与组合，回正常局再推进解锁。", "icon": "wrench", "link": "/modes/practice", "aliases": [] }
+]

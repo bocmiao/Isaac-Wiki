@@ -5,7 +5,7 @@ import GameIcon from './GameIcon.vue'
 import { filterCatalog, type CatalogEntry } from '../data/catalog'
 import legacyLinks from '../data/catalog/legacy-links.json'
 
-const props = defineProps<{ entries: CatalogEntry[]; label: string; legacy?: boolean }>()
+const props = defineProps<{ entries: CatalogEntry[]; label: string; legacy?: boolean; searchPlaceholder?: string }>()
 const route = useRoute()
 const router = useRouter()
 const query = ref('')
@@ -65,7 +65,7 @@ watch([query, group, page], () => {
     <div class="catalog-controls">
       <label class="catalog-search">
         {{ hasGameIds ? '搜索名称、ID 或效果' : '搜索名称或关键词' }}
-        <input v-model="query" type="search" :disabled="!ready" :placeholder="hasGameIds ? '例如：硫磺火、Brimstone、c118、飞行' : '中文名、英文名或关键词'" autocomplete="off" />
+        <input v-model="query" type="search" :disabled="!ready" :placeholder="searchPlaceholder ?? (hasGameIds ? '例如：硫磺火、Brimstone、c118、飞行' : '中文名、英文名或关键词')" autocomplete="off" />
       </label>
       <label>
         类型

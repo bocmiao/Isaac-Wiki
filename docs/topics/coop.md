@@ -6,6 +6,8 @@ title: 联机专题
 
 <VersionBadge checked="2026-10" />
 
+按玩法阅读：[本地合作](/modes/local-coop) · [官方在线合作](/modes/online-coop) · [Remote Play Together](/modes/remote-play) · [全部模式](/modes/)。本页保留版本差异与连接排错。
+
 ::: tip 速览
 - **PC 在线联机要装 Repentance+**：免费，但要先拥有前面全部 DLC（[基本情况](#在线联机的基本情况)）
 - **最多 4 人，所有模式都能在线玩**，模组必须全部关掉（[基本情况](#在线联机的基本情况)）

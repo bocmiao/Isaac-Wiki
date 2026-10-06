@@ -24,7 +24,8 @@ aside: false
 | 完成标记（十二格）是什么、给什么 | [角色速查 · 标记与奖励](/strategy/character-roster#marks) |
 | 某个结局怎么去、要先解锁什么 | [结局与路线](/guide/unlocks/endings) |
 | 某个终局 Boss 怎么打 | [Boss（一）主线终局](/strategy/bosses) · [Boss（二）死寂到祸兽](/strategy/bosses-2) |
-| 某个挑战怎么过、先做哪些 | [挑战模式](/strategy/challenges) |
+| 某个模式怎么进、能不能解锁 | [全部模式与玩法](/modes/) |
+| 某个挑战怎么过、先做哪些 | [45 个挑战独立攻略](/challenges/) · [推荐顺序](/strategy/challenges#先做哪些) |
 | 贪婪 / 极贪模式怎么打、捐款机怎么用 | [贪婪模式](/strategy/greed) |
 | 某个成就怎么解锁 | [全成就索引](/achievements/) |
 | 种子怎么输、哪些会禁成就 | [种子](/strategy/seeds) |

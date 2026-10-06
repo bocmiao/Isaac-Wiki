@@ -22,8 +22,9 @@ function toggle(id:number){data.value.completed=data.value.completed.includes(id
     <dt>规则</dt><dd>{{c.rules}}</dd>
     <dt>奖励</dt><dd>{{c.reward}}</dd>
    </dl>
+   <a :href="withBase(`/challenges/${c.id}`)">查看 #{{c.id}} 的发育与终点打法 →</a>
   </article>
-  <p><a :href="withBase('/strategy/challenges#全部挑战总表')">挑战怎么打、先做哪些 → 挑战模式攻略</a></p>
+  <p><a :href="withBase('/challenges/')">搜索全部 45 个挑战攻略</a> · <a :href="withBase('/strategy/challenges#先做哪些')">先做哪些 → 推荐顺序</a></p>
   <p v-if="!rows.length">没有符合条件的挑战。</p>
  </div>
 </template>
