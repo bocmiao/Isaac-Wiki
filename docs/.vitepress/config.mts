@@ -202,6 +202,7 @@ export default defineConfig({
         { text: '全部模式与玩法', link: '/modes/' },
         { text: '普通 / 困难', link: '/modes/normal' },
         { text: '贪婪 / 极贪', link: '/modes/greed' },
+        { text: '全角色贪婪奖励', link: '/modes/greed-rewards' },
         { text: '45 个挑战独立攻略', link: '/challenges/' },
         { text: '每日挑战', link: '/modes/daily' },
         { text: '胜利圈 / 重跑', link: '/modes/victory-lap' },
@@ -248,6 +249,8 @@ export default defineConfig({
           items: modeEntries.filter(entry => entry.group === group).map(entry => ({ text: entry.name, link: entry.link })),
         })),
         { text: '进度与查询', items: [
+          { text: '模式解锁资格与排查', link: '/modes/unlock-rules' },
+          { text: '34 个角色贪婪奖励', link: '/modes/greed-rewards' },
           { text: '45 个挑战图鉴', link: '/challenges/' },
           { text: '本地存档对照', link: '/tools/local-progress' },
           { text: '挑战进度清单', link: '/tools/challenges' },

@@ -35,6 +35,8 @@ import entries from '../.vitepress/theme/data/catalog/modes.json'
 
 ## 怎么对照自己还缺什么
 
+先查[各模式能解锁什么与失败排查](/modes/unlock-rules)，确定应在哪种局完成；贪婪相关具体奖励见[34 个角色奖励对照](/modes/greed-rewards)。
+
 [本地存档进度对照](/tools/local-progress) 可读取 Windows Steam 忏悔+ 的成就、角色标记、挑战完成与捐款记录。网页手动清单见[全成就打勾](/achievements/#catalog)、[挑战清单](/tools/challenges)和[捐款机进度](/tools/donations)。
 
 ## 资料来源

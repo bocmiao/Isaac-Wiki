@@ -34,6 +34,13 @@ const results = computed(() => {
 watch([query, version, category, status], () => {
   shown.value = PAGE
 })
+watch(query, () => {
+  if (!ready.value) return
+  const url = new URL(window.location.href)
+  if (query.value) url.searchParams.set('q', query.value)
+  else url.searchParams.delete('q')
+  window.history.replaceState(window.history.state, '', url)
+})
 
 function parseIds(value: unknown): number[] | null {
   const list = Array.isArray(value) ? value : (value as { done?: unknown })?.done
@@ -42,6 +49,7 @@ function parseIds(value: unknown): number[] | null {
 }
 
 onMounted(() => {
+  query.value = new URLSearchParams(window.location.search).get('q') ?? ''
   try {
     const ids = parseIds(JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]'))
     if (ids) done.value = new Set(ids)
@@ -110,10 +118,10 @@ async function importJson(e: Event) {
     </div>
 
     <div class="filters">
-      <label class="wide">查找成就<input v-model="query" type="search" placeholder="编号、英文名称、角色或中文条件" /></label>
-      <label>版本<select v-model="version"><option value="plus">忏悔+ · 641 项</option><option value="rep">忏悔 · 637 项</option></select></label>
-      <label>分类<select v-model="category"><option value="all">全部分类</option><option v-for="g in groups" :key="g" :value="g">{{ g }}</option></select></label>
-      <label>状态<select v-model="status"><option value="all">全部</option><option value="todo">只看未完成</option><option value="done">只看已完成</option></select></label>
+      <label class="wide">查找成就<input v-model="query" type="search" :disabled="!ready" placeholder="编号、英文名称、角色或中文条件" /></label>
+      <label>版本<select v-model="version" :disabled="!ready"><option value="plus">忏悔+ · 641 项</option><option value="rep">忏悔 · 637 项</option></select></label>
+      <label>分类<select v-model="category" :disabled="!ready"><option value="all">全部分类</option><option v-for="g in groups" :key="g" :value="g">{{ g }}</option></select></label>
+      <label>状态<select v-model="status" :disabled="!ready"><option value="all">全部</option><option value="todo">只看未完成</option><option value="done">只看已完成</option></select></label>
     </div>
     <p role="status" aria-live="polite" class="count">
       找到 {{ results.length }} 项<template v-if="results.length > shown">，先显示前 {{ shown }} 项</template>。点名称看做法，点左边方框打勾。

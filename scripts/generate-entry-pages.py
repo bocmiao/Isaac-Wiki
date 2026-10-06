@@ -282,6 +282,11 @@ def unlocks(item):
         if ident not in ACHIEVEMENTS:raise ValueError('Unknown achievement '+str(ident))
         return [ACHIEVEMENTS[ident]]
     if item['kind'] not in ['k','p']:return []
+    # Each of these challenge rewards unlocks TWO pills; the source record
+    # anchors only the first one. A literal ??? pill must never match the
+    # source's generic "???" reward-message placeholders for tainted rewards.
+    paired_pills={'p28':227,'p29':227,'p30':228,'p31':228}
+    if item['key'] in paired_pills:return [ACHIEVEMENTS[paired_pills[item['key']]]]
     if item['key']=='k75':return [ACHIEVEMENTS[542]]  # reversed Sun and Moon share one unlock
     if item['key']=='p9999':return [ACHIEVEMENTS[603]]
     title=norm(item['en'])
@@ -289,7 +294,11 @@ def unlocks(item):
     for row in RAW_ACHIEVEMENTS:
         source=urlsplit(row['source']); source_title=unquote(source.fragment or source.path.rsplit('/',1)[-1]).replace('_',' ')
         source_title=re.sub(r' \(Card\)$','',source_title)
-        candidates=[norm(row['name']),norm(source_title),norm(row['reward'])]
+        candidates=[norm(row['name']),norm(source_title)]
+        # Some records name the entity only in the reward message (e.g. the
+        # reversed Magician). Keep real names, exclude bare ??? placeholders.
+        reward_name=norm(row['reward'])
+        if re.search(r'[a-z0-9]',reward_name):candidates.append(reward_name)
         if item['kind']=='k':candidates.append(norm(re.sub(r'^Rune of ','',row['name'])))
         if title not in candidates:continue
         group=ACHIEVEMENTS[row['id']]['group']
@@ -363,7 +372,8 @@ def make_items():
         if linked:
             for achievement in linked:
                 page+=f'- **解锁条件**：{achievement["conditionZh"]} [详细教程：成就 {achievement["id"]}](/achievements/{achievement["page"]}#achievement-{achievement["id"]})。\n'
-            page+='\n解锁表示之后可以正常参与生成，不等于本局一定出现；要收集记录还需实际取得对应道具。\n\n'
+            collection = '要收集记录还需实际取得对应道具。' if item['kind']=='c' else '饰品、卡牌与胶囊不计入普通道具收藏页，解锁条件与是否实际用过要分开看。'
+            page+='\n解锁表示之后可以正常参与生成，不等于本局一定出现；'+collection+'\n\n'
         if key in SPECIAL_ACQUISITION:page+=SPECIAL_ACQUISITION[key]+'\n\n'
         pool_list=item['poolsRepSnapshot']
         if pool_list:

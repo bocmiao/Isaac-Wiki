@@ -1,0 +1,874 @@
+[
+  {
+    "id": "isaac",
+    "name": "以撒",
+    "characterLink": "/characters/isaac",
+    "group": "表角色",
+    "en": "Isaac",
+    "greed": {
+      "id": 192,
+      "en": "Lil' Chest",
+      "achievementLink": "/achievements/ids-101-200#achievement-192",
+      "items": [
+        {
+          "name": "小箱子",
+          "en": "Lil Chest",
+          "link": "/items/c362"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 296,
+      "en": "D1",
+      "achievementLink": "/achievements/ids-201-300#achievement-296",
+      "items": [
+        {
+          "name": "一面骰",
+          "en": "D1",
+          "link": "/items/c476"
+        }
+      ]
+    }
+  },
+  {
+    "id": "magdalene",
+    "name": "抹大拉",
+    "characterLink": "/characters/magdalene",
+    "group": "表角色",
+    "en": "Magdalene",
+    "greed": {
+      "id": 193,
+      "en": "Censer",
+      "achievementLink": "/achievements/ids-101-200#achievement-193",
+      "items": [
+        {
+          "name": "香炉",
+          "en": "Censer",
+          "link": "/items/c387"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 297,
+      "en": "Glyph of Balance",
+      "achievementLink": "/achievements/ids-201-300#achievement-297",
+      "items": [
+        {
+          "name": "平衡符号",
+          "en": "Glyph of Balance",
+          "link": "/items/c464"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cain",
+    "name": "该隐",
+    "characterLink": "/characters/cain",
+    "group": "表角色",
+    "en": "Cain",
+    "greed": {
+      "id": 194,
+      "en": "Evil Eye",
+      "achievementLink": "/achievements/ids-101-200#achievement-194",
+      "items": [
+        {
+          "name": "邪恶之眼",
+          "en": "Evil Eye",
+          "link": "/items/c410"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 298,
+      "en": "Sack of Sacks",
+      "achievementLink": "/achievements/ids-201-300#achievement-298",
+      "items": [
+        {
+          "name": "袋中袋",
+          "en": "Sack of Sacks",
+          "link": "/items/c500"
+        }
+      ]
+    }
+  },
+  {
+    "id": "judas",
+    "name": "犹大",
+    "characterLink": "/characters/judas",
+    "group": "表角色",
+    "en": "Judas",
+    "greed": {
+      "id": 195,
+      "en": "My Shadow",
+      "achievementLink": "/achievements/ids-101-200#achievement-195",
+      "items": [
+        {
+          "name": "我的影子",
+          "en": "My Shadow",
+          "link": "/items/c433"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 299,
+      "en": "Eye of Belial",
+      "achievementLink": "/achievements/ids-201-300#achievement-299",
+      "items": [
+        {
+          "name": "彼列之眼",
+          "en": "Eye of Belial",
+          "link": "/items/c462"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bluebaby",
+    "name": "???",
+    "characterLink": "/characters/bluebaby",
+    "group": "表角色",
+    "en": "???",
+    "greed": {
+      "id": 196,
+      "en": "Cracked Dice",
+      "achievementLink": "/achievements/ids-101-200#achievement-196",
+      "items": [
+        {
+          "name": "碎裂六面骰",
+          "en": "Cracked Dice",
+          "link": "/items/t67"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 300,
+      "en": "Meconium",
+      "achievementLink": "/achievements/ids-201-300#achievement-300",
+      "items": [
+        {
+          "name": "胎粪",
+          "en": "Meconium",
+          "link": "/items/t91"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eve",
+    "name": "夏娃",
+    "characterLink": "/characters/eve",
+    "group": "表角色",
+    "en": "Eve",
+    "greed": {
+      "id": 197,
+      "en": "Black Feather",
+      "achievementLink": "/achievements/ids-101-200#achievement-197",
+      "items": [
+        {
+          "name": "黑色羽毛",
+          "en": "Black Feather",
+          "link": "/items/t80"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 302,
+      "en": "Crow Heart",
+      "achievementLink": "/achievements/ids-301-400#achievement-302",
+      "items": [
+        {
+          "name": "乌鸦的心",
+          "en": "Crow Heart",
+          "link": "/items/t107"
+        }
+      ]
+    }
+  },
+  {
+    "id": "samson",
+    "name": "参孙",
+    "characterLink": "/characters/samson",
+    "group": "表角色",
+    "en": "Samson",
+    "greed": {
+      "id": 198,
+      "en": "Lusty Blood",
+      "achievementLink": "/achievements/ids-101-200#achievement-198",
+      "items": [
+        {
+          "name": "血嗜",
+          "en": "Lusty Blood",
+          "link": "/items/c411"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 301,
+      "en": "Stem Cell",
+      "achievementLink": "/achievements/ids-301-400#achievement-301",
+      "items": [
+        {
+          "name": "干细胞",
+          "en": "Stem Cell",
+          "link": "/items/t119"
+        }
+      ]
+    }
+  },
+  {
+    "id": "azazel",
+    "name": "阿撒泻勒",
+    "characterLink": "/characters/azazel",
+    "group": "表角色",
+    "en": "Azazel",
+    "greed": {
+      "id": 199,
+      "en": "Lilith",
+      "achievementLink": "/achievements/ids-101-200#achievement-199",
+      "items": [
+        {
+          "name": "角色莉莉丝",
+          "en": "Lilith",
+          "link": "/characters/lilith"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 304,
+      "en": "Bat Wing",
+      "achievementLink": "/achievements/ids-301-400#achievement-304",
+      "items": [
+        {
+          "name": "蝙蝠翅膀",
+          "en": "Bat Wing",
+          "link": "/items/t118"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lazarus",
+    "name": "拉撒路",
+    "characterLink": "/characters/lazarus",
+    "group": "表角色",
+    "en": "Lazarus",
+    "greed": {
+      "id": 200,
+      "en": "Key Bum",
+      "achievementLink": "/achievements/ids-101-200#achievement-200",
+      "items": [
+        {
+          "name": "钥匙乞丐",
+          "en": "Key Bum",
+          "link": "/items/c388"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 305,
+      "en": "Plan C",
+      "achievementLink": "/achievements/ids-301-400#achievement-305",
+      "items": [
+        {
+          "name": "计划C",
+          "en": "Plan C",
+          "link": "/items/c475"
+        }
+      ]
+    }
+  },
+  {
+    "id": "eden",
+    "name": "伊甸",
+    "characterLink": "/characters/eden",
+    "group": "表角色",
+    "en": "Eden",
+    "greed": {
+      "id": 201,
+      "en": "GB Bug",
+      "achievementLink": "/achievements/ids-201-300#achievement-201",
+      "items": [
+        {
+          "name": "恶性漏洞",
+          "en": "GB Bug",
+          "link": "/items/c405"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 303,
+      "en": "Metronome",
+      "achievementLink": "/achievements/ids-301-400#achievement-303",
+      "items": [
+        {
+          "name": "节拍器",
+          "en": "Metronome",
+          "link": "/items/c488"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lost",
+    "name": "游魂",
+    "characterLink": "/characters/lost",
+    "group": "表角色",
+    "en": "The Lost",
+    "greed": {
+      "id": 202,
+      "en": "Zodiac",
+      "achievementLink": "/achievements/ids-201-300#achievement-202",
+      "items": [
+        {
+          "name": "黄道十二宫",
+          "en": "Zodiac",
+          "link": "/items/c392"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 307,
+      "en": "Dad's Lost Coin",
+      "achievementLink": "/achievements/ids-301-400#achievement-307",
+      "items": [
+        {
+          "name": "爸爸丢失的硬币",
+          "en": "Dad's Lost Coin",
+          "link": "/items/c455"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lilith",
+    "name": "莉莉丝",
+    "characterLink": "/characters/lilith",
+    "group": "表角色",
+    "en": "Lilith",
+    "greed": {
+      "id": 203,
+      "en": "Box of Friends",
+      "achievementLink": "/achievements/ids-201-300#achievement-203",
+      "items": [
+        {
+          "name": "朋友盒",
+          "en": "Box of Friends",
+          "link": "/items/c357"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 306,
+      "en": "Duality",
+      "achievementLink": "/achievements/ids-301-400#achievement-306",
+      "items": [
+        {
+          "name": "二元性",
+          "en": "Duality",
+          "link": "/items/c498"
+        }
+      ]
+    }
+  },
+  {
+    "id": "keeper",
+    "name": "店主",
+    "characterLink": "/characters/keeper",
+    "group": "表角色",
+    "en": "Keeper",
+    "greed": {
+      "id": 204,
+      "en": "Rib of Greed",
+      "achievementLink": "/achievements/ids-201-300#achievement-204",
+      "items": [
+        {
+          "name": "贪婪的肋骨",
+          "en": "Rib of Greed",
+          "link": "/items/t84"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 308,
+      "en": "Eye of Greed",
+      "achievementLink": "/achievements/ids-301-400#achievement-308",
+      "items": [
+        {
+          "name": "贪婪的眼睛",
+          "en": "Eye of Greed",
+          "link": "/items/c450"
+        }
+      ]
+    }
+  },
+  {
+    "id": "apollyon",
+    "name": "亚玻伦",
+    "characterLink": "/characters/apollyon",
+    "group": "表角色",
+    "en": "Apollyon",
+    "greed": {
+      "id": 316,
+      "en": "Brown Nugget",
+      "achievementLink": "/achievements/ids-301-400#achievement-316",
+      "items": [
+        {
+          "name": "棕色粪块",
+          "en": "Brown Nugget",
+          "link": "/items/c504"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 309,
+      "en": "Black Rune",
+      "achievementLink": "/achievements/ids-301-400#achievement-309",
+      "items": [
+        {
+          "name": "黑符文",
+          "en": "Black Rune",
+          "link": "/items/k41"
+        }
+      ]
+    }
+  },
+  {
+    "id": "forgotten",
+    "name": "遗骸",
+    "characterLink": "/characters/forgotten",
+    "group": "表角色",
+    "en": "The Forgotten",
+    "greed": {
+      "id": 399,
+      "en": "Finger Bone",
+      "achievementLink": "/achievements/ids-301-400#achievement-399",
+      "items": [
+        {
+          "name": "指骨",
+          "en": "Finger Bone",
+          "link": "/items/t128"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 400,
+      "en": "Dad's Ring",
+      "achievementLink": "/achievements/ids-301-400#achievement-400",
+      "items": [
+        {
+          "name": "爸爸的戒指",
+          "en": "Dad's Ring",
+          "link": "/items/c546"
+        }
+      ]
+    }
+  },
+  {
+    "id": "bethany",
+    "name": "伯大尼",
+    "characterLink": "/characters/bethany",
+    "group": "表角色",
+    "en": "Bethany",
+    "greed": {
+      "id": 422,
+      "en": "Soul Locket",
+      "achievementLink": "/achievements/ids-401-500#achievement-422",
+      "items": [
+        {
+          "name": "灵魂吊坠",
+          "en": "Soul Locket",
+          "link": "/items/c686"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 424,
+      "en": "Vade Retro",
+      "achievementLink": "/achievements/ids-401-500#achievement-424",
+      "items": [
+        {
+          "name": "驱魔护符",
+          "en": "Vade Retro",
+          "link": "/items/c653"
+        }
+      ]
+    }
+  },
+  {
+    "id": "jacob",
+    "name": "雅各和以扫",
+    "characterLink": "/characters/jacob",
+    "group": "表角色",
+    "en": "Jacob and Esau",
+    "greed": {
+      "id": 434,
+      "en": "Inner Child",
+      "achievementLink": "/achievements/ids-401-500#achievement-434",
+      "items": [
+        {
+          "name": "内在孩童",
+          "en": "Inner Child",
+          "link": "/items/c688"
+        }
+      ]
+    },
+    "greedier": {
+      "id": 436,
+      "en": "Genesis",
+      "achievementLink": "/achievements/ids-401-500#achievement-436",
+      "items": [
+        {
+          "name": "创世记",
+          "en": "Genesis",
+          "link": "/items/c622"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-isaac",
+    "name": "里以撒",
+    "characterLink": "/characters/tainted-isaac",
+    "group": "里角色",
+    "en": "Tainted Isaac",
+    "greed": null,
+    "greedier": {
+      "id": 541,
+      "en": "The Stars",
+      "achievementLink": "/achievements/ids-501-600#achievement-541",
+      "items": [
+        {
+          "name": "XVII-星星？",
+          "en": "XVII - The Stars?",
+          "link": "/items/k73"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-magdalene",
+    "name": "里抹大拉",
+    "characterLink": "/characters/tainted-magdalene",
+    "group": "里角色",
+    "en": "Tainted Magdalene",
+    "greed": null,
+    "greedier": {
+      "id": 530,
+      "en": "The Lovers",
+      "achievementLink": "/achievements/ids-501-600#achievement-530",
+      "items": [
+        {
+          "name": "VI-恋人？",
+          "en": "VI - The Lovers?",
+          "link": "/items/k62"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-cain",
+    "name": "里该隐",
+    "characterLink": "/characters/tainted-cain",
+    "group": "里角色",
+    "en": "Tainted Cain",
+    "greed": null,
+    "greedier": {
+      "id": 534,
+      "en": "Wheel of Fortune",
+      "achievementLink": "/achievements/ids-501-600#achievement-534",
+      "items": [
+        {
+          "name": "X-命运之轮？",
+          "en": "X - Wheel of Fortune?",
+          "link": "/items/k66"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-judas",
+    "name": "里犹大",
+    "characterLink": "/characters/tainted-judas",
+    "group": "里角色",
+    "en": "Tainted Judas",
+    "greed": null,
+    "greedier": {
+      "id": 525,
+      "en": "The Magician",
+      "achievementLink": "/achievements/ids-501-600#achievement-525",
+      "items": [
+        {
+          "name": "I-魔术师？",
+          "en": "I - The Magician?",
+          "link": "/items/k57"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-bluebaby",
+    "name": "里???",
+    "characterLink": "/characters/tainted-bluebaby",
+    "group": "里角色",
+    "en": "Tainted ???",
+    "greed": null,
+    "greedier": {
+      "id": 528,
+      "en": "The Emperor",
+      "achievementLink": "/achievements/ids-501-600#achievement-528",
+      "items": [
+        {
+          "name": "IV-皇帝？",
+          "en": "IV - The Emperor?",
+          "link": "/items/k60"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-eve",
+    "name": "里夏娃",
+    "characterLink": "/characters/tainted-eve",
+    "group": "里角色",
+    "en": "Tainted Eve",
+    "greed": null,
+    "greedier": {
+      "id": 527,
+      "en": "The Empress",
+      "achievementLink": "/achievements/ids-501-600#achievement-527",
+      "items": [
+        {
+          "name": "III-皇后？",
+          "en": "III - The Empress?",
+          "link": "/items/k59"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-samson",
+    "name": "里参孙",
+    "characterLink": "/characters/tainted-samson",
+    "group": "里角色",
+    "en": "Tainted Samson",
+    "greed": null,
+    "greedier": {
+      "id": 535,
+      "en": "Strength",
+      "achievementLink": "/achievements/ids-501-600#achievement-535",
+      "items": [
+        {
+          "name": "XI-力量？",
+          "en": "XI - Strength?",
+          "link": "/items/k67"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-azazel",
+    "name": "里阿撒泻勒",
+    "characterLink": "/characters/tainted-azazel",
+    "group": "里角色",
+    "en": "Tainted Azazel",
+    "greed": null,
+    "greedier": {
+      "id": 539,
+      "en": "The Devil",
+      "achievementLink": "/achievements/ids-501-600#achievement-539",
+      "items": [
+        {
+          "name": "XV-恶魔？",
+          "en": "XV - The Devil?",
+          "link": "/items/k71"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-lazarus",
+    "name": "里拉撒路",
+    "characterLink": "/characters/tainted-lazarus",
+    "group": "里角色",
+    "en": "Tainted Lazarus",
+    "greed": null,
+    "greedier": {
+      "id": 543,
+      "en": "Judgement",
+      "achievementLink": "/achievements/ids-501-600#achievement-543",
+      "items": [
+        {
+          "name": "XX-审判？",
+          "en": "XX - Judgement?",
+          "link": "/items/k76"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-eden",
+    "name": "里伊甸",
+    "characterLink": "/characters/tainted-eden",
+    "group": "里角色",
+    "en": "Tainted Eden",
+    "greed": null,
+    "greedier": {
+      "id": 544,
+      "en": "The World",
+      "achievementLink": "/achievements/ids-501-600#achievement-544",
+      "items": [
+        {
+          "name": "XXI-世界？",
+          "en": "XXI - The World?",
+          "link": "/items/k77"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-lost",
+    "name": "里游魂",
+    "characterLink": "/characters/tainted-lost",
+    "group": "里角色",
+    "en": "Tainted Lost",
+    "greed": null,
+    "greedier": {
+      "id": 524,
+      "en": "The Fool",
+      "achievementLink": "/achievements/ids-501-600#achievement-524",
+      "items": [
+        {
+          "name": "0-愚者？",
+          "en": "0 - The Fool?",
+          "link": "/items/k56"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-lilith",
+    "name": "里莉莉丝",
+    "characterLink": "/characters/tainted-lilith",
+    "group": "里角色",
+    "en": "Tainted Lilith",
+    "greed": null,
+    "greedier": {
+      "id": 526,
+      "en": "The High Priestess",
+      "achievementLink": "/achievements/ids-501-600#achievement-526",
+      "items": [
+        {
+          "name": "II-女祭司？",
+          "en": "II - The High Priestess?",
+          "link": "/items/k58"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-keeper",
+    "name": "里店主",
+    "characterLink": "/characters/tainted-keeper",
+    "group": "里角色",
+    "en": "Tainted Keeper",
+    "greed": null,
+    "greedier": {
+      "id": 536,
+      "en": "The Hanged Man",
+      "achievementLink": "/achievements/ids-501-600#achievement-536",
+      "items": [
+        {
+          "name": "XII-倒吊人？",
+          "en": "XII - The Hanged Man?",
+          "link": "/items/k68"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-apollyon",
+    "name": "里亚玻伦",
+    "characterLink": "/characters/tainted-apollyon",
+    "group": "里角色",
+    "en": "Tainted Apollyon",
+    "greed": null,
+    "greedier": {
+      "id": 540,
+      "en": "The Tower",
+      "achievementLink": "/achievements/ids-501-600#achievement-540",
+      "items": [
+        {
+          "name": "XVI-塔？",
+          "en": "XVI - The Tower?",
+          "link": "/items/k72"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-forgotten",
+    "name": "里遗骸",
+    "characterLink": "/characters/tainted-forgotten",
+    "group": "里角色",
+    "en": "Tainted Forgotten",
+    "greed": null,
+    "greedier": {
+      "id": 537,
+      "en": "Death",
+      "achievementLink": "/achievements/ids-501-600#achievement-537",
+      "items": [
+        {
+          "name": "XIII-死亡？",
+          "en": "XIII - Death?",
+          "link": "/items/k69"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-bethany",
+    "name": "里伯大尼",
+    "characterLink": "/characters/tainted-bethany",
+    "group": "里角色",
+    "en": "Tainted Bethany",
+    "greed": null,
+    "greedier": {
+      "id": 529,
+      "en": "The Hierophant",
+      "achievementLink": "/achievements/ids-501-600#achievement-529",
+      "items": [
+        {
+          "name": "V-教皇？",
+          "en": "V - The Hierophant?",
+          "link": "/items/k61"
+        }
+      ]
+    }
+  },
+  {
+    "id": "tainted-jacob",
+    "name": "里雅各（Tainted Jacob）和里以扫",
+    "characterLink": "/characters/tainted-jacob",
+    "group": "里角色",
+    "en": "Tainted Jacob",
+    "greed": null,
+    "greedier": {
+      "id": 542,
+      "en": "The Sun and the Moon",
+      "achievementLink": "/achievements/ids-501-600#achievement-542",
+      "items": [
+        {
+          "name": "XVIII-月亮？",
+          "en": "XVIII - The Moon?",
+          "link": "/items/k74"
+        },
+        {
+          "name": "XIX-太阳？",
+          "en": "XIX - The Sun?",
+          "link": "/items/k75"
+        }
+      ]
+    }
+  }
+]

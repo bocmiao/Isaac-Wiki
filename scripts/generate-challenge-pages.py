@@ -56,6 +56,13 @@ for rule, guide in zip(rules, guides):
     reward = rewards[ident]
     unlocked = next((a for a in achievements if normalize(a['name']) == normalize(rule['name'])
                      and not a['condition'].startswith('Complete')), None)
+    default_open = rule['unlock'] == '默认开放'
+    if not default_open and unlocked is None:
+        raise ValueError(f"No verified opening achievement for challenge #{ident}: {rule['name']}")
+    opening = '默认开放，可直接从 Challenges 菜单选择。' if default_open else f"{rule['unlock']}。[逐步解锁教程]({achievement_link(unlocked)})。"
+    treasure = '有常规宝箱房' if '有宝箱房' in rule['rules'] else '不生成常规宝箱房'
+    if ident == 39:
+        treasure = '常规宝箱房不生成；下水道 II / 水潭 II 的刀片房例外'
     group = '默认开放' if rule['unlock'] == '默认开放' else '需要解锁'
     character = f"[{rule['character']}]({characters[rule['character']]})"
     def adjacent(n):
@@ -83,8 +90,8 @@ next: {adjacent(ident + 1) if ident < 45 else 'false'}
 | --- | --- |
 | 指定角色 | {character} |
 | 终点 | {rule['target']} |
-| 宝箱房 | {'有；#39 的路线特例另见正文' if '有宝箱房' in rule['rules'] else '通常不生成；#39 下水道 II 的刀片房例外' if ident == 39 else '不生成常规宝箱房'} |
-| 商店 | {'不生成' if ident == 1 else '可生成，特殊替换规则见下文'} |
+| 宝箱房 | {treasure} |
+| 商店 | {'不生成' if ident == 1 else '可生成，受本挑战的替换与价格规则影响'} |
 | 难度 | {'困难' if ident == 26 else '普通（挑战自带的特殊限制另算）'} |
 | 开局 / 特殊规则 | {rule['rules']} |
 
@@ -92,7 +99,7 @@ next: {adjacent(ident + 1) if ident < 45 else 'false'}
 
 ## 开放条件与完成奖励
 
-**开放条件**：{rule['unlock']}。{f"[逐步解锁教程]({achievement_link(unlocked)})。" if unlocked else '默认开放，可直接选择。'}
+**开放条件**：{opening}
 
 **完成奖励**：{rule['reward']}。[奖励成就 #{reward['id']} 的条件]({achievement_link(reward)})。
 
@@ -120,7 +127,7 @@ next: {adjacent(ident + 1) if ident < 45 else 'false'}
 
 ## 记录进度与相关攻略
 
-[返回 45 个挑战图鉴](/challenges/) · [挑战推荐顺序](/strategy/challenges#先做哪些) · [挑战进度清单](/tools/challenges) · [读取本地存档进度](/tools/local-progress) · [全部模式](/modes/)。
+[返回 45 个挑战图鉴](/challenges/) · [挑战推荐顺序](/strategy/challenges#先做哪些) · [记录本挑战进度](/tools/challenges?q={ident}) · [读取本地存档进度](/tools/local-progress) · [全部模式](/modes/)。
 
 角色的常规发育可参考 {character}，实际操作以本挑战的开局与限制为准。
 

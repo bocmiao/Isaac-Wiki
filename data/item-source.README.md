@@ -24,6 +24,8 @@ The importer parses declarations; it does **not execute upstream Lua** or copy g
 - Pill record 9999 is EID's **golden-pill lookup sentinel**, not the engine's ordinary PillEffect ID. It has no `gameId` in catalog data and is not presented as effect ID 9999.
 - Preserve `?` when matching reversed cards. Ordinary tarot cards must not inherit their reversed counterpart's unlock. Reversed Sun and Moon share achievement 542; golden pills use 603.
 - Rune names are matched to the corresponding `Rune of ...` achievement, not to a same-name trinket or a generic rune-page fragment. Card Ace of Spades uses achievement 327, not the trinket.
+- Challenge #24 unlocks both Percs! (`p28`) and Addicted! (`p29`) via achievement 227; #25 unlocks Re-Lax (`p30`) and the literal ??? pill (`p31`) via achievement 228. The source anchors only the first pill of each pair. Its generic reward-message placeholder `???` is not an entity name and must not match the ??? pill or import tainted-character unlock conditions.
+- Collection-page guidance applies to collectibles. Trinkets, cards and pills do not have ordinary collectible-page records; their unlock conditions must not be described as evidence that the player has obtained or used them.
 
 ## Rebuild
 

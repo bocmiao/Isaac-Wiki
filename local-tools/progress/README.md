@@ -32,4 +32,4 @@ BASE=/Isaac-Wiki/ npm run build
 python3 scripts/check-built-links.py
 ```
 
-Regenerate lookup data after updating item/achievement/character/challenge guides. For challenge strategy changes, first run `python3 scripts/generate-challenge-pages.py`; the local lookup includes all 45 strategies and links each challenge to its own page. Commit the lookup snapshot and generated single-file download together. Normal website builds rebuild the offline file using the checked-in lookup snapshot.
+Regenerate lookup data after updating item/achievement/character/challenge guides. For challenge strategy changes, first run `python3 scripts/generate-challenge-pages.py`; the local lookup includes all 45 strategies and links each challenge to its own page. Run `python3 scripts/generate-mode-rewards.py` after changing reward conditions or item unlock mappings; its 34-character table is bundled into the offline tool and each Greed mark links to that character's table anchor. Commit the lookup snapshot and generated single-file download together. Normal website builds rebuild the offline file using the checked-in lookup snapshot.

@@ -10,6 +10,14 @@ IMPORT = runpy.run_path(str(ROOT / 'scripts/import-item-source.py'))
 
 
 class EntryPages(unittest.TestCase):
+    def test_paired_pills_use_challenge_rewards_not_placeholder_messages(self):
+        for key, reward in [('p28',227),('p29',227),('p30',228),('p31',228)]:
+            self.assertEqual([row['id'] for row in GEN['unlocks'](GEN['ITEMS'][key])], [reward])
+        page=(ROOT/'docs/items/p31.md').read_text()
+        self.assertIn('成就 228',page)
+        self.assertNotIn('里雅各',page)
+        self.assertNotIn('成就 541',page)
+        self.assertIn('不计入普通道具收藏页',page)
     def test_reversed_cards_do_not_change_ordinary_unlocks(self):
         def unlock(key):
             return [row['id'] for row in GEN['unlocks'](GEN['ITEMS'][key])]

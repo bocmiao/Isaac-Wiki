@@ -1,4 +1,5 @@
 import lookup from './data.json'
+import modeRewards from '../../docs/.vitepress/theme/data/mode-rewards.json'
 import { flag, itemState, MAX_SAVE_BYTES, readSave, type SaveProgress } from './save-reader'
 
 const SITE = 'https://bocmiao.github.io/Isaac-Wiki'
@@ -24,6 +25,13 @@ function achievementLink(id: number) {
   const achievement = lookup.achievements.find(row => row.id === id)
   return achievement ? `/achievements/${achievement.page}#achievement-${id}` : '/achievements/'
 }
+function greedRewardDetail(id: string) {
+  const reward=modeRewards.find(row=>row.id===id)
+  if (!reward) return ''
+  const regular=reward.greed?`${reward.greed.items.map(item=>item.name).join('、')}（成就 #${reward.greed.id}）`:'没有独立的普通贪婪通关奖励；可记标记、捐款。'
+  const hard=`${reward.greedier.items.map(item=>item.name).join('、')}（成就 #${reward.greedier.id}）`
+  return `\n普通贪婪奖励：${regular}\n极贪奖励：${hard}\n极贪先捐款累计 500 枚开放，需要完成金色二阶段；红标记与捐款里程碑分开计。`
+}
 function rebuild(keepFilters = false) {
   if (!progress) return
   const previousGroup=group.value,previousQuery=query.value,previousState=state.value,previousPage=page
@@ -46,9 +54,9 @@ function rebuild(keepFilters = false) {
     const value = save.counters[mark.counter]
     return {id:`${character.id}/${mark.id}`,name:`${character.name} · ${mark.name}`,group:character.name,
       state:value===0?'todo':value===1?'normal':value===2?'hard':'unknown',
-      detail:mark.id==='greed'?'普通贪婪与极贪共用这一格；值 2 表示完成极贪。':
+      detail:mark.id==='greed'?'普通贪婪与极贪共用这一格；值 2 表示完成极贪。'+greedRewardDetail(character.id):
         '按存档里的真实完成标记读取普通 / 困难进度；不会用里角色的合并成就倒推单个 Boss 标记。',
-      link:`/characters/${character.id}`,search:`${character.en} ${mark.name}`}
+      link:mark.id==='greed'?`/modes/greed-rewards#reward-${character.id}`:`/characters/${character.id}`,search:`${character.en} ${mark.name}`}
   }))
   if (tab === 'challenges') rows = lookup.challenges.map(row => {
     const value=flag(save.challenges,row.id)

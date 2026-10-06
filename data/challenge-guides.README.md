@@ -12,6 +12,7 @@ After changing reviewed rules, regenerate the tool lookup first; after changing 
 
 ```sh
 python3 scripts/generate-challenge-pages.py
+python3 scripts/generate-mode-rewards.py
 python3 scripts/generate-save-progress-data.py <IsaacScript checkout>
 BASE=/Isaac-Wiki/ npm run build
 npm test
@@ -19,3 +20,7 @@ python3 scripts/check-built-links.py
 ```
 
 Commit authored data, generated challenge pages, local lookup and the standalone HTML download together. The offline local tool includes each challenge's strategy and canonical online page link, without adding network requests or save-file writes.
+
+`scripts/generate-mode-rewards.py` resolves exact `Defeat Ultra Greed / Ultra Greedier as CHARACTER` conditions against the full achievement snapshot: 17 Greed rewards for ordinary characters and 34 Greedier rewards. Reversed Sun/Moon share #542 and remain two separate card links. The mode reward page and offline Greed-mark descriptions use the same generated JSON. Missing or duplicate conditions fail generation rather than inventing rewards. Generic `???` reward messages are placeholders; they cannot add the `???` pill to these tables. The two paired challenge-pill rewards use their explicit IDs in the item generator.
+
+The earlier text claimed a general online Victory Lap achievement exception but linked to a co-op article without version evidence for it. The current guides do not advertise that as an unlock method; they retain the reviewed offline Victory Lap restrictions and direct ordinary progress to eligible fresh runs. Confirm version-specific online exceptions from authoritative release notes or in-game validation before adding them.
