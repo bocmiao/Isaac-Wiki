@@ -8,7 +8,10 @@
     "title": "硫磺火 + 妈妈的菜刀",
     "individual": "蓄力血激光；可投掷的菜刀",
     "effect": "菜刀优先，不吃硫磺火的射速惩罚。扔出菜刀后再射出一小串菜刀，忏悔起每把造成 2 倍伤害",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-2",
@@ -19,7 +22,10 @@
     "title": "硫磺火 + 内眼",
     "individual": "血激光；内眼一次发 3 颗泪弹、射速降低（宝箱房道具）",
     "effect": "一次射 3 道激光。内眼虽然降射速，总输出仍比配完美视力（20/20，2 道激光）提升更多",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-3",
@@ -30,7 +36,10 @@
     "title": "终末天启 + 天使棱镜（Angelic Prism）",
     "individual": "圣光激光；天使棱镜是大半径环绕物，泪弹穿过会分裂成 4 颗",
     "effect": "激光打到棱镜，分成 4 道",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-4",
@@ -41,7 +50,10 @@
     "title": "英灵剑 + 妈妈的菜刀",
     "individual": "挥剑攻击；投掷菜刀",
     "effect": "蓄力旋转攻击时把剑扔出去一小段，边飞边转",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-5",
@@ -52,7 +64,10 @@
     "title": "英灵剑 + 三圣颂（Trisagion）",
     "individual": "挥剑攻击；三圣颂把泪弹换成穿刺光波，每下 33% 伤害，但每秒最多打 15 下",
     "effect": "剑气换成三圣颂光波，伤害更高",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-6",
@@ -63,7 +78,10 @@
     "title": "光明之冠 + 神圣屏障",
     "individual": "满血时伤害 ×2、受伤就熄；每房间挡一次伤害",
     "effect": "屏障挡下的那一下不会让冠冕熄灭",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-7",
@@ -74,7 +92,10 @@
     "title": "达摩克里斯之剑 + 神圣屏障",
     "individual": "道具翻倍、受伤后可能掉剑；每房间挡一次伤害",
     "effect": "被屏障挡下的伤害不算受伤，不会开始掉剑的判定。剑真的落下时，屏障挡不住",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
   },
   {
     "id": "combo-8",
@@ -85,6 +106,234 @@
     "title": "嗝屁猫的爪子（Guppy's Paw）+ 嗝屁猫（Dead Cat）",
     "individual": "爪子是主动道具，1 个红心容器换 3 个魂心；嗝屁猫把红心容器设为 1 个，给 9 条命，每次复活带 1 个红心容器",
     "effect": "每次复活后把那个容器换成 3 魂心，相当于血量变成 3 倍。两件都算嗝屁猫变身（Guppy）的组件，都在恶魔房道具池",
-    "source": "/strategy/items"
+    "source": "/strategy/items",
+    "category": "常见组合",
+    "version": "忏悔 / 忏悔+；参见单件版本说明",
+    "limits": "本工具按已取得组件做对照，实际交互还受角色和其他道具影响。"
+  },
+  {
+    "id": "combo-9",
+    "items": [
+      118,
+      3
+    ],
+    "title": "追踪激光",
+    "individual": "硫磺火提供持续激光，弯勺魔术提供追踪。",
+    "effect": "激光可随追踪修正弯向敌人，仍需要保持与目标距离。",
+    "source": "/strategy/synergies#combo-9",
+    "category": "攻击",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "兼容通常泪弹 / 激光角色；不把它当作全自动必中。"
+  },
+  {
+    "id": "combo-10",
+    "items": [
+      395,
+      3
+    ],
+    "title": "追踪科技环",
+    "individual": "科技X发射蓄力激光环，弯勺魔术增加追踪。",
+    "effect": "激光环能追踪敌人，释放后继续移动躲弹。",
+    "source": "/strategy/synergies#combo-10",
+    "category": "攻击",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "攻击方式由角色自身和其他泪弹修改共同决定。"
+  },
+  {
+    "id": "combo-11",
+    "items": [
+      149,
+      223
+    ],
+    "title": "爆炸免疫与吐根酊",
+    "individual": "吐根酊泪弹会爆炸，纵火狂免疫爆炸。",
+    "effect": "降低近距离自爆的风险；有红心容器时才能利用红心回复。",
+    "source": "/strategy/synergies#combo-11",
+    "category": "生存",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "游魂不能靠回血获得生命；踩脚、接触伤害不因为爆炸免疫而消失。"
+  },
+  {
+    "id": "combo-12",
+    "items": [
+      149,
+      375
+    ],
+    "title": "骷髅帽与爆炸泪弹",
+    "individual": "吐根酊带爆炸，寄居骷髅帽提供爆炸保护。",
+    "effect": "普通爆炸不再是主要自伤来源，但毒、地面危害和敌人接触仍需躲。",
+    "source": "/strategy/synergies#combo-12",
+    "category": "生存",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "忏悔起妈妈踩脚等不属于普通爆炸。"
+  },
+  {
+    "id": "combo-13",
+    "items": [
+      108,
+      156
+    ],
+    "title": "减伤与受伤充能",
+    "individual": "圣饼减少普通伤害，修女服在受伤时补主动充能。",
+    "effect": "意外受伤的成本较低，也能获得充能；这不是建议主动撞怪。",
+    "source": "/strategy/synergies#combo-13",
+    "category": "充能",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "减伤和付血不是同一个判定，游魂不因减伤变成可扛血角色。"
+  },
+  {
+    "id": "combo-14",
+    "items": [
+      116,
+      63
+    ],
+    "title": "清房充能与储存",
+    "individual": "9伏特改变主动充能节奏，蓄电池允许额外储存一轮充能。",
+    "effect": "便于在进入 Boss 前保留更多主动使用机会。",
+    "source": "/strategy/synergies#combo-14",
+    "category": "充能",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "不同主动的充能类型不同，不保证每个主动都能连续使用。"
+  },
+  {
+    "id": "combo-15",
+    "items": [
+      357,
+      63
+    ],
+    "title": "储存朋友盒充能",
+    "individual": "朋友盒复制跟班，蓄电池提供额外储存。",
+    "effect": "提前存好充能后，可在同房间多次使用朋友盒；离房后的复制按主动机制处理。",
+    "source": "/strategy/synergies#combo-15",
+    "category": "充能",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "莉莉丝与贪婪波次适合规划，仍需先有能参战的跟班。"
+  },
+  {
+    "id": "combo-16",
+    "items": [
+      245,
+      118
+    ],
+    "title": "一次蓄力多束硫磺火",
+    "individual": "20/20增加同时发射数量，硫磺火改为蓄力激光。",
+    "effect": "可以扩展攻击覆盖；额外弹道和属性代价要以当前版本效果为准。",
+    "source": "/strategy/synergies#combo-16",
+    "category": "攻击",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "多发泪弹修改不能一律按面板伤害乘发数估算。"
+  },
+  {
+    "id": "combo-17",
+    "items": [
+      52,
+      223
+    ],
+    "title": "爆炸免疫与炸弹泪弹",
+    "individual": "胎儿博士把泪弹改为炸弹，纵火狂免疫普通爆炸。",
+    "effect": "能更安全地利用炸弹泪弹清房和开口，不能因此忽略其他伤害。",
+    "source": "/strategy/synergies#combo-17",
+    "category": "生存",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "回复仅适用于能恢复红心的角色。"
+  },
+  {
+    "id": "combo-18",
+    "items": [
+      81,
+      133,
+      134
+    ],
+    "title": "嗝屁猫三件组件示例",
+    "individual": "嗝屁猫、嗝屁猫的爪子、嗝屁猫的尾巴各是一件嗝屁猫组件。",
+    "effect": "取得这三种不同组件可推进嗝屁猫变身；这是一组示例，不是唯一三件配方。",
+    "source": "/strategy/synergies#combo-18",
+    "category": "变身",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "组件取得记录与本工具本局持有勾选不同；不要把同一道具重复三次当三种。"
+  },
+  {
+    "id": "combo-19",
+    "items": [
+      34,
+      33
+    ],
+    "title": "圣经与撒但：不要误按",
+    "individual": "圣经可秒杀妈妈和心脏，犹大的彼列之书用于本房间伤害提升。",
+    "effect": "到撒但战不能照搬妈妈战的圣经秒杀法；圣经会杀死使用者。",
+    "source": "/strategy/synergies#combo-19",
+    "category": "风险",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "这是主动使用风险提醒；一个主动栏通常无法同时装备两件，额外主动容量另算。"
+  },
+  {
+    "id": "combo-20",
+    "items": [
+      81,
+      313
+    ],
+    "title": "九条命不等于九次无损",
+    "individual": "嗝屁猫复活后仅给有限红心容器，神圣屏障挡一次房间伤害。",
+    "effect": "屏障能减少复活后立刻再死的风险；不保证复活时无敌，也不弥补特殊角色复活限制。",
+    "source": "/strategy/synergies#combo-20",
+    "category": "生存",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "取舍先看角色生命机制，不能把红心容器当作魂心容器。"
+  },
+  {
+    "id": "combo-21",
+    "items": [
+      69,
+      118
+    ],
+    "title": "巧克力奶的蓄力取舍",
+    "individual": "巧克力奶与硫磺火都涉及蓄力。",
+    "effect": "需要重新习惯蓄力时机，短蓄力不能套用普通巧克力奶泪弹的伤害预期。",
+    "source": "/strategy/synergies#combo-21",
+    "category": "风险",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "复合攻击的精确倍率不在此估算，先看两件的版本说明。"
+  },
+  {
+    "id": "combo-22",
+    "items": [
+      227,
+      135
+    ],
+    "title": "付血与资源预算",
+    "individual": "储蓄罐可在受伤时生成硬币，献血袋主动用红心交换硬币。",
+    "effect": "可以利用恢复手段把红心资源换成经济，先确保付血后能生存。",
+    "source": "/strategy/synergies#combo-22",
+    "category": "资源",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "不承诺无限循环；游魂、硬币血角色和魂心角色不能套普通红心预算。"
+  },
+  {
+    "id": "combo-23",
+    "items": [
+      3,
+      149
+    ],
+    "title": "追踪爆炸的贴身风险",
+    "individual": "弯勺魔术使弹道追踪，吐根酊的命中会爆炸。",
+    "effect": "追踪改变落点，敌人贴身时更难控制安全距离。",
+    "source": "/strategy/synergies#combo-23",
+    "category": "风险",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "没有爆炸免疫时不要把追踪当成绝对安全的增益。"
+  },
+  {
+    "id": "combo-24",
+    "items": [
+      122,
+      313
+    ],
+    "title": "低红心奖励与保护",
+    "individual": "巴比伦大淫妇在低红心状态改善输出，神圣屏障降低普通受伤概率。",
+    "effect": "能在低红心打法中增加容错；是否触发低红心效果看实际生命机制。",
+    "source": "/strategy/synergies#combo-24",
+    "category": "生存",
+    "version": "忏悔 / 忏悔+；各单件差异见详情页",
+    "limits": "没有红心的角色不等于可按普通红心角色主动付血。"
   }
 ]

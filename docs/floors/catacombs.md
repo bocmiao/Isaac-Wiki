@@ -12,7 +12,7 @@ next: {"text": "淹水洞穴", "link": "/floors/flooded-caves"}
 
 ## 位置与解锁
 
-洞穴的第二章变体，骨骼与墓穴主题；击败洞穴所需 Boss 解锁[成就 87](/achievements/ids-001-100#achievement-87)，忏悔起不要求本比诺，也不限定击败时所在楼层名字。
+洞穴的第二章变体，骨骼与墓穴主题；击败洞穴所需 Boss（[条件、排除项与补缺检查](/strategy/floor-unlocks)） 解锁[成就 87](/achievements/ids-001-100#achievement-87)，忏悔起不要求本比诺，也不限定击败时所在楼层名字。
 
 ## 打法与出口
 

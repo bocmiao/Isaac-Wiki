@@ -11,12 +11,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DOCS = ROOT / 'docs'
 GEN = runpy.run_path(str(ROOT / 'scripts/generate-entry-pages.py'))
-reference = Path(sys.argv[1])
-enums = reference / 'packages/isaac-typescript-definitions-repentogon/src/enums'
-def enum(file):
-    return {name: int(value) for name, value in re.findall(r'^  ([A-Z0-9_]+) = (-?\d+),', (enums / file).read_text(), re.M)}
-events = enum('EventCounter.ts')
-ach_ids = enum('Achievement.ts')
+snapshot=json.loads((ROOT/'data/save-enums.json').read_text())
+events=snapshot['events'];ach_ids=snapshot['achievements'];reference_commit=snapshot['isaacScriptCommit']
+if len(sys.argv)>1:
+    reference=Path(sys.argv[1]);enums=reference/'packages/isaac-typescript-definitions-repentogon/src/enums'
+    def enum(file):
+        return {name:int(value) for name,value in re.findall(r'^  ([A-Z0-9_]+) = (-?\d+),',(enums/file).read_text(),re.M)}
+    events=enum('EventCounter.ts');ach_ids=enum('Achievement.ts')
+    reference_commit=subprocess.check_output(['git','-C',str(reference),'rev-parse','HEAD'],text=True).strip()
 def plain(text):
     text = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
     text = re.sub(r'\{#[^}]+\}|\{\.ach-links\}|<[^>]+>|[*`]', '', text)
@@ -63,7 +65,7 @@ for challenge, guide in zip(challenges, challenge_guides):
     challenge['tutorial'] = '\n\n'.join([guide['focus'], '前期：' + guide['early'],
                                          '中期：' + guide['middle'], '终点：' + guide['boss'],
                                          '易错点：' + guide['pitfall']])
-result = {'isaacScriptCommit': subprocess.check_output(['git','-C',str(reference),'rev-parse','HEAD'], text=True).strip(),
+result = {'isaacScriptCommit': reference_commit,
           'achievements': achievements, 'items': items, 'characters': characters,
           'challenges': challenges,
           'donations': {'normal': events['DONATION_MACHINE_COUNTER'], 'greed': events['GREED_DONATION_MACHINE_COUNTER']}}

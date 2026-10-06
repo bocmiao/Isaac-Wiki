@@ -1,0 +1,242 @@
+[
+  {
+    "id": "monstro",
+    "name": "萌死戳",
+    "en": "Monstro",
+    "group": "第一章",
+    "summary": "小跳调整位置，抬头吐散弹，大跳暂时离开画面。",
+    "icon": "skull",
+    "link": "/bosses/monstro",
+    "aliases": []
+  },
+  {
+    "id": "larry-jr",
+    "name": "小拉里",
+    "en": "Larry Jr.",
+    "group": "第一章",
+    "summary": "多段身体在房间移动，粪便会改变通道。",
+    "icon": "skull",
+    "link": "/bosses/larry-jr",
+    "aliases": []
+  },
+  {
+    "id": "duke-of-flies",
+    "name": "苍蝇公爵",
+    "en": "The Duke of Flies",
+    "group": "第一章",
+    "summary": "本体召唤苍蝇，随从会积累并限制输出。",
+    "icon": "skull",
+    "link": "/bosses/duke-of-flies",
+    "aliases": []
+  },
+  {
+    "id": "gemini",
+    "name": "双子",
+    "en": "Gemini",
+    "group": "第一章",
+    "summary": "较大的身体追逐，小的一端射击；连接关系改变后战斗节奏不同。",
+    "icon": "skull",
+    "link": "/bosses/gemini",
+    "aliases": []
+  },
+  {
+    "id": "pin",
+    "name": "针头",
+    "en": "Pin",
+    "group": "第一章",
+    "summary": "潜地后跳出，落点附近有泪弹。",
+    "icon": "skull",
+    "link": "/bosses/pin",
+    "aliases": []
+  },
+  {
+    "id": "dingle",
+    "name": "小便便",
+    "en": "Dingle",
+    "group": "第一章",
+    "summary": "吹口哨、吐弹和连续滑行有不同前摇。",
+    "icon": "skull",
+    "link": "/bosses/dingle",
+    "aliases": []
+  },
+  {
+    "id": "gurglings",
+    "name": "咕噜",
+    "en": "Gurglings",
+    "group": "第一章",
+    "summary": "多个本体移动和冲锋，地面痕迹限制路线。",
+    "icon": "skull",
+    "link": "/bosses/gurglings",
+    "aliases": []
+  },
+  {
+    "id": "haunt",
+    "name": "恶鬼",
+    "en": "The Haunt",
+    "group": "第一章变体",
+    "summary": "先处理小幽灵，再对付沿上方移动的主本体与激光。",
+    "icon": "skull",
+    "link": "/bosses/haunt",
+    "aliases": []
+  },
+  {
+    "id": "rag-man",
+    "name": "绷带人",
+    "en": "Rag Man",
+    "group": "第一章变体",
+    "summary": "头部与召唤物会分散威胁，本体还会继续行动。",
+    "icon": "skull",
+    "link": "/bosses/rag-man",
+    "aliases": []
+  },
+  {
+    "id": "gurdy",
+    "name": "咕噜大",
+    "en": "Gurdy",
+    "group": "第二章",
+    "summary": "本体较固定，能从不同方向吐弹并召唤敌人。",
+    "icon": "skull",
+    "link": "/bosses/gurdy",
+    "aliases": []
+  },
+  {
+    "id": "gurdy-jr",
+    "name": "小咕噜大",
+    "en": "Gurdy Jr.",
+    "group": "第二章",
+    "summary": "跳动、滑行和弹幕交替，近身冲撞是主要威胁。",
+    "icon": "skull",
+    "link": "/bosses/gurdy-jr",
+    "aliases": []
+  },
+  {
+    "id": "chub",
+    "name": "胖蛆",
+    "en": "Chub",
+    "group": "第二章",
+    "summary": "看到角色后可直线冲锋，也会产生小怪。",
+    "icon": "skull",
+    "link": "/bosses/chub",
+    "aliases": []
+  },
+  {
+    "id": "fistula",
+    "name": "瘘管",
+    "en": "Fistula",
+    "group": "第二章",
+    "summary": "大块分裂成小块，数量会逐渐增加。",
+    "icon": "skull",
+    "link": "/bosses/fistula",
+    "aliases": []
+  },
+  {
+    "id": "hollow",
+    "name": "空心虫",
+    "en": "The Hollow",
+    "group": "第二章",
+    "summary": "多段身体沿路径运动，多个身体可能交叉。",
+    "icon": "skull",
+    "link": "/bosses/hollow",
+    "aliases": []
+  },
+  {
+    "id": "peep",
+    "name": "窥视眼",
+    "en": "Peep",
+    "group": "第二章",
+    "summary": "跳跃和地面危害交替，脱离的眼球继续运动。",
+    "icon": "skull",
+    "link": "/bosses/peep",
+    "aliases": []
+  },
+  {
+    "id": "mega-maw",
+    "name": "巨口",
+    "en": "Mega Maw",
+    "group": "第二章",
+    "summary": "吐出的火焰 / 弹幕有展开和移动过程。",
+    "icon": "skull",
+    "link": "/bosses/mega-maw",
+    "aliases": []
+  },
+  {
+    "id": "mega-fatty",
+    "name": "超级胖胖",
+    "en": "Mega Fatty",
+    "group": "第二章",
+    "summary": "大跳、小跳和其他招式节奏不同。",
+    "icon": "skull",
+    "link": "/bosses/mega-fatty",
+    "aliases": []
+  },
+  {
+    "id": "monstro-ii",
+    "name": "萌死戳二世",
+    "en": "Monstro II",
+    "group": "第三章",
+    "summary": "跳跃、召唤与横向激光交替。",
+    "icon": "skull",
+    "link": "/bosses/monstro-ii",
+    "aliases": []
+  },
+  {
+    "id": "loki",
+    "name": "洛基",
+    "en": "Loki",
+    "group": "第三章",
+    "summary": "泪弹攻击与召唤并存，变体可能需要同时面对两个本体。",
+    "icon": "skull",
+    "link": "/bosses/loki",
+    "aliases": []
+  },
+  {
+    "id": "cage",
+    "name": "牢笼",
+    "en": "The Cage",
+    "group": "第三章",
+    "summary": "跳跃与滚动会改变本体位置和安全区域。",
+    "icon": "skull",
+    "link": "/bosses/cage",
+    "aliases": []
+  },
+  {
+    "id": "gate",
+    "name": "门扉",
+    "en": "The Gate",
+    "group": "第三章",
+    "summary": "召唤与大范围吐弹会交替出现。",
+    "icon": "skull",
+    "link": "/bosses/gate",
+    "aliases": []
+  },
+  {
+    "id": "adversary",
+    "name": "敌手",
+    "en": "The Adversary",
+    "group": "第三章",
+    "summary": "激光与其他攻击会按当前位置造成威胁。",
+    "icon": "skull",
+    "link": "/bosses/adversary",
+    "aliases": []
+  },
+  {
+    "id": "bloat",
+    "name": "浮肿",
+    "en": "The Bloat",
+    "group": "第三章变体",
+    "summary": "正下方和两侧的激光、跳跃与漂浮眼球共同限制走位。",
+    "icon": "skull",
+    "link": "/bosses/bloat",
+    "aliases": []
+  },
+  {
+    "id": "mask-of-infamy",
+    "name": "恶名面具",
+    "en": "Mask of Infamy",
+    "group": "第三章变体",
+    "summary": "心脏与面具有阶段关系；后段需要调整攻击角度。",
+    "icon": "skull",
+    "link": "/bosses/mask-of-infamy",
+    "aliases": []
+  }
+]

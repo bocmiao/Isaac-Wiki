@@ -1,4 +1,5 @@
 import lookup from './data.json'
+import { achievementExport, challengeExport, characterExport, donationExport } from './exports'
 import modeRewards from '../../docs/.vitepress/theme/data/mode-rewards.json'
 import { flag, itemState, MAX_SAVE_BYTES, readSave, type SaveProgress } from './save-reader'
 import { completionRewardDetail, completionRewardLink } from './completion-rewards'
@@ -89,9 +90,10 @@ function matching() {
 function render() {
   const selected=matching(),pages=Math.max(1,Math.ceil(selected.length/pageSize))
   page=Math.min(page,pages)
-  $('count').textContent=`${selected.length} 项 · 第 ${page} / ${pages} 页`
+  const unknown=rows.filter(row=>row.state==='unknown').length
+  $('count').textContent=`${selected.length} 项 · 第 ${page} / ${pages} 页${unknown?` · 另有 ${unknown} 项无法判断，请切换状态核对`:''}`
   $('results').innerHTML=selected.length?selected.slice((page-1)*pageSize,page*pageSize).map(row=>
-    `<article class="result"><div class="top"><span class="badge ${missing.has(row.state)?'todo':'done'}">${labels[row.state]}</span><small>${escape(row.group)}</small><code>${escape(row.id)}</code></div><h3>${escape(row.name)}</h3><details><summary>查看条件、效果与获取步骤</summary><p class="detail">${escape(row.detail)}</p></details><a href="${SITE+row.link}" target="_blank" rel="noreferrer">打开完整教程 ↗</a></article>`).join(''):'<p class="empty">没有匹配条目。可以切换到「全部状态」或清除筛选。</p>'
+    `<article class="result"><div class="top"><span class="badge ${row.state==='unknown'?'unknown':missing.has(row.state)?'todo':'done'}">${labels[row.state]}</span><small>${escape(row.group)}</small><code>${escape(row.id)}</code></div><h3>${escape(row.name)}</h3><details><summary>查看条件、效果与获取步骤</summary><p class="detail">${escape(row.detail)}</p></details><a href="${SITE+row.link}" target="_blank" rel="noreferrer">打开完整教程 ↗</a></article>`).join(''):'<p class="empty">没有匹配条目。可以切换到「全部状态」或清除筛选。</p>'
   $('previous').toggleAttribute('disabled',page===1)
   $('next').toggleAttribute('disabled',page===pages)
   $('pager').textContent=`${page} / ${pages}`
@@ -156,9 +158,11 @@ function download(contents: string,name: string,type: string) {
 }
 $('export-achievements').addEventListener('click',()=>{
   if(!progress)return
-  const done=lookup.achievements.filter(row=>flag(progress!.achievements,row.id)===true).map(row=>row.id)
-  download(JSON.stringify({v:1,done},null,2),'isaac-achievements.json','application/json')
+  download(JSON.stringify(achievementExport(progress),null,2),'isaac-achievements.json','application/json')
 })
+for(const [id,name,make] of [['export-characters','isaac-characters.json',characterExport],['export-challenges','isaac-challenges.json',challengeExport],['export-donations','isaac-donations.json',donationExport]] as const){
+ $(id).addEventListener('click',()=>{if(!progress)return;try{download(JSON.stringify(make(progress),null,2),name,'application/json')}catch(error){$('message').textContent=(error as Error).message}})
+}
 $('export-csv').addEventListener('click',()=>{
   if(!progress)return
   const quote=(value:string)=>'"'+(/^[=+@-]/.test(value)?"'":'')+value.replace(/"/g,'""')+'"'

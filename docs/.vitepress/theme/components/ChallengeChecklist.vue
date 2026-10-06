@@ -3,7 +3,7 @@ import { computed, onMounted, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import challenges from '../data/challenges.json'
 import { parseChallenges, useToolStorage, type ChallengeProgress } from '../tools/storage'
-const {data,message,storageError,exportFile,importFile}=useToolStorage<ChallengeProgress>('isaac-roadbook-challenges-v1',()=>({v:1,completed:[]}),parseChallenges)
+const {data,message,storageError,exportFile,importFile,importMode}=useToolStorage<ChallengeProgress>('isaac-roadbook-challenges-v1',()=>({v:1,completed:[]}),parseChallenges,(a,b)=>({v:1,completed:[...new Set([...a.completed,...b.completed])].sort((x,y)=>x-y)}))
 const query=ref(''),filter=ref('all')
 const ready=ref(false)
 const rows=computed(()=>{
@@ -18,7 +18,7 @@ function toggle(id:number){data.value.completed=data.value.completed.includes(id
  <div class="tool-panel">
   <div class="tool-grid"><label>搜索挑战<input v-model="query" type="search" :disabled="!ready" placeholder="编号、名称、角色、奖励或蒙眼等规则" /></label><label>显示<select v-model="filter" aria-label="显示" :disabled="!ready"><option value="all">全部</option><option value="todo">未完成</option><option value="done">已完成</option></select></label></div>
   <p class="tool-result" aria-live="polite">完成 {{data.completed.length}} / 45 · 当前显示 {{rows.length}} 项</p>
-  <div class="tool-actions"><button @click="exportFile">导出挑战进度</button><label class="tool-import">导入并替换挑战进度<input type="file" accept="application/json,.json" @change="importFile" /></label></div>
+  <div class="tool-actions"><button @click="exportFile">导出挑战进度</button><label>导入方式<select v-model="importMode" aria-label="导入方式"><option value="merge">合并已完成记录</option><option value="replace">替换全部挑战记录</option></select></label><label class="tool-import">导入挑战进度<input type="file" accept="application/json,.json" @change="importFile" /></label></div>
   <p role="status">{{message}}</p><p v-if="storageError" role="alert">{{storageError}}</p>
   <article v-for="c in rows" :key="c.id" class="tool-card ch" :class="{ done: data.completed.includes(c.id) }">
    <label class="ch-head"><input type="checkbox" :checked="data.completed.includes(c.id)" :aria-label="`#${c.id} ${c.name} 已完成`" @change="toggle(c.id)" /><b>#{{c.id}} {{c.name}}</b><span class="ch-sub">{{c.description.replace(c.name,'').trim()}}</span></label>

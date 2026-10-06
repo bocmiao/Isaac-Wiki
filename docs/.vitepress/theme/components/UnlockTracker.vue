@@ -2,7 +2,7 @@
 import { computed, onMounted, reactive, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import { characters, marks, taintedUnlock, taintedName, characterGuide, characterUnlockGuide } from '../data/characters'
-import { emptyProgress, loadProgress, parseProgress, saveProgress, summarize, totalMarks, type MarkState, type Progress } from '../progress'
+import { emptyProgress, loadProgress, parseProgress, mergeProgress, saveProgress, summarize, totalMarks, type MarkState, type Progress } from '../progress'
 import GameIcon from './GameIcon.vue'
 import HeartMeter from './HeartMeter.vue'
 
@@ -12,6 +12,7 @@ const tab = ref<'chars' | 'marks'>('chars')
 const showTainted = ref(false)
 const saveOk = ref(true)
 const loaded = ref(false)
+const importMode=ref<'merge'|'replace'>('merge')
 
 function apply(data: Progress) {
   state.chars = { ...data.chars, isaac: true }
@@ -77,9 +78,10 @@ async function importJson(e: Event) {
   const file = input.files?.[0]
   if (!file) return
   try {
+    if(file.size>1024*1024)throw new Error('oversized')
     const data = parseProgress(JSON.parse(await file.text()))
     if (!data) throw new Error('invalid progress')
-    apply(data)
+    apply(importMode.value==='merge'?mergeProgress(state,data):data)
   } catch {
     alert('导入失败：文件不是以撒路书导出的进度文件。')
   }
@@ -126,6 +128,7 @@ function reset() {
         </button>
       </div>
       <div class="io">
+        <label>导入方式<select v-model="importMode" aria-label="导入方式"><option value="merge">合并进度</option><option value="replace">替换全部进度</option></select></label>
         <button class="ghost" @click="exportJson">导出</button>
         <button class="ghost" @click="fileInput?.click()">导入</button>
         <button class="ghost danger" @click="reset">清空</button>
@@ -283,6 +286,8 @@ button {
   color: var(--ib-on-dark);
 }
 .io {
+  flex-wrap: wrap;
+  align-items: center;
   display: flex;
   gap: 6px;
 }

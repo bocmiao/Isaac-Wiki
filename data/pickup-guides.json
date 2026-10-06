@@ -1,0 +1,272 @@
+[
+  {
+    "id": "red-heart",
+    "name": "红心",
+    "en": "Red Heart",
+    "group": "生命",
+    "summary": "填充已有红心容器，不会单凭拾取增加容器。",
+    "approach": "先看有没有空红心格。能回头拾取时，可先留给付血后的治疗。",
+    "achievement": 0
+  },
+  {
+    "id": "soul-heart",
+    "name": "魂心",
+    "en": "Soul Heart",
+    "group": "生命",
+    "summary": "独立临时生命，消耗后没有空容器可恢复。",
+    "approach": "保护红心并减少交易概率损失；无法储存魂心的角色按自身机制转化。",
+    "achievement": 0
+  },
+  {
+    "id": "black-heart",
+    "name": "黑心",
+    "en": "Black Heart",
+    "group": "生命",
+    "summary": "类似魂心，耗尽对应黑心时有清房伤害效果。",
+    "approach": "不要为触发清屏故意受伤；该效果与普通清房奖励不是同一件事。",
+    "achievement": 0
+  },
+  {
+    "id": "bone-heart",
+    "name": "骨心",
+    "en": "Bone Heart",
+    "group": "生命",
+    "summary": "骨头容器可以装红心，容器破坏后消失。",
+    "approach": "红心被扣和骨头容器碎裂分开理解；遗骸的灵魂形态另管理魂心。",
+    "achievement": 391
+  },
+  {
+    "id": "rotten-heart",
+    "name": "腐心",
+    "en": "Rotten Heart",
+    "group": "生命",
+    "summary": "与红心容器有关，清房能产生蓝苍蝇。",
+    "approach": "不能将外观一整格当成普通完整红心的受伤次数；付血前先看有效生命。",
+    "achievement": 411
+  },
+  {
+    "id": "gold-heart",
+    "name": "金心",
+    "en": "Gold Heart",
+    "group": "生命",
+    "summary": "附在生命上的奖励效果，不自行增加可承受伤害。",
+    "approach": "金边不是额外一颗血，不能拿它预算献祭或恶魔交易。",
+    "achievement": 224
+  },
+  {
+    "id": "eternal-heart",
+    "name": "永恒之心",
+    "en": "Eternal Heart",
+    "group": "生命",
+    "summary": "半颗白心，取得另一半或带到下一层可增加红心容器。",
+    "approach": "优先保住到下层；伤害消耗次序依血条组成与版本，见生命机制说明。",
+    "achievement": 0
+  },
+  {
+    "id": "coin",
+    "name": "普通硬币与高面额硬币",
+    "en": "Coin",
+    "group": "资源",
+    "summary": "普通硬币 1 枚，镍币 5 枚，铸币 10 枚。",
+    "approach": "先留开门、钥匙或治疗的钱；道具可修改硬币上限。",
+    "achievement": 0
+  },
+  {
+    "id": "lucky-penny",
+    "name": "幸运币",
+    "en": "Lucky Penny",
+    "group": "资源",
+    "summary": "硬币同时提供运气提升。",
+    "approach": "运气不自动提高所有随机事件概率，先看具体道具的判定。",
+    "achievement": 242
+  },
+  {
+    "id": "sticky-nickel",
+    "name": "粘地镍币",
+    "en": "Sticky Nickel",
+    "group": "资源",
+    "summary": "粘在地上的镍币需要炸松。",
+    "approach": "比较炸弹成本与 5 枚硬币收益，不在危险位置硬捡。",
+    "achievement": 240
+  },
+  {
+    "id": "golden-penny",
+    "name": "金硬币",
+    "en": "Golden Penny",
+    "group": "资源",
+    "summary": "拾取后可重新出现在附近，直到这一枚的连续奖励结束。",
+    "approach": "先清场再追硬币，可能出现在地形危险处；不承诺可无限捡。",
+    "achievement": 613
+  },
+  {
+    "id": "key",
+    "name": "钥匙与双钥匙",
+    "en": "Key",
+    "group": "资源",
+    "summary": "普通钥匙开锁，双钥匙提供两把资源。",
+    "approach": "留给宝箱房、商店及路线入口，双锁房间仍要按门票预算。",
+    "achievement": 0
+  },
+  {
+    "id": "golden-key",
+    "name": "金钥匙",
+    "en": "Golden Key",
+    "group": "资源",
+    "summary": "当层普通用钥匙时不扣库存，换层不保留该层效果。",
+    "approach": "当层优先开需要的锁，特殊机器的互动另看其规则。",
+    "achievement": 0
+  },
+  {
+    "id": "charged-key",
+    "name": "充能钥匙",
+    "en": "Charged Key",
+    "group": "资源",
+    "summary": "提供钥匙资源，也能给主动道具充能。",
+    "approach": "主动已经满充时，先考虑使用后再拾取，避免充能收益浪费。",
+    "achievement": 333
+  },
+  {
+    "id": "bomb",
+    "name": "炸弹与双炸弹",
+    "en": "Bomb",
+    "group": "资源",
+    "summary": "补炸弹资源，用于战斗、开口与破坏障碍。",
+    "approach": "不要站在爆炸范围里等开墙；优先隐藏入口、标记石头和路线门。",
+    "achievement": 0
+  },
+  {
+    "id": "golden-bomb",
+    "name": "金炸弹",
+    "en": "Golden Bomb",
+    "group": "资源",
+    "summary": "当层放普通炸弹不消耗库存。",
+    "approach": "当层使用仍会造成爆炸危险，不等于免疫自己的炸弹。",
+    "achievement": 226
+  },
+  {
+    "id": "troll-bomb",
+    "name": "即爆炸弹",
+    "en": "Troll Bomb",
+    "group": "资源",
+    "summary": "无法拾取为库存，出现后会自行爆炸。",
+    "approach": "看到引线就先避开，箱子和机器也可能生成这种危险奖励。",
+    "achievement": 0
+  },
+  {
+    "id": "battery",
+    "name": "小电池与其他电池",
+    "en": "Battery",
+    "group": "充能",
+    "summary": "给主动道具补充充能，不等于得到电池类收藏道具。",
+    "approach": "先确认主动的充能方式和是否已满；额外储存、过充由道具决定。",
+    "achievement": 0
+  },
+  {
+    "id": "golden-battery",
+    "name": "金电池",
+    "en": "Golden Battery",
+    "group": "充能",
+    "summary": "提供充能收益，但拾取伴随伤害风险。",
+    "approach": "先确认生命够用；游魂类角色不能只看充能收益就直接碰。",
+    "achievement": 615
+  },
+  {
+    "id": "chest",
+    "name": "普通箱子",
+    "en": "Chest",
+    "group": "宝箱",
+    "summary": "通常碰触即可打开，可能是奖励也可能有危险内容。",
+    "approach": "清场后开，别把开箱当作必定回血或一定出道具。",
+    "achievement": 0
+  },
+  {
+    "id": "locked-chest",
+    "name": "金箱子",
+    "en": "Locked Chest",
+    "group": "宝箱",
+    "summary": "通常需要钥匙，开后可有拾取物或道具。",
+    "approach": "先留宝箱房钥匙，再比较开箱预算。",
+    "achievement": 0
+  },
+  {
+    "id": "bomb-chest",
+    "name": "石箱子",
+    "en": "Bomb Chest",
+    "group": "宝箱",
+    "summary": "需要爆炸打开。",
+    "approach": "先摆好位置再放炸弹，避免把内容炸到坑或尖刺上。",
+    "achievement": 0
+  },
+  {
+    "id": "spiked-chest",
+    "name": "刺箱子",
+    "en": "Spiked Chest",
+    "group": "宝箱",
+    "summary": "碰触开箱有受伤成本。",
+    "approach": "先清场并评估当前生命；飞行不等于所有接触付血都免费。",
+    "achievement": 0
+  },
+  {
+    "id": "mimic-chest",
+    "name": "伪装刺箱",
+    "en": "Mimic Chest",
+    "group": "宝箱",
+    "summary": "外观容易与普通箱子混淆，接近时可露出尖刺。",
+    "approach": "观察变化后再决定是否开，不在低血或游魂局莽撞触碰。",
+    "achievement": 0
+  },
+  {
+    "id": "red-chest",
+    "name": "红箱子",
+    "en": "Red Chest",
+    "group": "宝箱",
+    "summary": "可有道具、心、传送或危险内容。",
+    "approach": "保留落点与退路；蜘蛛或炸弹出现时先躲，不站在箱子中心。",
+    "achievement": 0
+  },
+  {
+    "id": "old-chest",
+    "name": "旧箱子",
+    "en": "Old Chest",
+    "group": "宝箱",
+    "summary": "特殊箱子，有自己的奖励来源。",
+    "approach": "与普通金箱子奖池分开看；不把某一件道具当成必出。",
+    "achievement": 0
+  },
+  {
+    "id": "mega-chest",
+    "name": "巨型宝箱",
+    "en": "Mega Chest",
+    "group": "宝箱",
+    "summary": "通常需要多次付钥匙才能开启，不能按一次一把预算。",
+    "approach": "有足够备用钥匙再尝试，别花光下一层开门资源。",
+    "achievement": 601
+  },
+  {
+    "id": "wooden-chest",
+    "name": "木箱子",
+    "en": "Wooden Chest",
+    "group": "宝箱",
+    "summary": "独立箱子类型，开放后可在正常掉落中出现。",
+    "approach": "先清场再开，具体内容以实际生成结果为准。",
+    "achievement": 609
+  },
+  {
+    "id": "haunted-chest",
+    "name": "鬼箱子",
+    "en": "Haunted Chest",
+    "group": "宝箱",
+    "summary": "靠近时可能遭遇幽灵敌人的攻击。",
+    "approach": "辨认后保持移动，先处理敌人，再考虑内容。",
+    "achievement": 611
+  },
+  {
+    "id": "golden-trinket",
+    "name": "金饰品",
+    "en": "Golden Trinket",
+    "group": "特殊形态",
+    "summary": "许多饰品的效果会加强，但并非全都简单翻倍。",
+    "approach": "按饰品详情查看金色版本差异；同名普通形态不能直接替代。",
+    "achievement": 617
+  }
+]

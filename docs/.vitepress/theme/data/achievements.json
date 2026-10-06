@@ -138,7 +138,7 @@
   {
     "id": 18,
     "name": "Something Sticky",
-    "conditionZh": "完成深牢章节累计 20 次。",
+    "conditionZh": "完成深处章节累计 20 次。",
     "group": "主线 / Boss",
     "minimum": "重生",
     "page": "ids-001-100"
@@ -306,7 +306,7 @@
   {
     "id": 39,
     "name": "Dark Boy",
-    "conditionZh": "完成深牢章节且不受伤。",
+    "conditionZh": "完成深处章节且不受伤。",
     "group": "探索 / 无伤",
     "minimum": "重生",
     "page": "ids-001-100"
@@ -698,7 +698,7 @@
   {
     "id": 88,
     "name": "The Necropolis",
-    "conditionZh": "击败所有深牢章节 Boss；忏悔起不要求 Reap Creep。",
+    "conditionZh": "击败所有深处章节 Boss；忏悔起不要求 Reap Creep。",
     "group": "探索 / 累计",
     "minimum": "重生",
     "page": "ids-001-100"
@@ -2938,7 +2938,7 @@
   {
     "id": 368,
     "name": "Leprosy",
-    "conditionZh": "完成深牢章节且不受伤。",
+    "conditionZh": "完成深处章节且不受伤。",
     "group": "探索 / 无伤",
     "minimum": "胎衣+",
     "page": "ids-301-400"
@@ -3298,7 +3298,7 @@
   {
     "id": 413,
     "name": "Ashpit",
-    "conditionZh": "击败矿井的全部 Boss。",
+    "conditionZh": "击败矿洞的全部 Boss。",
     "group": "探索 / 累计",
     "minimum": "忏悔",
     "page": "ids-401-500"
@@ -4090,7 +4090,7 @@
   {
     "id": 512,
     "name": "Pica Run",
-    "conditionZh": "心脏累计击败 11 次，并解锁弹珠（Marbles）。",
+    "conditionZh": "心脏累计击败 11 次，并解锁弹珠袋（Marbles）。",
     "group": "挑战开放",
     "minimum": "忏悔",
     "page": "ids-501-600"

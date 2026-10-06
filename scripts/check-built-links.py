@@ -48,6 +48,7 @@ for path, page in cache.items():
         elif not target.suffix:
             target = target.with_suffix('.html')
         if target.suffix != '.html':
+            if not target.is_file():errors.add((route,href,'missing download / asset'))
             continue
         count += 1
         if target not in cache:

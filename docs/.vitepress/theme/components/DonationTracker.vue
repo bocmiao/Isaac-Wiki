@@ -2,22 +2,29 @@
 import { computed, ref, watch } from 'vue'
 import { characters, taintedName } from '../data/characters'
 import normalMilestones from '../data/normal-donations.json'
-import { greedMilestones, jamChance, shopLevels } from '../tools/rules'
+import { greedMilestones, jamChance } from '../tools/rules'
+import { calibrateDonations, confirmedShopLevel } from '../tools/donations'
 import { int, parseDonations, useToolStorage, type DonationProgress } from '../tools/storage'
 const roster=characters.flatMap(c=>[{id:c.id,name:c.name},{id:c.id+'-t',name:taintedName(c)}])
 const {data,message,storageError,exportFile,importFile}=useToolStorage<DonationProgress>('isaac-roadbook-donations-v1',()=>({v:1,greed:0,normal:0,characters:{}}),x=>parseDonations(x,roster.map(c=>c.id)))
 const who=ref('isaac'),greedier=ref(false),amount=ref(1)
-const greedDraft=ref<number|string>(0),normalDraft=ref<number|string>(0),charDraft=ref<number|string>(0)
-watch(data,()=>{greedDraft.value=data.value.greed;normalDraft.value=data.value.normal;charDraft.value=data.value.characters[who.value]??0},{deep:true})
-watch(who,()=>charDraft.value=data.value.characters[who.value]??0)
+const greedDraft=ref<number|string>(0),normalDraft=ref<number|string>(0),charDraft=ref<number|string>('')
+watch(data,()=>{greedDraft.value=data.value.greed;normalDraft.value=data.value.normal;charDraft.value=data.value.characters[who.value]??''},{deep:true})
+watch(who,()=>charDraft.value=data.value.characters[who.value]??'')
 const personal=computed(()=>data.value.characters[who.value]??0)
 const known=computed(()=>Object.hasOwn(data.value.characters,who.value))
 const jam=computed(()=>known.value?jamChance(personal.value,greedier.value):null)
 const next=computed(()=>greedMilestones.find(([n])=>n>data.value.greed))
-const level=computed(()=>shopLevels.reduce((level,n,index)=>data.value.normal>=n?index:level,0))
+const confirmed=computed(()=>data.value.normalUnlocked??[])
+const level=computed(()=>confirmedShopLevel(data.value))
+function confirmMilestone(id:number,event:Event){
+ const checked=(event.target as HTMLInputElement).checked
+ data.value={...data.value,normalUnlocked:checked?[...new Set([...confirmed.value,id])]:confirmed.value.filter(n=>n!==id)}
+}
 function setTotals(){
- if(!int(greedDraft.value,1000)||!int(normalDraft.value,999)||!int(charDraft.value,1000000)){message.value='累计数必须为范围内整数，原进度未改变。';return}
- data.value={v:1,greed:greedDraft.value as number,normal:normalDraft.value as number,characters:{...data.value.characters,[who.value]:charDraft.value as number}}
+ const next=calibrateDonations(data.value,who.value,greedDraft.value,normalDraft.value,charDraft.value)
+ if(!next){message.value='累计数必须为范围内整数，原进度未改变。';return}
+ data.value=next
  message.value='已按游戏实际累计数校正。'
 }
 function donate(){
@@ -36,12 +43,12 @@ function donate(){
   <p>此角色累计 {{known?personal:'未填写'}} 枚；当前卡住概率：<strong>{{jam===null?(known?'资料未列出此档，不估算':'尚未填写角色历史，不估算'):jam+'%'}}</strong>。这不是整批捐完的保证。</p>
   <p v-if="next">下个目标：{{next[0]}} 枚 · {{next[1]}}，还差 {{next[0]-data.greed}} 枚。</p><p v-else>1000 枚目标已记录；请以游戏内解锁店主为准。</p>
   <h2>校正已有存档</h2>
-  <p>总累计和角色历史累计独立填写；不知道角色历史时不要从总累计推算。普通机可能因炸机变化，按游戏当前显示校正。</p>
+  <p>总累计和角色历史累计独立填写；不知道角色历史时留空，不从总累计推算。确认是全新角色才填 0。普通机可能因炸机变化，按游戏当前显示校正。</p>
   <div class="tool-grid"><label>贪婪机总累计（0–1000）<input v-model.number="greedDraft" type="number" min="0" max="1000" /></label><label>普通机当前累计（0–999）<input v-model.number="normalDraft" type="number" min="0" max="999" /></label><label>此角色历史累计<input v-model.number="charDraft" type="number" min="0" max="1000000" /></label></div>
   <button @click="setTotals">保存校正数值</button>
   <h2>贪婪里程碑</h2><table class="ms"><thead><tr><th></th><th>累计</th><th>解锁</th><th>还差</th></tr></thead><tbody><tr v-for="[n,name] in greedMilestones" :key="n" :class="{ got: data.greed>=n }"><td>{{data.greed>=n?'✓':''}}</td><td>{{n}}</td><td>{{name}}</td><td>{{data.greed>=n?'—':`${n-data.greed} 枚`}}</td></tr></tbody></table>
-  <h2>普通捐款机</h2><p>当前数字对应的商店等级：{{level}}。炸机降低数字不会撤销已解锁等级，实际最高等级以游戏存档为准；困难模式仍会随机。</p>
-  <table class="ms"><thead><tr><th></th><th>累计</th><th>成就</th><th>还差</th></tr></thead><tbody><tr v-for="m in normalMilestones" :key="m.id" :class="{ got: data.normal>=m.coins }"><td>{{data.normal>=m.coins?'✓':''}}</td><td>{{m.coins}}</td><td>{{m.name}}（#{{m.id}}）</td><td>{{data.normal>=m.coins?'—':`${m.coins-data.normal} 枚`}}</td></tr></tbody></table>
+  <h2>普通捐款机</h2><p>当前余额：{{data.normal}} 枚。最高确认解锁的商店等级：{{level||'暂无等级记录'}}。余额不会证明永久解锁；炸机降低余额不会撤销等级。按游戏 Secrets 或本地存档的成就状态勾选下表，困难模式商店仍可能随机。</p>
+  <table class="ms"><thead><tr><th>确认已解锁</th><th>阈值</th><th>成就</th><th>余额参考</th></tr></thead><tbody><tr v-for="m in normalMilestones" :key="m.id" :class="{ got: confirmed.includes(m.id) }"><td><input type="checkbox" :checked="confirmed.includes(m.id)" :aria-label="`确认已解锁 ${m.name}`" @change="confirmMilestone(m.id,$event)" /></td><td>{{m.coins}}</td><td>{{m.name}}（#{{m.id}}）</td><td>{{confirmed.includes(m.id)?'已确认':data.normal>=m.coins?'已达阈值，请核对解锁':`余额距阈值 ${m.coins-data.normal} 枚`}}</td></tr></tbody></table>
   <div class="tool-actions"><button @click="exportFile">导出捐款进度</button><label class="tool-import">导入并替换捐款进度<input type="file" accept="application/json,.json" @change="importFile" /></label></div><p role="status">{{message}}</p><p v-if="storageError" role="alert">{{storageError}}</p>
  </div>
 </template>

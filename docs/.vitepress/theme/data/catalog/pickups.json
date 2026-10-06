@@ -1,0 +1,302 @@
+[
+  {
+    "id": "red-heart",
+    "name": "红心",
+    "en": "Red Heart",
+    "group": "生命",
+    "summary": "填充已有红心容器，不会单凭拾取增加容器。",
+    "icon": "chest",
+    "link": "/pickups/red-heart",
+    "aliases": []
+  },
+  {
+    "id": "soul-heart",
+    "name": "魂心",
+    "en": "Soul Heart",
+    "group": "生命",
+    "summary": "独立临时生命，消耗后没有空容器可恢复。",
+    "icon": "chest",
+    "link": "/pickups/soul-heart",
+    "aliases": []
+  },
+  {
+    "id": "black-heart",
+    "name": "黑心",
+    "en": "Black Heart",
+    "group": "生命",
+    "summary": "类似魂心，耗尽对应黑心时有清房伤害效果。",
+    "icon": "chest",
+    "link": "/pickups/black-heart",
+    "aliases": []
+  },
+  {
+    "id": "bone-heart",
+    "name": "骨心",
+    "en": "Bone Heart",
+    "group": "生命",
+    "summary": "骨头容器可以装红心，容器破坏后消失。",
+    "icon": "chest",
+    "link": "/pickups/bone-heart",
+    "aliases": []
+  },
+  {
+    "id": "rotten-heart",
+    "name": "腐心",
+    "en": "Rotten Heart",
+    "group": "生命",
+    "summary": "与红心容器有关，清房能产生蓝苍蝇。",
+    "icon": "chest",
+    "link": "/pickups/rotten-heart",
+    "aliases": []
+  },
+  {
+    "id": "gold-heart",
+    "name": "金心",
+    "en": "Gold Heart",
+    "group": "生命",
+    "summary": "附在生命上的奖励效果，不自行增加可承受伤害。",
+    "icon": "chest",
+    "link": "/pickups/gold-heart",
+    "aliases": []
+  },
+  {
+    "id": "eternal-heart",
+    "name": "永恒之心",
+    "en": "Eternal Heart",
+    "group": "生命",
+    "summary": "半颗白心，取得另一半或带到下一层可增加红心容器。",
+    "icon": "chest",
+    "link": "/pickups/eternal-heart",
+    "aliases": []
+  },
+  {
+    "id": "coin",
+    "name": "普通硬币与高面额硬币",
+    "en": "Coin",
+    "group": "资源",
+    "summary": "普通硬币 1 枚，镍币 5 枚，铸币 10 枚。",
+    "icon": "chest",
+    "link": "/pickups/coin",
+    "aliases": []
+  },
+  {
+    "id": "lucky-penny",
+    "name": "幸运币",
+    "en": "Lucky Penny",
+    "group": "资源",
+    "summary": "硬币同时提供运气提升。",
+    "icon": "chest",
+    "link": "/pickups/lucky-penny",
+    "aliases": []
+  },
+  {
+    "id": "sticky-nickel",
+    "name": "粘地镍币",
+    "en": "Sticky Nickel",
+    "group": "资源",
+    "summary": "粘在地上的镍币需要炸松。",
+    "icon": "chest",
+    "link": "/pickups/sticky-nickel",
+    "aliases": []
+  },
+  {
+    "id": "golden-penny",
+    "name": "金硬币",
+    "en": "Golden Penny",
+    "group": "资源",
+    "summary": "拾取后可重新出现在附近，直到这一枚的连续奖励结束。",
+    "icon": "chest",
+    "link": "/pickups/golden-penny",
+    "aliases": []
+  },
+  {
+    "id": "key",
+    "name": "钥匙与双钥匙",
+    "en": "Key",
+    "group": "资源",
+    "summary": "普通钥匙开锁，双钥匙提供两把资源。",
+    "icon": "chest",
+    "link": "/pickups/key",
+    "aliases": []
+  },
+  {
+    "id": "golden-key",
+    "name": "金钥匙",
+    "en": "Golden Key",
+    "group": "资源",
+    "summary": "当层普通用钥匙时不扣库存，换层不保留该层效果。",
+    "icon": "chest",
+    "link": "/pickups/golden-key",
+    "aliases": []
+  },
+  {
+    "id": "charged-key",
+    "name": "充能钥匙",
+    "en": "Charged Key",
+    "group": "资源",
+    "summary": "提供钥匙资源，也能给主动道具充能。",
+    "icon": "chest",
+    "link": "/pickups/charged-key",
+    "aliases": []
+  },
+  {
+    "id": "bomb",
+    "name": "炸弹与双炸弹",
+    "en": "Bomb",
+    "group": "资源",
+    "summary": "补炸弹资源，用于战斗、开口与破坏障碍。",
+    "icon": "chest",
+    "link": "/pickups/bomb",
+    "aliases": []
+  },
+  {
+    "id": "golden-bomb",
+    "name": "金炸弹",
+    "en": "Golden Bomb",
+    "group": "资源",
+    "summary": "当层放普通炸弹不消耗库存。",
+    "icon": "chest",
+    "link": "/pickups/golden-bomb",
+    "aliases": []
+  },
+  {
+    "id": "troll-bomb",
+    "name": "即爆炸弹",
+    "en": "Troll Bomb",
+    "group": "资源",
+    "summary": "无法拾取为库存，出现后会自行爆炸。",
+    "icon": "chest",
+    "link": "/pickups/troll-bomb",
+    "aliases": []
+  },
+  {
+    "id": "battery",
+    "name": "小电池与其他电池",
+    "en": "Battery",
+    "group": "充能",
+    "summary": "给主动道具补充充能，不等于得到电池类收藏道具。",
+    "icon": "chest",
+    "link": "/pickups/battery",
+    "aliases": []
+  },
+  {
+    "id": "golden-battery",
+    "name": "金电池",
+    "en": "Golden Battery",
+    "group": "充能",
+    "summary": "提供充能收益，但拾取伴随伤害风险。",
+    "icon": "chest",
+    "link": "/pickups/golden-battery",
+    "aliases": []
+  },
+  {
+    "id": "chest",
+    "name": "普通箱子",
+    "en": "Chest",
+    "group": "宝箱",
+    "summary": "通常碰触即可打开，可能是奖励也可能有危险内容。",
+    "icon": "chest",
+    "link": "/pickups/chest",
+    "aliases": []
+  },
+  {
+    "id": "locked-chest",
+    "name": "金箱子",
+    "en": "Locked Chest",
+    "group": "宝箱",
+    "summary": "通常需要钥匙，开后可有拾取物或道具。",
+    "icon": "chest",
+    "link": "/pickups/locked-chest",
+    "aliases": []
+  },
+  {
+    "id": "bomb-chest",
+    "name": "石箱子",
+    "en": "Bomb Chest",
+    "group": "宝箱",
+    "summary": "需要爆炸打开。",
+    "icon": "chest",
+    "link": "/pickups/bomb-chest",
+    "aliases": []
+  },
+  {
+    "id": "spiked-chest",
+    "name": "刺箱子",
+    "en": "Spiked Chest",
+    "group": "宝箱",
+    "summary": "碰触开箱有受伤成本。",
+    "icon": "chest",
+    "link": "/pickups/spiked-chest",
+    "aliases": []
+  },
+  {
+    "id": "mimic-chest",
+    "name": "伪装刺箱",
+    "en": "Mimic Chest",
+    "group": "宝箱",
+    "summary": "外观容易与普通箱子混淆，接近时可露出尖刺。",
+    "icon": "chest",
+    "link": "/pickups/mimic-chest",
+    "aliases": []
+  },
+  {
+    "id": "red-chest",
+    "name": "红箱子",
+    "en": "Red Chest",
+    "group": "宝箱",
+    "summary": "可有道具、心、传送或危险内容。",
+    "icon": "chest",
+    "link": "/pickups/red-chest",
+    "aliases": []
+  },
+  {
+    "id": "old-chest",
+    "name": "旧箱子",
+    "en": "Old Chest",
+    "group": "宝箱",
+    "summary": "特殊箱子，有自己的奖励来源。",
+    "icon": "chest",
+    "link": "/pickups/old-chest",
+    "aliases": []
+  },
+  {
+    "id": "mega-chest",
+    "name": "巨型宝箱",
+    "en": "Mega Chest",
+    "group": "宝箱",
+    "summary": "通常需要多次付钥匙才能开启，不能按一次一把预算。",
+    "icon": "chest",
+    "link": "/pickups/mega-chest",
+    "aliases": []
+  },
+  {
+    "id": "wooden-chest",
+    "name": "木箱子",
+    "en": "Wooden Chest",
+    "group": "宝箱",
+    "summary": "独立箱子类型，开放后可在正常掉落中出现。",
+    "icon": "chest",
+    "link": "/pickups/wooden-chest",
+    "aliases": []
+  },
+  {
+    "id": "haunted-chest",
+    "name": "鬼箱子",
+    "en": "Haunted Chest",
+    "group": "宝箱",
+    "summary": "靠近时可能遭遇幽灵敌人的攻击。",
+    "icon": "chest",
+    "link": "/pickups/haunted-chest",
+    "aliases": []
+  },
+  {
+    "id": "golden-trinket",
+    "name": "金饰品",
+    "en": "Golden Trinket",
+    "group": "特殊形态",
+    "summary": "许多饰品的效果会加强，但并非全都简单翻倍。",
+    "icon": "chest",
+    "link": "/pickups/golden-trinket",
+    "aliases": []
+  }
+]

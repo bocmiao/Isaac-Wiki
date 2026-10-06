@@ -61,6 +61,14 @@ export function saveProgress(p: Progress): boolean {
   }
 }
 
+/** Merging an older snapshot never downgrades a hard mark or erases an unlock. */
+export function mergeProgress(current:Progress,next:Progress):Progress {
+  const result=emptyProgress()
+  for(const field of ['chars','tainted'] as const)for(const id of characterIds)result[field][id]=!!(current[field][id]||next[field][id])
+  for(const key of markKeys){const state=Math.max(current.marks[key]??0,next.marks[key]??0) as MarkState;if(state)result.marks[key]=state}
+  return result
+}
+
 export const totalMarks = characters.length * 2 * marks.length
 
 export function summarize(p: Progress) {

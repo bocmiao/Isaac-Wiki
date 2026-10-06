@@ -45,7 +45,7 @@ routes = {
     '以撒（Boss）': '打完子宫 II 的心脏 / 它活着，走光柱到教堂，击败以撒。',
     '???（Boss）': '妈妈时拿全家福，心脏后走教堂，再进宝箱层击败 ???。',
     '超级撒但': '妈妈时拿底片，心脏后走阴间到暗室，用开局的两块钥匙碎片开超级撒但门。',
-    '母亲': '走下水道 / 水潭 → 矿洞 / 灰坑 → 陵墓 / 炼狱 → 尸宫 II，完成路线需要的刀片流程，击败母亲。',
+    '母亲': '走下水道 / 污水渠 → 矿洞 / 灰坑 → 陵墓 / 炼狱 → 尸宫 II，完成路线需要的刀片流程，击败母亲。',
     '地下室 I': '开局先打超级撒但，随后沿反向楼层出口上行，最终到地下室 I。',
 }
 catalog = []
@@ -62,7 +62,7 @@ for rule, guide in zip(rules, guides):
     opening = '默认开放，可直接从 Challenges 菜单选择。' if default_open else f"{rule['unlock']}。[逐步解锁教程]({achievement_link(unlocked)})。"
     treasure = '有常规宝箱房' if '有宝箱房' in rule['rules'] else '不生成常规宝箱房'
     if ident == 39:
-        treasure = '常规宝箱房不生成；下水道 II / 水潭 II 的刀片房例外'
+        treasure = '常规宝箱房不生成；下水道 II / 污水渠 II 的刀片房例外'
     group = '默认开放' if rule['unlock'] == '默认开放' else '需要解锁'
     character = f"[{rule['character']}]({characters[rule['character']]})"
     def adjacent(n):

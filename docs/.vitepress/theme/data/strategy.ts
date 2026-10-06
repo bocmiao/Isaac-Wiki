@@ -43,6 +43,7 @@ export const strategyCategories: StrategyCategory[] = [
     group: '规则与选择',
     link: '/items/',
   },
+  {id:'pickups',name:'拾取物与机器',icon:'chest',desc:'心、资源、特殊箱子与机器使用',covers:['特殊拾取物','宝箱危险','付费预算','永久解锁'],group:'规则与选择',link:'/pickups/'},
   {
     id: 'mechanics',
     name: '机制详解',
@@ -68,6 +69,7 @@ export const strategyCategories: StrategyCategory[] = [
     group: '角色',
     link: '/characters/',
   },
+  {id:'completion-marks',name:'完成标记与奖励',icon:'trophy',desc:'十二格、合并奖励与补缺路线',covers:['普通与困难','角色奖励','合并成就','真实存档对照'],group:'角色'},
   {
     id: 'character-roster',
     name: '角色速查',
@@ -101,6 +103,7 @@ export const strategyCategories: StrategyCategory[] = [
     group: 'Boss 与结局',
     link: '/guide/unlocks/endings',
   },
+  {id:'early-bosses',name:'前中期 Boss',icon:'skull',desc:'24 个常见 Boss 的招式、走位和易错点',covers:['第一至第三章','攻击预兆','安全站位','常见敌人'],group:'Boss 与结局',link:'/bosses/'},
   {
     id: 'bosses',
     name: 'Boss 打法',

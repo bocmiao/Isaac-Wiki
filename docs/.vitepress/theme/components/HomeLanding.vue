@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { withBase } from 'vitepress'
+import { computed, onMounted, ref } from 'vue'
 import { marks } from '../data/characters'
+import { strategyCategories } from '../data/strategy'
+import { emptyProgress, loadProgress, summarize } from '../progress'
 import FloorTrack from './FloorTrack.vue'
 import GameIcon, { type IconName } from './GameIcon.vue'
 import HeartMeter from './HeartMeter.vue'
@@ -47,7 +50,7 @@ const faqs = [
   },
   {
     q: '在线联机能解锁成就吗？',
-    a: '可以。Repentance+ 的在线联机支持全部模式，包括挑战和每日挑战。但中途加入别人的局，那一局不能解锁。',
+    a: '可以，但要从开局参与，并遵守所选模式的解锁限制。挑战、每日、胜利圈各有资格规则，中途加入不自动取得本局成就资格。',
     link: '/topics/coop',
   },
   {
@@ -62,14 +65,11 @@ const faqs = [
   },
 ]
 
-// 清单预览：示例数据
+const progress = ref(emptyProgress())
+onMounted(() => { progress.value = loadProgress() ?? emptyProgress() })
+const overall = computed(() => summarize(progress.value).overall)
 const previewRows = ['以撒', '抹大拉', '该隐', '犹大']
-const previewDone = [
-  [2, 2, 1, 1, 2, 0, 1, 0, 0, 0, 0, 0],
-  [2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-]
+const previewDone = computed(() => ['isaac','magdalene','cain','judas'].map(id => marks.map(mark => progress.value.marks[`${id}:${mark.id}`] ?? 0)))
 </script>
 
 <template>
@@ -113,7 +113,7 @@ const previewDone = [
       <header class="section-head row">
         <div>
           <StreakTitle title="攻略库" />
-          <p>想查具体问题来这里：规则、角色、Boss 与结局、特殊模式，四类十篇。</p>
+          <p>想查具体问题来这里：规则、角色、Boss 与结局、特殊模式，四类 {{strategyCategories.length}} 个栏目。</p>
         </div>
         <a class="ib-btn paper" :href="withBase('/strategy/')">全部攻略 →</a>
       </header>
@@ -146,8 +146,8 @@ const previewDone = [
         </header>
         <a class="tracker-card sketch" :href="withBase('/tools/tracker')">
           <span class="tc-top">
-            <HeartMeter :value="0.21" :hearts="8" :size="22" />
-            <span class="tc-cta">开始记录 →</span>
+            <HeartMeter :value="overall" :hearts="8" :size="22" />
+            <span class="tc-cta">本浏览器进度 · {{Math.round(overall*100)}}% →</span>
           </span>
           <span class="mini-grid" aria-hidden="true">
             <span class="mini-row head">

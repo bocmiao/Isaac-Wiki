@@ -7,7 +7,12 @@ EID 仓库：https://github.com/wofsauge/External-Item-Descriptions
 import re
 import sys
 
-eid_root, files = sys.argv[1], sys.argv[2:]
+strict='--strict' in sys.argv
+args=[x for x in sys.argv[1:] if x!='--strict']
+if len(args)<2:
+    raise SystemExit("Usage: check-names.py [--strict] <EID repository> <markdown file> [...] ")
+eid_root, files=args[0],args[1:]
+errors=0
 names = {}
 kind = None
 for line in open(f'{eid_root}/descriptions/names/zh_cn.lua', encoding='utf-8'):
@@ -31,7 +36,11 @@ for f in files:
         seen.add(key)
         cand = [key, 'the ' + key, key.removeprefix('the ')]
         eid = next((names[c] for c in cand if c in names), None)
+        if key=='the soul' and '遗骸之魂' in zh:continue  # A character form, not the same-named collectible.
         if eid is None:
             print(f'   [未收录] {zh}（{en}）')
         elif eid.replace('-', '') not in zh.replace('-', '').replace(' ', ''):
+            errors+=1
             print(f'   [不一致] {zh}（{en}） → EID：{eid}')
+
+if strict and errors:raise SystemExit(1)

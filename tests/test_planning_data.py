@@ -9,11 +9,13 @@ class PlanningDataTests(unittest.TestCase):
         rows=[[s.strip() for s in l.split('|')[1:-1]] for l in section.splitlines() if l.startswith('| ')][2:]
         combos=json.loads((DATA/'synergies.json').read_text())
         items={i['id'] for i in json.loads((DATA/'item-links.json').read_text())}
-        self.assertEqual(len(rows),len(combos))
-        for combo,row in zip(combos,rows):
+        self.assertGreaterEqual(len(combos),len(rows))
+        for combo,row in zip(combos[:len(rows)],rows):
             self.assertEqual([combo['title'],combo['individual'],combo['effect']],row)
             self.assertEqual(len(combo['items']),2)
             self.assertTrue(all(i in items for i in combo['items']))
+        self.assertTrue(any(len(c["items"]) > 2 for c in combos))
+        self.assertTrue(all(c["limits"] and c["version"] for c in combos))
     def test_route_steps_have_unique_ids_and_source(self):
         routes=json.loads((DATA/'routes.json').read_text())
         step_ids=[s['id'] for r in routes for s in r['steps']]
@@ -25,3 +27,15 @@ class PlanningDataTests(unittest.TestCase):
         self.assertIn('30 分钟',by_id['hush']['steps'][1]['text'])
         self.assertIn('2 个炸弹',by_id['mother']['steps'][2]['text'])
         self.assertIn('0-愚者',by_id['beast']['steps'][0]['text'])
+
+    def test_combination_effects_use_the_intended_collectibles(self):
+        combos={row['id']:row for row in json.loads((DATA/'synergies.json').read_text())}
+        self.assertEqual(combos['combo-14']['items'],[116,63]) # 9 Volt + The Battery, not Car Battery
+        self.assertEqual(combos['combo-17']['items'],[52,223]) # passive Dr. Fetus bomb tears
+        self.assertEqual(combos['combo-20']['items'],[81,313]) # Dead Cat revives; Guppy's Paw does not
+        self.assertEqual(combos['combo-24']['items'],[122,313]) # Whore of Babylon, not Fate
+    def test_pickup_unlocks_match_named_source_rewards(self):
+        rows={row['id']:row for row in json.loads((ROOT/'data/pickup-guides.json').read_text())}
+        source={row['id']:row['name'] for row in json.loads((ROOT/'data/achievement-source.json').read_text())}
+        for key,name in [('gold-heart','Gold Heart'),('sticky-nickel','Sticky Nickels'),('charged-key','Charged Key'),('golden-bomb','Gold Bomb'),('golden-penny','Golden Penny'),('golden-battery','Golden Battery'),('golden-trinket','Golden Trinket')]:
+            self.assertEqual(source[rows[key]['achievement']],name)

@@ -204,6 +204,8 @@ def make_rooms_floors():
             if family == 'floors':
                 en = en.replace(' I / II', '')
             entry = {'id':profile['id'], 'name':name, 'en':en, 'group':group_for(profile['id'],groups), 'summary':excerpt(profile['body']), 'icon':ROOM_ICONS.get(profile['id'],'map' if family=='floors' else 'lock'), 'link':f'/{family}/{profile["id"]}', 'aliases':[profile['id']], 'detailAnchors':[]}
+            if family=='floors':
+                entry['aliases']+= {'dross':['水潭','水牢'],'depths':['深牢'],'dank-depths':['黑暗深牢'],'mines':['矿井']}.get(profile['id'],[])
             remember(family,entry,f'/strategy/{family}')
             shared = ''
             if family == 'floors':
@@ -294,6 +296,7 @@ def render_effect(raw, markdown=True):
         return label+'：'
     result=MARKUP.sub(replace,raw)
     result=result.replace('<道具不存在>','未使用的道具编号')
+    for old,new in [('黑暗深牢','阴湿深处'),('深牢','深处'),('矿井','矿洞')]:result=result.replace(old,new)
     if re.search(r'\{\d+\}|{{',result):raise ValueError('Unresolved effect value: '+result)
     return re.sub(r'(?<=\d)x|x(?=\d)', '×', re.sub(r'[ \t]{2,}', ' ', result))
 

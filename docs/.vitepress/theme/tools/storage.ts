@@ -1,8 +1,9 @@
 import { onMounted, ref, watch, type Ref } from 'vue'
-export function useToolStorage<T>(key:string, empty:()=>T, parse:(x:unknown)=>T|null) {
+export function useToolStorage<T>(key:string, empty:()=>T, parse:(x:unknown)=>T|null, merge?: (current:T,next:T)=>T) {
   const data=ref(empty()) as Ref<T>
   const message=ref('')
   const storageError=ref('')
+  const importMode=ref<'merge'|'replace'>(merge?'merge':'replace')
   let ready=false
   onMounted(()=>{
     try { const raw=localStorage.getItem(key); if(raw) { const next=parse(JSON.parse(raw)); if(next) data.value=next; else message.value='保存的数据格式异常，已使用空白进度。' } }
@@ -16,11 +17,11 @@ export function useToolStorage<T>(key:string, empty:()=>T, parse:(x:unknown)=>T|
   }
   async function importFile(event:Event){
     const input=event.target as HTMLInputElement;const file=input.files?.[0];if(!file)return
-    try { if(file.size>1024*1024)throw Error();const next=parse(JSON.parse(await file.text()));if(!next)throw Error();data.value=next;message.value='已导入并替换此工具的进度。' }
+    try { if(file.size>1024*1024)throw Error();const next=parse(JSON.parse(await file.text()));if(!next)throw Error();data.value=merge&&importMode.value==='merge'?merge(data.value,next):next;message.value=importMode.value==='merge'?'已核对格式并合并此工具的进度。':'已核对格式并替换此工具的进度。' }
     catch {message.value='导入失败：格式或数值不正确，原进度未改变。'}
     finally{input.value=''}
   }
-  return {data,message,storageError,exportFile,importFile}
+  return {data,message,storageError,exportFile,importFile,importMode}
 }
 export const record=(x:unknown):x is Record<string,unknown>=>x!==null && typeof x==='object' && !Array.isArray(x)
 export const int=(x:unknown,max:number)=>typeof x==='number' && Number.isInteger(x) && x>=0 && x<=max
@@ -29,7 +30,7 @@ export function parseChallenges(x:unknown):ChallengeProgress|null {
   if(!record(x)||x.v!==1||!Array.isArray(x.completed)||!x.completed.every(n=>int(n,45)&&n>=1))return null
   return {v:1,completed:[...new Set(x.completed)].sort((a,b)=>a-b)}
 }
-export interface DonationProgress {v:1;greed:number;normal:number;characters:Record<string,number>}
+export interface DonationProgress {v:1;greed:number;normal:number;characters:Record<string,number>;normalUnlocked?:number[]}
 export function parseDonations(x:unknown,ids:string[]):DonationProgress|null {
   if(!record(x)||x.v!==1||!int(x.greed,1000)||!int(x.normal,999)||!record(x.characters))return null
   const chars:Record<string,number>={}
@@ -37,5 +38,8 @@ export function parseDonations(x:unknown,ids:string[]):DonationProgress|null {
     if(!ids.includes(key)||!int(value,1000000))return null
     chars[key]=value as number
   }
-  return {v:1,greed:x.greed as number,normal:x.normal as number,characters:chars}
+  const milestones = new Set([134,151,135,152,136,153,137,154,59,138])
+  if(x.normalUnlocked!==undefined&&(!Array.isArray(x.normalUnlocked)||!x.normalUnlocked.every(n=>milestones.has(n))))return null
+  return {v:1,greed:x.greed as number,normal:x.normal as number,characters:chars,
+    ...(x.normalUnlocked===undefined?{}:{normalUnlocked:[...new Set(x.normalUnlocked as number[])]})}
 }

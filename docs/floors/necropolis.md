@@ -12,7 +12,7 @@ next: {"text": "阴湿深处", "link": "/floors/dank-depths"}
 
 ## 位置与解锁
 
-第三章变体，击败深处所需 Boss 解锁[成就 88](/achievements/ids-001-100#achievement-88)；忏悔起不要求爬行魔，击败地点也不限定基础深处。
+第三章变体，击败深处所需 Boss（[条件、排除项与补缺检查](/strategy/floor-unlocks)） 解锁[成就 88](/achievements/ids-001-100#achievement-88)；忏悔起不要求爬行魔，击败地点也不限定基础深处。
 
 ## 打法与路线
 

@@ -2,6 +2,7 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { withBase } from 'vitepress'
 import achievements from '../data/achievements.json'
+import { parseAchievementIds as parseIds } from '../tools/achievements'
 
 // 全成就搜索 + 打勾。已完成的编号只存在访客自己的浏览器里，和解锁清单分开存。
 const STORAGE_KEY = 'isaac-roadbook-achievements-v1'
@@ -15,6 +16,7 @@ const shown = ref(PAGE)
 const done = ref<Set<number>>(new Set())
 const ready = ref(false)
 const message = ref('')
+const importMode = ref<'merge'|'replace'>('merge')
 const fileInput = ref<HTMLInputElement>()
 
 const groups = [...new Set(achievements.map((a) => a.group))].sort()
@@ -41,12 +43,6 @@ watch(query, () => {
   else url.searchParams.delete('q')
   window.history.replaceState(window.history.state, '', url)
 })
-
-function parseIds(value: unknown): number[] | null {
-  const list = Array.isArray(value) ? value : (value as { done?: unknown })?.done
-  if (!Array.isArray(list)) return null
-  return list.filter((n): n is number => Number.isInteger(n) && n >= 1 && n <= 641)
-}
 
 onMounted(() => {
   query.value = new URLSearchParams(window.location.search).get('q') ?? ''
@@ -87,11 +83,12 @@ async function importJson(e: Event) {
   const file = (e.target as HTMLInputElement).files?.[0]
   if (!file) return
   try {
+    if (file.size > 1024 * 1024) throw new Error()
     const ids = parseIds(JSON.parse(await file.text()))
     if (!ids) throw new Error()
-    done.value = new Set(ids)
+    done.value = new Set(importMode.value==='merge'?[...done.value,...ids]:ids)
     save()
-    message.value = `已导入 ${ids.length} 项。`
+    message.value = `已核对 ${ids.length} 项，${importMode.value==='merge'?'合并':'替换'}后共 ${done.value.size} 项。`
   } catch {
     message.value = '文件格式不对，进度没有改动。'
   }
@@ -110,6 +107,7 @@ async function importJson(e: Event) {
         <span class="hint">勾选只记在本浏览器，不会读取游戏存档。</span>
         <span class="io">
           <button type="button" class="link" @click="exportJson">导出</button>
+          <label>导入方式<select v-model="importMode" aria-label="导入方式"><option value="merge">合并勾选</option><option value="replace">替换全部勾选</option></select></label>
           <button type="button" class="link" @click="fileInput?.click()">导入</button>
           <input ref="fileInput" type="file" accept="application/json" hidden @change="importJson" />
         </span>
@@ -175,6 +173,8 @@ async function importJson(e: Event) {
   font-size: 13px;
 }
 .io {
+  flex-wrap: wrap;
+  align-items: center;
   margin-left: auto;
   display: flex;
   gap: 12px;

@@ -12,7 +12,11 @@ next: {"text": "燃烧地下室", "link": "/floors/burning-basement"}
 
 ## 位置与解锁
 
-地下室的另一种第一章楼层，蜘蛛与蛛网主题更突出。解锁[成就 86](/achievements/ids-001-100#achievement-86)：击败地下室所需 Boss；忏悔起宝宝李子不列入该项要求，计数不要求全在名字叫“地下室”的楼层打。
+地下室的另一种第一章楼层，蜘蛛与蛛网主题更突出。解锁[成就 86](/achievements/ids-001-100#achievement-86)：击败地下室所需 Boss（[条件、排除项与补缺检查](/strategy/floor-unlocks)）；忏悔起宝宝李子不列入该项要求，计数不要求全在名字叫“地下室”的楼层打。
+
+## 本章战斗参考
+
+[前中期 Boss](/bosses/) · [敌人和地形](/strategy/enemies)。
 
 ## 打法与出口
 

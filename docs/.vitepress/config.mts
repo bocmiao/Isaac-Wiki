@@ -7,12 +7,16 @@ import roomEntries from './theme/data/catalog/rooms.json'
 import floorEntries from './theme/data/catalog/floors.json'
 import modeEntries from './theme/data/catalog/modes.json'
 import challengeEntries from './theme/data/catalog/challenges.json'
+import bossEntries from './theme/data/catalog/bosses.json'
+import pickupEntries from './theme/data/catalog/pickups.json'
 
 const catalogLinks = [
   { text: '人物图鉴', link: '/characters/' },
   { text: '房间图鉴', link: '/rooms/' },
   { text: '楼层图鉴', link: '/floors/' },
   { text: '道具图鉴', link: '/items/' },
+  { text: '前中期 Boss', link: '/bosses/' },
+  { text: '拾取物与宝箱', link: '/pickups/' },
 ]
 function entrySidebar(label: string, path: string, entries: { group: string; name: string; link: string }[]) {
   return [
@@ -79,6 +83,8 @@ const strategySidebar = [
       { text: '楼层图鉴', link: '/floors/' },
       { text: '道具图鉴', link: '/items/' },
       { text: '机制详解', link: '/strategy/mechanics' },
+      { text: '机器与乞丐', link: '/strategy/machines' },
+      { text: '道具组合与风险', link: '/strategy/synergies' },
       { text: '道具取舍与流派', link: '/strategy/items' },
     ],
   },
@@ -95,6 +101,9 @@ const strategySidebar = [
   {
     text: 'Boss 与结局',
     items: [
+      { text: '前中期 Boss 图鉴', link: '/bosses/' },
+      { text: '常见敌人与地形', link: '/strategy/enemies' },
+      { text: '楼层解锁与 Boss 补缺', link: '/strategy/floor-unlocks' },
       { text: 'Boss（一）：主线终局', link: '/strategy/bosses' },
       { text: 'Boss（二）：死寂到祸兽', link: '/strategy/bosses-2' },
       { text: '结局与路线 ↗', link: '/guide/unlocks/endings' },
@@ -198,7 +207,7 @@ export default defineConfig({
     nav: [
       { text: '新手路线', link: '/guide/', activeMatch: '^/guide/' },
       { text: '攻略库', link: '/strategy/', activeMatch: '^/strategy/' },
-      { text: '图鉴', activeMatch: '^/(characters|rooms|floors|items)/', items: catalogLinks },
+      { text: '图鉴', activeMatch: '^/(characters|rooms|floors|items|bosses|pickups)/', items: catalogLinks },
       { text: '模式', activeMatch: '^/(modes|challenges)/', items: [
         { text: '全部模式与玩法', link: '/modes/' },
         { text: '普通 / 困难', link: '/modes/normal' },
@@ -268,6 +277,8 @@ export default defineConfig({
         })),
         { text: '每日与其他模式', link: '/modes/' },
       ],
+      '/bosses/': entrySidebar('前中期 Boss', '/bosses/', bossEntries),
+      '/pickups/': entrySidebar('拾取物与宝箱', '/pickups/', pickupEntries),
       '/characters/': entrySidebar('人物图鉴', '/characters/', characterEntries),
       '/rooms/': entrySidebar('房间图鉴', '/rooms/', roomEntries),
       '/floors/': entrySidebar('楼层图鉴', '/floors/', floorEntries),
