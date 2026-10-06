@@ -87,6 +87,7 @@ const strategySidebar = [
     items: [
       { text: '人物图鉴', link: '/characters/' },
       { text: '角色速查与开局强化', link: '/strategy/character-roster' },
+      { text: '完成标记与全角色奖励', link: '/strategy/completion-marks' },
       { text: '表角色攻略', link: '/strategy/characters' },
       { text: '里角色攻略', link: '/strategy/tainted' },
     ],
@@ -140,7 +141,7 @@ const achievementSidebar = [
     items: [
       { text: '角色解锁清单', link: '/tools/tracker' },
       { text: '道具速查', link: '/tools/items' },
-      { text: '角色标记与奖励', link: '/strategy/character-roster#marks' },
+      { text: '角色标记与奖励', link: '/strategy/completion-marks' },
     ],
   },
 ]

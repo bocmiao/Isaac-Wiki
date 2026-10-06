@@ -54,6 +54,30 @@ next: {"text": "雅各和以扫", "link": "/characters/jacob"}
 
 优先练少受红心伤害的普通天使路线。超级撒但要另备钥匙碎片；首次交易必为天使不等于每层必开门。隐藏分支和限时门仍按一般入口条件准备。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-heart"></span>困难心脏 / 它活着 | Wisp Baby<br>[成就 #416](/achievements/ids-401-500#achievement-416) | 必须困难模式。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-isaac"></span>以撒 | [美德之书](/items/c584)<br>[成就 #417](/achievements/ids-401-500#achievement-417) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-satan"></span>撒但 | [灵魂之瓮](/items/c640)<br>[成就 #418](/achievements/ids-401-500#achievement-418) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-bluebaby"></span>???（Boss） | [神圣硬币](/items/t131)<br>[成就 #419](/achievements/ids-401-500#achievement-419) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-lamb"></span>羔羊 | [白玉香膏盒](/items/c585)<br>[成就 #420](/achievements/ids-401-500#achievement-420) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-megasatan"></span>超级撒但 | Glowing Baby<br>[成就 #427](/achievements/ids-401-500#achievement-427) | 普通 / 困难均可；对应角色和目标不可替代。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-bossrush"></span>Boss Rush | [伯大尼的信仰](/items/t142)<br>[成就 #421](/achievements/ids-401-500#achievement-421) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-hush"></span>死寂 | [神圣干预](/items/c568)<br>[成就 #423](/achievements/ids-401-500#achievement-423) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greed"></span>普通贪婪 | [灵魂吊坠](/items/c686)<br>[成就 #422](/achievements/ids-401-500#achievement-422) | 普通贪婪或极贪均可；不是普通主线的难度选择。 |
+| <span id="reward-greedier"></span>极贪 | [驱魔护符](/items/c653)<br>[成就 #424](/achievements/ids-401-500#achievement-424) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [伯列恒之星](/items/c651)<br>[成就 #425](/achievements/ids-401-500#achievement-425) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [终末天启](/items/c643)<br>[成就 #470](/achievements/ids-401-500#achievement-470) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [魂火罐](/items/c685)<br>[成就 #471](/achievements/ids-401-500#achievement-471) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Hope Baby<br>[成就 #426](/achievements/ids-401-500#achievement-426) | 十二格全部困难，贪婪格为极贪。本地合作宝宝；不是一件普通道具收藏项。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应里角色](/characters/tainted-bethany)
@@ -65,3 +89,4 @@ next: {"text": "雅各和以扫", "link": "/characters/jacob"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Bethany)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

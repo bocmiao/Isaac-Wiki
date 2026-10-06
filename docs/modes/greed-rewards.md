@@ -60,7 +60,7 @@ description: 34 个表角色与里角色的贪婪、极贪完成奖励、解锁�
 | <span id="reward-tainted-apollyon"></span>[里亚玻伦](/characters/tainted-apollyon) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XVI-塔？](/items/k72)<br>[成就 #540](/achievements/ids-501-600#achievement-540) |
 | <span id="reward-tainted-forgotten"></span>[里遗骸](/characters/tainted-forgotten) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XIII-死亡？](/items/k69)<br>[成就 #537](/achievements/ids-501-600#achievement-537) |
 | <span id="reward-tainted-bethany"></span>[里伯大尼](/characters/tainted-bethany) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [V-教皇？](/items/k61)<br>[成就 #529](/achievements/ids-501-600#achievement-529) |
-| <span id="reward-tainted-jacob"></span>[里雅各（Tainted Jacob）和里以扫](/characters/tainted-jacob) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XVIII-月亮？](/items/k74)、[XIX-太阳？](/items/k75)<br>[成就 #542](/achievements/ids-501-600#achievement-542) |
+| <span id="reward-tainted-jacob"></span>[里雅各](/characters/tainted-jacob) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XVIII-月亮？](/items/k74)、[XIX-太阳？](/items/k75)<br>[成就 #542](/achievements/ids-501-600#achievement-542) |
 
 ## 反向塔罗牌与合并奖励
 

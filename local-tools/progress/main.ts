@@ -1,6 +1,7 @@
 import lookup from './data.json'
 import modeRewards from '../../docs/.vitepress/theme/data/mode-rewards.json'
 import { flag, itemState, MAX_SAVE_BYTES, readSave, type SaveProgress } from './save-reader'
+import { completionRewardDetail, completionRewardLink } from './completion-rewards'
 
 const SITE = 'https://bocmiao.github.io/Isaac-Wiki'
 type Row = { id: string; name: string; group: string; state: string; detail: string; link: string; search?: string }
@@ -54,9 +55,9 @@ function rebuild(keepFilters = false) {
     const value = save.counters[mark.counter]
     return {id:`${character.id}/${mark.id}`,name:`${character.name} · ${mark.name}`,group:character.name,
       state:value===0?'todo':value===1?'normal':value===2?'hard':'unknown',
-      detail:mark.id==='greed'?'普通贪婪与极贪共用这一格；值 2 表示完成极贪。'+greedRewardDetail(character.id):
-        '按存档里的真实完成标记读取普通 / 困难进度；不会用里角色的合并成就倒推单个 Boss 标记。',
-      link:mark.id==='greed'?`/modes/greed-rewards#reward-${character.id}`:`/characters/${character.id}`,search:`${character.en} ${mark.name}`}
+      detail:(mark.id==='greed'?'普通贪婪与极贪共用这一格；值 2 表示完成极贪。'+greedRewardDetail(character.id)+'\n\n':
+        '按存档里的真实完成标记读取普通 / 困难进度；不会用合并成就倒推单个 Boss 标记。\n\n')+completionRewardDetail(save,character,mark.id),
+      link:mark.id==='greed'?`/modes/greed-rewards#reward-${character.id}`:completionRewardLink(character.id,mark.id),search:`${character.en} ${mark.name}`}
   }))
   if (tab === 'challenges') rows = lookup.challenges.map(row => {
     const value=flag(save.challenges,row.id)

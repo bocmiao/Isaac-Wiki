@@ -51,6 +51,25 @@ next: {"text": "里拉撒路", "link": "/characters/tainted-lazarus"}
 
 前期清房顺畅后再尝试限时门。母亲和其他终局的近身窗口不同，按 Boss 招式调整起手距离，不照表阿撒泻勒的飞行短激光打法。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [邪恶王冠](/items/t161)<br>[成就 #562](/achievements/ids-501-600#achievement-562) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [阿撒泻勒的魂石](/items/k88)<br>[成就 #625](/achievements/ids-601-641#achievement-625) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Hell Game<br>[成就 #608](/achievements/ids-601-641#achievement-608) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
+| <span id="reward-greedier"></span>极贪 | [XV-恶魔？](/items/k71)<br>[成就 #539](/achievements/ids-501-600#achievement-539) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [咯血症](/items/c726)<br>[成就 #591](/achievements/ids-501-600#achievement-591) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [阿撒泻勒的残角](/items/t162)<br>[成就 #563](/achievements/ids-501-600#achievement-563) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [阿撒泻勒之怒](/items/c699)<br>[成就 #498](/achievements/ids-401-500#achievement-498) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/azazel)
@@ -62,3 +81,4 @@ next: {"text": "里拉撒路", "link": "/characters/tainted-lazarus"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Azazel)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

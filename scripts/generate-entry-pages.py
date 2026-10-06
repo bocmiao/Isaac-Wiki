@@ -18,6 +18,7 @@ ITEM_SOURCE = json.loads((ROOT / 'data/item-source.json').read_text())
 ITEMS = {item['key']: item for item in ITEM_SOURCE['entries']}
 ACHIEVEMENTS = {row['id']: row for row in json.loads((DOCS / '.vitepress/theme/data/achievements.json').read_text())}
 RAW_ACHIEVEMENTS = json.loads((ROOT / 'data/achievement-source.json').read_text())
+COMPLETION_REWARDS = {row['id']:row for row in json.loads((DOCS / '.vitepress/theme/data/completion-rewards.json').read_text())}
 KIND_NAMES = {'active': '主动道具', 'passive': '被动道具', 'familiar': '跟班', 'trinket': '饰品', 'k': '卡牌 / 符文', 'p': '胶囊'}
 CATALOGS = {family: [] for family in ['characters', 'rooms', 'floors', 'items']}
 LEGACY = {}
@@ -111,6 +112,36 @@ def guide_headings(body):
                   lambda match: '' if match[1] == '共通规则' else '## ' + match[1] + '\n\n', body)
 
 
+def completion_table(slug):
+    row = COMPLETION_REWARDS[slug]
+    page = '\n\n## 完成标记与奖励 {#completion-rewards}\n\n'
+    page += '以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。\n\n'
+    if row['group']=='里角色':
+        page += '主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。\n\n'
+    page += '| 目标 | 奖励 | 条件与说明 |\n| --- | --- | --- |\n'
+    for reward in row['rewards']:
+        names = '、'.join(f'[{item["name"]}]({item["link"]})' for item in reward['items']) or reward['name']
+        if reward['kind']=='all-hard':
+            difficulty='十二格全部困难，贪婪格为极贪。'
+        elif reward['kind']=='greed':
+            difficulty='普通贪婪或极贪均可；不是普通主线的难度选择。'
+        elif reward['kind']=='greedier':
+            difficulty='必须极贪；普通贪婪不替代。'
+        elif reward['minimum']==2:
+            difficulty='必须困难模式。'
+        else:
+            difficulty='普通 / 困难均可；对应角色和目标不可替代。'
+        if reward['id']==77:
+            difficulty='本角色标记途径可用普通 / 困难；另有获取方式。'
+        if len(reward['marks'])>1 and reward['kind']!='all-hard':
+            difficulty+='本角色这一组全部完成，可分局。'
+        page += f'| <span id="reward-{reward["kind"]}"></span>{reward["label"]} | {names}<br>[成就 #{reward["id"]}]({reward["achievementLink"]}) | {difficulty}{reward["notes"]} |\n'
+    if slug=='lazarus':
+        page+='\n另外，开放[伯大尼](/characters/bethany)还要求本次困难心脏局全程不触发复活：[成就 #404](/achievements/ids-401-500#achievement-404)。已完成心脏困难标记不证明满足过这个额外条件。\n'
+    page+='\n[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。\n'
+    return page
+
+
 def make_profiles():
     for variant, file in [(False, 'characters'), (True, 'tainted')]:
         text = (SOURCES / f'{file}.md').read_text()
@@ -141,9 +172,10 @@ def make_profiles():
             page = front(name, f'{name}的独立攻略：获取方式、开局、发育、清房、Boss 打法和路线。')
             page += f'# {name} {{#{profile["id"]}}}\n\n' + hero(entry) + '\n<VersionBadge checked="2026-10" />\n\n'
             page += profile['prefix'] + lead + body
+            page += completion_table(slug)
             page += f'\n\n## 相关条目\n\n- [对应{"表" if variant else "里"}角色](/characters/{counterpart})\n- [全部角色](/characters/) · [开局强化与完成标记](/strategy/character-roster#upgrades)\n- [角色解锁步骤](/guide/unlocks/order) · [路线规划](/tools/routes) · [道具图鉴](/items/)\n'
             title = ('Tainted_' if variant else '') + en.replace('Tainted ', '').replace(' (Blue Baby)', '').replace(' ', '_')
-            page += '\n## 参考资料\n\n- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/' + quote(title, safe='_') + ')\n- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)\n- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。\n'
+            page += '\n## 参考资料\n\n- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/' + quote(title, safe='_') + ')\n- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)\n- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。\n- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。\n'
             entry['_body'] = page
 
 
@@ -437,7 +469,7 @@ def catalog_page(family, legacy=False, subset=''):
     anchors={'characters':'catalog','rooms':'room-index','floors':'floor-index','items':'catalog'}
     page+='## 按名称与类型查找 {#'+anchors[family]+'}\n\n<EntryCatalog :entries="entries" label="'+name+'"'+(' legacy' if legacy else '')+' />\n\n'
     if family=='characters':
-        page+='## 解锁与练习\n\n- [角色解锁步骤](/guide/unlocks/order) · [全部里角色获取方式](/guide/unlocks/order#tainted-list)\n- [开局强化](/strategy/character-roster#upgrades) · [完成标记](/strategy/character-roster#marks)\n- [新手练习建议](/strategy/characters#新手先练哪个) · [角色解锁清单](/tools/tracker)\n'
+        page+='## 解锁与练习\n\n- [角色解锁步骤](/guide/unlocks/order) · [全部里角色获取方式](/guide/unlocks/order#tainted-list)\n- [开局强化](/strategy/character-roster#upgrades) · [完成标记与全角色奖励](/strategy/completion-marks)\n- [新手练习建议](/strategy/characters#新手先练哪个) · [角色解锁清单](/tools/tracker)\n'
         if legacy:
             page+='\n## 总表\n\n原来的角色总表已整理为上方卡片；点击名字进入完整独立攻略。\n\n## 逐个'+('里角色' if subset=='里角色' else '角色')+'\n\n各角色的发育、打法与路线段落完整保留在独立页中。\n'
             source=(SOURCES/('tainted.md' if subset=='里角色' else 'characters.md')).read_text()

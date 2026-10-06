@@ -52,6 +52,30 @@ next: {"text": "夏娃", "link": "/characters/eve"}
 
 首个目标是教堂的以撒 Boss，给以撒解锁六面骰。先完成这条稳定路线，再安排限时 Boss 或隐藏分支；续航差时不为同局多一格标记强行加战斗。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-heart"></span>困难心脏 / 它活着 | Dead Baby<br>[成就 #174](/achievements/ids-101-200#achievement-174) | 必须困难模式。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-isaac"></span>以撒 | [六面骰](/items/c105)<br>[成就 #29](/achievements/ids-001-100#achievement-29) | 普通 / 困难均可；对应角色和目标不可替代。开放六面骰，同时让表以撒开局携带它；这是用 ??? 打以撒，不是用以撒本人。 |
+| <span id="reward-satan"></span>撒但 | [遗忘药](/items/c127)<br>[成就 #48](/achievements/ids-001-100#achievement-48) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-bluebaby"></span>???（Boss） | [宿命](/items/c179)<br>[成就 #113](/achievements/ids-101-200#achievement-113) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-lamb"></span>羔羊 | [???的灵魂](/items/t57)<br>[成就 #73](/achievements/ids-001-100#achievement-73) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-megasatan"></span>超级撒但 | Blue Baby<br>[成就 #209](/achievements/ids-201-300#achievement-209) | 普通 / 困难均可；对应角色和目标不可替代。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-bossrush"></span>Boss Rush | [???唯一的朋友](/items/c320)<br>[成就 #114](/achievements/ids-101-200#achievement-114) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-hush"></span>死寂 | [宿命的报答](/items/c361)<br>[成就 #183](/achievements/ids-101-200#achievement-183) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greed"></span>普通贪婪 | [碎裂六面骰](/items/t67)<br>[成就 #196](/achievements/ids-101-200#achievement-196) | 普通贪婪或极贪均可；不是普通主线的难度选择。 |
+| <span id="reward-greedier"></span>极贪 | [胎粪](/items/t91)<br>[成就 #300](/achievements/ids-201-300#achievement-300) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [国王宝宝](/items/c472)<br>[成就 #286](/achievements/ids-201-300#achievement-286) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [永恒六面骰](/items/c609)<br>[成就 #448](/achievements/ids-401-500#achievement-448) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [水土不服症](/items/c680)<br>[成就 #449](/achievements/ids-401-500#achievement-449) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Hive Baby<br>[成就 #252](/achievements/ids-201-300#achievement-252) | 十二格全部困难，贪婪格为极贪。本地合作宝宝；不是一件普通道具收藏项。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应里角色](/characters/tainted-bluebaby)
@@ -63,3 +87,4 @@ next: {"text": "夏娃", "link": "/characters/eve"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Blue_Baby)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

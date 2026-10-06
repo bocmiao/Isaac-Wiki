@@ -50,6 +50,30 @@ next: {"text": "阿撒泻勒", "link": "/characters/azazel"}
 
 适合先练常规分支和资源管理。Ultra Hard 的开局饰品是额外强化，不是能玩参孙的必要条件；赶限时门时少走为叠伤害而增加的回头路。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-heart"></span>困难心脏 / 它活着 | Fighting Baby<br>[成就 #177](/achievements/ids-101-200#achievement-177) | 必须困难模式。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-isaac"></span>以撒 | [嗜血](/items/c157)<br>[成就 #54](/achievements/ids-001-100#achievement-54) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-satan"></span>撒但 | [血之权利](/items/c186)<br>[成就 #56](/achievements/ids-001-100#achievement-56) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-bluebaby"></span>???（Boss） | [染血硬币](/items/t49)<br>[成就 #55](/achievements/ids-001-100#achievement-55) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-lamb"></span>羔羊 | [参孙的发髻](/items/t58)<br>[成就 #74](/achievements/ids-001-100#achievement-74) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-megasatan"></span>超级撒但 | Rage Baby<br>[成就 #211](/achievements/ids-201-300#achievement-211) | 普通 / 困难均可；对应角色和目标不可替代。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-bossrush"></span>Boss Rush | [参孙的脚镣](/items/c321)<br>[成就 #115](/achievements/ids-101-200#achievement-115) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-hush"></span>死寂 | [盲目的怒火](/items/t81)<br>[成就 #185](/achievements/ids-101-200#achievement-185) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greed"></span>普通贪婪 | [血嗜](/items/c411)<br>[成就 #198](/achievements/ids-101-200#achievement-198) | 普通贪婪或极贪均可；不是普通主线的难度选择。 |
+| <span id="reward-greedier"></span>极贪 | [干细胞](/items/t119)<br>[成就 #301](/achievements/ids-301-400#achievement-301) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [染血王冠](/items/t111)<br>[成就 #287](/achievements/ids-201-300#achievement-287) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [嗜血腥风](/items/c695)<br>[成就 #452](/achievements/ids-401-500#achievement-452) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [空虚之心](/items/c676)<br>[成就 #453](/achievements/ids-401-500#achievement-453) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Revenge Baby<br>[成就 #262](/achievements/ids-201-300#achievement-262) | 十二格全部困难，贪婪格为极贪。本地合作宝宝；不是一件普通道具收藏项。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应里角色](/characters/tainted-samson)
@@ -61,3 +85,4 @@ next: {"text": "阿撒泻勒", "link": "/characters/azazel"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Samson)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

@@ -25,6 +25,8 @@ The managed cloud browser blocks `file://` navigation. Offline browser tests loa
 ## Update
 
 ```sh
+python3 scripts/generate-completion-rewards.py
+python3 scripts/generate-entry-pages.py
 python3 scripts/generate-save-progress-data.py <IsaacScript checkout>
 node scripts/build-local-progress.mjs
 npm test
@@ -32,4 +34,4 @@ BASE=/Isaac-Wiki/ npm run build
 python3 scripts/check-built-links.py
 ```
 
-Regenerate lookup data after updating item/achievement/character/challenge guides. For challenge strategy changes, first run `python3 scripts/generate-challenge-pages.py`; the local lookup includes all 45 strategies and links each challenge to its own page. Run `python3 scripts/generate-mode-rewards.py` after changing reward conditions or item unlock mappings; its 34-character table is bundled into the offline tool and each Greed mark links to that character's table anchor. Commit the lookup snapshot and generated single-file download together. Normal website builds rebuild the offline file using the checked-in lookup snapshot.
+Regenerate lookup data after updating item/achievement/character/challenge guides. For challenge strategy changes, first run `python3 scripts/generate-challenge-pages.py`; the local lookup includes all 45 strategies and links each challenge to its own page. Run `python3 scripts/generate-mode-rewards.py` after changing reward conditions or item unlock mappings; its 34-character table is bundled into the offline tool and each Greed mark links to that character's table anchor. The completion-reward JSON adds the other mark rewards, real achievement status and missing same-character prerequisites; combined reward flags never set or override mark counters. Unknown or malformed counter values stay unknown, not completed. Commit the lookup snapshot and generated single-file download together. Normal website builds rebuild the offline file using the checked-in lookup snapshot.

@@ -168,7 +168,7 @@ function reset() {
         <span class="legend-tip">点击格子切换状态；贪婪列：普通 = 贪婪，困难 = 极贪</span>
         <label class="switch"><input v-model="showTainted" type="checkbox" /> 显示里角色</label>
       </div>
-      <p class="hint">合计记录已完成的格数；困难 / 极贪另列计数。里角色的组合奖励要凑齐对应一组，单独完成其中一格不代表奖励已解锁。<a :href="withBase('/strategy/character-roster#marks')">查看标记与奖励规则</a>。</p>
+      <p class="hint">合计记录已完成的格数；困难 / 极贪另列计数。里角色的组合奖励要凑齐对应一组，单独完成其中一格不代表奖励已解锁。<a :href="withBase('/strategy/completion-marks')">查看十二格与奖励规则</a>；点角色名查看本角色奖励表。</p>
       <div class="grid-wrap">
         <table class="mark-grid">
           <thead>
@@ -181,7 +181,7 @@ function reset() {
           </thead>
           <tbody>
             <tr v-for="r in rows" :key="r.id + r.tainted" :class="{ tainted: r.tainted }">
-              <th class="sticky"><a :href="withBase(characterGuide(r, r.tainted))">{{ r.label }}</a></th>
+              <th class="sticky"><a :href="withBase(characterGuide(r, r.tainted) + '#completion-rewards')">{{ r.label }}</a></th>
               <td v-for="m in marks" :key="m.id">
                 <button
                   class="cell"

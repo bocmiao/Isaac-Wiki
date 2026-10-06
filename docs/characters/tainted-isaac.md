@@ -51,6 +51,25 @@ next: {"text": "里抹大拉", "link": "/characters/tainted-magdalene"}
 
 照片、钥匙碎片、菜刀碎片和爸爸的便条不占被动格，不必为了路线腾掉输出道具。先练普通分支的八格管理，再用同一原则应对母亲、回家等独立路线。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [妈妈的发髻](/items/t153)<br>[成就 #548](/achievements/ids-501-600#achievement-548) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [以撒的魂石](/items/k81)<br>[成就 #618](/achievements/ids-601-641#achievement-618) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Mega Chest<br>[成就 #601](/achievements/ids-601-641#achievement-601) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
+| <span id="reward-greedier"></span>极贪 | [XVII-星星？](/items/k73)<br>[成就 #541](/achievements/ids-501-600#achievement-541) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [计数二十面骰](/items/c723)<br>[成就 #584](/achievements/ids-501-600#achievement-584) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [骰子袋](/items/t154)<br>[成就 #549](/achievements/ids-501-600#achievement-549) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [错误王冠](/items/c689)<br>[成就 #491](/achievements/ids-401-500#achievement-491) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/isaac)
@@ -62,3 +81,4 @@ next: {"text": "里抹大拉", "link": "/characters/tainted-magdalene"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Isaac)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

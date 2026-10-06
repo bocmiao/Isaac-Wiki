@@ -55,6 +55,25 @@ next: {"text": "里莉莉丝", "link": "/characters/tainted-lilith"}
 
 先用表游魂练熟目标 Boss，再用里游魂补对应标记。Boss 挑战房有额外道具，但进入前确认保护与输出足够，不把“更多进房”当作任何状态下都该执行的指令。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [儿童涂鸦](/items/t169)<br>[成就 #568](/achievements/ids-501-600#achievement-568) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [游魂的魂石](/items/k91)<br>[成就 #628](/achievements/ids-601-641#achievement-628) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Haunted Chest<br>[成就 #611](/achievements/ids-601-641#achievement-611) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
+| <span id="reward-greedier"></span>极贪 | [0-愚者？](/items/k56)<br>[成就 #524](/achievements/ids-501-600#achievement-524) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [幽灵炸弹](/items/c727)<br>[成就 #594](/achievements/ids-501-600#achievement-594) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [水晶钥匙](/items/t170)<br>[成就 #569](/achievements/ids-501-600#achievement-569) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [十字圣球](/items/c691)<br>[成就 #501](/achievements/ids-501-600#achievement-501) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/lost)
@@ -66,3 +85,4 @@ next: {"text": "里莉莉丝", "link": "/characters/tainted-lilith"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Lost)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

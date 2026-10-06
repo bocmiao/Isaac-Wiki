@@ -52,6 +52,30 @@ next: {"text": "店主", "link": "/characters/keeper"}
 
 可先在贪婪模式练朋友盒循环，也可用普通主线练跟班站位。赶 Boss Rush 时在进门前保好血量；进门拿道具后传走不算完成波次。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-heart"></span>困难心脏 / 它活着 | Goat Head Baby<br>[成就 #223](/achievements/ids-201-300#achievement-223) | 必须困难模式。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-isaac"></span>以撒 | [符文袋](/items/c389)<br>[成就 #218](/achievements/ids-201-300#achievement-218) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-satan"></span>撒但 | [蛇蝎之吻](/items/c393)<br>[成就 #220](/achievements/ids-201-300#achievement-220) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-bluebaby"></span>???（Boss） | [恶魔受胎](/items/c412)<br>[成就 #219](/achievements/ids-201-300#achievement-219) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-lamb"></span>羔羊 | [魅魔](/items/c417)<br>[成就 #221](/achievements/ids-201-300#achievement-221) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-megasatan"></span>超级撒但 | Big Baby<br>[成就 #216](/achievements/ids-201-300#achievement-216) | 普通 / 困难均可；对应角色和目标不可替代。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-bossrush"></span>Boss Rush | [圣灵受胎](/items/c413)<br>[成就 #222](/achievements/ids-201-300#achievement-222) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-hush"></span>死寂 | [淫魔](/items/c360)<br>[成就 #190](/achievements/ids-101-200#achievement-190) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greed"></span>普通贪婪 | [朋友盒](/items/c357)<br>[成就 #203](/achievements/ids-201-300#achievement-203) | 普通贪婪或极贪均可；不是普通主线的难度选择。 |
+| <span id="reward-greedier"></span>极贪 | [二元性](/items/c498)<br>[成就 #306](/achievements/ids-301-400#achievement-306) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [安乐死](/items/c496)<br>[成就 #292](/achievements/ids-201-300#achievement-292) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [嗜血小宠](/items/c565)<br>[成就 #462](/achievements/ids-401-500#achievement-462) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [剖腹产](/items/c678)<br>[成就 #463](/achievements/ids-401-500#achievement-463) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Dark Baby<br>[成就 #260](/achievements/ids-201-300#achievement-260) | 十二格全部困难，贪婪格为极贪。本地合作宝宝；不是一件普通道具收藏项。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应里角色](/characters/tainted-lilith)
@@ -63,3 +87,4 @@ next: {"text": "店主", "link": "/characters/keeper"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Lilith)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

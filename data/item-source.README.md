@@ -31,9 +31,12 @@ The importer parses declarations; it does **not execute upstream Lua** or copy g
 
 ```sh
 python3 scripts/import-item-source.py <EID-checkout> <IsaacDocs-checkout>  # only when updating the snapshot
+python3 scripts/generate-completion-rewards.py
 python3 scripts/generate-entry-pages.py
 npm test
 BASE=/Isaac-Wiki/ npm run build
 ```
 
 The generator refuses unresolved effect tags, missing descriptions and unknown unlock IDs. Commit source data, reviewed exceptions, generated Markdown, catalog JSON and manifest together. Former article URLs remain catalog pages; their entry/build/combat anchors route to corresponding detail pages.
+
+`generate-completion-rewards.py` maps the pinned exact boss/character conditions to 357 character-specific rewards (17 × 14 normal; 17 × 7 tainted). Current-version branches for #172/#173 and #156 are explicit, as is Judas' alternative left-hand condition #77. Starting-item upgrades #191/#236/#237 are not ordinary item-pool unlocks. Combined rewards preserve all required marks, and only their achievement flags establish reward-unlock status in the offline viewer. Babies and world mechanics remain non-collectible rewards. Regenerate this JSON before character pages; both character reward tables and offline mark details use it. Update the offline lookup after page generation.

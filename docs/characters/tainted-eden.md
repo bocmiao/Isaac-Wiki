@@ -53,6 +53,25 @@ next: {"text": "里游魂", "link": "/characters/tainted-lost"}
 
 照片、钥匙碎片和菜刀碎片等列出的路线道具不会随受伤重置，可正常规划分支。先练常规终点的临场适应，再挑战变身频繁、战斗长的目标；里伊甸也不要靠反复重开逃避开局判断。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [滚啊！](/items/t165)<br>[成就 #566](/achievements/ids-501-600#achievement-566) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [伊甸的魂石](/items/k90)<br>[成就 #627](/achievements/ids-601-641#achievement-627) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | [万用牌](/items/k80)<br>[成就 #610](/achievements/ids-601-641#achievement-610) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greedier"></span>极贪 | [XXI-世界？](/items/k77)<br>[成就 #544](/achievements/ids-501-600#achievement-544) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | Corrupted Data<br>[成就 #593](/achievements/ids-501-600#achievement-593) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
+| <span id="reward-mother"></span>母亲 | [塑型黏土](/items/t166)<br>[成就 #567](/achievements/ids-501-600#achievement-567) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [错误技](/items/c721)<br>[成就 #500](/achievements/ids-401-500#achievement-500) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/eden)
@@ -64,3 +83,4 @@ next: {"text": "里游魂", "link": "/characters/tainted-lost"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Eden)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

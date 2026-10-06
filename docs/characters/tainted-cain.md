@@ -52,6 +52,25 @@ next: {"text": "里犹大", "link": "/characters/tainted-judas"}
 
 材料整理常会拖慢流程，限时标记单独做时间计划。R键可保留构筑重走普通主线分支，祸兽宜作为终点；它不会切换到贪婪模式，超级撒但后的续行还需区分忏悔与忏悔+。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [镀金钥匙](/items/t159)<br>[成就 #552](/achievements/ids-501-600#achievement-552) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [该隐的魂石](/items/k83)<br>[成就 #620](/achievements/ids-601-641#achievement-620) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | [金胶囊](/items/p9999)<br>[成就 #603](/achievements/ids-601-641#achievement-603) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greedier"></span>极贪 | [X-命运之轮？](/items/k66)<br>[成就 #534](/achievements/ids-501-600#achievement-534) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [合成宝袋](/items/c710)<br>[成就 #586](/achievements/ids-501-600#achievement-586) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [幸运袋](/items/t160)<br>[成就 #553](/achievements/ids-501-600#achievement-553) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [蓝钥匙](/items/t150)<br>[成就 #493](/achievements/ids-401-500#achievement-493) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/cain)
@@ -63,3 +82,4 @@ next: {"text": "里犹大", "link": "/characters/tainted-judas"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Cain)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

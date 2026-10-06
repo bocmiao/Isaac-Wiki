@@ -53,6 +53,25 @@ next: {"text": "里参孙", "link": "/characters/tainted-samson"}
 
 先练血团的生成、召回与补充，再打长终局。想赶限时门也要预留回血整理时间；一次清房很快不代表不需维护队伍。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [奇怪的钥匙](/items/t175)<br>[成就 #558](/achievements/ids-501-600#achievement-558) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [夏娃的魂石](/items/k86)<br>[成就 #623](/achievements/ids-601-641#achievement-623) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Horse Pill<br>[成就 #606](/achievements/ids-601-641#achievement-606) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
+| <span id="reward-greedier"></span>极贪 | [III-皇后？](/items/k59)<br>[成就 #527](/achievements/ids-501-600#achievement-527) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [圣血吸管](/items/c713)<br>[成就 #589](/achievements/ids-501-600#achievement-589) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [小血团](/items/t176)<br>[成就 #559](/achievements/ids-501-600#achievement-559) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [心碎](/items/c694)<br>[成就 #496](/achievements/ids-401-500#achievement-496) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/eve)
@@ -64,3 +83,4 @@ next: {"text": "里参孙", "link": "/characters/tainted-samson"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Eve)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

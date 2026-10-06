@@ -636,9 +636,11 @@ title: 里角色攻略
 
 <span id="里雅各-tainted-jacob-和里以扫"></span>
 
-### 里雅各（Tainted Jacob）和里以扫 {#jacob}
+### 里雅各（Tainted Jacob） {#jacob}
 
 **定位**：里以扫整层追杀，被撞到后本层变成一碰就死的灵魂；孤魂铁索是关键。
+
+里以扫（Dark Esau）是此角色机制中的追击者，不是另一个可选里角色。两者规则在本页一起说明，但角色名与解锁记录只记里雅各。
 
 **获取方式**：先解锁[表角色雅各和以扫](/guide/unlocks/order#unlock-jacob)，再用雅各和以扫本人回「家」，用红钥匙或红钥匙碎片打开妈妈卧室前走廊左侧的隐藏房，接触里面的里雅各。[查看对应解锁条目](/guide/unlocks/order#tainted-jacob)和[完整回家流程](/guide/unlocks/order#tainted-route)。
 

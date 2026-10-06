@@ -13,3 +13,5 @@ layout: page
 </div>
 
 完整秘密编号、每项条件和步骤见[全部成就与详细解锁](/achievements/)；本清单不统计全部 641 项成就。
+
+完成标记表中的角色名直接进入该角色的奖励对照。四终点合并、Boss Rush＋死寂、困难 / 极贪与开局强化的区别见[完成标记与补缺路线](/strategy/completion-marks)。需要核对真实存档时用[本地进度对照](/tools/local-progress)。

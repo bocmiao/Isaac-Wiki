@@ -53,6 +53,30 @@ next: {"text": "参孙", "link": "/characters/samson"}
 
 贪婪捐款 439 枚的剃刀片能方便后续开局。主线按当前保护血量选目标；压血是构筑手段，不是每条路线都必须买恶魔交易。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-heart"></span>困难心脏 / 它活着 | Crow Baby<br>[成就 #169](/achievements/ids-101-200#achievement-169) | 必须困难模式。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-isaac"></span>以撒 | [夏娃的鸟爪](/items/t60)<br>[成就 #76](/achievements/ids-001-100#achievement-76) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-satan"></span>撒但 | [剃刀片](/items/c126)<br>[成就 #44](/achievements/ids-001-100#achievement-44) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-bluebaby"></span>???（Boss） | [献祭匕首](/items/c172)<br>[成就 #53](/achievements/ids-001-100#achievement-53) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-lamb"></span>羔羊 | [黑色口红](/items/t17)<br>[成就 #111](/achievements/ids-101-200#achievement-111) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-megasatan"></span>超级撒但 | Lil' Baby<br>[成就 #210](/achievements/ids-201-300#achievement-210) | 普通 / 困难均可；对应角色和目标不可替代。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-bossrush"></span>Boss Rush | [夏娃的睫毛膏](/items/c310)<br>[成就 #112](/achievements/ids-101-200#achievement-112) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-hush"></span>死寂 | [祭祀之刃](/items/c408)<br>[成就 #184](/achievements/ids-101-200#achievement-184) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-greed"></span>普通贪婪 | [黑色羽毛](/items/t80)<br>[成就 #197](/achievements/ids-101-200#achievement-197) | 普通贪婪或极贪均可；不是普通主线的难度选择。 |
+| <span id="reward-greedier"></span>极贪 | [乌鸦的心](/items/t107)<br>[成就 #302](/achievements/ids-301-400#achievement-302) | 必须极贪；普通贪婪不替代。 |
+| <span id="reward-delirium"></span>精神错乱 | [钝剃刀片](/items/c486)<br>[成就 #288](/achievements/ids-201-300#achievement-288) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [鸟肥笼](/items/c610)<br>[成就 #450](/achievements/ids-401-500#achievement-450) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [碎裂的宝珠](/items/c675)<br>[成就 #451](/achievements/ids-401-500#achievement-451) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Whore Baby<br>[成就 #255](/achievements/ids-201-300#achievement-255) | 十二格全部困难，贪婪格为极贪。本地合作宝宝；不是一件普通道具收藏项。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应里角色](/characters/tainted-eve)
@@ -64,3 +88,4 @@ next: {"text": "参孙", "link": "/characters/samson"}
 - [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Eve)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

@@ -1,12 +1,12 @@
 ---
-title: "里雅各（Tainted Jacob）和里以扫"
-description: "里雅各（Tainted Jacob）和里以扫的独立攻略：获取方式、开局、发育、清房、Boss 打法和路线。"
+title: "里雅各"
+description: "里雅各的独立攻略：获取方式、开局、发育、清房、Boss 打法和路线。"
 prev: {"text": "里伯大尼", "link": "/characters/tainted-bethany"}
 next: false
 ---
-# 里雅各（Tainted Jacob）和里以扫 {#jacob}
+# 里雅各 {#jacob}
 
-<EntryHeader category="里角色" icon="face-dark" />
+<EntryHeader en="Tainted Jacob" category="里角色" icon="face-dark" />
 
 <VersionBadge checked="2026-10" />
 
@@ -18,6 +18,8 @@ next: false
 | 3 红心容器 | 孤魂铁索（Anima Sola） | 里以扫整层追杀 | 被里以扫撞到，本层变成一碰就死的灵魂 |
 
 **定位**：里以扫整层追杀，被撞到后本层变成一碰就死的灵魂；孤魂铁索是关键。
+
+里以扫（Dark Esau）是此角色机制中的追击者，不是另一个可选里角色。两者规则在本页一起说明，但角色名与解锁记录只记里雅各。
 
 ## 获取方式
 
@@ -54,6 +56,25 @@ next: false
 
 先练普通分支的追击管理再安排长 Boss 战。灵魂形态能免费拿交易，但故意被撞会让本层后续一碰就死，不建议新手为免费道具主动变身；多人合作的复活规则不能套入单人路线。
 
+## 完成标记与奖励 {#completion-rewards}
+
+以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+
+主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
+
+| 目标 | 奖励 | 条件与说明 |
+| --- | --- | --- |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [赛车遥控器](/items/t179)<br>[成就 #580](/achievements/ids-501-600#achievement-580) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [雅各与以扫的魂石](/items/k97)<br>[成就 #634](/achievements/ids-601-641#achievement-634) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Golden Trinket<br>[成就 #617](/achievements/ids-601-641#achievement-617) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
+| <span id="reward-greedier"></span>极贪 | [XVIII-月亮？](/items/k74)、[XIX-太阳？](/items/k75)<br>[成就 #542](/achievements/ids-501-600#achievement-542) | 必须极贪；普通贪婪不替代。反向月亮与反向太阳两张牌共用这一个成就。 |
+| <span id="reward-delirium"></span>精神错乱 | [孤魂铁索](/items/c722)<br>[成就 #600](/achievements/ids-501-600#achievement-600) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-mother"></span>母亲 | [复得游魂](/items/t180)<br>[成就 #581](/achievements/ids-501-600#achievement-581) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-beast"></span>祸兽 | [小以扫](/items/c703)<br>[成就 #507](/achievements/ids-501-600#achievement-507) | 普通 / 困难均可；对应角色和目标不可替代。 |
+
+[十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
+
+
 ## 相关条目
 
 - [对应表角色](/characters/jacob)
@@ -62,6 +83,7 @@ next: false
 
 ## 参考资料
 
-- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_)
+- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Jacob)
 - [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
 - 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
+- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。

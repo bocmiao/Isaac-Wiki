@@ -1,0 +1,7353 @@
+[
+  {
+    "id": "isaac",
+    "name": "以撒",
+    "en": "Isaac",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 167,
+        "name": "Lost Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Isaac",
+        "conditionZh": "用以撒在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-167",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 106,
+        "name": "Isaac's Tears",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Isaac",
+        "conditionZh": "用以撒击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-106",
+        "items": [
+          {
+            "name": "以撒的泪盆",
+            "link": "/items/c323"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 43,
+        "name": "Mom's Knife",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Isaac",
+        "conditionZh": "用以撒击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-43",
+        "items": [
+          {
+            "name": "妈妈的菜刀",
+            "link": "/items/c114"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 49,
+        "name": "The D20",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Isaac",
+        "conditionZh": "用以撒击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-49",
+        "items": [
+          {
+            "name": "二十面骰",
+            "link": "/items/c166"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 149,
+        "name": "Missing Poster",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Isaac",
+        "conditionZh": "用以撒击败羔羊。",
+        "achievementLink": "/achievements/ids-101-200#achievement-149",
+        "items": [
+          {
+            "name": "寻人启事",
+            "link": "/items/t23"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 205,
+        "name": "Cry Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Isaac",
+        "conditionZh": "用以撒击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-205",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 70,
+        "name": "Isaac's Head",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Isaac",
+        "conditionZh": "用以撒完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-001-100#achievement-70",
+        "items": [
+          {
+            "name": "以撒的头",
+            "link": "/items/t54"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 179,
+        "name": "Fart Baby",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Isaac",
+        "conditionZh": "用以撒击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-179",
+        "items": [
+          {
+            "name": "放屁宝宝",
+            "link": "/items/c404"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 192,
+        "name": "Lil' Chest",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Isaac",
+        "conditionZh": "用以撒击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-192",
+        "items": [
+          {
+            "name": "小箱子",
+            "link": "/items/c362"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 296,
+        "name": "D1",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Isaac",
+        "conditionZh": "用以撒击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-201-300#achievement-296",
+        "items": [
+          {
+            "name": "一面骰",
+            "link": "/items/c476"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 282,
+        "name": "D infinity",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Isaac",
+        "conditionZh": "用以撒击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-282",
+        "items": [
+          {
+            "name": "无限面骰",
+            "link": "/items/c489"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 440,
+        "name": "Meat Cleaver",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Isaac",
+        "conditionZh": "用以撒击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-440",
+        "items": [
+          {
+            "name": "切肉刀",
+            "link": "/items/c631"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 441,
+        "name": "Options?",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Isaac",
+        "conditionZh": "用以撒击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-441",
+        "items": [
+          {
+            "name": "选择？",
+            "link": "/items/c670"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 253,
+        "name": "Buddy Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Isaac",
+        "conditionZh": "用以撒完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-253",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "magdalene",
+    "name": "抹大拉",
+    "en": "Magdalene",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 168,
+        "name": "Cute Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Magdalene",
+        "conditionZh": "用抹大拉在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-168",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 20,
+        "name": "A Cross",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Magdalene",
+        "conditionZh": "用抹大拉击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-20",
+        "items": [
+          {
+            "name": "圣遗物",
+            "link": "/items/c98"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 45,
+        "name": "Guardian Angel",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Magdalene",
+        "conditionZh": "用抹大拉击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-45",
+        "items": [
+          {
+            "name": "守护天使",
+            "link": "/items/c112"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 50,
+        "name": "Celtic Cross",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Magdalene",
+        "conditionZh": "用抹大拉击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-50",
+        "items": [
+          {
+            "name": "凯尔特十字",
+            "link": "/items/c162"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 71,
+        "name": "Maggy's Faith",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Magdalene",
+        "conditionZh": "用抹大拉击败羔羊。",
+        "achievementLink": "/achievements/ids-001-100#achievement-71",
+        "items": [
+          {
+            "name": "抹大拉的信仰",
+            "link": "/items/t55"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 206,
+        "name": "Red Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Magdalene",
+        "conditionZh": "用抹大拉击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-206",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 109,
+        "name": "Maggy's Bow",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Magdalene",
+        "conditionZh": "用抹大拉完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-109",
+        "items": [
+          {
+            "name": "抹大拉的蝴蝶结",
+            "link": "/items/c312"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 180,
+        "name": "Purity",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Magdalene",
+        "conditionZh": "用抹大拉击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-180",
+        "items": [
+          {
+            "name": "纯洁",
+            "link": "/items/c407"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 193,
+        "name": "Censer",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Magdalene",
+        "conditionZh": "用抹大拉击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-193",
+        "items": [
+          {
+            "name": "香炉",
+            "link": "/items/c387"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 297,
+        "name": "Glyph of Balance",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Magdalene",
+        "conditionZh": "用抹大拉击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-201-300#achievement-297",
+        "items": [
+          {
+            "name": "平衡符号",
+            "link": "/items/c464"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 283,
+        "name": "Eucharist",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Magdalene",
+        "conditionZh": "用抹大拉击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-283",
+        "items": [
+          {
+            "name": "圣餐",
+            "link": "/items/c499"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 442,
+        "name": "Yuck Heart",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Magdalene",
+        "conditionZh": "用抹大拉击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-442",
+        "items": [
+          {
+            "name": "难吃的心",
+            "link": "/items/c639"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 443,
+        "name": "Candy Heart",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Magdalene",
+        "conditionZh": "用抹大拉击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-443",
+        "items": [
+          {
+            "name": "糖心",
+            "link": "/items/c671"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 254,
+        "name": "Colorful Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Magdalene",
+        "conditionZh": "用抹大拉完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-254",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "cain",
+    "name": "该隐",
+    "en": "Cain",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 171,
+        "name": "Glass Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Cain",
+        "conditionZh": "用该隐在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-171",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 21,
+        "name": "A Bag of Pennies",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Cain",
+        "conditionZh": "用该隐击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-21",
+        "items": [
+          {
+            "name": "硬币袋",
+            "link": "/items/c94"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 46,
+        "name": "A Bag of Bombs",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Cain",
+        "conditionZh": "用该隐击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-46",
+        "items": [
+          {
+            "name": "炸弹袋",
+            "link": "/items/c131"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 75,
+        "name": "Cain's Eye",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Cain",
+        "conditionZh": "用该隐击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-75",
+        "items": [
+          {
+            "name": "该隐的眼睛",
+            "link": "/items/t59"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 51,
+        "name": "Abel",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Cain",
+        "conditionZh": "用该隐击败羔羊。",
+        "achievementLink": "/achievements/ids-001-100#achievement-51",
+        "items": [
+          {
+            "name": "亚伯",
+            "link": "/items/c188"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 207,
+        "name": "Green Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Cain",
+        "conditionZh": "用该隐击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-207",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 110,
+        "name": "Cain's Other Eye",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Cain",
+        "conditionZh": "用该隐完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-110",
+        "items": [
+          {
+            "name": "该隐的另一只眼",
+            "link": "/items/c319"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 181,
+        "name": "D12",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Cain",
+        "conditionZh": "用该隐击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-181",
+        "items": [
+          {
+            "name": "十二面骰",
+            "link": "/items/c386"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 194,
+        "name": "Evil Eye",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Cain",
+        "conditionZh": "用该隐击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-194",
+        "items": [
+          {
+            "name": "邪恶之眼",
+            "link": "/items/c410"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 298,
+        "name": "Sack of Sacks",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Cain",
+        "conditionZh": "用该隐击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-201-300#achievement-298",
+        "items": [
+          {
+            "name": "袋中袋",
+            "link": "/items/c500"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 284,
+        "name": "Silver Dollar",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Cain",
+        "conditionZh": "用该隐击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-284",
+        "items": [
+          {
+            "name": "银币",
+            "link": "/items/t110"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 444,
+        "name": "Guppy's Eye",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Cain",
+        "conditionZh": "用该隐击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-444",
+        "items": [
+          {
+            "name": "嗝屁猫的眼睛",
+            "link": "/items/c665"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 445,
+        "name": "A Pound of Flesh",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Cain",
+        "conditionZh": "用该隐击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-445",
+        "items": [
+          {
+            "name": "一磅肉",
+            "link": "/items/c672"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 261,
+        "name": "Picky Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Cain",
+        "conditionZh": "用该隐完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-261",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "judas",
+    "name": "犹大",
+    "en": "Judas",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 170,
+        "name": "Shadow Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Judas",
+        "conditionZh": "用犹大在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-170",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 107,
+        "name": "Guillotine",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Judas",
+        "conditionZh": "用犹大击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-107",
+        "items": [
+          {
+            "name": "断头台",
+            "link": "/items/c206"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 72,
+        "name": "Judas' Tongue",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Judas",
+        "conditionZh": "用犹大击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-72",
+        "items": [
+          {
+            "name": "犹大的舌头",
+            "link": "/items/t56"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 77,
+        "name": "The Left Hand",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Pride as any character, or ??? as Judas",
+        "conditionZh": "任意角色击败 Ultra Pride，或用犹大击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-77",
+        "items": [
+          {
+            "name": "左断手",
+            "link": "/items/t61"
+          }
+        ],
+        "notes": "也可用任意角色击败超级傲慢开放；已解锁左手不能倒推出犹大已打过 ???。"
+      },
+      {
+        "id": 52,
+        "name": "Curved Horn",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Judas",
+        "conditionZh": "用犹大击败羔羊。",
+        "achievementLink": "/achievements/ids-001-100#achievement-52",
+        "items": [
+          {
+            "name": "弯羊角",
+            "link": "/items/t35"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 208,
+        "name": "Brown Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Judas",
+        "conditionZh": "用犹大击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-208",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 108,
+        "name": "Judas' Shadow",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Judas",
+        "conditionZh": "用犹大完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-108",
+        "items": [
+          {
+            "name": "犹大的影子",
+            "link": "/items/c311"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 182,
+        "name": "Betrayal",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Judas",
+        "conditionZh": "用犹大击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-182",
+        "items": [
+          {
+            "name": "背叛",
+            "link": "/items/c391"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 195,
+        "name": "My Shadow",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Judas",
+        "conditionZh": "用犹大击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-195",
+        "items": [
+          {
+            "name": "我的影子",
+            "link": "/items/c433"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 299,
+        "name": "Eye of Belial",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Judas",
+        "conditionZh": "用犹大击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-201-300#achievement-299",
+        "items": [
+          {
+            "name": "彼列之眼",
+            "link": "/items/c462"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 285,
+        "name": "Shade",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Judas",
+        "conditionZh": "用犹大击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-285",
+        "items": [
+          {
+            "name": "阴影",
+            "link": "/items/c468"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 446,
+        "name": "Akeldama",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Judas",
+        "conditionZh": "用犹大击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-446",
+        "items": [
+          {
+            "name": "血田",
+            "link": "/items/c641"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 447,
+        "name": "Redemption",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Judas",
+        "conditionZh": "用犹大击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-447",
+        "items": [
+          {
+            "name": "赎罪",
+            "link": "/items/c673"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 263,
+        "name": "Belial Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Judas",
+        "conditionZh": "用犹大完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-263",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "bluebaby",
+    "name": "???",
+    "en": "???",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 174,
+        "name": "Dead Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as ???",
+        "conditionZh": "用小蓝人在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-174",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 29,
+        "name": "The D6",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as ???",
+        "conditionZh": "用小蓝人击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-29",
+        "items": [
+          {
+            "name": "六面骰",
+            "link": "/items/c105"
+          }
+        ],
+        "notes": "开放六面骰，同时让表以撒开局携带它；这是用 ??? 打以撒，不是用以撒本人。"
+      },
+      {
+        "id": 48,
+        "name": "Forget Me Now",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as ???",
+        "conditionZh": "用小蓝人击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-48",
+        "items": [
+          {
+            "name": "遗忘药",
+            "link": "/items/c127"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 113,
+        "name": "Fate",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as ???",
+        "conditionZh": "用小蓝人击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-113",
+        "items": [
+          {
+            "name": "宿命",
+            "link": "/items/c179"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 73,
+        "name": "???'s Soul",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as ???",
+        "conditionZh": "用小蓝人击败羔羊。",
+        "achievementLink": "/achievements/ids-001-100#achievement-73",
+        "items": [
+          {
+            "name": "???的灵魂",
+            "link": "/items/t57"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 209,
+        "name": "Blue Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as ???",
+        "conditionZh": "用小蓝人击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-209",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 114,
+        "name": "???'s Only Friend",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as ???",
+        "conditionZh": "用小蓝人完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-114",
+        "items": [
+          {
+            "name": "???唯一的朋友",
+            "link": "/items/c320"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 183,
+        "name": "Fate's Reward",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as ???",
+        "conditionZh": "用小蓝人击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-183",
+        "items": [
+          {
+            "name": "宿命的报答",
+            "link": "/items/c361"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 196,
+        "name": "Cracked Dice",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as ???",
+        "conditionZh": "用小蓝人击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-196",
+        "items": [
+          {
+            "name": "碎裂六面骰",
+            "link": "/items/t67"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 300,
+        "name": "Meconium",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as ???",
+        "conditionZh": "用小蓝人击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-201-300#achievement-300",
+        "items": [
+          {
+            "name": "胎粪",
+            "link": "/items/t91"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 286,
+        "name": "King Baby",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as ???",
+        "conditionZh": "用小蓝人击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-286",
+        "items": [
+          {
+            "name": "国王宝宝",
+            "link": "/items/c472"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 448,
+        "name": "Eternal D6",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as ???",
+        "conditionZh": "用小蓝人击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-448",
+        "items": [
+          {
+            "name": "永恒六面骰",
+            "link": "/items/c609"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 449,
+        "name": "Montezuma's Revenge",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as ???",
+        "conditionZh": "用小蓝人击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-449",
+        "items": [
+          {
+            "name": "水土不服症",
+            "link": "/items/c680"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 252,
+        "name": "Hive Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as ???",
+        "conditionZh": "用小蓝人完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-252",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "eve",
+    "name": "夏娃",
+    "en": "Eve",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 169,
+        "name": "Crow Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Eve",
+        "conditionZh": "用夏娃在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-169",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 76,
+        "name": "Eve's Bird Foot",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Eve",
+        "conditionZh": "用夏娃击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-76",
+        "items": [
+          {
+            "name": "夏娃的鸟爪",
+            "link": "/items/t60"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 44,
+        "name": "The Razor",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Eve",
+        "conditionZh": "用夏娃击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-44",
+        "items": [
+          {
+            "name": "剃刀片",
+            "link": "/items/c126"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 53,
+        "name": "Sacrificial Dagger",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Eve",
+        "conditionZh": "用夏娃击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-53",
+        "items": [
+          {
+            "name": "献祭匕首",
+            "link": "/items/c172"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 111,
+        "name": "Black Lipstick",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Eve",
+        "conditionZh": "用夏娃击败羔羊。",
+        "achievementLink": "/achievements/ids-101-200#achievement-111",
+        "items": [
+          {
+            "name": "黑色口红",
+            "link": "/items/t17"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 210,
+        "name": "Lil' Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Eve",
+        "conditionZh": "用夏娃击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-210",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 112,
+        "name": "Eve's Mascara",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Eve",
+        "conditionZh": "用夏娃完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-112",
+        "items": [
+          {
+            "name": "夏娃的睫毛膏",
+            "link": "/items/c310"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 184,
+        "name": "Athame",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Eve",
+        "conditionZh": "用夏娃击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-184",
+        "items": [
+          {
+            "name": "祭祀之刃",
+            "link": "/items/c408"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 197,
+        "name": "Black Feather",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Eve",
+        "conditionZh": "用夏娃击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-197",
+        "items": [
+          {
+            "name": "黑色羽毛",
+            "link": "/items/t80"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 302,
+        "name": "Crow Heart",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Eve",
+        "conditionZh": "用夏娃击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-302",
+        "items": [
+          {
+            "name": "乌鸦的心",
+            "link": "/items/t107"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 288,
+        "name": "Dull Razor",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Eve",
+        "conditionZh": "用夏娃击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-288",
+        "items": [
+          {
+            "name": "钝剃刀片",
+            "link": "/items/c486"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 450,
+        "name": "Bird Cage",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Eve",
+        "conditionZh": "用夏娃击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-450",
+        "items": [
+          {
+            "name": "鸟肥笼",
+            "link": "/items/c610"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 451,
+        "name": "Cracked Orb",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Eve",
+        "conditionZh": "用夏娃击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-451",
+        "items": [
+          {
+            "name": "碎裂的宝珠",
+            "link": "/items/c675"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 255,
+        "name": "Whore Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Eve",
+        "conditionZh": "用夏娃完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-255",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "samson",
+    "name": "参孙",
+    "en": "Samson",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 177,
+        "name": "Fighting Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Samson",
+        "conditionZh": "用参孙在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-177",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 54,
+        "name": "Bloody Lust",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Samson",
+        "conditionZh": "用参孙击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-54",
+        "items": [
+          {
+            "name": "嗜血",
+            "link": "/items/c157"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 56,
+        "name": "Blood Rights",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Samson",
+        "conditionZh": "用参孙击败撒但。",
+        "achievementLink": "/achievements/ids-001-100#achievement-56",
+        "items": [
+          {
+            "name": "血之权利",
+            "link": "/items/c186"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 55,
+        "name": "Blood Penny",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Samson",
+        "conditionZh": "用参孙击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-001-100#achievement-55",
+        "items": [
+          {
+            "name": "染血硬币",
+            "link": "/items/t49"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 74,
+        "name": "Samson's Lock",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Samson",
+        "conditionZh": "用参孙击败羔羊。",
+        "achievementLink": "/achievements/ids-001-100#achievement-74",
+        "items": [
+          {
+            "name": "参孙的发髻",
+            "link": "/items/t58"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 211,
+        "name": "Rage Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Samson",
+        "conditionZh": "用参孙击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-211",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 115,
+        "name": "Samson's Chains",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Samson",
+        "conditionZh": "用参孙完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-115",
+        "items": [
+          {
+            "name": "参孙的脚镣",
+            "link": "/items/c321"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 185,
+        "name": "Blind Rage",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Samson",
+        "conditionZh": "用参孙击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-185",
+        "items": [
+          {
+            "name": "盲目的怒火",
+            "link": "/items/t81"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 198,
+        "name": "Lusty Blood",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Samson",
+        "conditionZh": "用参孙击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-198",
+        "items": [
+          {
+            "name": "血嗜",
+            "link": "/items/c411"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 301,
+        "name": "Stem Cell",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Samson",
+        "conditionZh": "用参孙击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-301",
+        "items": [
+          {
+            "name": "干细胞",
+            "link": "/items/t119"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 287,
+        "name": "Bloody Crown",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Samson",
+        "conditionZh": "用参孙击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-287",
+        "items": [
+          {
+            "name": "染血王冠",
+            "link": "/items/t111"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 452,
+        "name": "Bloody Gust",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Samson",
+        "conditionZh": "用参孙击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-452",
+        "items": [
+          {
+            "name": "嗜血腥风",
+            "link": "/items/c695"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 453,
+        "name": "Empty Heart",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Samson",
+        "conditionZh": "用参孙击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-453",
+        "items": [
+          {
+            "name": "空虚之心",
+            "link": "/items/c676"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 262,
+        "name": "Revenge Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Samson",
+        "conditionZh": "用参孙完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-262",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "azazel",
+    "name": "阿撒泻勒",
+    "en": "Azazel",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 173,
+        "name": "Begotten Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "[(in Rebirth and Afterbirth)] Defeat Mom's Heart or It Lives! on Hard mode as Lazarus / [(except in Rebirth and Afterbirth)] Defeat Mom's Heart or It Lives! on Hard mode as Azazel",
+        "conditionZh": "用阿撒泻勒在困难模式击败心脏 / 它活着（胎衣+以后）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-173",
+        "items": [],
+        "notes": "胎衣+、忏悔 / 忏悔+ 对应阿撒泻勒；不要沿用旧版的拉撒路条件。"
+      },
+      {
+        "id": 126,
+        "name": "Satanic Bible",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Azazel",
+        "conditionZh": "用阿撒泻勒击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-126",
+        "items": [
+          {
+            "name": "撒但圣经",
+            "link": "/items/c292"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 127,
+        "name": "Daemon's Tail",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Azazel",
+        "conditionZh": "用阿撒泻勒击败撒但。",
+        "achievementLink": "/achievements/ids-101-200#achievement-127",
+        "items": [
+          {
+            "name": "恶魔的尾巴",
+            "link": "/items/t22"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 128,
+        "name": "Abaddon",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Azazel",
+        "conditionZh": "用阿撒泻勒击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-128",
+        "items": [
+          {
+            "name": "亚巴顿",
+            "link": "/items/c230"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 47,
+        "name": "Demon Baby",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Azazel",
+        "conditionZh": "用阿撒泻勒击败羔羊。",
+        "achievementLink": "/achievements/ids-001-100#achievement-47",
+        "items": [
+          {
+            "name": "恶魔宝宝",
+            "link": "/items/c113"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 212,
+        "name": "Black Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Azazel",
+        "conditionZh": "用阿撒泻勒击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-212",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 9,
+        "name": "The Nail",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Azazel",
+        "conditionZh": "用阿撒泻勒完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-001-100#achievement-9",
+        "items": [
+          {
+            "name": "钉子",
+            "link": "/items/c83"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 186,
+        "name": "Maw of the Void",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Azazel",
+        "conditionZh": "用阿撒泻勒击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-186",
+        "items": [
+          {
+            "name": "虚空之喉",
+            "link": "/items/c399"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 199,
+        "name": "Lilith",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Azazel",
+        "conditionZh": "用阿撒泻勒击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-199",
+        "items": [
+          {
+            "name": "角色莉莉丝",
+            "link": "/characters/lilith"
+          }
+        ],
+        "notes": "开放角色莉莉丝；这项奖励不是一件收集页道具。"
+      },
+      {
+        "id": 304,
+        "name": "Bat Wing",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Azazel",
+        "conditionZh": "用阿撒泻勒击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-304",
+        "items": [
+          {
+            "name": "蝙蝠翅膀",
+            "link": "/items/t118"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 290,
+        "name": "Dark Prince's Crown",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Azazel",
+        "conditionZh": "用阿撒泻勒击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-290",
+        "items": [
+          {
+            "name": "黑王子之冠",
+            "link": "/items/c442"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 454,
+        "name": "Devil's Crown",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Azazel",
+        "conditionZh": "用阿撒泻勒击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-454",
+        "items": [
+          {
+            "name": "恶魔王冠",
+            "link": "/items/t146"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 455,
+        "name": "Lil Abaddon",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Azazel",
+        "conditionZh": "用阿撒泻勒击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-455",
+        "items": [
+          {
+            "name": "亚巴顿宝宝",
+            "link": "/items/c679"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 259,
+        "name": "Sucky Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Azazel",
+        "conditionZh": "用阿撒泻勒完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-259",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "lazarus",
+    "name": "拉撒路",
+    "en": "Lazarus",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 172,
+        "name": "Wrapped Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "[(in Rebirth and Afterbirth)] Defeat Mom's Heart or It Lives! on Hard mode as Azazel / [(except in Rebirth and Afterbirth)] Defeat Mom's Heart or It Lives! on Hard mode as Lazarus",
+        "conditionZh": "用拉撒路在困难模式击败心脏 / 它活着（胎衣+以后）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-172",
+        "items": [],
+        "notes": "胎衣+、忏悔 / 忏悔+ 对应拉撒路；旧重生 / 胎衣对应阿撒泻勒。"
+      },
+      {
+        "id": 116,
+        "name": "Lazarus' Rags",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Lazarus",
+        "conditionZh": "用拉撒路击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-116",
+        "items": [
+          {
+            "name": "拉撒路的绷带",
+            "link": "/items/c332"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 117,
+        "name": "Broken Ankh",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Lazarus",
+        "conditionZh": "用拉撒路击败撒但。",
+        "achievementLink": "/achievements/ids-101-200#achievement-117",
+        "items": [
+          {
+            "name": "碎安卡十字",
+            "link": "/items/t28"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 118,
+        "name": "Store Credit",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Lazarus",
+        "conditionZh": "用拉撒路击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-118",
+        "items": [
+          {
+            "name": "商店积分",
+            "link": "/items/t13"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 119,
+        "name": "Pandora's Box",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Lazarus",
+        "conditionZh": "用拉撒路击败羔羊。",
+        "achievementLink": "/achievements/ids-101-200#achievement-119",
+        "items": [
+          {
+            "name": "潘多拉魔盒",
+            "link": "/items/c297"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 213,
+        "name": "Long Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Lazarus",
+        "conditionZh": "用拉撒路击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-213",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 105,
+        "name": "Missing No.",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Lazarus",
+        "conditionZh": "用拉撒路完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-105",
+        "items": [
+          {
+            "name": "编号丢失",
+            "link": "/items/c258"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 187,
+        "name": "Empty Vessel",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Lazarus",
+        "conditionZh": "用拉撒路击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-187",
+        "items": [
+          {
+            "name": "空容器",
+            "link": "/items/c409"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 200,
+        "name": "Key Bum",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Lazarus",
+        "conditionZh": "用拉撒路击败究极贪婪。",
+        "achievementLink": "/achievements/ids-101-200#achievement-200",
+        "items": [
+          {
+            "name": "钥匙乞丐",
+            "link": "/items/c388"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 305,
+        "name": "Plan C",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Lazarus",
+        "conditionZh": "用拉撒路击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-305",
+        "items": [
+          {
+            "name": "计划C",
+            "link": "/items/c475"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 291,
+        "name": "Compound Fracture",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Lazarus",
+        "conditionZh": "用拉撒路击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-291",
+        "items": [
+          {
+            "name": "复杂性骨折",
+            "link": "/items/c453"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 456,
+        "name": "Tinytoma",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Lazarus",
+        "conditionZh": "用拉撒路击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-456",
+        "items": [
+          {
+            "name": "小畸胎瘤",
+            "link": "/items/c645"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 457,
+        "name": "Astral Projection",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Lazarus",
+        "conditionZh": "用拉撒路击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-457",
+        "items": [
+          {
+            "name": "灵魂出窍",
+            "link": "/items/c677"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 257,
+        "name": "Dripping Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Lazarus",
+        "conditionZh": "用拉撒路完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-257",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "eden",
+    "name": "伊甸",
+    "en": "Eden",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 176,
+        "name": "Glitch Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Eden",
+        "conditionZh": "用伊甸在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-176",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 121,
+        "name": "Blank Card",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Eden",
+        "conditionZh": "用伊甸击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-121",
+        "items": [
+          {
+            "name": "空白卡牌",
+            "link": "/items/c286"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 122,
+        "name": "Book of Secrets",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Eden",
+        "conditionZh": "用伊甸击败撒但。",
+        "achievementLink": "/achievements/ids-101-200#achievement-122",
+        "items": [
+          {
+            "name": "秘密之书",
+            "link": "/items/c287"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 123,
+        "name": "Mysterious Paper",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Eden",
+        "conditionZh": "用伊甸击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-123",
+        "items": [
+          {
+            "name": "神秘纸片",
+            "link": "/items/t21"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 124,
+        "name": "Mystery Sack",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Eden",
+        "conditionZh": "用伊甸击败羔羊。",
+        "achievementLink": "/achievements/ids-101-200#achievement-124",
+        "items": [
+          {
+            "name": "神秘的袋子",
+            "link": "/items/c271"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 214,
+        "name": "Yellow Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Eden",
+        "conditionZh": "用伊甸击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-214",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 125,
+        "name": "Undefined",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Eden",
+        "conditionZh": "用伊甸完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-125",
+        "items": [
+          {
+            "name": "未定义",
+            "link": "/items/c324"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 188,
+        "name": "Eden's Blessing",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Eden",
+        "conditionZh": "用伊甸击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-188",
+        "items": [
+          {
+            "name": "伊甸的祝福",
+            "link": "/items/c381"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 201,
+        "name": "GB Bug",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Eden",
+        "conditionZh": "用伊甸击败究极贪婪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-201",
+        "items": [
+          {
+            "name": "恶性漏洞",
+            "link": "/items/c405"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 303,
+        "name": "Metronome",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Eden",
+        "conditionZh": "用伊甸击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-303",
+        "items": [
+          {
+            "name": "节拍器",
+            "link": "/items/c488"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 289,
+        "name": "Eden's Soul",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Eden",
+        "conditionZh": "用伊甸击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-289",
+        "items": [
+          {
+            "name": "伊甸的灵魂",
+            "link": "/items/c490"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 458,
+        "name": "'M",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Eden",
+        "conditionZh": "用伊甸击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-458",
+        "items": [
+          {
+            "name": "'M",
+            "link": "/items/t138"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 459,
+        "name": "Everything Jar",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Eden",
+        "conditionZh": "用伊甸击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-459",
+        "items": [
+          {
+            "name": "百宝罐",
+            "link": "/items/c720"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 256,
+        "name": "Cracked Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Eden",
+        "conditionZh": "用伊甸完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-256",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "lost",
+    "name": "游魂",
+    "en": "The Lost",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 175,
+        "name": "-0- Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as The Lost",
+        "conditionZh": "用游魂在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-101-200#achievement-175",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 129,
+        "name": "Isaac's Heart",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as The Lost",
+        "conditionZh": "用游魂击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-129",
+        "items": [
+          {
+            "name": "以撒的心脏",
+            "link": "/items/c276"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 130,
+        "name": "The Mind",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as The Lost",
+        "conditionZh": "用游魂击败撒但。",
+        "achievementLink": "/achievements/ids-101-200#achievement-130",
+        "items": [
+          {
+            "name": "思想",
+            "link": "/items/c333"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 131,
+        "name": "The Body",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as The Lost",
+        "conditionZh": "用游魂击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-131",
+        "items": [
+          {
+            "name": "肉体",
+            "link": "/items/c334"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 132,
+        "name": "The Soul",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as The Lost",
+        "conditionZh": "用游魂击败羔羊。",
+        "achievementLink": "/achievements/ids-101-200#achievement-132",
+        "items": [
+          {
+            "name": "灵魂",
+            "link": "/items/c335"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 215,
+        "name": "White Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as The Lost",
+        "conditionZh": "用游魂击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-215",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 133,
+        "name": "The D100",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as The Lost",
+        "conditionZh": "用游魂完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-101-200#achievement-133",
+        "items": [
+          {
+            "name": "一百面骰",
+            "link": "/items/c283"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 189,
+        "name": "Sworn Protector",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as The Lost",
+        "conditionZh": "用游魂击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-189",
+        "items": [
+          {
+            "name": "宣誓守护者",
+            "link": "/items/c363"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 202,
+        "name": "Zodiac",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as The Lost",
+        "conditionZh": "用游魂击败究极贪婪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-202",
+        "items": [
+          {
+            "name": "黄道十二宫",
+            "link": "/items/c392"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 307,
+        "name": "Dad's Lost Coin",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as The Lost",
+        "conditionZh": "用游魂击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-307",
+        "items": [
+          {
+            "name": "爸爸丢失的硬币",
+            "link": "/items/c455"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 293,
+        "name": "Holy Card",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as The Lost",
+        "conditionZh": "用游魂击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-293",
+        "items": [
+          {
+            "name": "神圣卡",
+            "link": "/items/k51"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 460,
+        "name": "Lost Soul",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as The Lost",
+        "conditionZh": "用游魂击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-460",
+        "items": [
+          {
+            "name": "迷失游魂",
+            "link": "/items/c612"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 461,
+        "name": "Hungry Soul",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as The Lost",
+        "conditionZh": "用游魂击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-461",
+        "items": [
+          {
+            "name": "饥饿幽魂",
+            "link": "/items/c684"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 156,
+        "name": "Godhead",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all [(in Rebirth)] 6 / [(in Afterbirth)] 9 / [(in Afterbirth †)] 10 / [(in Repentance and Repentance+)] 12 Completion Marks on Hard mode as The Lost",
+        "conditionZh": "用游魂完成全部 12 格困难标记，贪婪格为极贪（忏悔 / 忏悔+）。",
+        "achievementLink": "/achievements/ids-101-200#achievement-156",
+        "items": [
+          {
+            "name": "神性",
+            "link": "/items/c331"
+          }
+        ],
+        "notes": "忏悔 / 忏悔+ 要十二格全困难 / 极贪；旧版六格、九格、十格条件不适用。"
+      }
+    ]
+  },
+  {
+    "id": "lilith",
+    "name": "莉莉丝",
+    "en": "Lilith",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 223,
+        "name": "Goat Head Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Lilith",
+        "conditionZh": "用莉莉丝在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-201-300#achievement-223",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 218,
+        "name": "Rune Bag",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Lilith",
+        "conditionZh": "用莉莉丝击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-201-300#achievement-218",
+        "items": [
+          {
+            "name": "符文袋",
+            "link": "/items/c389"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 220,
+        "name": "Serpent's Kiss",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Lilith",
+        "conditionZh": "用莉莉丝击败撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-220",
+        "items": [
+          {
+            "name": "蛇蝎之吻",
+            "link": "/items/c393"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 219,
+        "name": "Cambion Conception",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Lilith",
+        "conditionZh": "用莉莉丝击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-201-300#achievement-219",
+        "items": [
+          {
+            "name": "恶魔受胎",
+            "link": "/items/c412"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 221,
+        "name": "Succubus",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Lilith",
+        "conditionZh": "用莉莉丝击败羔羊。",
+        "achievementLink": "/achievements/ids-201-300#achievement-221",
+        "items": [
+          {
+            "name": "魅魔",
+            "link": "/items/c417"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 216,
+        "name": "Big Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Lilith",
+        "conditionZh": "用莉莉丝击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-216",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 222,
+        "name": "Immaculate Conception",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Lilith",
+        "conditionZh": "用莉莉丝完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-201-300#achievement-222",
+        "items": [
+          {
+            "name": "圣灵受胎",
+            "link": "/items/c413"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 190,
+        "name": "Incubus",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Lilith",
+        "conditionZh": "用莉莉丝击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-190",
+        "items": [
+          {
+            "name": "淫魔",
+            "link": "/items/c360"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 203,
+        "name": "Box of Friends",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Lilith",
+        "conditionZh": "用莉莉丝击败究极贪婪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-203",
+        "items": [
+          {
+            "name": "朋友盒",
+            "link": "/items/c357"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 306,
+        "name": "Duality",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Lilith",
+        "conditionZh": "用莉莉丝击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-306",
+        "items": [
+          {
+            "name": "二元性",
+            "link": "/items/c498"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 292,
+        "name": "Euthanasia",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Lilith",
+        "conditionZh": "用莉莉丝击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-292",
+        "items": [
+          {
+            "name": "安乐死",
+            "link": "/items/c496"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 462,
+        "name": "Blood Puppy",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Lilith",
+        "conditionZh": "用莉莉丝击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-462",
+        "items": [
+          {
+            "name": "嗜血小宠",
+            "link": "/items/c565"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 463,
+        "name": "C Section",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Lilith",
+        "conditionZh": "用莉莉丝击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-463",
+        "items": [
+          {
+            "name": "剖腹产",
+            "link": "/items/c678"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 260,
+        "name": "Dark Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Lilith",
+        "conditionZh": "用莉莉丝完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-260",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "keeper",
+    "name": "店主",
+    "en": "Keeper",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 241,
+        "name": "Super Greed Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Keeper",
+        "conditionZh": "用店主在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-201-300#achievement-241",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 236,
+        "name": "Keeper holds Wooden Nickel",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Keeper",
+        "conditionZh": "用店主击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-201-300#achievement-236",
+        "items": [
+          {
+            "name": "店主开局木制镍币",
+            "link": "/items/c349"
+          }
+        ],
+        "notes": "让店主开局带木制镍币；不代表解锁木制镍币这个道具本身。"
+      },
+      {
+        "id": 237,
+        "name": "Keeper holds Store Key",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Keeper",
+        "conditionZh": "用店主击败撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-237",
+        "items": [
+          {
+            "name": "店主开局商店钥匙",
+            "link": "/items/t83"
+          }
+        ],
+        "notes": "让店主开局带商店钥匙；不代表完成其他角色的开局强化。"
+      },
+      {
+        "id": 238,
+        "name": "Deep Pockets",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Keeper",
+        "conditionZh": "用店主击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-201-300#achievement-238",
+        "items": [
+          {
+            "name": "深口袋",
+            "link": "/items/c416"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 239,
+        "name": "Karma",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Keeper",
+        "conditionZh": "用店主击败羔羊。",
+        "achievementLink": "/achievements/ids-201-300#achievement-239",
+        "items": [
+          {
+            "name": "业报",
+            "link": "/items/t85"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 217,
+        "name": "Noose Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Keeper",
+        "conditionZh": "用店主击败超级撒但。",
+        "achievementLink": "/achievements/ids-201-300#achievement-217",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 240,
+        "name": "Sticky Nickels",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Keeper",
+        "conditionZh": "用店主完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-201-300#achievement-240",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 191,
+        "name": "Keeper now holds... A Penny!",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Keeper",
+        "conditionZh": "用店主击败死寂。",
+        "achievementLink": "/achievements/ids-101-200#achievement-191",
+        "items": [
+          {
+            "name": "店主开局硬币 / 第三个硬币心",
+            "link": "/characters/keeper"
+          }
+        ],
+        "notes": "强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。不是给普通道具池增加物品。"
+      },
+      {
+        "id": 204,
+        "name": "Rib of Greed",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Keeper",
+        "conditionZh": "用店主击败究极贪婪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-204",
+        "items": [
+          {
+            "name": "贪婪的肋骨",
+            "link": "/items/t84"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 308,
+        "name": "Eye of Greed",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Keeper",
+        "conditionZh": "用店主击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-308",
+        "items": [
+          {
+            "name": "贪婪的眼睛",
+            "link": "/items/c450"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 294,
+        "name": "Crooked Penny",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Keeper",
+        "conditionZh": "用店主击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-294",
+        "items": [
+          {
+            "name": "被掰弯的硬币",
+            "link": "/items/c485"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 464,
+        "name": "Keeper's Sack",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Keeper",
+        "conditionZh": "用店主击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-464",
+        "items": [
+          {
+            "name": "店主的胯袋",
+            "link": "/items/c716"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 465,
+        "name": "Keeper's Box",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Keeper",
+        "conditionZh": "用店主击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-465",
+        "items": [
+          {
+            "name": "店主的盒子",
+            "link": "/items/c719"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 264,
+        "name": "Sale Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Keeper",
+        "conditionZh": "用店主完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-201-300#achievement-264",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "apollyon",
+    "name": "亚玻伦",
+    "en": "Apollyon",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 318,
+        "name": "Smelter",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Apollyon",
+        "conditionZh": "用亚玻伦在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-301-400#achievement-318",
+        "items": [
+          {
+            "name": "熔炉",
+            "link": "/items/c479"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 310,
+        "name": "Locust of Wrath",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Apollyon",
+        "conditionZh": "用亚玻伦击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-301-400#achievement-310",
+        "items": [
+          {
+            "name": "战争蝗虫",
+            "link": "/items/t113"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 311,
+        "name": "Locust of Pestilence",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Apollyon",
+        "conditionZh": "用亚玻伦击败撒但。",
+        "achievementLink": "/achievements/ids-301-400#achievement-311",
+        "items": [
+          {
+            "name": "瘟疫蝗虫",
+            "link": "/items/t114"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 312,
+        "name": "Locust of Famine",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Apollyon",
+        "conditionZh": "用亚玻伦击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-301-400#achievement-312",
+        "items": [
+          {
+            "name": "饥荒蝗虫",
+            "link": "/items/t115"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 313,
+        "name": "Locust of Death",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Apollyon",
+        "conditionZh": "用亚玻伦击败羔羊。",
+        "achievementLink": "/achievements/ids-301-400#achievement-313",
+        "items": [
+          {
+            "name": "死亡蝗虫",
+            "link": "/items/t116"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 317,
+        "name": "Mort Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Apollyon",
+        "conditionZh": "用亚玻伦击败超级撒但。",
+        "achievementLink": "/achievements/ids-301-400#achievement-317",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 314,
+        "name": "Locust of Conquest",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Apollyon",
+        "conditionZh": "用亚玻伦完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-301-400#achievement-314",
+        "items": [
+          {
+            "name": "征服蝗虫",
+            "link": "/items/t117"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 315,
+        "name": "Hushy",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Apollyon",
+        "conditionZh": "用亚玻伦击败死寂。",
+        "achievementLink": "/achievements/ids-301-400#achievement-315",
+        "items": [
+          {
+            "name": "死寂宝宝",
+            "link": "/items/c470"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 316,
+        "name": "Brown Nugget",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Apollyon",
+        "conditionZh": "用亚玻伦击败究极贪婪。",
+        "achievementLink": "/achievements/ids-301-400#achievement-316",
+        "items": [
+          {
+            "name": "棕色粪块",
+            "link": "/items/c504"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 309,
+        "name": "Black Rune",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Apollyon",
+        "conditionZh": "用亚玻伦击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-309",
+        "items": [
+          {
+            "name": "黑符文",
+            "link": "/items/k41"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 295,
+        "name": "Void",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Apollyon",
+        "conditionZh": "用亚玻伦击败精神错乱。",
+        "achievementLink": "/achievements/ids-201-300#achievement-295",
+        "items": [
+          {
+            "name": "虚空",
+            "link": "/items/c477"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 466,
+        "name": "Lil Portal",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Apollyon",
+        "conditionZh": "用亚玻伦击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-466",
+        "items": [
+          {
+            "name": "黑洞宝宝",
+            "link": "/items/c681"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 467,
+        "name": "Worm Friend",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Apollyon",
+        "conditionZh": "用亚玻伦击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-467",
+        "items": [
+          {
+            "name": "触手朋友",
+            "link": "/items/c682"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 319,
+        "name": "Apollyon Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Apollyon",
+        "conditionZh": "用亚玻伦完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-301-400#achievement-319",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "forgotten",
+    "name": "遗骸",
+    "en": "The Forgotten",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 392,
+        "name": "Marrow",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as The Forgotten",
+        "conditionZh": "用遗骸在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-301-400#achievement-392",
+        "items": [
+          {
+            "name": "骨髓",
+            "link": "/items/c541"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 393,
+        "name": "Slipped Rib",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as The Forgotten",
+        "conditionZh": "用遗骸击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-301-400#achievement-393",
+        "items": [
+          {
+            "name": "滑肋骨",
+            "link": "/items/c542"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 394,
+        "name": "Pointy Rib",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as The Forgotten",
+        "conditionZh": "用遗骸击败撒但。",
+        "achievementLink": "/achievements/ids-301-400#achievement-394",
+        "items": [
+          {
+            "name": "尖肋骨",
+            "link": "/items/c544"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 395,
+        "name": "Jaw Bone",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as The Forgotten",
+        "conditionZh": "用遗骸击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-301-400#achievement-395",
+        "items": [
+          {
+            "name": "颌骨",
+            "link": "/items/c548"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 396,
+        "name": "Brittle Bones",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as The Forgotten",
+        "conditionZh": "用遗骸击败羔羊。",
+        "achievementLink": "/achievements/ids-301-400#achievement-396",
+        "items": [
+          {
+            "name": "脆骨症",
+            "link": "/items/c549"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 403,
+        "name": "Bound Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as The Forgotten",
+        "conditionZh": "用遗骸击败超级撒但。",
+        "achievementLink": "/achievements/ids-401-500#achievement-403",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 397,
+        "name": "Divorce Papers",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as The Forgotten",
+        "conditionZh": "用遗骸完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-301-400#achievement-397",
+        "items": [
+          {
+            "name": "离婚协议书",
+            "link": "/items/c547"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 398,
+        "name": "Hallowed Ground",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as The Forgotten",
+        "conditionZh": "用遗骸击败死寂。",
+        "achievementLink": "/achievements/ids-301-400#achievement-398",
+        "items": [
+          {
+            "name": "圣地大便",
+            "link": "/items/c543"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 399,
+        "name": "Finger Bone",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as The Forgotten",
+        "conditionZh": "用遗骸击败究极贪婪。",
+        "achievementLink": "/achievements/ids-301-400#achievement-399",
+        "items": [
+          {
+            "name": "指骨",
+            "link": "/items/t128"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 400,
+        "name": "Dad's Ring",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as The Forgotten",
+        "conditionZh": "用遗骸击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-301-400#achievement-400",
+        "items": [
+          {
+            "name": "爸爸的戒指",
+            "link": "/items/c546"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 401,
+        "name": "Book of the Dead",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as The Forgotten",
+        "conditionZh": "用遗骸击败精神错乱。",
+        "achievementLink": "/achievements/ids-401-500#achievement-401",
+        "items": [
+          {
+            "name": "亡者之书",
+            "link": "/items/c545"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 468,
+        "name": "Bone Spurs",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as The Forgotten",
+        "conditionZh": "用遗骸击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-468",
+        "items": [
+          {
+            "name": "骨刺",
+            "link": "/items/c683"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 469,
+        "name": "Spirit Shackles",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as The Forgotten",
+        "conditionZh": "用遗骸击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-469",
+        "items": [
+          {
+            "name": "灵魂枷锁",
+            "link": "/items/c674"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 402,
+        "name": "Bone Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as The Forgotten",
+        "conditionZh": "用遗骸完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-401-500#achievement-402",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "bethany",
+    "name": "伯大尼",
+    "en": "Bethany",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 416,
+        "name": "Wisp Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Bethany",
+        "conditionZh": "用伯大尼在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-401-500#achievement-416",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 417,
+        "name": "Book of Virtues",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Bethany",
+        "conditionZh": "用伯大尼击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-401-500#achievement-417",
+        "items": [
+          {
+            "name": "美德之书",
+            "link": "/items/c584"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 418,
+        "name": "Urn of Souls",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Bethany",
+        "conditionZh": "用伯大尼击败撒但。",
+        "achievementLink": "/achievements/ids-401-500#achievement-418",
+        "items": [
+          {
+            "name": "灵魂之瓮",
+            "link": "/items/c640"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 419,
+        "name": "Blessed Penny",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Bethany",
+        "conditionZh": "用伯大尼击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-401-500#achievement-419",
+        "items": [
+          {
+            "name": "神圣硬币",
+            "link": "/items/t131"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 420,
+        "name": "Alabaster Box",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Bethany",
+        "conditionZh": "用伯大尼击败羔羊。",
+        "achievementLink": "/achievements/ids-401-500#achievement-420",
+        "items": [
+          {
+            "name": "白玉香膏盒",
+            "link": "/items/c585"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 427,
+        "name": "Glowing Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Bethany",
+        "conditionZh": "用伯大尼击败超级撒但。",
+        "achievementLink": "/achievements/ids-401-500#achievement-427",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 421,
+        "name": "Beth's Faith",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete the Boss Rush as Bethany",
+        "conditionZh": "用伯大尼完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-401-500#achievement-421",
+        "items": [
+          {
+            "name": "伯大尼的信仰",
+            "link": "/items/t142"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 423,
+        "name": "Divine Intervention",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Bethany",
+        "conditionZh": "用伯大尼击败死寂。",
+        "achievementLink": "/achievements/ids-401-500#achievement-423",
+        "items": [
+          {
+            "name": "神圣干预",
+            "link": "/items/c568"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 422,
+        "name": "Soul Locket",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Bethany",
+        "conditionZh": "用伯大尼击败究极贪婪。",
+        "achievementLink": "/achievements/ids-401-500#achievement-422",
+        "items": [
+          {
+            "name": "灵魂吊坠",
+            "link": "/items/c686"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 424,
+        "name": "Vade Retro",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Bethany",
+        "conditionZh": "用伯大尼击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-401-500#achievement-424",
+        "items": [
+          {
+            "name": "驱魔护符",
+            "link": "/items/c653"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 425,
+        "name": "Star of Bethlehem",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Bethany",
+        "conditionZh": "用伯大尼击败精神错乱。",
+        "achievementLink": "/achievements/ids-401-500#achievement-425",
+        "items": [
+          {
+            "name": "伯列恒之星",
+            "link": "/items/c651"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 470,
+        "name": "Revelation",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Bethany",
+        "conditionZh": "用伯大尼击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-470",
+        "items": [
+          {
+            "name": "终末天启",
+            "link": "/items/c643"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 471,
+        "name": "Jar of Wisps",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Bethany",
+        "conditionZh": "用伯大尼击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-471",
+        "items": [
+          {
+            "name": "魂火罐",
+            "link": "/items/c685"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 426,
+        "name": "Hope Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Bethany",
+        "conditionZh": "用伯大尼完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-401-500#achievement-426",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "jacob",
+    "name": "雅各和以扫",
+    "en": "Jacob and Esau",
+    "group": "表角色",
+    "rewards": [
+      {
+        "id": 428,
+        "name": "Double Baby",
+        "kind": "heart",
+        "label": "困难心脏 / 它活着",
+        "marks": [
+          "heart"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Mom's Heart or It Lives! on Hard mode as Jacob and Esau",
+        "conditionZh": "用雅各与以扫在困难模式击败妈妈的心脏 / 它活着。",
+        "achievementLink": "/achievements/ids-401-500#achievement-428",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 429,
+        "name": "The Stairway",
+        "kind": "isaac",
+        "label": "以撒",
+        "marks": [
+          "isaac"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败以撒（Boss）。",
+        "achievementLink": "/achievements/ids-401-500#achievement-429",
+        "items": [
+          {
+            "name": "天堂阶梯",
+            "link": "/items/c586"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 430,
+        "name": "Red Stew",
+        "kind": "satan",
+        "label": "撒但",
+        "marks": [
+          "satan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Satan as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败撒但。",
+        "achievementLink": "/achievements/ids-401-500#achievement-430",
+        "items": [
+          {
+            "name": "红豆汤",
+            "link": "/items/c621"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 431,
+        "name": "Birthright",
+        "kind": "bluebaby",
+        "label": "???（Boss）",
+        "marks": [
+          "bluebaby"
+        ],
+        "minimum": 1,
+        "condition": "Defeat ??? as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败小蓝人（Boss）。",
+        "achievementLink": "/achievements/ids-401-500#achievement-431",
+        "items": [
+          {
+            "name": "长子名分",
+            "link": "/items/c619"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 432,
+        "name": "Damocles",
+        "kind": "lamb",
+        "label": "羔羊",
+        "marks": [
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Lamb as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败羔羊。",
+        "achievementLink": "/achievements/ids-401-500#achievement-432",
+        "items": [
+          {
+            "name": "达摩克里斯之剑",
+            "link": "/items/c577"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 439,
+        "name": "Illusion Baby",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败超级撒但。",
+        "achievementLink": "/achievements/ids-401-500#achievement-439",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 433,
+        "name": "Rock Bottom",
+        "kind": "bossrush",
+        "label": "Boss Rush",
+        "marks": [
+          "bossrush"
+        ],
+        "minimum": 1,
+        "condition": "Complete Boss Rush as Jacob and Esau",
+        "conditionZh": "用雅各与以扫完成 Boss Rush。",
+        "achievementLink": "/achievements/ids-401-500#achievement-433",
+        "items": [
+          {
+            "name": "谷底石",
+            "link": "/items/c562"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 435,
+        "name": "Vanishing Twin",
+        "kind": "hush",
+        "label": "死寂",
+        "marks": [
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败死寂。",
+        "achievementLink": "/achievements/ids-401-500#achievement-435",
+        "items": [
+          {
+            "name": "消失的胞胎",
+            "link": "/items/c697"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 434,
+        "name": "Inner Child",
+        "kind": "greed",
+        "label": "普通贪婪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Ultra Greed as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败究极贪婪。",
+        "achievementLink": "/achievements/ids-401-500#achievement-434",
+        "items": [
+          {
+            "name": "内在孩童",
+            "link": "/items/c688"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 436,
+        "name": "Genesis",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-401-500#achievement-436",
+        "items": [
+          {
+            "name": "创世记",
+            "link": "/items/c622"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 437,
+        "name": "Suplex!",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败精神错乱。",
+        "achievementLink": "/achievements/ids-401-500#achievement-437",
+        "items": [
+          {
+            "name": "背摔！",
+            "link": "/items/c709"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 472,
+        "name": "Magic Skin",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败母亲。",
+        "achievementLink": "/achievements/ids-401-500#achievement-472",
+        "items": [
+          {
+            "name": "玄奇驴皮",
+            "link": "/items/c642"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 473,
+        "name": "Friend Finder",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Jacob and Esau",
+        "conditionZh": "用雅各与以扫击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-473",
+        "items": [
+          {
+            "name": "寻友护符",
+            "link": "/items/c687"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 438,
+        "name": "Solomon's Baby",
+        "kind": "all-hard",
+        "label": "全部十二格困难 / 极贪",
+        "marks": [
+          "heart",
+          "isaac",
+          "satan",
+          "bluebaby",
+          "lamb",
+          "megasatan",
+          "bossrush",
+          "hush",
+          "greed",
+          "delirium",
+          "mother",
+          "beast"
+        ],
+        "minimum": 2,
+        "condition": "Earn all Hard mode Completion Marks as Jacob and Esau",
+        "conditionZh": "用雅各与以扫完成全部困难标记，贪婪格按极贪。",
+        "achievementLink": "/achievements/ids-401-500#achievement-438",
+        "items": [],
+        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+      }
+    ]
+  },
+  {
+    "id": "tainted-isaac",
+    "name": "里以撒",
+    "en": "Tainted Isaac",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 548,
+        "name": "Mom's Lock",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Isaac",
+        "conditionZh": "用里以撒分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-548",
+        "items": [
+          {
+            "name": "妈妈的发髻",
+            "link": "/items/t153"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 618,
+        "name": "Soul of Isaac",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Isaac",
+        "conditionZh": "用里以撒完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-618",
+        "items": [
+          {
+            "name": "以撒的魂石",
+            "link": "/items/k81"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 601,
+        "name": "Mega Chest",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Isaac",
+        "conditionZh": "用里以撒击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-601",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 541,
+        "name": "The Stars",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Isaac",
+        "conditionZh": "用里以撒击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-541",
+        "items": [
+          {
+            "name": "XVII-星星？",
+            "link": "/items/k73"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 584,
+        "name": "Spindown Dice",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Isaac",
+        "conditionZh": "用里以撒击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-584",
+        "items": [
+          {
+            "name": "计数二十面骰",
+            "link": "/items/c723"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 549,
+        "name": "Dice Bag",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Isaac",
+        "conditionZh": "用里以撒击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-549",
+        "items": [
+          {
+            "name": "骰子袋",
+            "link": "/items/t154"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 491,
+        "name": "Glitched Crown",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Isaac",
+        "conditionZh": "用里以撒击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-491",
+        "items": [
+          {
+            "name": "错误王冠",
+            "link": "/items/c689"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-magdalene",
+    "name": "里抹大拉",
+    "en": "Tainted Magdalene",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 550,
+        "name": "Holy Crown",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Magdalene",
+        "conditionZh": "用里抹大拉分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-550",
+        "items": [
+          {
+            "name": "神圣王冠",
+            "link": "/items/t155"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 619,
+        "name": "Soul of Magdalene",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Magdalene",
+        "conditionZh": "用里抹大拉完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-619",
+        "items": [
+          {
+            "name": "抹大拉的魂石",
+            "link": "/items/k82"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 602,
+        "name": "Queen of Hearts",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Magdalene",
+        "conditionZh": "用里抹大拉击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-602",
+        "items": [
+          {
+            "name": "红桃Q",
+            "link": "/items/k79"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 530,
+        "name": "The Lovers",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Magdalene",
+        "conditionZh": "用里抹大拉击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-530",
+        "items": [
+          {
+            "name": "VI-恋人？",
+            "link": "/items/k62"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 585,
+        "name": "Hypercoagulation",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Magdalene",
+        "conditionZh": "用里抹大拉击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-585",
+        "items": [
+          {
+            "name": "高凝血",
+            "link": "/items/c724"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 551,
+        "name": "Mother's Kiss",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Magdalene",
+        "conditionZh": "用里抹大拉击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-551",
+        "items": [
+          {
+            "name": "母亲的吻",
+            "link": "/items/t156"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 492,
+        "name": "Belly Jelly",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Magdalene",
+        "conditionZh": "用里抹大拉击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-492",
+        "items": [
+          {
+            "name": "肚肚软糖",
+            "link": "/items/c690"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-cain",
+    "name": "里该隐",
+    "en": "Tainted Cain",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 552,
+        "name": "Gilded Key",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Cain",
+        "conditionZh": "用里该隐分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-552",
+        "items": [
+          {
+            "name": "镀金钥匙",
+            "link": "/items/t159"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 620,
+        "name": "Soul of Cain",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Cain",
+        "conditionZh": "用里该隐完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-620",
+        "items": [
+          {
+            "name": "该隐的魂石",
+            "link": "/items/k83"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 603,
+        "name": "Gold Pill",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Cain",
+        "conditionZh": "用里该隐击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-603",
+        "items": [
+          {
+            "name": "金胶囊",
+            "link": "/items/p9999"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 534,
+        "name": "Wheel of Fortune",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Cain",
+        "conditionZh": "用里该隐击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-534",
+        "items": [
+          {
+            "name": "X-命运之轮？",
+            "link": "/items/k66"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 586,
+        "name": "Bag of Crafting",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Cain",
+        "conditionZh": "用里该隐击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-586",
+        "items": [
+          {
+            "name": "合成宝袋",
+            "link": "/items/c710"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 553,
+        "name": "Lucky Sack",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Cain",
+        "conditionZh": "用里该隐击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-553",
+        "items": [
+          {
+            "name": "幸运袋",
+            "link": "/items/t160"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 493,
+        "name": "Blue Key",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Cain",
+        "conditionZh": "用里该隐击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-493",
+        "items": [
+          {
+            "name": "蓝钥匙",
+            "link": "/items/t150"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-judas",
+    "name": "里犹大",
+    "en": "Tainted Judas",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 554,
+        "name": "Your Soul",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Judas",
+        "conditionZh": "用里犹大分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-554",
+        "items": [
+          {
+            "name": "你的灵魂",
+            "link": "/items/t173"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 621,
+        "name": "Soul of Judas",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Judas",
+        "conditionZh": "用里犹大完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-621",
+        "items": [
+          {
+            "name": "犹大的魂石",
+            "link": "/items/k84"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 604,
+        "name": "Black Sack",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Judas",
+        "conditionZh": "用里犹大击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-604",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 525,
+        "name": "The Magician",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Judas",
+        "conditionZh": "用里犹大击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-525",
+        "items": [
+          {
+            "name": "I-魔术师？",
+            "link": "/items/k57"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 587,
+        "name": "Dark Arts",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Judas",
+        "conditionZh": "用里犹大击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-587",
+        "items": [
+          {
+            "name": "暗仪刺刀",
+            "link": "/items/c705"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 555,
+        "name": "Number Magnet",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Judas",
+        "conditionZh": "用里犹大击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-555",
+        "items": [
+          {
+            "name": "数字冰箱贴",
+            "link": "/items/t174"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 494,
+        "name": "Sanguine Bond",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Judas",
+        "conditionZh": "用里犹大击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-494",
+        "items": [
+          {
+            "name": "血色羁绊",
+            "link": "/items/c692"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-bluebaby",
+    "name": "里???",
+    "en": "Tainted ???",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 556,
+        "name": "Dingle Berry",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted ???",
+        "conditionZh": "用里小蓝人分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-556",
+        "items": [
+          {
+            "name": "粪蛋",
+            "link": "/items/t163"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 622,
+        "name": "Soul of ???",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted ???",
+        "conditionZh": "用里小蓝人完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-622",
+        "items": [
+          {
+            "name": "???的魂石",
+            "link": "/items/k85"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 605,
+        "name": "Charming Poop",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted ???",
+        "conditionZh": "用里小蓝人击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-605",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 528,
+        "name": "The Emperor",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted ???",
+        "conditionZh": "用里小蓝人击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-528",
+        "items": [
+          {
+            "name": "IV-皇帝？",
+            "link": "/items/k60"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 588,
+        "name": "IBS",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted ???",
+        "conditionZh": "用里小蓝人击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-588",
+        "items": [
+          {
+            "name": "大肠激躁症",
+            "link": "/items/c725"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 557,
+        "name": "Ring Cap",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted ???",
+        "conditionZh": "用里小蓝人击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-557",
+        "items": [
+          {
+            "name": "火药圈",
+            "link": "/items/t164"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 495,
+        "name": "The Swarm",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted ???",
+        "conditionZh": "用里小蓝人击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-495",
+        "items": [
+          {
+            "name": "虫群",
+            "link": "/items/c693"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-eve",
+    "name": "里夏娃",
+    "en": "Tainted Eve",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 558,
+        "name": "Strange Key",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Eve",
+        "conditionZh": "用里夏娃分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-558",
+        "items": [
+          {
+            "name": "奇怪的钥匙",
+            "link": "/items/t175"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 623,
+        "name": "Soul of Eve",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Eve",
+        "conditionZh": "用里夏娃完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-623",
+        "items": [
+          {
+            "name": "夏娃的魂石",
+            "link": "/items/k86"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 606,
+        "name": "Horse Pill",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Eve",
+        "conditionZh": "用里夏娃击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-606",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 527,
+        "name": "The Empress",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Eve",
+        "conditionZh": "用里夏娃击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-527",
+        "items": [
+          {
+            "name": "III-皇后？",
+            "link": "/items/k59"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 589,
+        "name": "Sumptorium",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Eve",
+        "conditionZh": "用里夏娃击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-589",
+        "items": [
+          {
+            "name": "圣血吸管",
+            "link": "/items/c713"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 559,
+        "name": "Lil Clot",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Eve",
+        "conditionZh": "用里夏娃击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-559",
+        "items": [
+          {
+            "name": "小血团",
+            "link": "/items/t176"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 496,
+        "name": "Heartbreak",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Eve",
+        "conditionZh": "用里夏娃击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-496",
+        "items": [
+          {
+            "name": "心碎",
+            "link": "/items/c694"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-samson",
+    "name": "里参孙",
+    "en": "Tainted Samson",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 560,
+        "name": "Temporary Tattoo",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Samson",
+        "conditionZh": "用里参孙分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-560",
+        "items": [
+          {
+            "name": "纹身贴",
+            "link": "/items/t177"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 624,
+        "name": "Soul of Samson",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Samson",
+        "conditionZh": "用里参孙完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-624",
+        "items": [
+          {
+            "name": "参孙的魂石",
+            "link": "/items/k87"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 607,
+        "name": "Crane Game",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Samson",
+        "conditionZh": "用里参孙击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-607",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 535,
+        "name": "Strength",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Samson",
+        "conditionZh": "用里参孙击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-535",
+        "items": [
+          {
+            "name": "XI-力量？",
+            "link": "/items/k67"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 590,
+        "name": "Berserk!",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Samson",
+        "conditionZh": "用里参孙击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-590",
+        "items": [
+          {
+            "name": "狂怒！",
+            "link": "/items/c704"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 561,
+        "name": "Swallowed M80",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Samson",
+        "conditionZh": "用里参孙击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-561",
+        "items": [
+          {
+            "name": "被吞下的M80鞭炮",
+            "link": "/items/t178"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 497,
+        "name": "Larynx",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Samson",
+        "conditionZh": "用里参孙击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-497",
+        "items": [
+          {
+            "name": "声带",
+            "link": "/items/c611"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-azazel",
+    "name": "里阿撒泻勒",
+    "en": "Tainted Azazel",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 562,
+        "name": "Wicked Crown",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-562",
+        "items": [
+          {
+            "name": "邪恶王冠",
+            "link": "/items/t161"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 625,
+        "name": "Soul of Azazel",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-625",
+        "items": [
+          {
+            "name": "阿撒泻勒的魂石",
+            "link": "/items/k88"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 608,
+        "name": "Hell Game",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-608",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 539,
+        "name": "The Devil",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-539",
+        "items": [
+          {
+            "name": "XV-恶魔？",
+            "link": "/items/k71"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 591,
+        "name": "Hemoptysis",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-591",
+        "items": [
+          {
+            "name": "咯血症",
+            "link": "/items/c726"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 563,
+        "name": "Azazel's Stump",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-563",
+        "items": [
+          {
+            "name": "阿撒泻勒的残角",
+            "link": "/items/t162"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 498,
+        "name": "Azazel's Rage",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Azazel",
+        "conditionZh": "用里阿撒泻勒击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-498",
+        "items": [
+          {
+            "name": "阿撒泻勒之怒",
+            "link": "/items/c699"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-lazarus",
+    "name": "里拉撒路",
+    "en": "Tainted Lazarus",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 564,
+        "name": "Torn Pocket",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Lazarus",
+        "conditionZh": "用里拉撒路分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-564",
+        "items": [
+          {
+            "name": "破损的口袋",
+            "link": "/items/t158"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 626,
+        "name": "Soul of Lazarus",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Lazarus",
+        "conditionZh": "用里拉撒路完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-626",
+        "items": [
+          {
+            "name": "拉撒路的魂石",
+            "link": "/items/k89"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 609,
+        "name": "Wooden Chest",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Lazarus",
+        "conditionZh": "用里拉撒路击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-609",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 543,
+        "name": "Judgement",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Lazarus",
+        "conditionZh": "用里拉撒路击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-543",
+        "items": [
+          {
+            "name": "XX-审判？",
+            "link": "/items/k76"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 592,
+        "name": "Flip",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Lazarus",
+        "conditionZh": "用里拉撒路击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-592",
+        "items": [
+          {
+            "name": "生死逆转",
+            "link": "/items/c711"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 565,
+        "name": "Torn Card",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Lazarus",
+        "conditionZh": "用里拉撒路击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-565",
+        "items": [
+          {
+            "name": "扑克牌残片",
+            "link": "/items/t157"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 499,
+        "name": "Salvation",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Lazarus",
+        "conditionZh": "用里拉撒路击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-499",
+        "items": [
+          {
+            "name": "救恩",
+            "link": "/items/c696"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-eden",
+    "name": "里伊甸",
+    "en": "Tainted Eden",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 566,
+        "name": "Nuh Uh!",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Eden",
+        "conditionZh": "用里伊甸分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-566",
+        "items": [
+          {
+            "name": "滚啊！",
+            "link": "/items/t165"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 627,
+        "name": "Soul of Eden",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Eden",
+        "conditionZh": "用里伊甸完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-627",
+        "items": [
+          {
+            "name": "伊甸的魂石",
+            "link": "/items/k90"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 610,
+        "name": "Wild Card",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Eden",
+        "conditionZh": "用里伊甸击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-610",
+        "items": [
+          {
+            "name": "万用牌",
+            "link": "/items/k80"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 544,
+        "name": "The World",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Eden",
+        "conditionZh": "用里伊甸击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-544",
+        "items": [
+          {
+            "name": "XXI-世界？",
+            "link": "/items/k77"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 593,
+        "name": "Corrupted Data",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Eden",
+        "conditionZh": "用里伊甸击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-593",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 567,
+        "name": "Modeling Clay",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Eden",
+        "conditionZh": "用里伊甸击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-567",
+        "items": [
+          {
+            "name": "塑型黏土",
+            "link": "/items/t166"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 500,
+        "name": "TMTRAINER",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Eden",
+        "conditionZh": "用里伊甸击败祸兽。",
+        "achievementLink": "/achievements/ids-401-500#achievement-500",
+        "items": [
+          {
+            "name": "错误技",
+            "link": "/items/c721"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-lost",
+    "name": "里游魂",
+    "en": "Tainted Lost",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 568,
+        "name": "Kid's Drawing",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Lost",
+        "conditionZh": "用里游魂分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-568",
+        "items": [
+          {
+            "name": "儿童涂鸦",
+            "link": "/items/t169"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 628,
+        "name": "Soul of the Lost",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Lost",
+        "conditionZh": "用里游魂完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-628",
+        "items": [
+          {
+            "name": "游魂的魂石",
+            "link": "/items/k91"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 611,
+        "name": "Haunted Chest",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Lost",
+        "conditionZh": "用里游魂击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-611",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 524,
+        "name": "The Fool",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Lost",
+        "conditionZh": "用里游魂击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-524",
+        "items": [
+          {
+            "name": "0-愚者？",
+            "link": "/items/k56"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 594,
+        "name": "Ghost Bombs",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Lost",
+        "conditionZh": "用里游魂击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-594",
+        "items": [
+          {
+            "name": "幽灵炸弹",
+            "link": "/items/c727"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 569,
+        "name": "Crystal Key",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Lost",
+        "conditionZh": "用里游魂击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-569",
+        "items": [
+          {
+            "name": "水晶钥匙",
+            "link": "/items/t170"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 501,
+        "name": "Sacred Orb",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Lost",
+        "conditionZh": "用里游魂击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-501",
+        "items": [
+          {
+            "name": "十字圣球",
+            "link": "/items/c691"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-lilith",
+    "name": "里莉莉丝",
+    "en": "Tainted Lilith",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 570,
+        "name": "The Twins",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Lilith",
+        "conditionZh": "用里莉莉丝分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-570",
+        "items": [
+          {
+            "name": "双胞胎",
+            "link": "/items/t183"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 629,
+        "name": "Soul of Lilith",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Lilith",
+        "conditionZh": "用里莉莉丝完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-629",
+        "items": [
+          {
+            "name": "莉莉丝的魂石",
+            "link": "/items/k92"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 612,
+        "name": "Fool's Gold",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Lilith",
+        "conditionZh": "用里莉莉丝击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-612",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 526,
+        "name": "The High Priestess",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Lilith",
+        "conditionZh": "用里莉莉丝击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-526",
+        "items": [
+          {
+            "name": "II-女祭司？",
+            "link": "/items/k58"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 595,
+        "name": "Gello",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Lilith",
+        "conditionZh": "用里莉莉丝击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-595",
+        "items": [
+          {
+            "name": "格罗",
+            "link": "/items/c728"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 571,
+        "name": "Adoption Papers",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Lilith",
+        "conditionZh": "用里莉莉丝击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-571",
+        "items": [
+          {
+            "name": "领养协议书",
+            "link": "/items/t184"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 502,
+        "name": "Twisted Pair",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Lilith",
+        "conditionZh": "用里莉莉丝击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-502",
+        "items": [
+          {
+            "name": "作孽双子",
+            "link": "/items/c698"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-keeper",
+    "name": "里店主",
+    "en": "Tainted Keeper",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 572,
+        "name": "Keeper's Bargain",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Keeper",
+        "conditionZh": "用里店主分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-572",
+        "items": [
+          {
+            "name": "店主的协议",
+            "link": "/items/t171"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 630,
+        "name": "Soul of the Keeper",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Keeper",
+        "conditionZh": "用里店主完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-630",
+        "items": [
+          {
+            "name": "店主的魂石",
+            "link": "/items/k93"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 613,
+        "name": "Golden Penny",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Keeper",
+        "conditionZh": "用里店主击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-613",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 536,
+        "name": "The Hanged Man",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Keeper",
+        "conditionZh": "用里店主击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-536",
+        "items": [
+          {
+            "name": "XII-倒吊人？",
+            "link": "/items/k68"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 596,
+        "name": "Keeper's Kin",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Keeper",
+        "conditionZh": "用里店主击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-596",
+        "items": [
+          {
+            "name": "店主的亲友",
+            "link": "/items/c717"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 573,
+        "name": "Cursed Penny",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Keeper",
+        "conditionZh": "用里店主击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-573",
+        "items": [
+          {
+            "name": "诅咒硬币",
+            "link": "/items/t172"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 503,
+        "name": "Strawman",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Keeper",
+        "conditionZh": "用里店主击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-503",
+        "items": [
+          {
+            "name": "稻草人",
+            "link": "/items/c667"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-apollyon",
+    "name": "里亚玻伦",
+    "en": "Tainted Apollyon",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 574,
+        "name": "Cricket Leg",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-574",
+        "items": [
+          {
+            "name": "蟋蟀腿",
+            "link": "/items/t185"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 631,
+        "name": "Soul of Apollyon",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-631",
+        "items": [
+          {
+            "name": "亚玻伦的魂石",
+            "link": "/items/k94"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 614,
+        "name": "Rotten Beggar",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-614",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 540,
+        "name": "The Tower",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-540",
+        "items": [
+          {
+            "name": "XVI-塔？",
+            "link": "/items/k72"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 597,
+        "name": "Abyss",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-597",
+        "items": [
+          {
+            "name": "无底坑",
+            "link": "/items/c706"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 575,
+        "name": "Apollyon's Best Friend",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-575",
+        "items": [
+          {
+            "name": "亚玻伦的挚友",
+            "link": "/items/t186"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 504,
+        "name": "Echo Chamber",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Apollyon",
+        "conditionZh": "用里亚玻伦击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-504",
+        "items": [
+          {
+            "name": "回声室",
+            "link": "/items/c700"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-forgotten",
+    "name": "里遗骸",
+    "en": "Tainted Forgotten",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 576,
+        "name": "Polished Bone",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Forgotten",
+        "conditionZh": "用里遗骸分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-576",
+        "items": [
+          {
+            "name": "抛光骨头",
+            "link": "/items/t167"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 632,
+        "name": "Soul of the Forgotten",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Forgotten",
+        "conditionZh": "用里遗骸完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-632",
+        "items": [
+          {
+            "name": "遗骸的魂石",
+            "link": "/items/k95"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 615,
+        "name": "Golden Battery",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Forgotten",
+        "conditionZh": "用里遗骸击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-615",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 537,
+        "name": "Death",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Forgotten",
+        "conditionZh": "用里遗骸击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-537",
+        "items": [
+          {
+            "name": "XIII-死亡？",
+            "link": "/items/k69"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 598,
+        "name": "Decap Attack",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Forgotten",
+        "conditionZh": "用里遗骸击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-598",
+        "items": [
+          {
+            "name": "飞头攻击",
+            "link": "/items/c729"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 577,
+        "name": "Hollow Heart",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Forgotten",
+        "conditionZh": "用里遗骸击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-577",
+        "items": [
+          {
+            "name": "空壳心",
+            "link": "/items/t168"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 505,
+        "name": "Isaac's Tomb",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Forgotten",
+        "conditionZh": "用里遗骸击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-505",
+        "items": [
+          {
+            "name": "以撒的坟墓",
+            "link": "/items/c701"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-bethany",
+    "name": "里伯大尼",
+    "en": "Tainted Bethany",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 578,
+        "name": "Expansion Pack",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Bethany",
+        "conditionZh": "用里伯大尼分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-578",
+        "items": [
+          {
+            "name": "扩展电路板",
+            "link": "/items/t181"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 633,
+        "name": "Soul of Bethany",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Bethany",
+        "conditionZh": "用里伯大尼完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-633",
+        "items": [
+          {
+            "name": "伯大尼的魂石",
+            "link": "/items/k96"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 616,
+        "name": "Confessional",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Bethany",
+        "conditionZh": "用里伯大尼击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-616",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 529,
+        "name": "The Hierophant",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Bethany",
+        "conditionZh": "用里伯大尼击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-529",
+        "items": [
+          {
+            "name": "V-教皇？",
+            "link": "/items/k61"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 599,
+        "name": "Lemegeton",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Bethany",
+        "conditionZh": "用里伯大尼击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-599",
+        "items": [
+          {
+            "name": "所罗门魔典",
+            "link": "/items/c712"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 579,
+        "name": "Beth's Essence",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Bethany",
+        "conditionZh": "用里伯大尼击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-579",
+        "items": [
+          {
+            "name": "伯大尼的精华",
+            "link": "/items/t182"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 506,
+        "name": "Vengeful Spirit",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Bethany",
+        "conditionZh": "用里伯大尼击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-506",
+        "items": [
+          {
+            "name": "复仇之魂",
+            "link": "/items/c702"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "id": "tainted-jacob",
+    "name": "里雅各",
+    "en": "Tainted Jacob",
+    "group": "里角色",
+    "rewards": [
+      {
+        "id": 580,
+        "name": "RC Remote",
+        "kind": "main-four",
+        "label": "以撒＋???＋撒但＋羔羊",
+        "marks": [
+          "isaac",
+          "bluebaby",
+          "satan",
+          "lamb"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Isaac , ??? , Satan , and The Lamb as Tainted Jacob",
+        "conditionZh": "用里雅各分别击败以撒、小蓝人、撒但、羔羊，四项齐全。",
+        "achievementLink": "/achievements/ids-501-600#achievement-580",
+        "items": [
+          {
+            "name": "赛车遥控器",
+            "link": "/items/t179"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 634,
+        "name": "Soul of Jacob and Esau",
+        "kind": "timed-pair",
+        "label": "Boss Rush＋死寂",
+        "marks": [
+          "bossrush",
+          "hush"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Hush and Boss Rush as Tainted Jacob",
+        "conditionZh": "用里雅各完成 Boss Rush 与死寂，两项齐全。",
+        "achievementLink": "/achievements/ids-601-641#achievement-634",
+        "items": [
+          {
+            "name": "雅各与以扫的魂石",
+            "link": "/items/k97"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 617,
+        "name": "Golden Trinket",
+        "kind": "megasatan",
+        "label": "超级撒但",
+        "marks": [
+          "megasatan"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mega Satan as Tainted Jacob",
+        "conditionZh": "用里雅各击败超级撒但。",
+        "achievementLink": "/achievements/ids-601-641#achievement-617",
+        "items": [],
+        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+      },
+      {
+        "id": 542,
+        "name": "The Sun and the Moon",
+        "kind": "greedier",
+        "label": "极贪",
+        "marks": [
+          "greed"
+        ],
+        "minimum": 2,
+        "condition": "Defeat Ultra Greedier as Tainted Jacob",
+        "conditionZh": "用里雅各击败究极贪婪加强版。",
+        "achievementLink": "/achievements/ids-501-600#achievement-542",
+        "items": [
+          {
+            "name": "XVIII-月亮？",
+            "link": "/items/k74"
+          },
+          {
+            "name": "XIX-太阳？",
+            "link": "/items/k75"
+          }
+        ],
+        "notes": "反向月亮与反向太阳两张牌共用这一个成就。"
+      },
+      {
+        "id": 600,
+        "name": "Anima Sola",
+        "kind": "delirium",
+        "label": "精神错乱",
+        "marks": [
+          "delirium"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Delirium as Tainted Jacob",
+        "conditionZh": "用里雅各击败精神错乱。",
+        "achievementLink": "/achievements/ids-501-600#achievement-600",
+        "items": [
+          {
+            "name": "孤魂铁索",
+            "link": "/items/c722"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 581,
+        "name": "Found Soul",
+        "kind": "mother",
+        "label": "母亲",
+        "marks": [
+          "mother"
+        ],
+        "minimum": 1,
+        "condition": "Defeat Mother as Tainted Jacob",
+        "conditionZh": "用里雅各击败母亲。",
+        "achievementLink": "/achievements/ids-501-600#achievement-581",
+        "items": [
+          {
+            "name": "复得游魂",
+            "link": "/items/t180"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "id": 507,
+        "name": "Esau Jr.",
+        "kind": "beast",
+        "label": "祸兽",
+        "marks": [
+          "beast"
+        ],
+        "minimum": 1,
+        "condition": "Defeat The Beast as Tainted Jacob",
+        "conditionZh": "用里雅各击败祸兽。",
+        "achievementLink": "/achievements/ids-501-600#achievement-507",
+        "items": [
+          {
+            "name": "小以扫",
+            "link": "/items/c703"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  }
+]

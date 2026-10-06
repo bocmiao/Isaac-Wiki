@@ -22,7 +22,7 @@ const entries = allEntries as CatalogEntry[]
 ## 解锁与练习
 
 - [角色解锁步骤](/guide/unlocks/order) · [全部里角色获取方式](/guide/unlocks/order#tainted-list)
-- [开局强化](/strategy/character-roster#upgrades) · [完成标记](/strategy/character-roster#marks)
+- [开局强化](/strategy/character-roster#upgrades) · [完成标记与全角色奖励](/strategy/completion-marks)
 - [新手练习建议](/strategy/characters#新手先练哪个) · [角色解锁清单](/tools/tracker)
 
 <span id="参考资料"></span>
