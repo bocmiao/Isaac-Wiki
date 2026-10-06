@@ -208,6 +208,7 @@ export default defineConfig({
         activeMatch: '^/tools/',
         items: [
           { text: '工具总览', link: '/tools/' },
+          { text: '本地存档进度对照', link: '/tools/local-progress' },
           { text: '角色解锁清单', link: '/tools/tracker' },
           { text: '全成就打勾', link: '/achievements/#catalog' },
           { text: '道具速查', link: '/tools/items' },
@@ -245,6 +246,7 @@ export default defineConfig({
           text: '工具',
           items: [
             { text: '工具总览', link: '/tools/' },
+            { text: '本地存档进度对照', link: '/tools/local-progress' },
             { text: '角色解锁清单', link: '/tools/tracker' },
             { text: '全成就打勾', link: '/achievements/#catalog' },
             { text: '道具速查', link: '/tools/items' },

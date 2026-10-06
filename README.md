@@ -19,6 +19,8 @@ npm run build    # 生成静态站点到 docs/.vitepress/dist
 | `docs/characters/`、`docs/rooms/`、`docs/floors/`、`docs/items/` | 四类图鉴总览及独立详情页 |
 | `docs/topics/` | 专题：联机、主机、配置与模组 |
 | `docs/tools/tracker.md` | 解锁清单工具页 |
+| `local-tools/progress/` | 只读存档解析、离线进度工具及来源说明 |
+| `docs/public/downloads/isaac-progress.html` | 下载后可离线运行的单文件进度对照工具 |
 | `docs/.vitepress/theme/` | 主题：配色、首页、组件 |
 | `docs/.vitepress/theme/data/` | 角色解锁条件、完成标记、路线阶段、攻略栏目数据 |
 
@@ -55,3 +57,5 @@ python3 scripts/check-built-links.py
 ```
 
 源数据更新时可运行 `python3 scripts/import-item-source.py <EID checkout> <IsaacDocs checkout>`，审阅差异后再生成。导入器只解析声明，不执行上游 Lua。旧页面与锚点保留兼容入口。
+
+本地进度工具的事实快照更新方式见 `local-tools/progress/README.md`。`npm run build` 会自动重新打包单文件 HTML；更新成就、道具或角色教程后，也应重新生成它的离线数据快照。

@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "node scripts/build-local-progress.mjs && vitepress build docs",
     "preview": "vitepress preview docs",
     "test": "python3 -m unittest discover -s tests -p 'test_*.py' && for f in tests/*.test.ts; do esbuild \"$f\" --bundle --platform=node --format=esm --log-level=error --outfile=node_modules/.cache/test.mjs && node node_modules/.cache/test.mjs || exit 1; done"
   },
