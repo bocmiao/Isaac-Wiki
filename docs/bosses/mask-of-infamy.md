@@ -14,18 +14,18 @@ title: "恶名面具"
 | 心脏阶段 | 面具保护、心脏可被攻击 | 优先打心脏，侧移躲追逐和吐弹 |
 | 面具阶段 | 心脏倒下、面具行动变化 | 普通泪弹尝试绕到背后，观察血条是否下降；穿透修改另算 |
 
-## 安全站位与打法
+## 站位与打法
 
 先处理可受伤的心脏，第二段从能命中面具的位置攻击，边走边找角度。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 朝受保护的方向持续射击，伤害不足却没有改变站位。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Mask of Infamy](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L45-L48)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Mask of Infamy](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L45-L48)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

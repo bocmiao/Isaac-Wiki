@@ -13,7 +13,7 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 
 <VersionBadge checked="2026-10" />
 
-每个角色都有独立页，包含开局、获取方式、核心机制、分阶段发育、清房与 Boss 操作、路线与标记建议。表角色与对应里角色互相链接。
+按名称找角色，点卡片看解锁步骤、选道具和打法。每页还列出这个角色的完成标记奖励。
 
 ## 按名称与类型查找 {#catalog}
 
@@ -27,15 +27,13 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 
 ## 总表
 
-原来的角色总表已整理为上方卡片；点击名字进入完整独立攻略。
+点击上方角色卡片查看开局、解锁方法和打法。
 
 ## 逐个里角色
 
-各角色的发育、打法与路线段落完整保留在独立页中。
+角色页内可直接跳到选道具、清房与 Boss 打法、路线建议。
 
 ## 解锁和切换
-
-
 
 里角色在游戏内中文叫「堕化」角色，例如堕化以撒。本站沿用社区说法「里角色」。
 
@@ -43,7 +41,6 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 - **获取总表**：[全部 17 个里角色的对应表](/guide/unlocks/order#tainted-list)，以及[隐藏表角色的前置任务](/guide/unlocks/order#hidden)。
 - **解锁**：用对应的表角色本人到「家」，在妈妈卧室前的走廊，用红钥匙（Red Key）、红钥匙碎片（Cracked Key）或该隐的魂石（Soul of Cain）打开左侧墙上的衣柜。完整步骤见[角色解锁顺序](/guide/unlocks/order)。
 - **切换**：在角色选择界面，键盘按 <KeyCap>E</KeyCap>，手柄按 <KeyCap>RB</KeyCap>，切到里角色。
-
 
 ## 先练哪个里角色
 
@@ -53,7 +50,7 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 2. **有现成的保命手段**：[里犹大](/characters/tainted-judas#judas)的暗仪刺刀用后短时间无敌，能直接穿过弹幕；代价是只有黑心，不能获得红心。
 3. **攻击方式完全不同**：[里莉莉丝](/characters/tainted-lilith#lilith)、[里遗骸](/characters/tainted-forgotten#forgotten)不能自己发射泪弹；[里夏娃](/characters/tainted-eve#eve)要按住射击才能生成血团；[里阿撒泻勒](/characters/tainted-azazel#azazel)要先喷嚏再放硫磺火。
 4. **需要解锁储备**：[里该隐](/characters/tainted-cain#cain)只能合成道具，最好先解锁大部分掉落物。
-5. **要另外练资源系统**：[里???](/characters/tainted-bluebaby#bluebaby) 要用大便补输出并留爆炸手段；[里拉撒路](/characters/tainted-lazarus#lazarus)要同时维持两套构筑；[里亚玻伦](/characters/tainted-apollyon#apollyon)先比较拿道具和换蝗虫；[里伯大尼](/characters/tainted-bethany#bethany)要分开管理魂心（生命）和红心变成的血充能。
+5. **要另外练资源系统**：[里???](/characters/tainted-bluebaby#bluebaby) 要用大便补输出并留爆炸手段；[里拉撒路](/characters/tainted-lazarus#lazarus)要同时维持两套道具搭配；[里亚玻伦](/characters/tainted-apollyon#apollyon)先比较拿道具和换蝗虫；[里伯大尼](/characters/tainted-bethany#bethany)要分开管理魂心（生命）和红心变成的血充能。
 6. **一次失误代价大**：[里游魂](/characters/tainted-lost#lost)没有血量；[里雅各](/characters/tainted-jacob#jacob)被里以扫撞一次，本层就变成一碰就死的灵魂；[里店主](/characters/tainted-keeper#keeper)硬币心上限固定 2 个；[里伊甸](/characters/tainted-eden#eden)每次受伤都重置道具。
 
 ::: tip 解锁顺序也有限制
@@ -88,7 +85,6 @@ R键能帮助在同一局中补多个主线目标，但贪婪 / 极贪模式仍�
 :::
 
 在[解锁清单](/tools/tracker)里打开「显示里角色」，可以和表角色一样逐格记录。
-
 
 <span id="参考资料"></span>
 

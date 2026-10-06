@@ -12,11 +12,11 @@ next: {"text": "骰子房", "link": "/rooms/dice"}
 
 ## 进入与收益
 
-通常双钥匙门，一次消耗 2 把钥匙；里面常有多个箱子与拾取物。金箱子还需要单独开锁，因此“2 钥匙开门”不是本房总消费的上限。
+通常双钥匙门，一次消耗 2 把钥匙；里面常有多个箱子与拾取物。里面的金箱子还要另外用钥匙开。
 
 ## 取舍
 
-先保留宝箱房与目标路线门的钥匙，再决定宝库。没有额外钥匙时，可能开门后只能看着一屋金箱子；不要把箱子数量等同于道具数量。
+先保留宝箱房与目标路线门的钥匙，再决定宝库。没有额外钥匙时，可能开门后仍打不开金箱子；箱子里也未必是道具。
 
 ## 同类条目
 
@@ -26,4 +26,6 @@ next: {"text": "骰子房", "link": "/rooms/dice"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

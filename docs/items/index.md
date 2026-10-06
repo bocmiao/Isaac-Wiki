@@ -19,7 +19,6 @@ const entries = allEntries as CatalogEntry[]
 
 <EntryCatalog :entries="entries" label="道具图鉴" />
 
-
 <span id="参考资料"></span>
 
 ## 数据依据 {#sources}

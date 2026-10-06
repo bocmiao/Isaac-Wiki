@@ -16,7 +16,7 @@ next: {"text": "星象房", "link": "/rooms/planetarium"}
 
 ## 操作顺序
 
-先清夹层，确认还能从原入口返回，再看每件交易价格；要继续本层路线时先买需要的东西，最后才碰离层出口。拿不到可承受的生命时跳过交易，付血减免不能按普通受伤减免推算。
+先清夹层，确认还能从原入口返回，再看每件交易价格；要继续本层路线时先买需要的东西，最后才碰离层出口。付完血不够打后面的房间时，跳过交易，付血减免不能按普通受伤减免推算。
 
 ## 风险与取舍
 
@@ -30,4 +30,6 @@ next: {"text": "星象房", "link": "/rooms/planetarium"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

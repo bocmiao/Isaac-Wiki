@@ -84,7 +84,7 @@ SPECIAL={
 327:('探索 / 单局','整局不拾取心、硬币、炸弹，最后击败羔羊。','钥匙可以拿；避开三类地上资源，不带自动捡这些资源的乞丐跟班或 Lil Portal，也避开 Bumbino 等代捡情况。走底片路线，胜利圈不作为解锁途径。','/achievements/special#lamb'),
 328:('胜利圈 / 连胜','PC 连续重开 7 次；部分主机版改为 -10 连败。','PC 在对局中连续重开七次，不把退出菜单当重开；Switch / PS4 按公开表的平台条件核对，不照搬 PC。','/achievements/special#streak'),
 329:('探索 / 单局','地下室之后的一个完整章节，两层从头到尾总血量仅半颗心；可用游魂。','最稳按游魂机制完成一个后续章节，或普通角色控总血量到半颗并保持两层；只有红心半颗但另有魂心不满足。','/achievements/special#no-hit'),
-330:('探索 / 单局','同局获得 50 件道具。','多层积累道具，利用能增加底座或道具的构筑；同一被动 / 跟班重复份数计入，例如多个早餐。不要按“50种不同道具”误算。','/strategy/items'),
+330:('探索 / 单局','同局获得 50 件道具。','多层积累道具，利用能增加底座或道具的道具搭配；同一被动 / 跟班重复份数计入，例如多个早餐。不要按“50种不同道具”误算。','/strategy/items'),
 336:('每日 / 联机','每日挑战连续 5 次获胜；不要求连续日历天。','只参加把握较高的每日，完整碰终点奖杯。可以隔日参加，已参加的局死亡会断连胜；练习模式不计正式胜利。','/achievements/special#daily'),
 337:('胜利圈 / 连胜','完成 3 个胜利圈，均以击败羔羊结束。','正常局击败羔羊后接受胜利圈，再连续完成三圈；后期圈会变为游魂，规划保命。三圈后按提示继续以触发 RERUN 条件。','/achievements/special#victory'),
 339:('收集 / 全成就','忏悔起：解锁任意 402 项成就，收集页记录至少 510 件道具。','先用角色标记、挑战与累计目标补成就数，再拾取未收集道具；旧胎衣+全道具 / 图鉴条件不能直接套用。','/guide/platinum/#remaining'),
@@ -278,7 +278,7 @@ for start in range(1,642,100):
   f'[← 返回搜索](/achievements/) · 编号对应游戏内 Stats → Secrets。做之前先看[通用规则](/achievements/#rules)：哪些局不能解锁、困难与普通的区别、挑战开放和完成是两回事。',
   f'跳到：{jumps} {{.ach-jump}}']
  for r in subset:lines.extend(render(r))
- lines.extend(['## 来源与授权','成就编号、名称、条件事实来自 [The Binding of Isaac: Rebirth Wiki · Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)，2026-10-05 保存的修订版 269014。本文对其条件进行翻译并补充操作说明，按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布，此页适用该授权而非站点默认的非商业授权。未在云环境逐项运行游戏解锁。'])
+ lines.extend(['## 来源与授权','成就编号、名称、条件事实来自 [The Binding of Isaac: Rebirth Wiki · Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)，2026-10-05 保存的修订版 269014。本文对其条件进行翻译并补充操作说明，按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布，此页适用该授权而非站点默认的非商业授权。条件依据资料整理，尚未逐项进行游戏内测试。'])
  (ROOT/f"docs/achievements/{subset[0]['page']}.md").write_text('\n\n'.join(lines)+'\n')
 # The UI uses only searchable fields; source facts stay in data/achievement-source.json.
 ui=[{k:r[k]for k in ['id','name','conditionZh','group','minimum','page']}for r in records]

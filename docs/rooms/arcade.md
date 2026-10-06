@@ -20,7 +20,7 @@ next: {"text": "宝库", "link": "/rooms/vault"}
 
 ## 打法
 
-先留出购买关键商店道具的预算，再处理机器。献血用可恢复红心去换钱，别把魂心保护或下一场 Boss 的安全血量一起耗掉。准备下一层赌博房时，记得下楼前保留至少 5 元。
+先留好买关键商店道具的钱，再处理机器。献血用可恢复红心去换钱，别把魂心保护或下一场 Boss 的安全血量一起耗掉。准备下一层赌博房时，记得下楼前保留至少 5 元。
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "宝库", "link": "/rooms/vault"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

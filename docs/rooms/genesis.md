@@ -18,9 +18,9 @@ next: {"text": "遗骸坟墓房", "link": "/rooms/grave"}
 
 ## 推进与注意事项
 
-先把输出、防御与可持续发育的需求列好，再比较每组选择；不能把前三个选项当成全部可选道具，也不能认为会保留原组合或主动。
+每轮从三个选项中选一件，先补伤害和防御，再考虑配合；原道具和主动会被移除。
 
-这里不是普通睡床回血房，退出也不是原地图的一扇普通门。使用前完成当前楼层的刀片、交易和路线事项，离场按创世记所在章节的出口规则继续。
+离开后会进入后续楼层，无法从普通门回原房。使用前完成当前楼层的刀片、交易和路线事项，离场按创世记所在章节的出口规则继续。
 
 ## 相关条目
 
@@ -36,4 +36,6 @@ next: {"text": "遗骸坟墓房", "link": "/rooms/grave"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

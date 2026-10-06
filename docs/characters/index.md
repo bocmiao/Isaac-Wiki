@@ -13,7 +13,7 @@ const entries = allEntries as CatalogEntry[]
 
 <VersionBadge checked="2026-10" />
 
-每个角色都有独立页，包含开局、获取方式、核心机制、分阶段发育、清房与 Boss 操作、路线与标记建议。表角色与对应里角色互相链接。
+按名称找角色，点卡片看解锁步骤、选道具和打法。每页还列出这个角色的完成标记奖励。
 
 ## 按名称与类型查找 {#catalog}
 

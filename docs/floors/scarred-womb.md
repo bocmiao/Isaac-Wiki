@@ -17,10 +17,10 @@ next: {"text": "下水道", "link": "/floors/downpour"}
 ## 打法与出口
 
 进房先看移动空间与伤害地面，优先保持血量，别为了地图边缘的普通拾取物多吃一次整心伤害。II 层终点、限时死寂入口和照片主线与子宫一致；它与尸宫完全不同，不能靠在这里打心脏解锁家。
+
 ## 本章共通规则
 
 首次击败妈妈后开放子宫推进。通常不再有普通宝箱房和商店，所以在第三章完成主要购物。普通敌人和地形伤害大多提高为一整心，减伤与特殊伤害源有例外，不能把“任意一次扣血都是整心”套到所有机器和角色机制上。
-
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "下水道", "link": "/floors/downpour"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

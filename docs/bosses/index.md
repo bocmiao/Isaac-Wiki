@@ -9,7 +9,7 @@ import entries from '../.vitepress/theme/data/catalog/bosses.json'
 
 <VersionBadge checked="2026-10" />
 
-按名称、英文、旧称或打法关键词搜索。当前收录 46 项，每个条目都有操作、危险与相关攻略入口；不宣称覆盖全部游戏内部变体。
+按名称、英文或关键词搜索，点卡片看打法和注意事项。当前收录 46 项。
 
 <EntryCatalog :entries="entries" label="常见 Boss 图鉴" />
 

@@ -196,7 +196,7 @@
     "name": "店主",
     "en": "Keeper",
     "group": "表角色",
-    "summary": "硬币当血；刚解锁时是最弱的角色之一，拿到木制镍币后才变成高风险高回报。",
+    "summary": "靠硬币回血。刚解锁时没有木制镍币，先学会留地上硬币；解锁主动后补血更方便。",
     "icon": "face",
     "link": "/characters/keeper",
     "aliases": [
@@ -212,7 +212,7 @@
     "name": "亚玻伦",
     "en": "Apollyon",
     "group": "表角色",
-    "summary": "用虚空吞道具换属性，把用不上的道具变成属性，大大降低对运气的依赖。",
+    "summary": "用虚空把不想拿的道具换成随机属性，也能存下主动道具的效果。",
     "icon": "face",
     "link": "/characters/apollyon",
     "aliases": [
@@ -308,7 +308,7 @@
     "name": "里该隐",
     "en": "Tainted Cain",
     "group": "里角色",
-    "summary": "碰道具会拆成掉落物，只能用合成宝袋合成道具。强烈建议先解锁大部分甚至全部掉落物再玩他。",
+    "summary": "碰道具会拆成材料，只能用合成宝袋取得道具，需要边探索边合成。",
     "icon": "face-dark",
     "link": "/characters/tainted-cain",
     "aliases": [
@@ -404,7 +404,7 @@
     "name": "里拉撒路",
     "en": "Tainted Lazarus",
     "group": "里角色",
-    "summary": "每清一个房间切换生死形态，要同时维持两套构筑；强项是能控制两条血量。",
+    "summary": "每清一个房间切换生死形态，两边的道具和血量分别管理，都要养起来。",
     "icon": "face-dark",
     "link": "/characters/tainted-lazarus",
     "aliases": [
@@ -420,7 +420,7 @@
     "name": "里伊甸",
     "en": "Tainted Eden",
     "group": "里角色",
-    "summary": "一受伤就重置属性和道具，构筑随时被打乱。",
+    "summary": "一受伤就重置属性和道具，道具搭配随时被打乱。",
     "icon": "face-dark",
     "link": "/characters/tainted-eden",
     "aliases": [

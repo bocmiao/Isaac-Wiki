@@ -21,10 +21,10 @@ next: {"text": "血宫", "link": "/floors/utero"}
 ## 下楼前选路线
 
 蓝子宫已解锁且本局不超过 30 分钟时，另有死寂入口。拿结局箱子可能结束本局，不要把它当成通往教堂的出口。首次心脏、10 次、11 次的解锁细节见[心脏前置](/guide/unlocks/endings#最先拿到的-妈妈和妈妈的心脏)。
+
 ## 本章共通规则
 
 首次击败妈妈后开放子宫推进。通常不再有普通宝箱房和商店，所以在第三章完成主要购物。普通敌人和地形伤害大多提高为一整心，减伤与特殊伤害源有例外，不能把“任意一次扣血都是整心”套到所有机器和角色机制上。
-
 
 ## 同类条目
 
@@ -34,4 +34,6 @@ next: {"text": "血宫", "link": "/floors/utero"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

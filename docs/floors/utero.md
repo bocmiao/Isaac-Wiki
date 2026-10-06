@@ -17,10 +17,10 @@ next: {"text": "疤痕子宫", "link": "/floors/scarred-womb"}
 ## 打法与出口
 
 先清钻地、冲锋与交叉发射的敌人，再捡被障碍包围的资源。I 层继续本章，II 层仍是心脏 / 它活着，教堂、阴间、死寂出口按相同存档与时间条件判断；不是通往 Mother 的尸宫。
+
 ## 本章共通规则
 
 首次击败妈妈后开放子宫推进。通常不再有普通宝箱房和商店，所以在第三章完成主要购物。普通敌人和地形伤害大多提高为一整心，减伤与特殊伤害源有例外，不能把“任意一次扣血都是整心”套到所有机器和角色机制上。
-
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "疤痕子宫", "link": "/floors/scarred-womb"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

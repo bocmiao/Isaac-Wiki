@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: '忏悔+（Repentance+）有中文吗？',
-    a: '没有。官方简体中文只在忏悔里能选，Repentance+ 移除了语言选项，界面是英文。想要中文就关掉 Repentance+ 玩忏悔；想在线联机就只能用英文版，或者自行决定是否装玩家做的中文补丁。',
+    a: '忏悔有官方简体中文；忏悔+ 移除了语言选项，默认界面为英文。想保留忏悔+，可查看玩家中文补丁的安装和联机限制；也可以关闭这个 DLC，回到忏悔选择中文。',
     link: '/guide/start/chinese',
   },
   {
@@ -76,15 +76,12 @@ const previewDone = computed(() => ['isaac','magdalene','cain','judas'].map(id =
   <div class="landing">
     <RoomHero />
 
-    <a class="notice sketch" :href="withBase('/topics/coop')">
-      <GameIcon name="gamepad" :size="26" />
-      <span><b>主机版《Repentance+ Online》11 月 19 日发售</b>，支持四人在线联机。先看联机专题 →</span>
-    </a>
+
 
     <!-- 选择角色 -->
     <section class="section">
       <header class="section-head">
-        <StreakTitle title="选择你的角色" />
+        <StreakTitle title="从这里开始" />
         <p>按你现在的情况，从最合适的地方开始。</p>
       </header>
       <div class="personas">
@@ -113,12 +110,17 @@ const previewDone = computed(() => ['isaac','magdalene','cain','judas'].map(id =
       <header class="section-head row">
         <div>
           <StreakTitle title="攻略库" />
-          <p>想查具体问题来这里：规则、角色、Boss 与结局、特殊模式，四类 {{strategyCategories.length}} 个栏目。</p>
+          <p>想查具体问题来这里：规则、角色、Boss 与结局、特殊模式，{{strategyCategories.length}} 个栏目。</p>
         </div>
         <a class="ib-btn paper" :href="withBase('/strategy/')">全部攻略 →</a>
       </header>
       <StrategyGrid />
     </section>
+
+    <a class="notice sketch" :href="withBase('/topics/coop')">
+      <GameIcon name="gamepad" :size="26" />
+      <span><b>主机版《Repentance+ Online》11 月 19 日发售</b>，支持四人在线联机。先看联机专题 →</span>
+    </a>
 
     <!-- 专题 -->
     <section class="section">

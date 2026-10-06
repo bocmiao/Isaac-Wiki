@@ -20,7 +20,7 @@ next: {"text": "XL 与迷宫诅咒", "link": "/floors/xl"}
 
 ## 终局战顺序
 
-妈妈床上睡觉 → 到客厅触发教条（Dogma） → 强化四骑士 → 祸兽（The Beast）。后半为横向战斗区域，持续飞行与攻击方式由终局机制处理；不要把它写成四个额外随机楼层。战前完成选道具、补血和角色解锁，具体阶段见[教条与祸兽](/strategy/bosses-2#dogma)。
+妈妈床上睡觉 → 到客厅触发教条（Dogma） → 强化四骑士 → 祸兽（The Beast）。后半为横向战斗区域，持续飞行与攻击方式由终局机制处理；骑士和祸兽是连续战斗，中途不能回头补给。战前完成选道具、补血和角色解锁，具体阶段见[教条与祸兽](/strategy/bosses-2#dogma)。
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "XL 与迷宫诅咒", "link": "/floors/xl"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

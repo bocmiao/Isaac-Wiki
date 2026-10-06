@@ -23,7 +23,7 @@ next: {"text": "里夏娃", "link": "/characters/tainted-eve"}
 
 先解锁[表角色???](/guide/unlocks/order#unlock-bluebaby)，再用???本人回「家」，用红钥匙或红钥匙碎片打开妈妈卧室前走廊左侧的隐藏房，接触里面的里???。[查看对应解锁条目](/guide/unlocks/order#tainted-bluebaby)和[完整回家流程](/guide/unlocks/order#tainted-route)。
 
-## 核心机制
+## 这个角色怎么玩
 
 - 炸弹掉落物换成大便，炸弹计数换成大便计数，大便种类由种子决定。
 - 默认最多带 10 个大便：计数里 9 个，保留栏里 1 个。用保留会把最左边的大便存起来留到以后用，同时轮到下一个大便。
@@ -31,45 +31,41 @@ next: {"text": "里夏娃", "link": "/characters/tainted-eve"}
 - 多数影响炸弹数量的道具，对他改为生成蓝苍蝇。
 - **长子名分**：大便计数上限提高到 29 个。
 
-## 发育思路与道具取舍 {#bluebaby-build}
+## 道具怎么选 {#bluebaby-build}
 
-- 前两层：低射速时把大便作为主要辅助，练挡弹、摆位和爆炸手段。保留栏先存一份能用于隐藏房或机关的大便，别把全部爆炸能力花在普通小怪上。
-- 中期：持续造成伤害会补充大便，清房资源要用起来；同时补魂心与常规泪弹输出，避免某种大便暂时缺货时完全打不动。
-- 成型后：按房间空间选摆放位置，先试清楚类型再组合。长子名分增加储备，但不让爆炸和火焰连锁自动免伤。
+- 前两层：普通泪弹很慢，先学当前大便的用法。留一件能爆炸的大便，别到隐藏门前才发现没有炸弹手段。
+- 中期：用大便挡路、造安全射击位置或配合燃烧，先看自己会不会一起被炸。材料不够时少为普通掉落物绕路。
+- 道具成型后：泪弹变强后，大便仍可辅助控场。不需要每间房都把库存用空，保留栏留给下一步要用的种类。
 
 ## 清房与 Boss 打法 {#bluebaby-combat}
 
-- 先铺出自己能站、能撤的区域，再让敌人进入大便效果范围。使用会爆炸或连锁的类型时提前退开，不靠脸接爆炸换清房速度。
-- Boss 战有输出空档就投放，移动时避开自己的危险区。大便资源少时用泪弹维持伤害，不站在 Boss 身边等补给。
+先布置大便再引敌人过来，别在敌群贴脸时才开始翻库存。Boss 战把可走路线留出来。
 
-## 风险与练习
+## 容易失误的地方
 
-- 不同大便有不同效果，摆放前看清类型。
-- 爆炸和火焰连锁可能伤到自己，不要站在组合旁边等结算。
-- 贪婪模式里离开主房间，大便和地上的水迹都会消失，尽量一口气打完所有波次。
+在空房里练保留、切下一个和使用，记住当前最左边是哪种大便。
 
-## 路线与标记建议 {#bluebaby-route}
+## 先打哪些目标 {#bluebaby-route}
 
-母亲路线等需要开门和机关时，提前保留实际可用的爆炸手段。贪婪连续波次尽量留在主房间，离开会清掉大便和水迹；是否离房购物先比较这轮战斗收益。
+隐藏房与母亲门需要爆炸手段，提前保留。限时局减少摆阵和回收，先保证过门。
 
 ## 完成标记与奖励 {#completion-rewards}
 
-以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+用本角色完成下表目标即可解锁对应奖励。点物品名看效果，点成就编号看完整步骤。
 
 主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
 
 | 目标 | 奖励 | 条件与说明 |
 | --- | --- | --- |
-| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [粪蛋](/items/t163)<br>[成就 #556](/achievements/ids-501-600#achievement-556) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [???的魂石](/items/k85)<br>[成就 #622](/achievements/ids-601-641#achievement-622) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-megasatan"></span>超级撒但 | Charming Poop<br>[成就 #605](/achievements/ids-601-641#achievement-605) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
-| <span id="reward-greedier"></span>极贪 | [IV-皇帝？](/items/k60)<br>[成就 #528](/achievements/ids-501-600#achievement-528) | 必须极贪；普通贪婪不替代。 |
-| <span id="reward-delirium"></span>精神错乱 | [大肠激躁症](/items/c725)<br>[成就 #588](/achievements/ids-501-600#achievement-588) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-mother"></span>母亲 | [火药圈](/items/t164)<br>[成就 #557](/achievements/ids-501-600#achievement-557) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-beast"></span>祸兽 | [虫群](/items/c693)<br>[成就 #495](/achievements/ids-401-500#achievement-495) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [粪蛋](/items/t163)<br>[成就 #556](/achievements/ids-501-600#achievement-556) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [???的魂石](/items/k85)<br>[成就 #622](/achievements/ids-601-641#achievement-622) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Charming Poop<br>[成就 #605](/achievements/ids-601-641#achievement-605) | 普通 / 困难均可。奖励为掉落物、箱子或机器，不计入普通道具收藏。 |
+| <span id="reward-greedier"></span>极贪 | [IV-皇帝？](/items/k60)<br>[成就 #528](/achievements/ids-501-600#achievement-528) | 极贪模式。 |
+| <span id="reward-delirium"></span>精神错乱 | [大肠激躁症](/items/c725)<br>[成就 #588](/achievements/ids-501-600#achievement-588) | 普通 / 困难均可。 |
+| <span id="reward-mother"></span>母亲 | [火药圈](/items/t164)<br>[成就 #557](/achievements/ids-501-600#achievement-557) | 普通 / 困难均可。 |
+| <span id="reward-beast"></span>祸兽 | [虫群](/items/c693)<br>[成就 #495](/achievements/ids-401-500#achievement-495) | 普通 / 困难均可。 |
 
 [十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
-
 
 ## 相关条目
 
@@ -79,7 +75,7 @@ next: {"text": "里夏娃", "link": "/characters/tainted-eve"}
 
 ## 参考资料
 
-- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_%3F%3F%3F)
-- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
-- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
-- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。
+::: details 查看出处
+- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_%3F%3F%3F) · [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
+- 奖励条件：[成就表](/achievements/)，wiki.gg revision 269014；条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。打法由本站整理。
+:::

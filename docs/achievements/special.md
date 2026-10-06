@@ -7,7 +7,7 @@ description: 每日挑战、胜利圈、无伤、限时羔羊、不捡资源、�
 
 <VersionBadge checked="2026-10" />
 
-每项成就的条件和编号见[全部成就索引](/achievements/)，本页专讲比较容易卡住的成就。以下各项都要在能解锁成就的模式和正确的版本里做，不能靠控制台或手动输入种子来解锁。
+每项成就的条件和编号见[全部成就索引](/achievements/)，本页专讲比较容易卡住的成就。以下按正常玩法说明步骤。开始前确认所选模式允许取得对应奖励；每日、胜利圈和普通局的规则不同。
 
 ## 每日挑战：参与、获胜与连胜 {#daily}
 
@@ -38,7 +38,7 @@ description: 每日挑战、胜利圈、无伤、限时羔羊、不捡资源、�
 注意事项：
 
 - 第三圈起角色会变成游魂。
-- 圈与圈之间可能丢失道具，第一局的构筑不会一直保留。
+- 圈与圈之间可能丢失道具，第一局的道具搭配不会一直保留。
 - 每圈检查底片还在不在，不在就在打妈妈时重新拿。
 - 别改走宝箱层或虚空，打那里的终点不能继续算暗室羔羊的圈数。
 - 按 <KeyCap>R</KeyCap> 重开会把整局和圈数一起清零。
@@ -48,21 +48,24 @@ description: 每日挑战、胜利圈、无伤、限时羔羊、不捡资源、�
 ## 连胜与不同角色 {#streak}
 
 - [#322](/achievements/ids-301-400#achievement-322)：正常局连胜三局。
-- [#323](/achievements/ids-301-400#achievement-323)：连胜五局，每局用不同角色。wiki 记载这个成就从忏悔起就有计数 bug，忏悔（非 +）的 PC 版还多一条：游戏是 32 位的，而角色有 41 个，所以前 9 个角色的胜利会被算两次。其余问题见下文。
-  <!-- 待核实：原句「忏悔（非 +）里是三局」；原因：Achievements 页的注释只写了忏悔（非 +）PC 版前 9 个角色胜利算两次，没有写要求变成三局。 -->
+- [#323](/achievements/ids-301-400#achievement-323)：连胜五局，每局用不同角色。
 
-建议用五个不同的**表角色**来做，比如以撒、抹大拉、该隐、阿撒泻勒、拉撒路这类已经熟练的角色。
+建议用五个熟练的**表角色**，比如以撒、抹大拉、该隐、阿撒泻勒、拉撒路。
 
-- 选一个已经开放、明确算胜利的终点，打完后确认连胜数。
-- 中途重开或死亡，连胜就断了。
-- 一局正常胜利之后接着打的胜利圈，不算换了新角色的另一场胜利。
+- 选一个已开放的胜利终点，打完确认连胜数。
+- 中途重开或死亡会断连胜。正常局获胜后接的胜利圈，不算新的一局。
+- 旧版存在角色计数问题，表角色与对应里角色可能只算一次；合作模式也有解锁限制。做完请检查 #323。
 
-wiki 记载的计数冲突有两种（标注为忏悔起）：
+::: details 旧版计数问题与容易冲突的角色
+wiki 将这些问题标为忏悔起：
 
-- 先用表角色赢一局，再用它对应的里角色赢一局，两局只有一局算数。
-- 因为整数溢出，下面每一对角色共用同一个计数位，连胜里先后用了同一对的两个角色，连胜计数会被清零：里莉莉丝和以撒、里店主和抹大拉、里亚玻伦和该隐、里遗骸和拉撒路、里伯大尼和 ???、里雅各和夏娃、里拉撒路（死形态）和参孙、变成灵魂状态的里雅各和阿撒泻勒。
+- 忏悔（非 +）PC 版中，前 9 个角色的胜利可能被算两次，原因是旧版计数的位数不足。成就条件仍写五局，不应据此改成三局。
+- 先用表角色赢一局，再用对应里角色赢一局，两局可能只算一次。
+- 以下配对会共用计数，连胜中先后使用一对里的两者可能清零：里莉莉丝 / 以撒、里店主 / 抹大拉、里亚玻伦 / 该隐、里遗骸 / 拉撒路、里伯大尼 / ???、里雅各 / 夏娃、里拉撒路死形态 / 参孙、里雅各灵魂形态 / 阿撒泻勒。
+- 忏悔合作模式中，即使各玩家每局换角色，也不会取得此成就；模组角色不影响计数。
 
-所以五局都用不同的表角色最稳。另外，忏悔的合作模式（Co-op）下这个成就不会解锁，即使每个玩家五局都换了角色；模组角色不影响计数。做完后检查对应编号有没有解锁。
+不同补丁是否已修复这些问题，仍需按版本核实；用五个不同表角色单人完成更稳妥。
+:::
 
 Mr. Resetter! 在 PC 上的条件是连续重开七次，部分主机上条件不同，见 [#328](/achievements/ids-301-400#achievement-328)。
 
@@ -145,4 +148,4 @@ D6、游魂的神圣屏障、店主的硬币心等，是需要单独解锁的初
 
 ## 来源与授权
 
-本页对照 [Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)、[Daily Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Daily_Challenges)、[Victory Lap](https://bindingofisaacrebirth.wiki.gg/wiki/Victory_Lap)、[Collection Page](https://bindingofisaacrebirth.wiki.gg/wiki/Collection_Page_(Repentance))与[四级跟班教程](https://bindingofisaacrebirth.wiki.gg/wiki/Unlocking_Super_Meat_Boy_%26_Super_Bandage_Girl)，核对日期 2026-10-05。基于来源条件的翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。未在游戏中实际运行验证。
+本页对照 [Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)、[Daily Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Daily_Challenges)、[Victory Lap](https://bindingofisaacrebirth.wiki.gg/wiki/Victory_Lap)、[Collection Page](https://bindingofisaacrebirth.wiki.gg/wiki/Collection_Page_(Repentance))与[四级跟班教程](https://bindingofisaacrebirth.wiki.gg/wiki/Unlocking_Super_Meat_Boy_%26_Super_Bandage_Girl)，核对日期 2026-10-05。基于来源条件的翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。尚未逐项进行游戏内测试。

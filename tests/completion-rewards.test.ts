@@ -11,7 +11,7 @@ save.counters[counter('bluebaby')]=2
 save.counters[counter('satan')]=2
 let detail=completionRewardDetail(save,character,'isaac')
 assert(detail.includes('成就 #548'))
-assert(detail.includes('本角色此标记途径还缺：羔羊（未完成）'))
+assert(detail.includes('本角色还需完成：羔羊（未完成）'))
 assert(!detail.includes('以撒（未完成）'))
 save.achievements[548]=1
 detail=completionRewardDetail(save,character,'isaac')
@@ -19,12 +19,12 @@ assert(detail.includes('奖励解锁状态：已解锁'))
 assert(detail.includes('羔羊（未完成）')) // Reward flags must never set missing marks.
 assert.equal(save.counters[counter('lamb')],0)
 save.counters[counter('lamb')]=1
-assert(completionRewardDetail(save,character,'isaac').includes('所列标记条件已满足'))
+assert(completionRewardDetail(save,character,'isaac').includes('本角色已完成这组标记'))
 save.counters[counter('bossrush')]=2
 assert(completionRewardDetail(save,character,'bossrush').includes('死寂（未完成）'))
 save.counters[counter('greed')]=1
 assert(completionRewardDetail(save,character,'greed').includes('仅普通贪婪，需极贪'))
-assert(completionRewardDetail(save,character,'heart').includes('没有独立的里角色奖励'))
+assert(completionRewardDetail(save,character,'heart').includes('没有单独的里角色奖励'))
 assert.equal(completionRewardLink(character.id,'isaac'),'/characters/tainted-isaac#reward-main-four')
 assert.equal(completionRewardLink(character.id,'hush'),'/characters/tainted-isaac#reward-timed-pair')
 assert.equal(completionRewardLink(character.id,'heart'),'/characters/tainted-isaac#completion-rewards')

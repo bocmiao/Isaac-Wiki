@@ -20,11 +20,11 @@ next: {"text": "燃烧地下室", "link": "/floors/burning-basement"}
 
 ## 打法与出口
 
-蜘蛛常突然改变方向或跳跃，进入房间先留侧向退路，别被蛛网附近敌人逼到角落。I / II 的房间发育、交易和下水道入口规则按第一章处理；不必打完地下室再额外打一次地窖。
+蜘蛛常突然改变方向或跳跃，进入房间先留侧向退路，别被蛛网附近敌人逼到角落。I / II 的房间发育、交易和下水道入口规则按第一章处理；地窖会替换地下室，不会多出两层。
+
 ## 本章共通规则
 
 普通开局阶段，通常还有宝箱房和商店，I 层一般免费进入这两间房；II 层开始准备钥匙与交易门。不要把所有炸弹用在普通石头上，优先明确的标记石头、隐藏入口和路线门。
-
 
 ## 同类条目
 
@@ -34,4 +34,6 @@ next: {"text": "燃烧地下室", "link": "/floors/burning-basement"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

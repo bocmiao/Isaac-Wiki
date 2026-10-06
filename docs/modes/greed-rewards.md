@@ -44,23 +44,23 @@ description: 34 个表角色与里角色的贪婪、极贪完成奖励、解锁�
 
 | 角色 | 普通贪婪 | 极贪奖励 |
 | --- | --- | --- |
-| <span id="reward-tainted-isaac"></span>[里以撒](/characters/tainted-isaac) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XVII-星星？](/items/k73)<br>[成就 #541](/achievements/ids-501-600#achievement-541) |
-| <span id="reward-tainted-magdalene"></span>[里抹大拉](/characters/tainted-magdalene) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [VI-恋人？](/items/k62)<br>[成就 #530](/achievements/ids-501-600#achievement-530) |
-| <span id="reward-tainted-cain"></span>[里该隐](/characters/tainted-cain) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [X-命运之轮？](/items/k66)<br>[成就 #534](/achievements/ids-501-600#achievement-534) |
-| <span id="reward-tainted-judas"></span>[里犹大](/characters/tainted-judas) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [I-魔术师？](/items/k57)<br>[成就 #525](/achievements/ids-501-600#achievement-525) |
-| <span id="reward-tainted-bluebaby"></span>[里???](/characters/tainted-bluebaby) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [IV-皇帝？](/items/k60)<br>[成就 #528](/achievements/ids-501-600#achievement-528) |
-| <span id="reward-tainted-eve"></span>[里夏娃](/characters/tainted-eve) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [III-皇后？](/items/k59)<br>[成就 #527](/achievements/ids-501-600#achievement-527) |
-| <span id="reward-tainted-samson"></span>[里参孙](/characters/tainted-samson) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XI-力量？](/items/k67)<br>[成就 #535](/achievements/ids-501-600#achievement-535) |
-| <span id="reward-tainted-azazel"></span>[里阿撒泻勒](/characters/tainted-azazel) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XV-恶魔？](/items/k71)<br>[成就 #539](/achievements/ids-501-600#achievement-539) |
-| <span id="reward-tainted-lazarus"></span>[里拉撒路](/characters/tainted-lazarus) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XX-审判？](/items/k76)<br>[成就 #543](/achievements/ids-501-600#achievement-543) |
-| <span id="reward-tainted-eden"></span>[里伊甸](/characters/tainted-eden) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XXI-世界？](/items/k77)<br>[成就 #544](/achievements/ids-501-600#achievement-544) |
-| <span id="reward-tainted-lost"></span>[里游魂](/characters/tainted-lost) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [0-愚者？](/items/k56)<br>[成就 #524](/achievements/ids-501-600#achievement-524) |
-| <span id="reward-tainted-lilith"></span>[里莉莉丝](/characters/tainted-lilith) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [II-女祭司？](/items/k58)<br>[成就 #526](/achievements/ids-501-600#achievement-526) |
-| <span id="reward-tainted-keeper"></span>[里店主](/characters/tainted-keeper) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XII-倒吊人？](/items/k68)<br>[成就 #536](/achievements/ids-501-600#achievement-536) |
-| <span id="reward-tainted-apollyon"></span>[里亚玻伦](/characters/tainted-apollyon) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XVI-塔？](/items/k72)<br>[成就 #540](/achievements/ids-501-600#achievement-540) |
-| <span id="reward-tainted-forgotten"></span>[里遗骸](/characters/tainted-forgotten) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XIII-死亡？](/items/k69)<br>[成就 #537](/achievements/ids-501-600#achievement-537) |
-| <span id="reward-tainted-bethany"></span>[里伯大尼](/characters/tainted-bethany) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [V-教皇？](/items/k61)<br>[成就 #529](/achievements/ids-501-600#achievement-529) |
-| <span id="reward-tainted-jacob"></span>[里雅各](/characters/tainted-jacob) | 无独立的普通贪婪通关奖励；仍可记标记、捐款 | [XVIII-月亮？](/items/k74)、[XIX-太阳？](/items/k75)<br>[成就 #542](/achievements/ids-501-600#achievement-542) |
+| <span id="reward-tainted-isaac"></span>[里以撒](/characters/tainted-isaac) | 无专属奖励 | [XVII-星星？](/items/k73)<br>[成就 #541](/achievements/ids-501-600#achievement-541) |
+| <span id="reward-tainted-magdalene"></span>[里抹大拉](/characters/tainted-magdalene) | 无专属奖励 | [VI-恋人？](/items/k62)<br>[成就 #530](/achievements/ids-501-600#achievement-530) |
+| <span id="reward-tainted-cain"></span>[里该隐](/characters/tainted-cain) | 无专属奖励 | [X-命运之轮？](/items/k66)<br>[成就 #534](/achievements/ids-501-600#achievement-534) |
+| <span id="reward-tainted-judas"></span>[里犹大](/characters/tainted-judas) | 无专属奖励 | [I-魔术师？](/items/k57)<br>[成就 #525](/achievements/ids-501-600#achievement-525) |
+| <span id="reward-tainted-bluebaby"></span>[里???](/characters/tainted-bluebaby) | 无专属奖励 | [IV-皇帝？](/items/k60)<br>[成就 #528](/achievements/ids-501-600#achievement-528) |
+| <span id="reward-tainted-eve"></span>[里夏娃](/characters/tainted-eve) | 无专属奖励 | [III-皇后？](/items/k59)<br>[成就 #527](/achievements/ids-501-600#achievement-527) |
+| <span id="reward-tainted-samson"></span>[里参孙](/characters/tainted-samson) | 无专属奖励 | [XI-力量？](/items/k67)<br>[成就 #535](/achievements/ids-501-600#achievement-535) |
+| <span id="reward-tainted-azazel"></span>[里阿撒泻勒](/characters/tainted-azazel) | 无专属奖励 | [XV-恶魔？](/items/k71)<br>[成就 #539](/achievements/ids-501-600#achievement-539) |
+| <span id="reward-tainted-lazarus"></span>[里拉撒路](/characters/tainted-lazarus) | 无专属奖励 | [XX-审判？](/items/k76)<br>[成就 #543](/achievements/ids-501-600#achievement-543) |
+| <span id="reward-tainted-eden"></span>[里伊甸](/characters/tainted-eden) | 无专属奖励 | [XXI-世界？](/items/k77)<br>[成就 #544](/achievements/ids-501-600#achievement-544) |
+| <span id="reward-tainted-lost"></span>[里游魂](/characters/tainted-lost) | 无专属奖励 | [0-愚者？](/items/k56)<br>[成就 #524](/achievements/ids-501-600#achievement-524) |
+| <span id="reward-tainted-lilith"></span>[里莉莉丝](/characters/tainted-lilith) | 无专属奖励 | [II-女祭司？](/items/k58)<br>[成就 #526](/achievements/ids-501-600#achievement-526) |
+| <span id="reward-tainted-keeper"></span>[里店主](/characters/tainted-keeper) | 无专属奖励 | [XII-倒吊人？](/items/k68)<br>[成就 #536](/achievements/ids-501-600#achievement-536) |
+| <span id="reward-tainted-apollyon"></span>[里亚玻伦](/characters/tainted-apollyon) | 无专属奖励 | [XVI-塔？](/items/k72)<br>[成就 #540](/achievements/ids-501-600#achievement-540) |
+| <span id="reward-tainted-forgotten"></span>[里遗骸](/characters/tainted-forgotten) | 无专属奖励 | [XIII-死亡？](/items/k69)<br>[成就 #537](/achievements/ids-501-600#achievement-537) |
+| <span id="reward-tainted-bethany"></span>[里伯大尼](/characters/tainted-bethany) | 无专属奖励 | [V-教皇？](/items/k61)<br>[成就 #529](/achievements/ids-501-600#achievement-529) |
+| <span id="reward-tainted-jacob"></span>[里雅各](/characters/tainted-jacob) | 无专属奖励 | [XVIII-月亮？](/items/k74)、[XIX-太阳？](/items/k75)<br>[成就 #542](/achievements/ids-501-600#achievement-542) |
 
 ## 反向塔罗牌与合并奖励
 
@@ -68,7 +68,7 @@ description: 34 个表角色与里角色的贪婪、极贪完成奖励、解锁�
 
 ## 解锁后怎么拿到
 
-通关解锁后，道具、饰品和卡牌只是加入可用范围，不会自动给你永久收藏记录，也不保证下一局立刻掉落。点击物品查看可出现的来源；反向牌、饰品与收集页道具的记录方式不同。[读取本地存档对照](/tools/local-progress)。
+通关解锁后，道具、饰品和卡牌只是加入可用范围，需要之后实际捡到，才会记入对应收藏记录。点击物品查看可出现的来源；反向牌、饰品与收集页道具的记录方式不同。[读取本地存档对照](/tools/local-progress)。
 
 ## 推荐推进方式
 

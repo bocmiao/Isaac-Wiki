@@ -15,18 +15,18 @@ title: "敌手"
 | 召唤蜘蛛 | 小怪出现 | 清最近威胁，再调整本体角度 |
 | 变暗 / 跳起 | 视野或本体位置变化 | 提高观察落点的优先级，不盲追 |
 
-## 安全站位与打法
+## 站位与打法
 
 留意脸部前摇，激光即将发出时侧移；持续调整角度。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 完全停下对射，等激光已出现才开始换位置。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[The Adversary](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L33-L37)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[The Adversary](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L33-L37)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

@@ -14,18 +14,18 @@ title: "长腿蛛父"
 | 连续踩踏 | 影子和腿移动 | 持续离开落点，不停在原地等 |
 | 召唤蜘蛛 | 地面出现小怪 | 先清脚边目标，再看下一轮落点 |
 
-## 安全站位与打法
+## 站位与打法
 
 看影子 / 落点保持移动，踩踏未结束前不要停下；空档清脚边蜘蛛。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 躲过一次踩踏就停住，忽略下一只脚。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Daddy Long Legs](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter4.md#L33-L38)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Daddy Long Legs](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter4.md#L33-L38)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

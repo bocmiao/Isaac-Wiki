@@ -44,8 +44,8 @@ export const strategyCategories: StrategyCategory[] = [
     group: '规则与选择',
     link: '/items/',
   },
-  {id:'health',name:'生命与付血预算',icon:'heart',desc:'角色回复、受伤、交易与资源上限分别判断',covers:['普通受伤与付血','特殊角色生命','金色资源','保命与购物预算'],group:'规则与选择'},
-  {id:'pickups',name:'拾取物与机器',icon:'chest',desc:'心、资源、特殊箱子与机器使用',covers:['特殊拾取物','宝箱危险','付费预算','永久解锁'],group:'规则与选择',link:'/pickups/'},
+  {id:'health',name:'生命、付血与回血',icon:'heart',desc:'角色回复、受伤、交易与资源上限分别判断',covers:['普通受伤与付血','特殊角色生命','金色资源','回血与商店取舍'],group:'规则与选择'},
+  {id:'pickups',name:'拾取物与机器',icon:'chest',desc:'心、资源、特殊箱子与机器使用',covers:['特殊拾取物','宝箱危险','费用与回报','永久解锁'],group:'规则与选择',link:'/pickups/'},
   {
     id: 'mechanics',
     name: '机制详解',

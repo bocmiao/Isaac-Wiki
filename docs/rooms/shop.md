@@ -18,7 +18,7 @@ next: {"text": "Boss 房", "link": "/rooms/boss"}
 
 用硬币买道具与拾取物，普通道具常见原价 15 元，红价签为折扣。货物数量受商店等级、难度和布局影响；普通捐款机升级商店，不能拿贪婪捐款机的累计值代替它。详见[商店等级与价格](/strategy/mechanics#商店)。
 
-## 风险与决策
+## 要不要进
 
 洞穴 II 起有机会被贪婪占据，进门就要战斗；有钥匙不等于必定可以买东西。进店前想清是补魂心、买输出还是保留路线资源。买魂心的即时保命价值可能高于随机买一件道具。没有余钱时别为了“每层逛店”消耗最后一把钥匙。
 
@@ -30,4 +30,6 @@ next: {"text": "Boss 房", "link": "/rooms/boss"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

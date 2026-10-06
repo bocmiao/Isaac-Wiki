@@ -17,7 +17,9 @@ class EntryPages(unittest.TestCase):
         self.assertIn('成就 228',page)
         self.assertNotIn('里雅各',page)
         self.assertNotIn('成就 541',page)
-        self.assertIn('不计入普通道具收藏页',page)
+        self.assertIn('/guide/advanced/reading-items', page)
+        guide = (ROOT/'docs/guide/advanced/reading-items.md').read_text()
+        self.assertIn('饰品、卡牌和胶囊不按这张道具收藏表统计', guide)
     def test_reversed_cards_do_not_change_ordinary_unlocks(self):
         def unlock(key):
             return [row['id'] for row in GEN['unlocks'](GEN['ITEMS'][key])]

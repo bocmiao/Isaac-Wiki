@@ -15,18 +15,18 @@ title: "腐肉女王"
 | 排便 | 地面危险增加 | 尽早保留干净通道，必要时先处理障碍 |
 | 后段受伤窗口 | 尾部或后方暴露 | 从可命中的角度射击，确认血条下降 |
 
-## 安全站位与打法
+## 站位与打法
 
 从侧后方观察能受伤的位置；先留干净走道，避免红色大便堵住唯一退路。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 迎着头部打却不看血条，或退到危险地面。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Carrion Queen](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L45-L48)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Carrion Queen](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L45-L48)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

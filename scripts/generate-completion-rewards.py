@@ -43,14 +43,14 @@ TAINTED = [
 ]
 NOTES = {
     29: '开放六面骰，同时让表以撒开局携带它；这是用 ??? 打以撒，不是用以撒本人。',
-    77: '也可用任意角色击败超级傲慢开放；已解锁左手不能倒推出犹大已打过 ???。',
+    77: '也可用任意角色击败超级傲慢开放；左手已解锁时，犹大的 ??? 标记仍可能未完成。',
     156: '忏悔 / 忏悔+ 要十二格全困难 / 极贪；旧版六格、九格、十格条件不适用。',
     172: '胎衣+、忏悔 / 忏悔+ 对应拉撒路；旧重生 / 胎衣对应阿撒泻勒。',
     173: '胎衣+、忏悔 / 忏悔+ 对应阿撒泻勒；不要沿用旧版的拉撒路条件。',
-    191: '强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。不是给普通道具池增加物品。',
+    191: '强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。',
     199: '开放角色莉莉丝；这项奖励不是一件收集页道具。',
     236: '让店主开局带木制镍币；不代表解锁木制镍币这个道具本身。',
-    237: '让店主开局带商店钥匙；不代表完成其他角色的开局强化。',
+    237: '让店主开局带商店钥匙。',
     542: '反向月亮与反向太阳两张牌共用这一个成就。',
 }
 LINK_EXCEPTIONS = {
@@ -70,6 +70,10 @@ def items_by_achievement():
                 'link': '/items/' + item['key'],
             })
     result[199] = [{'name':'角色莉莉丝', 'link':'/characters/lilith'}]
+    for pickup in json.loads((ROOT / 'data/pickup-guides.json').read_text()):
+        ident = pickup['achievement']
+        if ident and ident not in result:
+            result[ident] = [{'name':pickup['name'], 'link':'/pickups/' + pickup['id']}]
     result.update(LINK_EXCEPTIONS)
     return result
 
@@ -114,7 +118,7 @@ def collect_rewards():
                     'label':label, 'marks':marks, 'minimum':minimum,
                     'condition':achievement['condition'], 'conditionZh':translated['conditionZh'],
                     'achievementLink':MODE['achievement_link'](ident), 'items':items,
-                    'notes':NOTES.get(ident,('开放掉落物、箱子或机器机制；不是一件普通道具收藏项。' if mechanism else '本地合作宝宝；不是一件普通道具收藏项。') if not items else '')})
+                    'notes':NOTES.get(ident,'奖励为掉落物、箱子或机器，不计入普通道具收藏。' if mechanism else '奖励为本地合作宝宝，不计入道具收藏。' if not items else '')})
             result.append(row)
     if len(result)!=34 or sum(len(r['rewards']) for r in result)!=357:
         raise ValueError('Expected 34 characters and 357 character-specific rewards')

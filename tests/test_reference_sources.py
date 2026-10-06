@@ -52,7 +52,7 @@ class ReferenceSources(unittest.TestCase):
         items = read('item-source.json')['entries']
         for row in read('pickup-guides.json'):
             with self.subTest(pickup=row['id']):
-                self.assertTrue(row['steps'] and row['pitfall'])
+                self.assertTrue(row['approach'] and row['pitfall'])
                 if 'entity' not in row:
                     self.assertEqual(row['id'], 'golden-trinket')
                     continue

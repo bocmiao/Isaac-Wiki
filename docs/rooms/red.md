@@ -20,7 +20,7 @@ next: {"text": "镜面世界", "link": "/rooms/mirror"}
 
 不要把红房间与究极隐藏房混用：开出相邻红房后，究极隐藏房才可能自动开门。普通炸弹不能从原地图直接炸出究极隐藏房。
 
-每次拓图前观察候选空格与充能余量，优先覆盖更多候选位置。到 Home 开衣柜是固定位置的特殊用途，不能靠随便开一间红房完成。
+找究极隐藏房时，先看候选空格，选能覆盖更多位置的墙。到家解锁里角色时，则在走廊固定位置开衣柜。
 
 ## 相关条目
 
@@ -36,4 +36,6 @@ next: {"text": "镜面世界", "link": "/rooms/mirror"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

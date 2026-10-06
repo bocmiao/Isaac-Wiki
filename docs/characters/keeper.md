@@ -15,15 +15,15 @@ next: {"text": "亚玻伦", "link": "/characters/apollyon"}
 
 | 血量 | 初始道具 / 能力 | 特点 | 难点 |
 | --- | --- | --- | --- |
-| 2 硬币心（用店主击败死寂后 3 个） | 一次射 3 发、1 炸弹；解锁后带木制镍币（Wooden Nickel）、商店钥匙（Store Key）、1 硬币 | 硬币当血 | 刚解锁时是最弱的角色之一 |
+| 2 硬币心（用店主击败死寂后 3 个） | 一次射 3 发、1 炸弹；解锁后带木制镍币（Wooden Nickel）、商店钥匙（Store Key）、1 硬币 | 硬币当血 | 刚解锁时没有回血主动，硬币要留着补血 |
 
-**定位**：硬币当血；刚解锁时是最弱的角色之一，拿到木制镍币后才变成高风险高回报。
+**定位**：靠硬币回血。刚解锁时没有木制镍币，先学会留地上硬币；解锁主动后补血更方便。
 
 ## 获取方式
 
 向贪婪捐款机累计捐 1000 枚硬币；统计当前存档中所有角色实际捐入的总额。[查看前置与步骤](/guide/unlocks/order#hidden-keeper)。
 
-## 核心机制
+## 这个角色怎么玩
 
 - 用硬币当血。受伤一次扣一整个硬币心，没有半格。
 - 捡一枚硬币回一个硬币心，这枚硬币不计入钱数。所有心掉落物都变成蓝苍蝇。
@@ -33,50 +33,46 @@ next: {"text": "亚玻伦", "link": "/characters/apollyon"}
 - 长子名分：增加 1 个硬币心上限，已解锁第 3 个硬币心时可达到 4 个。
 - 忏悔+：金心捡起来直接变成硬币，不再变成蓝苍蝇。
 
-## 发育思路与道具取舍 {#keeper-build}
+## 道具怎么选 {#keeper-build}
 
-- 前两层：没木制镍币时先练保留地上硬币和安全回收；解锁后在战斗前使用，生成的硬币不要满血时全部捡光。[木制镍币](/items/c349)的固定 EID 说明为单次 59% 概率生成随机硬币，不是每次必掉；没有掉落时不要把生命预算按成功来算。初期补射速、移速与可靠输出。
-- 中期：把地上硬币当回血站，钱包的钱当购物资源，二者不能混算。恶魔交易付硬币后仍需留补血机会；献祭只在每次都能安全恢复时进行。
-- 成型后：拿到第三颗开局硬币心后，继续补减少连续受击的防御。红心道具对他的价值不能照普通角色判断；确认是否真正增加当前硬币心或提供其他收益。
+- 前两层：先留地上硬币当回血。已解锁[木制镍币](/items/c349)时，在进战斗前用；单次 59% 概率生成随机硬币，没有掉币就别按有治疗来打。
+- 中期：满血时不要把可回头捡的硬币全收光。钱买道具，地上币补血；恶魔交易后也要留治疗机会。
+- 道具成型后：解锁第三颗开局硬币心后，继续补防护、射速和移速。拿加血道具前先看它对硬币心是否有用。
 
 ## 清房与 Boss 打法 {#keeper-combat}
 
-- 慢射速时每轮三发尽量对准危险目标，射完沿安全方向移动。缺血时先清出通往硬币的路线，不直接穿过敌人抢回血。
-- Boss 入场前把可带进房的主动、卡牌和有效血量准备好。连续伤害可能快于回血，场外留币不能在被困于 Boss 房时立即救命。
+围着可回头取的硬币打，不为追一枚币横穿弹幕。Boss 战受伤后找安全空档补心，没掉币时保持距离。
 
-## 风险与练习
+## 容易失误的地方
 
-- 刚解锁时很脆、难回血，射速和移速都慢。
-- 第三颗硬币心解锁前尤其避免连续受击。
-- 缺血时捡的硬币用于回血，不会存入钱数。不要只看账面有钱，就以为下一次受伤后一定能补回来。
+先练“满血留币、受伤回收”，别把钱包数字当成还可以挨几次打。
 
-## 路线与标记建议 {#keeper-route}
+## 先打哪些目标 {#keeper-route}
 
-优先以撒 Boss 的木制镍币，再规划死寂解锁第三颗硬币心与开局硬币；普通难度可以先拿强化。最终全困难标记仍要逐格完成，开局强化不自动补困难状态。
+先打以撒解锁开局木制镍币，再练死寂拿第三颗心。献祭仅在每次付血后都能安全补回时尝试。
 
 ## 完成标记与奖励 {#completion-rewards}
 
-以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+用本角色完成下表目标即可解锁对应奖励。点物品名看效果，点成就编号看完整步骤。
 
 | 目标 | 奖励 | 条件与说明 |
 | --- | --- | --- |
-| <span id="reward-heart"></span>困难心脏 / 它活着 | Super Greed Baby<br>[成就 #241](/achievements/ids-201-300#achievement-241) | 必须困难模式。本地合作宝宝；不是一件普通道具收藏项。 |
-| <span id="reward-isaac"></span>以撒 | [店主开局木制镍币](/items/c349)<br>[成就 #236](/achievements/ids-201-300#achievement-236) | 普通 / 困难均可；对应角色和目标不可替代。让店主开局带木制镍币；不代表解锁木制镍币这个道具本身。 |
-| <span id="reward-satan"></span>撒但 | [店主开局商店钥匙](/items/t83)<br>[成就 #237](/achievements/ids-201-300#achievement-237) | 普通 / 困难均可；对应角色和目标不可替代。让店主开局带商店钥匙；不代表完成其他角色的开局强化。 |
-| <span id="reward-bluebaby"></span>???（Boss） | [深口袋](/items/c416)<br>[成就 #238](/achievements/ids-201-300#achievement-238) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-lamb"></span>羔羊 | [业报](/items/t85)<br>[成就 #239](/achievements/ids-201-300#achievement-239) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-megasatan"></span>超级撒但 | Noose Baby<br>[成就 #217](/achievements/ids-201-300#achievement-217) | 普通 / 困难均可；对应角色和目标不可替代。本地合作宝宝；不是一件普通道具收藏项。 |
-| <span id="reward-bossrush"></span>Boss Rush | Sticky Nickels<br>[成就 #240](/achievements/ids-201-300#achievement-240) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
-| <span id="reward-hush"></span>死寂 | [店主开局硬币 / 第三个硬币心](/characters/keeper)<br>[成就 #191](/achievements/ids-101-200#achievement-191) | 普通 / 困难均可；对应角色和目标不可替代。强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。不是给普通道具池增加物品。 |
-| <span id="reward-greed"></span>普通贪婪 | [贪婪的肋骨](/items/t84)<br>[成就 #204](/achievements/ids-201-300#achievement-204) | 普通贪婪或极贪均可；不是普通主线的难度选择。 |
-| <span id="reward-greedier"></span>极贪 | [贪婪的眼睛](/items/c450)<br>[成就 #308](/achievements/ids-301-400#achievement-308) | 必须极贪；普通贪婪不替代。 |
-| <span id="reward-delirium"></span>精神错乱 | [被掰弯的硬币](/items/c485)<br>[成就 #294](/achievements/ids-201-300#achievement-294) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-mother"></span>母亲 | [店主的胯袋](/items/c716)<br>[成就 #464](/achievements/ids-401-500#achievement-464) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-beast"></span>祸兽 | [店主的盒子](/items/c719)<br>[成就 #465](/achievements/ids-401-500#achievement-465) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Sale Baby<br>[成就 #264](/achievements/ids-201-300#achievement-264) | 十二格全部困难，贪婪格为极贪。本地合作宝宝；不是一件普通道具收藏项。 |
+| <span id="reward-heart"></span>困难心脏 / 它活着 | Super Greed Baby<br>[成就 #241](/achievements/ids-201-300#achievement-241) | 必须困难模式。奖励为本地合作宝宝，不计入道具收藏。 |
+| <span id="reward-isaac"></span>以撒 | [店主开局木制镍币](/items/c349)<br>[成就 #236](/achievements/ids-201-300#achievement-236) | 普通 / 困难均可。让店主开局带木制镍币；不代表解锁木制镍币这个道具本身。 |
+| <span id="reward-satan"></span>撒但 | [店主开局商店钥匙](/items/t83)<br>[成就 #237](/achievements/ids-201-300#achievement-237) | 普通 / 困难均可。让店主开局带商店钥匙。 |
+| <span id="reward-bluebaby"></span>???（Boss） | [深口袋](/items/c416)<br>[成就 #238](/achievements/ids-201-300#achievement-238) | 普通 / 困难均可。 |
+| <span id="reward-lamb"></span>羔羊 | [业报](/items/t85)<br>[成就 #239](/achievements/ids-201-300#achievement-239) | 普通 / 困难均可。 |
+| <span id="reward-megasatan"></span>超级撒但 | Noose Baby<br>[成就 #217](/achievements/ids-201-300#achievement-217) | 普通 / 困难均可。奖励为本地合作宝宝，不计入道具收藏。 |
+| <span id="reward-bossrush"></span>Boss Rush | [粘地镍币](/pickups/sticky-nickel)<br>[成就 #240](/achievements/ids-201-300#achievement-240) | 普通 / 困难均可。奖励为掉落物、箱子或机器，不计入普通道具收藏。 |
+| <span id="reward-hush"></span>死寂 | [店主开局硬币 / 第三个硬币心](/characters/keeper)<br>[成就 #191](/achievements/ids-101-200#achievement-191) | 普通 / 困难均可。强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。 |
+| <span id="reward-greed"></span>普通贪婪 | [贪婪的肋骨](/items/t84)<br>[成就 #204](/achievements/ids-201-300#achievement-204) | 普通贪婪或极贪均可。 |
+| <span id="reward-greedier"></span>极贪 | [贪婪的眼睛](/items/c450)<br>[成就 #308](/achievements/ids-301-400#achievement-308) | 极贪模式。 |
+| <span id="reward-delirium"></span>精神错乱 | [被掰弯的硬币](/items/c485)<br>[成就 #294](/achievements/ids-201-300#achievement-294) | 普通 / 困难均可。 |
+| <span id="reward-mother"></span>母亲 | [店主的胯袋](/items/c716)<br>[成就 #464](/achievements/ids-401-500#achievement-464) | 普通 / 困难均可。 |
+| <span id="reward-beast"></span>祸兽 | [店主的盒子](/items/c719)<br>[成就 #465](/achievements/ids-401-500#achievement-465) | 普通 / 困难均可。 |
+| <span id="reward-all-hard"></span>全部十二格困难 / 极贪 | Sale Baby<br>[成就 #264](/achievements/ids-201-300#achievement-264) | 十二格全部困难，贪婪格为极贪。奖励为本地合作宝宝，不计入道具收藏。 |
 
 [十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
-
 
 ## 相关条目
 
@@ -86,7 +82,7 @@ next: {"text": "亚玻伦", "link": "/characters/apollyon"}
 
 ## 参考资料
 
-- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Keeper)
-- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
-- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
-- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。
+::: details 查看出处
+- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Keeper) · [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
+- 奖励条件：[成就表](/achievements/)，wiki.gg revision 269014；条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。打法由本站整理。
+:::

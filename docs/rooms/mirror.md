@@ -18,7 +18,7 @@ next: {"text": "矿车与逃亡区域", "link": "/rooms/minecart"}
 
 ## 推进与注意事项
 
-临时游魂的圣斗篷与游魂开局强化有关，不能假定未完成强化也能安全挨一下。镜面 Boss 是可选额外奖励，母亲路线不要求击败它。
+临时游魂的神圣屏障与游魂开局强化有关，不能假定未完成强化也能安全挨一下。镜面 Boss 是可选额外奖励，母亲路线不要求击败它。
 
 进门先观察危险物与敌人，刀片到手就优先安全返回；不要为多拿一个可选奖励把整条路线断掉，也不要打碎镜子后再计划返回。
 
@@ -36,4 +36,6 @@ next: {"text": "矿车与逃亡区域", "link": "/rooms/minecart"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

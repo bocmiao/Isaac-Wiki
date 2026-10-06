@@ -17,13 +17,13 @@ next: {"text": "里伊甸", "link": "/characters/tainted-eden"}
 | --- | --- | --- | --- |
 | 生：3 红心容器；死：2 魂心 | 生死逆转（Flip） | 每清一个房间切换生死形态 | 两个形态的道具、属性各算各的 |
 
-**定位**：每清一个房间切换生死形态，要同时维持两套构筑；强项是能控制两条血量。
+**定位**：每清一个房间切换生死形态，两边的道具和血量分别管理，都要养起来。
 
 ## 获取方式
 
 先解锁[表角色拉撒路](/guide/unlocks/order#unlock-lazarus)，再用拉撒路本人回「家」，用红钥匙或红钥匙碎片打开妈妈卧室前走廊左侧的隐藏房，接触里面的里拉撒路。[查看对应解锁条目](/guide/unlocks/order#tainted-lazarus)和[完整回家流程](/guide/unlocks/order#tainted-route)。
 
-## 核心机制
+## 这个角色怎么玩
 
 - 有生、死两个形态。生形态 3 个红心容器，死形态 2 个魂心。
 - 每清完一个房间（多波次房间的每一波也算）切换一次。口袋栏的生死逆转能立刻切换。
@@ -35,44 +35,41 @@ next: {"text": "里伊甸", "link": "/characters/tainted-eden"}
 - **忏悔+**：生死逆转的充能降到 4 个房间，只对里拉撒路生效。
 - **死神名册（Death's List）的额外奖励**：忏悔中要有长子名分，或两个形态各拿一个才生效；忏悔+ 中只要一个形态拿着就一直生效。
 
-## 发育思路与道具取舍 {#lazarus-build}
+## 道具怎么选 {#lazarus-build}
 
-- 前两层：宝箱房先看生死逆转的充能和两面道具，把可用成品分给需要的一方。当前形态强也不能让另一方长期低血、低伤害。
-- 中期：规划清房充能后再回道具房拿另一面，商店、交易同样先检查能否兼顾两人。生形态红心与死形态魂心分别准备，额外生命只保护拿到它的形态。
-- 成型后：先补弱形态的关键输出与防御，再强化已经成型的一方。忏悔+ 的四格生死逆转与忏悔的充能节奏不同，不按同一清房数量安排。
+- 前两层：两边都要拿伤害和回血，别把好道具全给当前这面。记住清完一间房就会切换。
+- 中期：想取半透明道具时，先留生死逆转的电量。生形态红心、死形态魂心分别准备，额外生命也只保护拿到的一面。
+- 道具成型后：两边都能清怪后再补各自短板。长子名分的虚影能射击，但不会让当前身体免伤。
 
 ## 清房与 Boss 打法 {#lazarus-combat}
 
-- 每清一个房间或波次会切换，进下一场战斗前确认当前是谁。生死逆转可用于有计划的切换，不把它的充能全花在随意赶路。
-- Boss 前同时检查两方血量与道具，确认需要手动切换的时机。长子名分的虚影提供额外输出，但不会给当前形态免伤。
+进 Boss 前同时看两边血量，决定是否要手动切换。切完先看当前攻击和生命，不沿用上一面的射程。
 
-## 风险与练习
+## 容易失误的地方
 
-- 不要捡完一面就急着离房，也不要把充能全花在赶路。
-- Boss 前确认将出场的形态及其血量。
+练习一间房前后分别看道具栏，避免进难房才发现另一面几乎没伤害。
 
-## 路线与标记建议 {#lazarus-route}
+## 先打哪些目标 {#lazarus-route}
 
-普通分支先练双形态均衡，限时门要把回头拿另一面道具的时间计入计划。贪婪的波次切换更频繁，先确保两套构筑都能独立清敌再连续开波。
+主线先练两边均衡；贪婪每波切换更频繁。限时局把回头取另一面道具的时间算进去。
 
 ## 完成标记与奖励 {#completion-rewards}
 
-以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+用本角色完成下表目标即可解锁对应奖励。点物品名看效果，点成就编号看完整步骤。
 
 主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
 
 | 目标 | 奖励 | 条件与说明 |
 | --- | --- | --- |
-| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [破损的口袋](/items/t158)<br>[成就 #564](/achievements/ids-501-600#achievement-564) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [拉撒路的魂石](/items/k89)<br>[成就 #626](/achievements/ids-601-641#achievement-626) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-megasatan"></span>超级撒但 | Wooden Chest<br>[成就 #609](/achievements/ids-601-641#achievement-609) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
-| <span id="reward-greedier"></span>极贪 | [XX-审判？](/items/k76)<br>[成就 #543](/achievements/ids-501-600#achievement-543) | 必须极贪；普通贪婪不替代。 |
-| <span id="reward-delirium"></span>精神错乱 | [生死逆转](/items/c711)<br>[成就 #592](/achievements/ids-501-600#achievement-592) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-mother"></span>母亲 | [扑克牌残片](/items/t157)<br>[成就 #565](/achievements/ids-501-600#achievement-565) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-beast"></span>祸兽 | [救恩](/items/c696)<br>[成就 #499](/achievements/ids-401-500#achievement-499) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [破损的口袋](/items/t158)<br>[成就 #564](/achievements/ids-501-600#achievement-564) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [拉撒路的魂石](/items/k89)<br>[成就 #626](/achievements/ids-601-641#achievement-626) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | [木箱子](/pickups/wooden-chest)<br>[成就 #609](/achievements/ids-601-641#achievement-609) | 普通 / 困难均可。奖励为掉落物、箱子或机器，不计入普通道具收藏。 |
+| <span id="reward-greedier"></span>极贪 | [XX-审判？](/items/k76)<br>[成就 #543](/achievements/ids-501-600#achievement-543) | 极贪模式。 |
+| <span id="reward-delirium"></span>精神错乱 | [生死逆转](/items/c711)<br>[成就 #592](/achievements/ids-501-600#achievement-592) | 普通 / 困难均可。 |
+| <span id="reward-mother"></span>母亲 | [扑克牌残片](/items/t157)<br>[成就 #565](/achievements/ids-501-600#achievement-565) | 普通 / 困难均可。 |
+| <span id="reward-beast"></span>祸兽 | [救恩](/items/c696)<br>[成就 #499](/achievements/ids-401-500#achievement-499) | 普通 / 困难均可。 |
 
 [十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
-
 
 ## 相关条目
 
@@ -82,7 +79,7 @@ next: {"text": "里伊甸", "link": "/characters/tainted-eden"}
 
 ## 参考资料
 
-- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Lazarus)
-- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
-- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
-- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。
+::: details 查看出处
+- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Lazarus) · [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
+- 奖励条件：[成就表](/achievements/)，wiki.gg revision 269014；条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。打法由本站整理。
+:::

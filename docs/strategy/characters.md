@@ -13,7 +13,7 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 
 <VersionBadge checked="2026-10" />
 
-每个角色都有独立页，包含开局、获取方式、核心机制、分阶段发育、清房与 Boss 操作、路线与标记建议。表角色与对应里角色互相链接。
+按名称找角色，点卡片看解锁步骤、选道具和打法。每页还列出这个角色的完成标记奖励。
 
 ## 按名称与类型查找 {#catalog}
 
@@ -27,11 +27,11 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 
 ## 总表
 
-原来的角色总表已整理为上方卡片；点击名字进入完整独立攻略。
+点击上方角色卡片查看开局、解锁方法和打法。
 
 ## 逐个角色
 
-各角色的发育、打法与路线段落完整保留在独立页中。
+角色页内可直接跳到选道具、清房与 Boss 打法、路线建议。
 
 ## 新手先练哪个
 
@@ -51,7 +51,6 @@ const entries = (allEntries as CatalogEntry[]).filter(entry => entry.group === "
 ::: warning 店主和游魂先做开局解锁
 店主先打以撒（Boss）拿木制镍币，再打死寂拿第 3 个硬币心。游魂先往贪婪捐款机捐满 879 枚硬币拿神圣屏障，否则任何一次伤害都会结束这一局。
 :::
-
 
 <span id="参考资料"></span>
 

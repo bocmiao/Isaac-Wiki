@@ -56,7 +56,7 @@ def hero(entry, code=''):
 def write(path, content):
     path = DOCS / path
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(content.rstrip() + '\n', encoding='utf-8')
+    path.write_text(re.sub(r'\n{3,}', '\n\n', content).rstrip() + '\n', encoding='utf-8')
     GENERATED.append(str(path.relative_to(DOCS)))
 
 
@@ -115,7 +115,7 @@ def guide_headings(body):
 def completion_table(slug):
     row = COMPLETION_REWARDS[slug]
     page = '\n\n## 完成标记与奖励 {#completion-rewards}\n\n'
-    page += '以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。\n\n'
+    page += '用本角色完成下表目标即可解锁对应奖励。点物品名看效果，点成就编号看完整步骤。\n\n'
     if row['group']=='里角色':
         page += '主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。\n\n'
     page += '| 目标 | 奖励 | 条件与说明 |\n| --- | --- | --- |\n'
@@ -124,13 +124,13 @@ def completion_table(slug):
         if reward['kind']=='all-hard':
             difficulty='十二格全部困难，贪婪格为极贪。'
         elif reward['kind']=='greed':
-            difficulty='普通贪婪或极贪均可；不是普通主线的难度选择。'
+            difficulty='普通贪婪或极贪均可。'
         elif reward['kind']=='greedier':
-            difficulty='必须极贪；普通贪婪不替代。'
+            difficulty='极贪模式。'
         elif reward['minimum']==2:
             difficulty='必须困难模式。'
         else:
-            difficulty='普通 / 困难均可；对应角色和目标不可替代。'
+            difficulty='普通 / 困难均可。'
         if reward['id']==77:
             difficulty='本角色标记途径可用普通 / 困难；另有获取方式。'
         if len(reward['marks'])>1 and reward['kind']!='all-hard':
@@ -164,7 +164,7 @@ def make_profiles():
             remember('characters', entry, f'/strategy/{file}')
             counterpart = profile['id'] if variant else 'tainted-' + profile['id']
             body = re.sub(r'(?m)^#### ', '## ', profile['body'])
-            for label, heading in [('机制', '核心机制'), ('要注意', '风险与练习')]:
+            for label, heading in [('机制', '这个角色怎么玩'), ('要注意', '容易失误的地方')]:
                 body = body.replace(f'**{label}**\n', f'## {heading}\n\n')
             body = re.sub(r'(?m)^\*\*获取方式\*\*[：:]\s*', '## 获取方式\n\n', body)
             info = stats[profile['id']]
@@ -175,7 +175,7 @@ def make_profiles():
             page += completion_table(slug)
             page += f'\n\n## 相关条目\n\n- [对应{"表" if variant else "里"}角色](/characters/{counterpart})\n- [全部角色](/characters/) · [开局强化与完成标记](/strategy/character-roster#upgrades)\n- [角色解锁步骤](/guide/unlocks/order) · [路线规划](/tools/routes) · [道具图鉴](/items/)\n'
             title = ('Tainted_' if variant else '') + en.replace('Tainted ', '').replace(' (Blue Baby)', '').replace(' ', '_')
-            page += '\n## 参考资料\n\n- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/' + quote(title, safe='_') + ')\n- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)\n- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。\n- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。\n'
+            page += '\n## 参考资料\n\n::: details 查看出处\n- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/' + quote(title, safe='_') + ') · [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)\n- 奖励条件：[成就表](/achievements/)，wiki.gg revision 269014；条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。打法由本站整理。\n:::\n'
             entry['_body'] = page
 
 
@@ -212,24 +212,27 @@ def make_rooms_floors():
                 previous = list(re.finditer(r'(?m)^## .+\n', text[:text.index('### '+profile['title'])]))[-1]
                 context = text[previous.end():].split('### ',1)[0].strip()
                 if context:
-                    shared = '\n## 本章共通规则\n\n'+context+'\n'
+                    if entry['group'] == '母亲路线':
+                        context = '死寂累计击败 3 次后，解锁[秘密出口](/achievements/ids-401-500#achievement-407)。路线要留 1 钥匙开下水道、2 炸弹开矿洞，以及承担 2 心伤害的生命开陵墓；两段 II 层分别取得刀片。完整步骤见[母亲路线](/guide/unlocks/endings#母亲-repentance-的隐藏路线)。'
+                    shared = '\n\n## 本章共通规则\n\n'+context+'\n'
+
             page = front(name,f'{name}的进入条件、奖励、风险、打法和路线出口。') + f'# {name} {{#{profile["id"]}}}\n\n' + hero(entry) + '\n<VersionBadge checked="2026-10" />\n\n'
             page += guide_headings(profile['body'] + shared)
             entry['_body'] = page
     # Special layouts have their own pages too; their walkthroughs draw on the reviewed route guides.
     extras = [
       ('red','红房间','Red Room','红钥匙等效果在正常地图之外开出的房间，是找究极隐藏房与里角色衣柜的基础。',
-       '使用红钥匙、红钥匙碎片、水晶钥匙或该隐的魂石等，在符合条件的墙面拓出新房。红房的来源不决定用途，里面仍可能是普通战斗或特殊奖励。\n\n不要把红房间与究极隐藏房混用：开出相邻红房后，究极隐藏房才可能自动开门。普通炸弹不能从原地图直接炸出究极隐藏房。\n\n每次拓图前观察候选空格与充能余量，优先覆盖更多候选位置。到 Home 开衣柜是固定位置的特殊用途，不能靠随便开一间红房完成。', [('究极隐藏房','/rooms/ultrasecret'),('Home 衣柜','/rooms/home-closet'),('找房规则','/strategy/mechanics#究极隐藏房-忏悔起')]),
+       '使用红钥匙、红钥匙碎片、水晶钥匙或该隐的魂石等，在符合条件的墙面拓出新房。红房的来源不决定用途，里面仍可能是普通战斗或特殊奖励。\n\n不要把红房间与究极隐藏房混用：开出相邻红房后，究极隐藏房才可能自动开门。普通炸弹不能从原地图直接炸出究极隐藏房。\n\n找究极隐藏房时，先看候选空格，选能覆盖更多位置的墙。到家解锁里角色时，则在走廊固定位置开衣柜。', [('究极隐藏房','/rooms/ultrasecret'),('Home 衣柜','/rooms/home-closet'),('找房规则','/strategy/mechanics#究极隐藏房-忏悔起')]),
       ('mirror','镜面世界','Mirror World','下水道 / 污水渠 II 的特殊区域，临时游魂进入镜子后取得刀片 1。',
-       '先在下水道 / 污水渠 II 找到白火和镜子，触碰白火进入临时游魂状态，再穿镜子。刀片 1 在镜面宝箱房，拿到后原路穿镜子返回。\n\n临时游魂的圣斗篷与游魂开局强化有关，不能假定未完成强化也能安全挨一下。镜面 Boss 是可选额外奖励，母亲路线不要求击败它。\n\n进门先观察危险物与敌人，刀片到手就优先安全返回；不要为多拿一个可选奖励把整条路线断掉，也不要打碎镜子后再计划返回。',[('下水道 II','/floors/downpour'),('污水渠 II','/floors/dross'),('刀片 1','/items/c626')]),
+       '先在下水道 / 污水渠 II 找到白火和镜子，触碰白火进入临时游魂状态，再穿镜子。刀片 1 在镜面宝箱房，拿到后原路穿镜子返回。\n\n临时游魂的神圣屏障与游魂开局强化有关，不能假定未完成强化也能安全挨一下。镜面 Boss 是可选额外奖励，母亲路线不要求击败它。\n\n进门先观察危险物与敌人，刀片到手就优先安全返回；不要为多拿一个可选奖励把整条路线断掉，也不要打碎镜子后再计划返回。',[('下水道 II','/floors/downpour'),('污水渠 II','/floors/dross'),('刀片 1','/items/c626')]),
       ('minecart','矿车与逃亡区域','Mines Escape','矿洞 / 灰坑 II 的三个黄按钮与矿车区域，取刀片 2 后躲避妈妈的影子。',
-       '前提是已经持有刀片 1。找到并按下三个黄色按钮，再乘矿车进入特殊区域；没拿第一块刀片就不能指望在这里补齐完整刀片。\n\n取得刀片 2 后妈妈的影子开始追击，按安全路线返回矿车。先看坑与可走通道，再躲它的冲锋；特殊段落会暂时限制能力，不能按平时飞行或主动联动估算容错。\n\n回到原楼层后确认两块刀片已经合成，再规划陵墓门的两心入门成本与后续血量。',[('矿洞 II','/floors/mines'),('灰坑 II','/floors/ashpit'),('刀片 2','/items/c627')]),
+       '前提是已经持有刀片 1。找到并按下三个黄色按钮，再乘矿车进入特殊区域；这里取得第二块刀片，第一块要先从镜面世界拿到。\n\n取得刀片 2 后妈妈的影子开始追击，按安全路线返回矿车。先看坑与可走通道，再躲它的冲锋；特殊段落会暂时限制能力，先按地面通道找退路，别依赖平时的飞行或主动。\n\n回到原楼层后确认两块刀片已经合成，再规划陵墓门的两心入门成本与后续血量。',[('矿洞 II','/floors/mines'),('灰坑 II','/floors/ashpit'),('刀片 2','/items/c627')]),
       ('strange-door','奇怪的门与便条房','A Strange Door','深处 II 以照片开门的回家路线，特殊陵墓 II 拿爸爸的便条后上行。',
        '先击败母亲解锁奇怪的门。深处 II 去妈妈前准备可靠传送，常见方法是炸本层带记号的骷髅取得愚者。\n\n击败妈妈后拿全家福或底片，传送回起点，用照片打开奇怪的门，开门消耗照片。不要提前跳普通子宫出口，也不要把传送卡用掉。\n\n门后是特殊陵墓 II，终点为爸爸的便条；拿便条开始上行。这里与母亲路线用刀片开肉门的陵墓 II 不同，计划解锁里角色时先在宝箱房或 Boss 房留下饰品。',[('深处 II','/floors/depths'),('上行','/floors/ascent'),('爸爸的便条','/items/c668')]),
       ('home-closet','Home 隐藏衣柜','Home Closet','妈妈卧室前走廊左侧墙后的隐藏房，接触对应里角色才能解锁。',
        '先走奇怪的门、爸爸的便条与上行路线到家，再在妈妈卧室前走廊左侧墙的对应位置使用红钥匙或红钥匙碎片等开门。\n\n第一次到家打开妈妈卧室箱子保证给红钥匙；以后优先提前留饰品，上行取红钥匙碎片。该隐的魂石也是可用方式，不必依赖随机拿到它。\n\n开门后进隐藏衣柜，接触里面的对应里角色并确认解锁提示。只是到家、只是开门、或者用其他表角色到家，都不能代替目标角色的解锁。先做完衣柜，再睡床触发终局战。',[('家','/floors/home'),('红钥匙','/items/c580'),('红钥匙碎片','/items/k78'),('17 个里角色获取步骤','/guide/unlocks/order#tainted-list')]),
       ('genesis','创世记卧室','Genesis Room','使用创世记后移除原道具并逐件选择替代道具的特殊卧室。',
-       '使用创世记会移除原道具和掉落物，并将角色带到特殊卧室。每移除一件道具，可以从同一道具池的三个选项中选一件，逐步重建组合。\n\n先把输出、防御与可持续发育的需求列好，再比较每组选择；不能把前三个选项当成全部可选道具，也不能认为会保留原组合或主动。\n\n这里不是普通睡床回血房，退出也不是原地图的一扇普通门。使用前完成当前楼层的刀片、交易和路线事项，离场按创世记所在章节的出口规则继续。',[('创世记','/items/c622'),('干净卧室','/rooms/clean-bedroom'),('路线规划','/tools/routes')]),
+       '使用创世记会移除原道具和掉落物，并将角色带到特殊卧室。每移除一件道具，可以从同一道具池的三个选项中选一件，逐步重建组合。\n\n每轮从三个选项中选一件，先补伤害和防御，再考虑配合；原道具和主动会被移除。\n\n离开后会进入后续楼层，无法从普通门回原房。使用前完成当前楼层的刀片、交易和路线事项，离场按创世记所在章节的出口规则继续。',[('创世记','/items/c622'),('干净卧室','/rooms/clean-bedroom'),('路线规划','/tools/routes')]),
       ('grave','遗骸坟墓房','Forgotten Grave','暗室的土堆布局，需要完整妈妈的铲子及前置任务来解锁遗骸。',
        '先击败过羔羊，再开始遗骸的铲子任务：首层限时击败 Boss，拿铲子碎片，带着它完成 Boss Rush 得到完整妈妈的铲子。\n\n之后去暗室找到带土堆的房间，在土堆上使用完整铲子并确认解锁。只有铲子碎片、只打完 Boss Rush 或只抵达暗室，都不算完成任务。\n\n遗骸与遗骸之魂是同一个角色的两种形态，不需要各找一间坟墓解锁；详细时间要求与路线准备按完整教程执行。',[('遗骸完整解锁','/guide/unlocks/order#hidden-forgotten'),('暗室','/floors/dark-room'),('妈妈的铲子','/items/c552'),('遗骸攻略','/characters/forgotten')]),
     ]
@@ -241,7 +244,7 @@ def make_rooms_floors():
     # XL is a map modifier, with its own guide, not a new chapter.
     entry={'id':'xl','name':'XL 与迷宫诅咒','en':'Curse of the Labyrinth','group':'终局与上行','summary':'同章两层合并，两个宝箱房与两个 Boss；交易门和章终点看第二个 Boss。','icon':'map','link':'/floors/xl','aliases':[],'detailAnchors':[]}
     remember('floors',entry)
-    entry['_body']=front(entry['name'],entry['summary'])+'# XL 与迷宫诅咒\n\n'+hero(entry)+'\n<VersionBadge checked="2026-10" />\n\n迷宫诅咒把同章 I / II 合为一张大地图，通常两个宝箱房和两个 Boss。第一章的两间宝箱房通常都免费；不能据此推导成两家免费商店。\n\n## 推进与打法\n\n两层已经合并，不要打完第一个 Boss 就当作章终点。交易门和妈妈等章终点机制看第二个 Boss，资源与路线准备也要在整张地图上做完。\n\n地图更大，迷路和回头都更耗时。先确定本局是否赶 Boss Rush / 死寂，再规划支路；母亲刀片与回家照片仍要按实际出现的路线结构处理，XL 不会自动送路线物品。\n\n## 相关条目\n\n- [诅咒规则](/strategy/mechanics#诅咒)\n- [全部楼层](/floors/) · [路线检查](/tools/routes)\n'
+    entry['_body']=front(entry['name'],entry['summary'])+'# XL 与迷宫诅咒\n\n'+hero(entry)+'\n<VersionBadge checked="2026-10" />\n\n迷宫诅咒把同章 I / II 合为一张大地图，通常两个宝箱房和两个 Boss。第一章的两间宝箱房通常都免费，商店仍按自己的规则生成。\n\n## 推进与打法\n\n两层已经合并，不要打完第一个 Boss 就当作章终点。交易门和妈妈等章终点机制看第二个 Boss，资源与路线准备也要在整张地图上做完。\n\n地图更大，迷路和回头都更耗时。先确定本局是否赶 Boss Rush / 死寂，再规划支路；母亲刀片与回家照片仍要按实际出现的路线结构处理，仍需自己取得路线物品。\n\n## 相关条目\n\n- [诅咒规则](/strategy/mechanics#诅咒)\n- [全部楼层](/floors/) · [路线检查](/tools/routes)\n'
     floor_text=(SOURCES/'floors.md').read_text()
     greed_table=floor_text.split('## 贪婪 / 极贪的七层',1)[1].split('普通贪婪为',1)[0]
     rows=[line for line in greed_table.splitlines() if re.match(r'\| [1-7] ',line)]
@@ -394,7 +397,6 @@ def make_items():
             info.append(('基础充能方式',value))
         if item['metadata'].get('hidden')=='true' or key in SPECIAL_NAMES:
             info.append(('形态','剧情 / 特殊形态，获取方式见下文'))
-        page+='## 基本信息\n\n| 项目 | 内容 |\n| --- | --- |\n'+'\n'.join(f'| {k} | {v} |' for k,v in info)+'\n\n'
         page+='## 效果与数值\n\n'+effect_bullets(current)+'\n\n'
         if base and base!=current:
             page+='::: details 忏悔版的效果差异\n以下为忏悔基础说明；上方为忏悔+说明。\n\n'+effect_bullets(base)+'\n:::\n\n'
@@ -402,42 +404,35 @@ def make_items():
             page+='## 巨型胶囊\n\n'+effect_bullets(item['horseRepPlus'])+'\n\n'
             if item.get('horseRep') and item['horseRep']!=item['horseRepPlus']:
                 page+='::: details 忏悔版巨型胶囊差异\n'+effect_bullets(item['horseRep'])+'\n:::\n\n'
+        page+='## 基本信息\n\n| 项目 | 内容 |\n| --- | --- |\n'+'\n'.join(f'| {k} | {v} |' for k,v in info)+'\n\n'
         page+='## 解锁与获取\n\n'
         linked=unlocks(item)
         if linked:
             for achievement in linked:
                 page+=f'- **解锁条件**：{achievement["conditionZh"]} [详细教程：成就 {achievement["id"]}](/achievements/{achievement["page"]}#achievement-{achievement["id"]})。\n'
-            collection = '要收集记录还需实际取得对应道具。' if item['kind']=='c' else '饰品、卡牌与胶囊不计入普通道具收藏页，解锁条件与是否实际用过要分开看。'
-            page+='\n解锁表示之后可以正常参与生成，不等于本局一定出现；'+collection+'\n\n'
+            if item['kind']=='c':page+='\n解锁后仍要在游戏里捡到一次，才能记入道具收藏页。\n\n'
         if key in SPECIAL_ACQUISITION:page+=SPECIAL_ACQUISITION[key]+'\n\n'
         pool_list=item['poolsRepSnapshot']
         if pool_list:
-            page+='**常见来源池（忏悔快照）**：'+'、'.join(POOLS[pool] for pool in pool_list)+'。\n\n'
-            page+='道具池不是掉落保证；解锁、难度、角色、模式和模组会改变可用项与生成方式。池表保留 IsaacDocs 的忏悔快照，忏悔+效果变化在上方单列。\n\n'
+            page+='**可能出现的地方（忏悔版）**：'+'、'.join(POOLS[pool] for pool in pool_list)+'。忏悔+ 的来源可能有调整。\n\n'
         elif key not in SPECIAL_ACQUISITION:
-            if kind=='k':page+='通过卡牌 / 符文 / 魂石的生成与掉落机制取得；商店、箱子及特定道具也可能提供。不同种类与解锁条件分别判断。\n\n'
-            elif kind=='p':page+='通过胶囊生成与掉落取得。普通胶囊的颜色与效果按本局分配，不能只凭颜色认定是这个效果；识别、博士证等还会改变实际效果。\n\n'
-            elif kind=='t':page+='通过饰品掉落、箱子、机器及相关道具取得；看到本条目并不代表它在每种来源中都有相同机会。\n\n'
-            else:page+='取得方式受道具自身与当前模式规则影响；本快照未列出常规来源池，特殊形态按对应机制生成。\n\n'
+            if kind=='k':page+='可随卡牌掉落取得，也可留意商店、箱子和生成卡牌的道具。\n\n'
+            elif kind=='p':page+='可从胶囊掉落中取得。每局颜色与效果重新分配，先看是否已识别，别只认颜色。\n\n'
+            elif kind=='t':page+='可从饰品掉落中取得，也可留意箱子、机器和生成饰品的道具。\n\n'
+            else:page+='现有资料未列出普通道具池来源。\n\n'
         if not linked and key not in SPECIAL_ACQUISITION:
             if kind in ['c','t'] and item['metadata']:
-                page+='无需单独成就解锁；能否在本局取得仍按来源与模式规则判断。\n\n'
+                page+='无需成就解锁。\n\n'
             elif kind=='k' and item['id']<=26:
                 page+='基础塔罗牌 / 花色牌，无需单独成就解锁。\n\n'
             else:
-                page+='本条目未关联独立成就条件；特殊生成前置按道具与模式机制判断。\n\n'
-        page+='## 使用与取舍\n\n'
-        if typ=='active':page+='先比较本主动能解决的短板与现有主动。涉及“当前房间”的增益通常在危险房或 Boss 战前使用；传送、重置和开洞类效果应先确认本层路线事项已完成。充能、临时电量和道具自身冷却按实际状态判断。\n\n'
-        elif kind=='p':page+='普通与巨型效果分开看；效果编号与胶囊颜色编号不同，不能直接互换控制台参数。在 Boss 战、低血或限时路线中使用未识别胶囊有额外风险。加减血、传送、加速等效果先与当前角色生命规则和路线目标核对。\n\n'
-        elif kind=='k':page+='先确认它是直接消耗的卡牌、符文还是魂石，再规划使用地点。传送与开门效果可以承担路线任务，别提前用掉留给妈妈房、隐藏衣柜或终局入口的消耗品。\n\n'
-        elif kind=='t':page+='按当前构筑比较饰品效果与槽位价值。金饰品、妈妈的盒子和叠加效果会改变部分数值，有些改动是特殊规则，不能一律把基础说明乘二。\n\n'
-        else:page+='先看当前缺输出、生存还是资源，再判断本条目的效果。箭头、倍率与触发条件要一起读；已有泪弹替换、爆炸、自伤等组合时，先核对效果如何叠加，再决定是否交易或重置掉现有奖励。\n\n'
+                page+='现有成就表未列出单独的解锁条件。\n\n'
         combos=[row for row in synergies if kind=='c' and item['id'] in row['items']]
         if combos:
-            page+='## 已核对的组合\n\n'
+            page+='## 可以搭配的道具\n\n'
             for row in combos:
                 links=' + '.join(f'[{ITEMS[f"c{ident}"]["name"]}](/items/c{ident})' for ident in row['items'])
-                page+=f'- **{links}**：{row["effect"]}。\n'
+                page+=f'- **{links}**：{row["effect"].rstrip("。 ")}。\n'
             page+='\n'
         refs=sorted(set(re.findall(r'{{(Collectible|Trinket|Card)(\d+)}}',current)),key=lambda row:(row[0],int(row[1])))
         related=[]
@@ -447,14 +442,14 @@ def make_items():
         if key=='c59':related+=['- [主动版彼列之书](/items/c34)','- [长子名分](/items/c619)','- [犹大](/characters/judas)']
         if key=='c551':related+=['- [第一块铲子碎片](/items/c550)','- [妈妈的铲子](/items/c552)']
         if key=='c656':related+=['- [主动版达摩克里斯之剑](/items/c577)']
-        page+='## 相关条目\n\n'+'\n'.join(dict.fromkeys(related))+'\n- [返回道具图鉴](/items/) · [道具取舍与流派](/strategy/items)\n- [道具组合查询](/tools/synergies) · [控制台命令生成器](/tools/console-generator)\n\n'
+        page+='## 相关条目\n\n'+'\n'.join(dict.fromkeys(related))+'\n- [返回道具图鉴](/items/) · [道具说明怎么读](/guide/advanced/reading-items)\n- [道具取舍](/strategy/items) · [组合查询](/tools/synergies) · [命令生成器](/tools/console-generator)\n\n'
         wiki='https://bindingofisaacrebirth.wiki.gg/zh/index.php?search='+quote(item['name'])+'&go=Go'
-        page+='## 资料来源\n\n'
-        page+=f'- 效果与译名：[EID 中文基础说明及忏悔 / 忏悔+更新](https://github.com/wofsauge/External-Item-Descriptions/tree/{ITEM_SOURCE["eidCommit"]}/descriptions)，条目 `{key}`；数值为基础说明，角色与联动按具体机制处理。\n'
+        page+='## 资料来源\n\n::: details 查看出处与版本\n'
+        page+=f'- 效果与名称：[EID](https://github.com/wofsauge/External-Item-Descriptions/tree/{ITEM_SOURCE["eidCommit"]}/descriptions)，条目 `{key}`；上方列忏悔+效果。\n'
         if item['metadata'] or pool_list:page+=f'- 类型、基础充能与池表：[IsaacDocs 数据快照](https://github.com/wofsauge/IsaacDocs/tree/{ITEM_SOURCE["isaacDocsCommit"]}/scripts/data)。\n'
         if linked:
-            page+='- 解锁条件：[站内已校对成就表](/achievements/)。条件译文改编自 wiki.gg 贡献者资料，按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 发布；原出处见对应成就教程。\n'
-        page+=f'- [wiki.gg 中文]({wiki}) · [IsaacGuru](https://isaacguru.com/wiki/isaac/{key})\n'
+            page+='- 解锁条件：[成就表](/achievements/)，原出处见对应教程；条件译文按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 发布。\n'
+        page+=f'- [wiki.gg 中文]({wiki}) · [IsaacGuru](https://isaacguru.com/wiki/isaac/{key})\n:::\n'
         entry['_body']=page
 
 
@@ -467,14 +462,14 @@ def catalog_page(family, legacy=False, subset=''):
     selected_expr='(allEntries as CatalogEntry[]).filter(entry => entry.group === '+yaml(subset)+')' if subset else 'allEntries as CatalogEntry[]'
     page='---\ntitle: '+yaml((subset+'攻略') if subset else name)+'\naside: false\n---\n\n<script setup lang="ts">\nimport type { CatalogEntry } from "../.vitepress/theme/data/catalog"\nimport allEntries from '+yaml(import_path)+'\nconst entries = '+selected_expr+'\n</script>\n\n# '+((subset+'攻略') if subset else name)+'\n\n'
     page+='<VersionBadge checked="2026-10" />\n\n'
-    descriptions={'characters':'每个角色都有独立页，包含开局、获取方式、核心机制、分阶段发育、清房与 Boss 操作、路线与标记建议。表角色与对应里角色互相链接。','rooms':'每种房间独立说明进入条件、奖励、资源消耗与打法；镜面世界、矿车逃亡、红房间等特殊区域也有单独入口。','floors':'每种楼层独立说明前置、危险与路线出口，I / II 同页讲清；贪婪同名楼层分开列出，避免混用模式规则。','items':'按中文名、英文名、游戏内 ID 或效果关键词搜索。每个道具、饰品、卡牌 / 符文和胶囊都有独立页，包含效果、数值、版本差异、来源及已关联的解锁教程。'}
+    descriptions={'characters':'按名称找角色，点卡片看解锁步骤、选道具和打法。每页还列出这个角色的完成标记奖励。','rooms':'每种房间独立说明进入条件、奖励、资源消耗与打法；镜面世界、矿车逃亡、红房间等特殊区域也有单独入口。','floors':'每种楼层独立说明前置、危险与路线出口，I / II 同页讲清；贪婪同名楼层分开列出，避免混用模式规则。','items':'按中文名、英文名、游戏内 ID 或效果关键词搜索。每个道具、饰品、卡牌 / 符文和胶囊都有独立页，包含效果、数值、版本差异、来源及已关联的解锁教程。'}
     page+=descriptions[family]+'\n\n'
     anchors={'characters':'catalog','rooms':'room-index','floors':'floor-index','items':'catalog'}
     page+='## 按名称与类型查找 {#'+anchors[family]+'}\n\n<EntryCatalog :entries="entries" label="'+name+'"'+(' legacy' if legacy else '')+' />\n\n'
     if family=='characters':
         page+='## 解锁与练习\n\n- [角色解锁步骤](/guide/unlocks/order) · [全部里角色获取方式](/guide/unlocks/order#tainted-list)\n- [开局强化](/strategy/character-roster#upgrades) · [完成标记与全角色奖励](/strategy/completion-marks)\n- [新手练习建议](/strategy/characters#新手先练哪个) · [角色解锁清单](/tools/tracker)\n'
         if legacy:
-            page+='\n## 总表\n\n原来的角色总表已整理为上方卡片；点击名字进入完整独立攻略。\n\n## 逐个'+('里角色' if subset=='里角色' else '角色')+'\n\n各角色的发育、打法与路线段落完整保留在独立页中。\n'
+            page+='\n## 总表\n\n点击上方角色卡片查看开局、解锁方法和打法。\n\n## 逐个'+('里角色' if subset=='里角色' else '角色')+'\n\n角色页内可直接跳到选道具、清房与 Boss 打法、路线建议。\n'
             source=(SOURCES/('tainted.md' if subset=='里角色' else 'characters.md')).read_text()
             if subset=='表角色':page+='\n'+'## 新手先练哪个'+source.split('## 新手先练哪个',1)[1].split('## 参考资料',1)[0]
             else:
@@ -487,7 +482,7 @@ def catalog_page(family, legacy=False, subset=''):
             page+=f'\n## {label} {{#{anchor}}}\n\n'
             group={'basic':'基础与发育','hidden-deals':'隐藏与交易','resource-rooms':'资源与挑战','special-rewards':'特殊奖励'}.get(anchor,'路线与特殊区域')
             page+=' · '.join(f'[{entry["name"]}]({entry["link"]})' for entry in selected if entry['group']==group)+'\n'
-        page+='\n开发枚举中的传送入口 / 出口当前标为未使用；死亡竞赛标识不代表普通单人路线，内部占位值也不计为可探索房间。\n'
+        page+='\n\n'
     if family=='floors':
         text=(SOURCES/'floors.md').read_text()
         page+='\n### 四条路线怎么选 {#route-map}\n\n'+text.split('### 四条路线怎么选',1)[1].split('## 第一章',1)[0].split('\n',1)[1]
@@ -505,7 +500,7 @@ def finish():
         for i,entry in enumerate(entries):
             if family in ['rooms','floors']:
                 related=[row for row in entries if row['group']==entry['group'] and row['id']!=entry['id']][:5]
-                entry['_body']+='\n\n## 同类条目\n\n'+' · '.join(f'[{row["name"]}]({row["link"]})' for row in related)+f'\n\n[返回{"房间" if family=="rooms" else "楼层"}图鉴](/{family}/) · [路线与结局](/guide/unlocks/endings) · [机制详解](/strategy/mechanics)\n\n## 资料来源\n\n本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/{ITEM_SOURCE["isaacDocsCommit"]}/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。\n'
+                entry['_body']+='\n\n## 同类条目\n\n'+' · '.join(f'[{row["name"]}]({row["link"]})' for row in related)+f'\n\n[返回{"房间" if family=="rooms" else "楼层"}图鉴](/{family}/) · [路线与结局](/guide/unlocks/endings) · [机制详解](/strategy/mechanics)\n\n## 资料来源\n\n::: details 查看出处\n房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/{ITEM_SOURCE["isaacDocsCommit"]}/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。\n:::\n'
             body=rewrite_links(entry['_body'], f'/strategy/{family}' if family in ['rooms','floors'] else '/strategy/tainted' if entry['group']=='里角色' else '/strategy/characters' if family=='characters' else '')
             # Explicit neighbors keep navigation compact rather than putting 1,000 links in the sidebar.
             close=body.index('\n---\n',4)

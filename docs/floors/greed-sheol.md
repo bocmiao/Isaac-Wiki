@@ -34,7 +34,6 @@ next: {"text": "贪婪 · 商店", "link": "/floors/greed-shop"}
 - [全部楼层](/floors/) · [贪婪出口房](/rooms/greed-exit)
 - [下一层](/floors/greed-shop)
 
-
 ## 同类条目
 
 [贪婪 · 地下室](/floors/greed-basement) · [贪婪 · 洞穴](/floors/greed-caves) · [贪婪 · 深处](/floors/greed-depths) · [贪婪 · 子宫](/floors/greed-womb) · [贪婪 · 商店](/floors/greed-shop)
@@ -43,4 +42,6 @@ next: {"text": "贪婪 · 商店", "link": "/floors/greed-shop"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

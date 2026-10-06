@@ -20,7 +20,7 @@ next: {"text": "家", "link": "/floors/home"}
 
 ## 上行怎么走
 
-从之前楼层的 Boss 房附近进入，往初始房走，踩光柱继续上一层，直到地下室 I，再进家。路径按本局经过的楼层倒序处理，I / II、变体与跳层会影响实际经过哪些层；不是新开一遍普通主线，敌人也有变化。普通伤害进入整心阶段，别因为画面回地下室就按首层半心容错打。
+从之前楼层的 Boss 房附近进入，往初始房走，踩光柱继续上一层，直到地下室 I，再进家。路径按本局经过的楼层倒序处理，I / II、变体与跳层会影响实际经过哪些层；不是新开一遍普通主线，敌人也有变化。上行的普通伤害按整心处理，即使回到地下室也一样。
 
 ## 能补什么
 
@@ -34,4 +34,6 @@ next: {"text": "家", "link": "/floors/home"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

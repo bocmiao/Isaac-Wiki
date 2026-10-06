@@ -68,6 +68,7 @@ const guideSidebar = [
     collapsed: false,
     items: [
       { text: '第 4 层 · 进阶思路', link: '/guide/advanced/' },
+      { text: '道具说明怎么读', link: '/guide/advanced/reading-items' },
       { text: '第 5 层 · 里角色与白金神', link: '/guide/platinum/' },
     ],
   },
@@ -84,7 +85,7 @@ const strategySidebar = [
       { text: '道具图鉴', link: '/items/' },
       { text: '机制详解', link: '/strategy/mechanics' },
       { text: '机器与乞丐', link: '/strategy/machines' },
-      { text: '生命与付血预算', link: '/strategy/health' },
+      { text: '生命、付血与回血', link: '/strategy/health' },
       { text: '道具组合与风险', link: '/strategy/synergies' },
       { text: '道具取舍与流派', link: '/strategy/items' },
     ],

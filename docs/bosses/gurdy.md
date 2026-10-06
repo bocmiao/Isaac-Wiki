@@ -14,18 +14,18 @@ title: "咕噜大"
 | 前方 / 两侧吐弹 | 不同位置露出攻击口 | 保持远距离的侧移空间，别贴本体 |
 | 苍蝇、吐弹小怪、疖子 | 小怪或固定炮台出现 | 优先打靠近或封路目标，清出路线后回打本体 |
 
-## 安全站位与打法
+## 站位与打法
 
 留在有侧移空间的位置；召唤物靠近时先清掉，再回来打本体。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 贴着本体射击，让两侧攻击和小怪同时封路。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Gurdy](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L19-L23)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Gurdy](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L19-L23)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

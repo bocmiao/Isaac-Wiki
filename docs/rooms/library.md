@@ -12,7 +12,7 @@ next: {"text": "赌博房", "link": "/rooms/arcade"}
 
 ## 进入与内容
 
-书图标，通常耗 1 钥匙，可能放多本书及卡牌、符文。它不是普通楼层必定生成的房间，不应为其预留一个“保证拿书”的位置。
+书图标，通常耗 1 钥匙，可能放多本书及卡牌、符文。它不是每层都有，遇到时再决定是否花钥匙。
 
 ## 收益与打法
 
@@ -26,4 +26,6 @@ next: {"text": "赌博房", "link": "/rooms/arcade"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

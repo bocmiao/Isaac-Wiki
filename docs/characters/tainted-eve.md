@@ -23,7 +23,7 @@ next: {"text": "里参孙", "link": "/characters/tainted-samson"}
 
 先解锁[表角色夏娃](/guide/unlocks/order#unlock-eve)，再用夏娃本人回「家」，用红钥匙或红钥匙碎片打开妈妈卧室前走廊左侧的隐藏房，接触里面的里夏娃。[查看对应解锁条目](/guide/unlocks/order#tainted-eve)和[完整回家流程](/guide/unlocks/order#tainted-route)。
 
-## 核心机制
+## 这个角色怎么玩
 
 - 按住射击 2 秒，扣半颗心，生成一个会射泪弹的血团跟班。血团出生时 15 点血，之后慢慢衰减到最低属性。
 - 可以一直生成，直到只剩半颗心。
@@ -32,45 +32,41 @@ next: {"text": "里参孙", "link": "/characters/tainted-samson"}
 - 血团全死、只剩半颗心时，她获得类似巴比伦大淫妇（Whore of Babylon）的效果，并开始把圣血吸管当武器用。
 - **长子名分**：红心血团死亡时掉半颗红心，2 秒后消失；其他心生成的血团不掉。
 
-## 发育思路与道具取舍 {#eve-build}
+## 道具怎么选 {#eve-build}
 
-- 前两层：有地上回血和安全位置时再长按生成血团，保留本体能承受伤害的生命。需要停止花血时点射，必要时用圣血吸管召回。
-- 中期：每层离开前回收可用的心补队伍，伤害与射速能改善整体输出。血团会衰减和受损，不把当前数量当成下一场战斗必然保留的强度。
-- 成型后：构筑重点是稳定队伍、有效输出与本体恢复；没有血团又只剩半心时先修复生存，不为维持近战状态拒绝回血。长子名分的短时红心要安全捡。
+- 前两层：能回血时再生成血团，先留本体活下来的心。没有治疗和防护时，别一直按射击把血用到半颗。
+- 中期：血团分散或快死时用圣血吸管收回，补血后再放。不要只看跟班数量，忘了本体和血团都在掉血。
+- 道具成型后：补伤害、射速和防护，让血团更快清怪。长子名分掉的红心会消失，安全时及时捡。
 
 ## 清房与 Boss 打法 {#eve-combat}
 
-- 本体走位时给血团留出射线，别让队伍一路磨过危险区。长按会继续生成血团，转向、看地图时也要留意生命变化。
-- Boss 前确认队伍和本体都够用，队伍快速损失时用召回与恢复调整，而不是继续在半心状态硬打。没有明确安全窗口，不靠圣血吸管近战赌伤害。
+跟着血团的射线打，但先躲本体要吃的伤害。Boss 弹幕密时收回血团，整理站位后再放。
 
-## 风险与练习
+## 容易失误的地方
 
-- 血少、血团又少时，生存能力明显下降。
-- 长按射击会继续花血，不要边看地图边无意识按住。
-- 血团少时先恢复阵容，别只靠半心状态赌近战。
+练习按住射击生成、松开移动、吸管收回，别把生成血团当无代价加跟班。
 
-## 路线与标记建议 {#eve-route}
+## 先打哪些目标 {#eve-route}
 
-先练血团的生成、召回与补充，再打长终局。想赶限时门也要预留回血整理时间；一次清房很快不代表不需维护队伍。
+先练能补红心的主线，长终局战前保留本体血量；限时门不必等到最多血团才走。
 
 ## 完成标记与奖励 {#completion-rewards}
 
-以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+用本角色完成下表目标即可解锁对应奖励。点物品名看效果，点成就编号看完整步骤。
 
 主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
 
 | 目标 | 奖励 | 条件与说明 |
 | --- | --- | --- |
-| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [奇怪的钥匙](/items/t175)<br>[成就 #558](/achievements/ids-501-600#achievement-558) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [夏娃的魂石](/items/k86)<br>[成就 #623](/achievements/ids-601-641#achievement-623) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-megasatan"></span>超级撒但 | Horse Pill<br>[成就 #606](/achievements/ids-601-641#achievement-606) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
-| <span id="reward-greedier"></span>极贪 | [III-皇后？](/items/k59)<br>[成就 #527](/achievements/ids-501-600#achievement-527) | 必须极贪；普通贪婪不替代。 |
-| <span id="reward-delirium"></span>精神错乱 | [圣血吸管](/items/c713)<br>[成就 #589](/achievements/ids-501-600#achievement-589) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-mother"></span>母亲 | [小血团](/items/t176)<br>[成就 #559](/achievements/ids-501-600#achievement-559) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-beast"></span>祸兽 | [心碎](/items/c694)<br>[成就 #496](/achievements/ids-401-500#achievement-496) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [奇怪的钥匙](/items/t175)<br>[成就 #558](/achievements/ids-501-600#achievement-558) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [夏娃的魂石](/items/k86)<br>[成就 #623](/achievements/ids-601-641#achievement-623) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | Horse Pill<br>[成就 #606](/achievements/ids-601-641#achievement-606) | 普通 / 困难均可。奖励为掉落物、箱子或机器，不计入普通道具收藏。 |
+| <span id="reward-greedier"></span>极贪 | [III-皇后？](/items/k59)<br>[成就 #527](/achievements/ids-501-600#achievement-527) | 极贪模式。 |
+| <span id="reward-delirium"></span>精神错乱 | [圣血吸管](/items/c713)<br>[成就 #589](/achievements/ids-501-600#achievement-589) | 普通 / 困难均可。 |
+| <span id="reward-mother"></span>母亲 | [小血团](/items/t176)<br>[成就 #559](/achievements/ids-501-600#achievement-559) | 普通 / 困难均可。 |
+| <span id="reward-beast"></span>祸兽 | [心碎](/items/c694)<br>[成就 #496](/achievements/ids-401-500#achievement-496) | 普通 / 困难均可。 |
 
 [十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
-
 
 ## 相关条目
 
@@ -80,7 +76,7 @@ next: {"text": "里参孙", "link": "/characters/tainted-samson"}
 
 ## 参考资料
 
-- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Eve)
-- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
-- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
-- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。
+::: details 查看出处
+- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Eve) · [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
+- 奖励条件：[成就表](/achievements/)，wiki.gg revision 269014；条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。打法由本站整理。
+:::

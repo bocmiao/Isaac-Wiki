@@ -16,7 +16,7 @@ next: {"text": "暗室", "link": "/floors/dark-room"}
 
 ## 打法与路线
 
-灵体、光柱和密集攻击要求多用侧移，保持躲避方向，别为拾取物站在危险位置。累计击败以撒 5 次解锁全家福；本局带全家福时，以撒后的大箱子进入宝箱层。走错照片路线不能保证进入第六章。
+灵体、光柱和密集攻击要求多用侧移，保持躲避方向，别为拾取物站在危险位置。累计击败以撒 5 次解锁全家福；本局带全家福时，以撒后的大箱子进入宝箱层。带底片去教堂，碰箱子会结束这局，无法正常进入宝箱层。
 
 ## 同类条目
 
@@ -26,4 +26,6 @@ next: {"text": "暗室", "link": "/floors/dark-room"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

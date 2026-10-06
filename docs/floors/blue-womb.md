@@ -16,7 +16,7 @@ next: {"text": "阴间", "link": "/floors/sheol"}
 
 ## 发育与 Boss
 
-准备区有额外宝箱房、商店和箱子，可先整理道具与补给再进入死寂战。两间宝箱房的选择组、钥匙和商店花费都要提前预算，不要只为赶门而把钥匙与钱清空。房间少不表示 Boss 简单，留足持续输出与耐力，见[死寂打法](/strategy/bosses-2#死寂-hush)。
+准备区有额外宝箱房、商店和箱子，可先整理道具与补给再进入死寂战。两间宝箱房要用的钥匙和购物的钱都要提前留好，不要只为赶门而把钥匙与钱清空。房间少不表示 Boss 简单，提前补好血量和防御，见[死寂打法](/strategy/bosses-2#死寂-hush)。
 
 ## 打完怎么走
 
@@ -30,4 +30,6 @@ next: {"text": "阴间", "link": "/floors/sheol"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

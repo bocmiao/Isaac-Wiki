@@ -49,7 +49,7 @@ description: Steam 创意工坊实用模组推荐：中文道具说明、配置�
 
 EID 用来解释道具和机制，尤其适合这些场合：学新角色、决定拿不拿恶魔交易、看里该隐合成道具要用的材料、决定里以撒（被动道具最多 8 格）该丢哪个。
 
-按设置不同，EID 还能显示更多构筑信息。它的说明来自模组自带的资料，游戏更新后要留意作者有没有跟着更新。
+按设置不同，EID 还能显示更多道具搭配信息。它的说明来自模组自带的资料，游戏更新后要留意作者有没有跟着更新。
 
 - 按 <KeyCap>F2</KeyCap> 显示 / 隐藏说明。
 - 在支持 EID 的配置菜单里，把 Language 改成简体中文。作者配置文件中的语言代码是 `zh_cn`。
@@ -103,7 +103,7 @@ Planetarium Chance 显示本层生成星象房的概率，适合判断不进宝�
 
 在忏悔+ 上，这个模组有已知的着色器显示问题，作者给了临时处理办法。装好后留意图标显示是否正常。图标显示异常，不代表存档里星象房的解锁条件被重置了。
 
-## 快捷回程：按需查阅，不混入信息模组组合 {#fast-travel}
+## 快捷回程：减少往返，但会改变走图玩法 {#fast-travel}
 
 [Goodtrip MLX's Tweak](https://steamcommunity.com/sharedfiles/filedetails/?id=3749565569)属于 GoodTrip 快捷走图系列，会改变走图方式，需要时再额外安装。
 
@@ -162,7 +162,7 @@ MinimapAPI、Planetarium Chance、EID 与快捷传送模组的用途各不相同
 
 ## 资料与核对范围
 
-本次（2026-10-05）已读取上面六个模组的工坊原页面，并对照下面的作者仓库 README、配置与工坊元数据。这里不包含实际游戏中的模组安装测试，也不将无法复核的当前工坊版本标作已兼容。
+模组说明依据 2026-10-05 的工坊页面、作者 README 和配置文件整理。尚未进行游戏内安装测试；订阅前请查看作者当前标注的版本支持与已知问题。
 
 - [EID 作者 README](https://github.com/wofsauge/External-Item-Descriptions)与[安装指南](https://github.com/wofsauge/External-Item-Descriptions/wiki/How-to-install-the-mod)、[语言配置](https://github.com/wofsauge/External-Item-Descriptions/blob/ee7f463a00c11263272ee737a52961fb562d26b8/eid_config.lua)。
 - [Mod Config Menu - Impure 作者 README](https://github.com/piber20/Mod-Config-Menu-Impure)。

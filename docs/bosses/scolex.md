@@ -14,18 +14,18 @@ title: "Scolex"
 | 潜地 / 跳出 | 本体消失后露出 | 保持移动，确认露出部位再射击 |
 | 吐弹 | 头部露出并攻击 | 侧移避开弹丸及落点 |
 
-## 安全站位与打法
+## 站位与打法
 
 看它露出的部位，尽量对可伤部位输出；潜地时调整位置，不贴着落点追。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 一直打保护部位却不看血条。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Scolex](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter4.md#L25-L27)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Scolex](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter4.md#L25-L27)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

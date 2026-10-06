@@ -14,18 +14,18 @@ title: "囊胚"
 | 跳跃 | 本体跃起 | 先让开落点 |
 | 分裂 | 大体散成小体 | 集中完成一个分支，减少同时吐弹的目标 |
 
-## 安全站位与打法
+## 站位与打法
 
 先离开落点，再集中清一个分裂分支；小体阶段仍需留弹幕空隙。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 平均打残所有目标，让多个分支一起变成一群小体。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Blastocyst](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter4.md#L13-L20)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Blastocyst](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter4.md#L13-L20)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

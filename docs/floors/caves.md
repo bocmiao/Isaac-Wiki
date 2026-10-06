@@ -17,10 +17,10 @@ next: {"text": "墓穴", "link": "/floors/catacombs"}
 ## I 层选择
 
 想继续母亲路线可在 Boss 后用两颗炸弹开矿洞入口。正常主线则继续洞穴 II。**II 层准备**：用商店补魂心、主动或有效输出，往第三章走前别把留给钥匙门和天使雕像的资源花完。
+
 ## 本章共通规则
 
 普通 I / II 通常仍有宝箱房、商店和 Boss 奖励。敌人组合开始更复杂，要把输出和移速补到能稳定清房；洞穴 II 起商店可能被贪婪占据。母亲路线的转入点在洞穴 I，别等到洞穴 II 才发现错过矿洞入口。
-
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "墓穴", "link": "/floors/catacombs"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

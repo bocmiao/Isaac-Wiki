@@ -14,18 +14,18 @@ title: "堕落天使"
 | 追逐 / 激光 | 本体加速，随后蓄力 | 先横向躲追逐，再避开激光线 |
 | 分裂 | 单体变为两个 | 集中打掉一个分支，减少交叉攻击 |
 
-## 安全站位与打法
+## 站位与打法
 
 先横向躲追逐，激光前调整位置；分裂后集中打掉一只，持续观察另一只。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 为了追其中一只横穿另一只的攻击线。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[The Fallen](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L68-L74)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[The Fallen](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L68-L74)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

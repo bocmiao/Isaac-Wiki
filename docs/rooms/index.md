@@ -21,14 +21,11 @@ const entries = allEntries as CatalogEntry[]
 
 ## 每层怎样安排顺序 {#room-order}
 
-
 1. **先确定目标**：普通通关、赶 Boss Rush / 死寂、母亲刀片、祸兽照片各有不同必做事项。
 2. **先留门票**：宝箱房钥匙、替代门炸弹、天使雕像炸弹、陵墓入门生命不要提前花光。
 3. **稳定提升优先**：先拿可见的有效道具与补给，再按剩余生命评估诅咒、挑战、献祭、黑市。
 4. **利用地形省成本**：确认隐藏房能否绕锁门，检查夹层是否有返回梯子；传送卡既能撤离战斗，也可能是回家路线的必需品。
 5. **下楼前复核**：想要的交易、刀片、照片、留下的饰品都做好再跳；特殊活板门与光柱的目的地不同。
-
-
 
 ## 基础战斗与发育 {#basic}
 
@@ -53,8 +50,6 @@ const entries = allEntries as CatalogEntry[]
 ## 红房间与路线区域 {#special-areas}
 
 [Boss Rush](/rooms/boss-rush) · [错误房](/rooms/error) · [替代章节入口房](/rooms/secret-exit) · [贪婪出口房](/rooms/greed-exit) · [蓝钥匙房](/rooms/blue) · [红房间](/rooms/red) · [镜面世界](/rooms/mirror) · [矿车与逃亡区域](/rooms/minecart) · [奇怪的门与便条房](/rooms/strange-door) · [Home 隐藏衣柜](/rooms/home-closet) · [创世记卧室](/rooms/genesis) · [遗骸坟墓房](/rooms/grave)
-
-开发枚举中的传送入口 / 出口当前标为未使用；死亡竞赛标识不代表普通单人路线，内部占位值也不计为可探索房间。
 
 <span id="参考资料"></span>
 

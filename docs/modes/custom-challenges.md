@@ -7,7 +7,7 @@ description: 创意工坊自定义挑战入口、TAB 切换、DLC 与模组兼�
 <EntryHeader en="Custom Challenges / Modded Runs" category="特殊开局" icon="wrench" />
 <VersionBadge checked="2026-10" />
 
-自定义挑战由模组作者定义角色、道具、终点与额外规则。它不是官方 #1–45 的另一页奖励，也不是固定的第五种基础难度。
+自定义挑战由模组作者定义角色、道具、终点与额外规则。它的规则和奖励由模组决定，与官方 #1–45 分开。
 
 ## 怎么进入
 

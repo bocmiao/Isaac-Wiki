@@ -20,7 +20,7 @@ next: {"text": "错误房", "link": "/rooms/error"}
 
 ## 打法与路线
 
-先有输出和补血再赶时限，清楚每波新 Boss 的刷新位置，优先处理高速、召怪和堵路敌人。可以打完再继续主线，但还要赶死寂时，必须把战斗时间计入 30 分钟预算。祸兽路线能拿开场道具后传送回起点，但这会放弃本次车轮战完成标记。
+先有输出和补血再赶时限，清楚每波新 Boss 的刷新位置，优先处理高速、召怪和堵路敌人。打完可继续主线。想同局赶死寂，要留出打车轮战和前往心脏的时间，总用时不能超过 30 分钟。祸兽路线能拿开场道具后传送回起点，但这会放弃本次车轮战完成标记。
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "错误房", "link": "/rooms/error"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

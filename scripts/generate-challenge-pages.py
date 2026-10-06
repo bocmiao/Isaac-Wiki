@@ -95,7 +95,7 @@ next: {adjacent(ident + 1) if ident < 45 else 'false'}
 | 难度 | {'困难' if ident == 26 else '普通（挑战自带的特殊限制另算）'} |
 | 开局 / 特殊规则 | {rule['rules']} |
 
-挑战指定的开局优先于角色普通局的开局。蒙眼时不能发射普通泪弹；跟班、可用主动与特殊攻击另看各挑战规则。[查看挑战通用规则](/strategy/challenges#挑战模式是什么)。
+挑战按上表的固定开局玩。蒙眼时不能发射普通泪弹，主要靠跟班、主动或特殊攻击。[查看挑战通用规则](/strategy/challenges#挑战模式是什么)。
 
 ## 开放条件与完成奖励
 
@@ -109,7 +109,7 @@ next: {adjacent(ident + 1) if ident < 45 else 'false'}
 
 {guide['early']}
 
-## 中期发育与道具取舍
+## 中期拿什么道具
 
 {guide['middle']}
 
@@ -133,7 +133,9 @@ next: {adjacent(ident + 1) if ident < 45 else 'false'}
 
 ## 资料来源
 
-规则沿用本站已校对的[全部挑战总表](/strategy/challenges#全部挑战总表)；开放与奖励对照[成就数据](/achievements/)。[Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Challenges) · [{rule['name']}](https://bindingofisaacrebirth.wiki.gg/wiki/{quote(rule['name'].replace(' ', '_'), safe='_')})。数字编号核对 [IsaacDocs Challenge 枚举](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums/Challenge.md)。基于 wiki 条件的翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布；打法为本站建议，取得具体道具不作为必需条件。
+::: details 查看出处
+规则见[全部挑战总表](/strategy/challenges#全部挑战总表)；开放与奖励对照[成就数据](/achievements/)。[Challenges](https://bindingofisaacrebirth.wiki.gg/wiki/Challenges) · [{rule['name']}](https://bindingofisaacrebirth.wiki.gg/wiki/{quote(rule['name'].replace(' ', '_'), safe='_')})。数字编号核对 [IsaacDocs Challenge 枚举](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums/Challenge.md)。基于 wiki 条件的翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布；打法由本站整理，推荐道具并非通关必需品。
+:::
 '''
     (folder / f'{ident}.md').write_text(content)
     catalog.append({'id': f'challenge-{ident}', 'gameId': ident, 'name': f'#{ident} {rule["name"]}',

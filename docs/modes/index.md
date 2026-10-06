@@ -19,11 +19,11 @@ import entries from '../.vitepress/theme/data/catalog/modes.json'
 | --- | --- | --- |
 | 第一次打妈妈、学清房 | [普通模式](/modes/normal) | 可以推进正常解锁；一般不补困难红标记 |
 | 全角色困难标记、冲白金神 | [困难模式](/modes/hard) | 困难完成覆盖同目标的普通完成 |
-| 解锁店主、极贪、游魂圣斗篷 | [贪婪](/modes/greed) / [极贪](/modes/greedier) | 看贪婪捐款机，与普通捐款机分开 |
+| 解锁店主、极贪、游魂神圣屏障 | [贪婪](/modes/greed) / [极贪](/modes/greedier) | 看贪婪捐款机，与普通捐款机分开 |
 | 解锁挑战奖励 | [编号挑战](/modes/challenges) · [45 篇攻略](/challenges/) | 只能解锁所选挑战的完成奖励 |
 | 每日参与、胜利和连胜成就 | [每日挑战](/modes/daily) | 正式每日计数，练习局不计 |
 | 重复练一张图、试道具 | [种子局](/modes/seeded) · [练习与控制台](/modes/practice) | 手动指定普通种子不解锁普通成就 |
-| 保留构筑再跑一圈 | [胜利圈](/modes/victory-lap) / [RERUN](/modes/rerun) | 离线不能用于普通成就、角色标记 |
+| 保留道具搭配再跑一圈 | [胜利圈](/modes/victory-lap) / [RERUN](/modes/rerun) | 离线不能用于普通成就、角色标记 |
 | 和朋友一起玩 | [本地合作](/modes/local-coop) / [在线合作](/modes/online-coop) | 要区分完整角色、宝宝及中途加入 |
 | 玩创意工坊的特殊规则 | [自定义挑战与模组局](/modes/custom-challenges) | 模组挑战不等于官方 45 项奖励 |
 

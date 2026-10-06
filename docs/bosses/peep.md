@@ -15,18 +15,18 @@ title: "窥视眼"
 | 地面危险与吐弹 | 房间地面和弹幕变化 | 同时看能站的位置和弹幕，别只顾血条 |
 | 漂浮眼球 | 眼球从本体脱离 | 当作独立移动障碍，别跟着眼球挤进角落 |
 
-## 安全站位与打法
+## 站位与打法
 
 大跳时移动离开落点；眼球出现后把它们作为独立障碍观察。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 只看血条，忽略眼球和地面上的不可站区域。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Peep](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L36-L39)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Peep](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L36-L39)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

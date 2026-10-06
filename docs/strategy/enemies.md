@@ -18,7 +18,7 @@ title: 常见敌人与地形应对
 | 蜘蛛和跳蚤 | 突然改变方向，短距离迅速接近 | 保留侧移空间，不贴怪 | 低速站桩或踩蛛网后被围 |
 | 炸弹与自爆 | 引线、即爆物和尸体附近的变化 | 先避爆炸，再回来收资源 | 为了一枚钱停在爆炸中心 |
 
-## 地面也占一条注意力
+## 躲弹时也要看地面
 
 红色大便、火堆、尖刺、敌人留下的血迹会限制路线。飞行能改变部分地形通行，但不等于免疫所有伤害或机器付血。隔坑输出时先确认敌人是否会飞、是否能跨坑攻击。
 
@@ -31,4 +31,4 @@ title: 常见敌人与地形应对
 3. 能清房后，再尝试贴近提高命中率；先学不受伤，再学快。
 4. 复盘时区分怪物撞击、泪弹、地面和自己爆炸，针对来源改走位。
 
-[基础操作](/guide/start/controls) · [资源预算](/guide/first-win/pickups) · [楼层图鉴](/floors/)。机制分类参考 [IsaacDocs EntityType](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums/EntityType.md)，战术为本站建议。
+[基础操作](/guide/start/controls) · [心与资源](/guide/first-win/pickups) · [楼层图鉴](/floors/)。机制分类参考 [IsaacDocs EntityType](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums/EntityType.md)，战术为本站建议。

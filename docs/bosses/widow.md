@@ -14,18 +14,18 @@ title: "寡妇"
 | 跳跃 | 身体起跳 | 先横移离开落点，落地后输出 |
 | 卵囊与蜘蛛 | 场地生成持续威胁 | 优先清脚边蜘蛛和会继续增加数量的来源 |
 
-## 安全站位与打法
+## 站位与打法
 
 先离开落点，再处理堵路的卵囊和蜘蛛；让移动路线保持开阔。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 只追本体而忽略不断增加的蜘蛛。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Widow](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L43-L48)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Widow](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L43-L48)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

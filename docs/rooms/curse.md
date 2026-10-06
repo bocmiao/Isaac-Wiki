@@ -12,7 +12,7 @@ next: {"text": "普通挑战房", "link": "/rooms/challenge"}
 
 ## 进入
 
-尖刺门，默认进门与出门分别造成一次伤害，要先预算往返。飞行通常免进门伤害，但出门仍会受伤；圣斗篷、短暂无敌、传送和隐藏房侧门可以改变实际消耗。**飞行不等于免费往返**。
+尖刺门，默认进门与出门分别造成一次伤害，先算进出两次后还剩多少血。飞行通常免进门伤害，但出门仍会受伤；神圣屏障、短暂无敌、传送和隐藏房侧门可以改变实际消耗。**飞行不等于免费往返**。
 
 ## 内容与风险
 
@@ -30,4 +30,6 @@ next: {"text": "普通挑战房", "link": "/rooms/challenge"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

@@ -15,18 +15,18 @@ title: "小角"
 | 炸弹 / 地洞 | 场地出现引线或洞口 | 先远离危险位置，不为了射到本体跨越危险 |
 | 传送 | 本体消失并换位置 | 重新判断本体方位，别在原位置等待 |
 
-## 安全站位与打法
+## 站位与打法
 
 把黑球、地洞与炸弹位置记在本体之外；传送后先找退路再追击。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 只看本体，横移时撞上另一个危险位置。
 
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
-
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Little Horn](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L86-L93)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Little Horn](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L86-L93)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

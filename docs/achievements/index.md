@@ -61,4 +61,4 @@ description: 忏悔637项、忏悔+641项全部成就索引，按编号、名称
 
 ## 来源与授权
 
-编号、名称及条件事实来自 [The Binding of Isaac: Rebirth Wiki · Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)，2026-10-05 读取修订版 269014，并对照每日挑战、胜利圈及相关专题。本系列的成就条件翻译与索引数据按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布；本站其他内容的默认授权不覆盖这些注明例外的页面。未在游戏中实际完成 641 项解锁。
+编号、名称及条件事实来自 [The Binding of Isaac: Rebirth Wiki · Achievements](https://bindingofisaacrebirth.wiki.gg/wiki/Achievements)，2026-10-05 读取修订版 269014，并对照每日挑战、胜利圈及相关专题。本系列的成就条件翻译与索引数据按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布；本站其他内容的默认授权不覆盖这些注明例外的页面。条件与做法依据资料整理，尚未逐项进行游戏内测试。

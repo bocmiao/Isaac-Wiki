@@ -15,15 +15,15 @@ next: {"text": "里游魂", "link": "/characters/tainted-lost"}
 
 | 血量 | 初始道具 / 能力 | 特点 | 难点 |
 | --- | --- | --- | --- |
-| 随机 | 随机主动道具 + 被动道具 | 受伤就重置属性和道具 | 构筑随时被打乱 |
+| 随机 | 随机主动道具 + 被动道具 | 受伤就重置属性和道具 | 道具搭配随时被打乱 |
 
-**定位**：一受伤就重置属性和道具，构筑随时被打乱。
+**定位**：一受伤就重置属性和道具，道具搭配随时被打乱。
 
 ## 获取方式
 
 先解锁[表角色伊甸](/guide/unlocks/order#unlock-eden)，再用伊甸本人回「家」，用红钥匙或红钥匙碎片打开妈妈卧室前走廊左侧的隐藏房，接触里面的里伊甸。[查看对应解锁条目](/guide/unlocks/order#tainted-eden)和[完整回家流程](/guide/unlocks/order#tainted-route)。
 
-## 核心机制
+## 这个角色怎么玩
 
 - 开局血量、属性、道具全部随机。
 - 每次受到非自伤伤害，属性、所有主动和被动道具、饰品、手上的卡牌或胶囊都会重置；自伤和致命伤害不触发。
@@ -32,45 +32,41 @@ next: {"text": "里游魂", "link": "/characters/tainted-lost"}
 - 相关道具被换掉，变身也会跟着消失。
 - **长子名分**：拿长子名分之前得到的道具不再被重置，四面骰（D4）、编号丢失这类重置也算；之后拿的道具照常受影响。原本被保护的主动道具放下后再捡起，就又会被重置。
 
-## 发育思路与道具取舍 {#eden-build}
+## 道具怎么选 {#eden-build}
 
-- 前两层：按随机开局补当前输出和实际生命，优先减少战斗受伤。拿更多有效道具能降低单件失去后的依赖，但不为数量买会让当前血线危险的交易。
-- 中期：防御与多种可用恢复来源更重要。道具被重置后，容器、攻击形态与主动都可能改变，看到变化先重新判断，不通过撞敌人刷构筑。
-- 成型后：长子名分适合保护已经值得固定的道具，买前检查当前组合；之后新拿的仍可能重置。放下被保护的主动再捡回，会重新进入重置范围。
+- 前两层：开局先看血量和道具，受伤后马上重新看一次。未知主动先查，不因为有可能换掉就随便用。
+- 中期：多找回血和防护，少受伤比反复撞怪重置更可靠。道具一换，攻击方式和心容器也可能变化。
+- 道具成型后：当前道具好用时，长子名分可以保护已经拿到的部分。被保护的主动放下再捡回，会重新进入重置范围。
 
 ## 清房与 Boss 打法 {#eden-combat}
 
-- 优先用稳定走位清房，受伤后短暂停止激进操作，试清新的弹道和主动。特别留意突然出现的爆炸或蓄力攻击。
-- Boss 战重置后先脱离弹幕，确认有效血量和攻击方式再恢复输出。原来的回血主动消失时，不能继续按旧恢复计划硬扛。
+被打后先撤到安全处，看血条、射程和主动，再继续射击。Boss 战不要为抽一套更好的道具故意挨打。
 
-## 风险与练习
+## 容易失误的地方
 
-- 重置很容易丢血，却不会补血。各种心都留一些，不要只押一种。
-- 有的加血道具被重置掉，血线会更危险。
-- 别为刷好道具主动撞敌人。
+每次重置后试射一下，别把上一套的爆炸免疫或护盾当作还在。
 
-## 路线与标记建议 {#eden-route}
+## 先打哪些目标 {#eden-route}
 
-照片、钥匙碎片和菜刀碎片等列出的路线道具不会随受伤重置，可正常规划分支。先练常规终点的临场适应，再挑战变身频繁、战斗长的目标；里伊甸也不要靠反复重开逃避开局判断。
+先练常规分支，学会受伤后适应新攻击。限时门看当前这套是否能快清，不押宝下次重置。
 
 ## 完成标记与奖励 {#completion-rewards}
 
-以下是本角色的标记奖励；点物品看效果，点成就编号看步骤。表格按忏悔 / 忏悔+ 条件列出，解锁、开局强化、收藏记录分别判断。
+用本角色完成下表目标即可解锁对应奖励。点物品名看效果，点成就编号看完整步骤。
 
 主线四终点与限时双目标要由**本角色全部完成**，可以分局；心脏与普通贪婪没有独立的里角色奖励，但全困难标记仍要补齐它们。
 
 | 目标 | 奖励 | 条件与说明 |
 | --- | --- | --- |
-| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [滚啊！](/items/t165)<br>[成就 #566](/achievements/ids-501-600#achievement-566) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [伊甸的魂石](/items/k90)<br>[成就 #627](/achievements/ids-601-641#achievement-627) | 普通 / 困难均可；对应角色和目标不可替代。本角色这一组全部完成，可分局。 |
-| <span id="reward-megasatan"></span>超级撒但 | [万用牌](/items/k80)<br>[成就 #610](/achievements/ids-601-641#achievement-610) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-greedier"></span>极贪 | [XXI-世界？](/items/k77)<br>[成就 #544](/achievements/ids-501-600#achievement-544) | 必须极贪；普通贪婪不替代。 |
-| <span id="reward-delirium"></span>精神错乱 | Corrupted Data<br>[成就 #593](/achievements/ids-501-600#achievement-593) | 普通 / 困难均可；对应角色和目标不可替代。开放掉落物、箱子或机器机制；不是一件普通道具收藏项。 |
-| <span id="reward-mother"></span>母亲 | [塑型黏土](/items/t166)<br>[成就 #567](/achievements/ids-501-600#achievement-567) | 普通 / 困难均可；对应角色和目标不可替代。 |
-| <span id="reward-beast"></span>祸兽 | [错误技](/items/c721)<br>[成就 #500](/achievements/ids-401-500#achievement-500) | 普通 / 困难均可；对应角色和目标不可替代。 |
+| <span id="reward-main-four"></span>以撒＋???＋撒但＋羔羊 | [滚啊！](/items/t165)<br>[成就 #566](/achievements/ids-501-600#achievement-566) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-timed-pair"></span>Boss Rush＋死寂 | [伊甸的魂石](/items/k90)<br>[成就 #627](/achievements/ids-601-641#achievement-627) | 普通 / 困难均可。本角色这一组全部完成，可分局。 |
+| <span id="reward-megasatan"></span>超级撒但 | [万用牌](/items/k80)<br>[成就 #610](/achievements/ids-601-641#achievement-610) | 普通 / 困难均可。奖励为掉落物、箱子或机器，不计入普通道具收藏。 |
+| <span id="reward-greedier"></span>极贪 | [XXI-世界？](/items/k77)<br>[成就 #544](/achievements/ids-501-600#achievement-544) | 极贪模式。 |
+| <span id="reward-delirium"></span>精神错乱 | Corrupted Data<br>[成就 #593](/achievements/ids-501-600#achievement-593) | 普通 / 困难均可。奖励为掉落物、箱子或机器，不计入普通道具收藏。 |
+| <span id="reward-mother"></span>母亲 | [塑型黏土](/items/t166)<br>[成就 #567](/achievements/ids-501-600#achievement-567) | 普通 / 困难均可。 |
+| <span id="reward-beast"></span>祸兽 | [错误技](/items/c721)<br>[成就 #500](/achievements/ids-401-500#achievement-500) | 普通 / 困难均可。 |
 
 [十二格、合并奖励与路线规划](/strategy/completion-marks) · [记录角色标记](/tools/tracker) · [读取本地存档](/tools/local-progress)。
-
 
 ## 相关条目
 
@@ -80,7 +76,7 @@ next: {"text": "里游魂", "link": "/characters/tainted-lost"}
 
 ## 参考资料
 
-- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Eden)
-- [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
-- 本页的机制与分阶段打法保留自站内已校对角色攻略，适用单人忏悔 / 忏悔+。
-- 标记奖励逐条对应[全成就条件](/achievements/)的指定角色、Boss 与难度；wiki.gg revision 269014 的条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。
+::: details 查看出处
+- [角色资料](https://bindingofisaacrebirth.wiki.gg/wiki/Tainted_Eden) · [长子名分](https://bindingofisaacrebirth.wiki.gg/wiki/Birthright)
+- 奖励条件：[成就表](/achievements/)，wiki.gg revision 269014；条件翻译与改编按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)发布。打法由本站整理。
+:::

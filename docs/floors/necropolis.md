@@ -17,10 +17,10 @@ next: {"text": "阴湿深处", "link": "/floors/dank-depths"}
 ## 打法与路线
 
 头骨、面具与心脏等组合要求调整攻击角度，不要只追着挡子弹的目标打。需要绕到背后或寻找关联目标时，先给自己留走道。II 层仍是妈妈，同样可以选照片、赶 Boss Rush、做祸兽路线；奇怪的门不只出在名字叫“深处”的基础变体。
+
 ## 本章共通规则
 
 主线最后一章常规宝箱房、商店发育期。I 层可以用生命开陵墓入口，II 层终点是妈妈；全家福、底片和奇怪的门决定之后的路线。准备赶 Boss Rush 的局，此时必须控制探索时间。
-
 
 ## 同类条目
 
@@ -30,4 +30,6 @@ next: {"text": "阴湿深处", "link": "/floors/dank-depths"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

@@ -56,8 +56,8 @@ function rebuild(keepFilters = false) {
     const value = save.counters[mark.counter]
     return {id:`${character.id}/${mark.id}`,name:`${character.name} · ${mark.name}`,group:character.name,
       state:value===0?'todo':value===1?'normal':value===2?'hard':'unknown',
-      detail:(mark.id==='greed'?'普通贪婪与极贪共用这一格；值 2 表示完成极贪。'+greedRewardDetail(character.id)+'\n\n':
-        '按存档里的真实完成标记读取普通 / 困难进度；不会用合并成就倒推单个 Boss 标记。\n\n')+completionRewardDetail(save,character,mark.id),
+      detail:(mark.id==='greed'?'普通贪婪与极贪共用这一格；完成极贪后显示为困难状态。'+greedRewardDetail(character.id)+'\n\n':
+        '这里显示本角色的实际完成标记；里角色合并奖励是否解锁，会另列说明。\n\n')+completionRewardDetail(save,character,mark.id),
       link:mark.id==='greed'?`/modes/greed-rewards#reward-${character.id}`:completionRewardLink(character.id,mark.id),search:`${character.en} ${mark.name}`}
   }))
   if (tab === 'challenges') rows = lookup.challenges.map(row => {
@@ -68,9 +68,9 @@ function rebuild(keepFilters = false) {
   })
   if (tab === 'donations') rows = [
     {id:'normal',name:'普通捐款机',group:'机器总计',state:'unlocked',detail:`当前计数：${save.counters[lookup.donations.normal]} 枚。炸机器可能减少当前余额；已获得的里程碑解锁应另看成就。`,link:'/tools/donations'},
-    {id:'greed',name:'贪婪捐款机',group:'机器总计',state:'unlocked',detail:`累计计数：${save.counters[lookup.donations.greed]} 枚。500 枚解锁极贪，879 枚为游魂开局圣斗篷，1000 枚解锁店主。`,link:'/tools/donations'},
+    {id:'greed',name:'贪婪捐款机',group:'机器总计',state:'unlocked',detail:`累计计数：${save.counters[lookup.donations.greed]} 枚。500 枚解锁极贪，879 枚为游魂开局神圣屏障，1000 枚解锁店主。`,link:'/tools/donations'},
     ...lookup.characters.map(character=>({id:character.id,name:character.name+' · 贪婪捐款',group:character.group,state:'unlocked',
-      detail:`该角色累计：${save.counters[character.donationCounter]} 枚。不会补造资料表中省略的卡住概率。`,link:'/tools/donations'})),
+      detail:`该角色累计：${save.counters[character.donationCounter]} 枚。卡住概率见网站捐款工具，资料未列出的档位显示为未知。`,link:'/tools/donations'})),
   ]
   group.innerHTML='<option value="">全部分类 / 角色</option>'+[...new Set(rows.map(row=>row.group))].map(name=>`<option>${escape(name)}</option>`).join('')
   if(keepFilters&&rows.some(row=>row.group===previousGroup))group.value=previousGroup

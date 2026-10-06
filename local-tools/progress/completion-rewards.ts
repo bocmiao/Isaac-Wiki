@@ -9,7 +9,7 @@ export function rewardsForMark(characterId: string, markId: string) {
 
 export function completionRewardDetail(save: SaveProgress, character: Character, markId: string) {
   const matched = rewardsForMark(character.id, markId)
-  if (!matched.length) return '这一格没有独立的里角色奖励，但仍属于全套困难 / 极贪标记条件；不从合并奖励成就倒推本格。'
+  if (!matched.length) return '这一格没有单独的里角色奖励；要拿全困难标记奖励，仍需完成它。'
   return matched.map(reward => {
     const unlocked = flag(save.achievements, reward.id)
     const names = reward.items.map(item => item.name).join('、') || reward.name
@@ -23,7 +23,7 @@ export function completionRewardDetail(save: SaveProgress, character: Character,
       return [`${mark?.name ?? id}（${value === 0 ? '未完成' : '记录不足 / 无法判断'}）`]
     })
     return `${reward.label}：${names}（成就 #${reward.id}）\n奖励解锁状态：${unlocked === null ? '记录不足 / 无法判断' : unlocked ? '已解锁' : '未解锁'}\n条件：${reward.conditionZh}\n` +
-      (remaining.length ? `本角色此标记途径还缺：${remaining.join('、')}` : '本角色所列标记条件已满足；奖励是否开放仍以成就位为准。') +
+      (remaining.length ? `本角色还需完成：${remaining.join('、')}` : '本角色已完成这组标记；请另看奖励成就是否已解锁。') +
       (reward.notes ? `\n${reward.notes}` : '')
   }).join('\n\n')
 }

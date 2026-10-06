@@ -18,7 +18,7 @@
         "conditionZh": "用以撒在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-167",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 106,
@@ -113,7 +113,7 @@
         "conditionZh": "用以撒击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-205",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 70,
@@ -279,7 +279,7 @@
         "conditionZh": "用以撒完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-253",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -302,7 +302,7 @@
         "conditionZh": "用抹大拉在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-168",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 20,
@@ -397,7 +397,7 @@
         "conditionZh": "用抹大拉击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-206",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 109,
@@ -563,7 +563,7 @@
         "conditionZh": "用抹大拉完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-254",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -586,7 +586,7 @@
         "conditionZh": "用该隐在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-171",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 21,
@@ -681,7 +681,7 @@
         "conditionZh": "用该隐击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-207",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 110,
@@ -847,7 +847,7 @@
         "conditionZh": "用该隐完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-261",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -870,7 +870,7 @@
         "conditionZh": "用犹大在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-170",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 107,
@@ -930,7 +930,7 @@
             "link": "/items/t61"
           }
         ],
-        "notes": "也可用任意角色击败超级傲慢开放；已解锁左手不能倒推出犹大已打过 ???。"
+        "notes": "也可用任意角色击败超级傲慢开放；左手已解锁时，犹大的 ??? 标记仍可能未完成。"
       },
       {
         "id": 52,
@@ -965,7 +965,7 @@
         "conditionZh": "用犹大击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-208",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 108,
@@ -1131,7 +1131,7 @@
         "conditionZh": "用犹大完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-263",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -1154,7 +1154,7 @@
         "conditionZh": "用小蓝人在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-174",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 29,
@@ -1249,7 +1249,7 @@
         "conditionZh": "用小蓝人击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-209",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 114,
@@ -1415,7 +1415,7 @@
         "conditionZh": "用小蓝人完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-252",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -1438,7 +1438,7 @@
         "conditionZh": "用夏娃在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-169",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 76,
@@ -1533,7 +1533,7 @@
         "conditionZh": "用夏娃击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-210",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 112,
@@ -1699,7 +1699,7 @@
         "conditionZh": "用夏娃完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-255",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -1722,7 +1722,7 @@
         "conditionZh": "用参孙在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-177",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 54,
@@ -1817,7 +1817,7 @@
         "conditionZh": "用参孙击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-211",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 115,
@@ -1983,7 +1983,7 @@
         "conditionZh": "用参孙完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-262",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -2101,7 +2101,7 @@
         "conditionZh": "用阿撒泻勒击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-212",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 9,
@@ -2267,7 +2267,7 @@
         "conditionZh": "用阿撒泻勒完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-259",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -2385,7 +2385,7 @@
         "conditionZh": "用拉撒路击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-213",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 105,
@@ -2551,7 +2551,7 @@
         "conditionZh": "用拉撒路完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-257",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -2574,7 +2574,7 @@
         "conditionZh": "用伊甸在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-176",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 121,
@@ -2669,7 +2669,7 @@
         "conditionZh": "用伊甸击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-214",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 125,
@@ -2835,7 +2835,7 @@
         "conditionZh": "用伊甸完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-256",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -2858,7 +2858,7 @@
         "conditionZh": "用游魂在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-101-200#achievement-175",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 129,
@@ -2953,7 +2953,7 @@
         "conditionZh": "用游魂击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-215",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 133,
@@ -3147,7 +3147,7 @@
         "conditionZh": "用莉莉丝在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-201-300#achievement-223",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 218,
@@ -3242,7 +3242,7 @@
         "conditionZh": "用莉莉丝击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-216",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 222,
@@ -3408,7 +3408,7 @@
         "conditionZh": "用莉莉丝完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-260",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -3431,7 +3431,7 @@
         "conditionZh": "用店主在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-201-300#achievement-241",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 236,
@@ -3471,7 +3471,7 @@
             "link": "/items/t83"
           }
         ],
-        "notes": "让店主开局带商店钥匙；不代表完成其他角色的开局强化。"
+        "notes": "让店主开局带商店钥匙。"
       },
       {
         "id": 238,
@@ -3526,7 +3526,7 @@
         "conditionZh": "用店主击败超级撒但。",
         "achievementLink": "/achievements/ids-201-300#achievement-217",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 240,
@@ -3540,8 +3540,13 @@
         "condition": "Complete the Boss Rush as Keeper",
         "conditionZh": "用店主完成 Boss Rush。",
         "achievementLink": "/achievements/ids-201-300#achievement-240",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "粘地镍币",
+            "link": "/pickups/sticky-nickel"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 191,
@@ -3561,7 +3566,7 @@
             "link": "/characters/keeper"
           }
         ],
-        "notes": "强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。不是给普通道具池增加物品。"
+        "notes": "强化店主的开局硬币；忏悔 / 忏悔+ 还开放第三个硬币心。"
       },
       {
         "id": 204,
@@ -3687,7 +3692,7 @@
         "conditionZh": "用店主完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-201-300#achievement-264",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -3810,7 +3815,7 @@
         "conditionZh": "用亚玻伦击败超级撒但。",
         "achievementLink": "/achievements/ids-301-400#achievement-317",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 314,
@@ -3976,7 +3981,7 @@
         "conditionZh": "用亚玻伦完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-301-400#achievement-319",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -4099,7 +4104,7 @@
         "conditionZh": "用遗骸击败超级撒但。",
         "achievementLink": "/achievements/ids-401-500#achievement-403",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 397,
@@ -4265,7 +4270,7 @@
         "conditionZh": "用遗骸完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-401-500#achievement-402",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -4288,7 +4293,7 @@
         "conditionZh": "用伯大尼在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-401-500#achievement-416",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 417,
@@ -4383,7 +4388,7 @@
         "conditionZh": "用伯大尼击败超级撒但。",
         "achievementLink": "/achievements/ids-401-500#achievement-427",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 421,
@@ -4549,7 +4554,7 @@
         "conditionZh": "用伯大尼完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-401-500#achievement-426",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -4572,7 +4577,7 @@
         "conditionZh": "用雅各与以扫在困难模式击败妈妈的心脏 / 它活着。",
         "achievementLink": "/achievements/ids-401-500#achievement-428",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 429,
@@ -4667,7 +4672,7 @@
         "conditionZh": "用雅各与以扫击败超级撒但。",
         "achievementLink": "/achievements/ids-401-500#achievement-439",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       },
       {
         "id": 433,
@@ -4833,7 +4838,7 @@
         "conditionZh": "用雅各与以扫完成全部困难标记，贪婪格按极贪。",
         "achievementLink": "/achievements/ids-401-500#achievement-438",
         "items": [],
-        "notes": "本地合作宝宝；不是一件普通道具收藏项。"
+        "notes": "奖励为本地合作宝宝，不计入道具收藏。"
       }
     ]
   },
@@ -4899,8 +4904,13 @@
         "condition": "Defeat Mega Satan as Tainted Isaac",
         "conditionZh": "用里以撒击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-601",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "巨型宝箱",
+            "link": "/pickups/mega-chest"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 541,
@@ -5052,7 +5062,7 @@
             "link": "/items/k79"
           }
         ],
-        "notes": ""
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 530,
@@ -5204,7 +5214,7 @@
             "link": "/items/p9999"
           }
         ],
-        "notes": ""
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 534,
@@ -5351,7 +5361,7 @@
         "conditionZh": "用里犹大击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-604",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 525,
@@ -5498,7 +5508,7 @@
         "conditionZh": "用里小蓝人击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-605",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 528,
@@ -5645,7 +5655,7 @@
         "conditionZh": "用里夏娃击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-606",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 527,
@@ -5792,7 +5802,7 @@
         "conditionZh": "用里参孙击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-607",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 535,
@@ -5939,7 +5949,7 @@
         "conditionZh": "用里阿撒泻勒击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-608",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 539,
@@ -6085,8 +6095,13 @@
         "condition": "Defeat Mega Satan as Tainted Lazarus",
         "conditionZh": "用里拉撒路击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-609",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "木箱子",
+            "link": "/pickups/wooden-chest"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 543,
@@ -6238,7 +6253,7 @@
             "link": "/items/k80"
           }
         ],
-        "notes": ""
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 544,
@@ -6273,7 +6288,7 @@
         "conditionZh": "用里伊甸击败精神错乱。",
         "achievementLink": "/achievements/ids-501-600#achievement-593",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 567,
@@ -6379,8 +6394,13 @@
         "condition": "Defeat Mega Satan as Tainted Lost",
         "conditionZh": "用里游魂击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-611",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "鬼箱子",
+            "link": "/pickups/haunted-chest"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 524,
@@ -6527,7 +6547,7 @@
         "conditionZh": "用里莉莉丝击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-612",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 526,
@@ -6673,8 +6693,13 @@
         "condition": "Defeat Mega Satan as Tainted Keeper",
         "conditionZh": "用里店主击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-613",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "金硬币",
+            "link": "/pickups/golden-penny"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 536,
@@ -6821,7 +6846,7 @@
         "conditionZh": "用里亚玻伦击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-614",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 540,
@@ -6967,8 +6992,13 @@
         "condition": "Defeat Mega Satan as Tainted Forgotten",
         "conditionZh": "用里遗骸击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-615",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "金电池",
+            "link": "/pickups/golden-battery"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 537,
@@ -7115,7 +7145,7 @@
         "conditionZh": "用里伯大尼击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-616",
         "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 529,
@@ -7261,8 +7291,13 @@
         "condition": "Defeat Mega Satan as Tainted Jacob",
         "conditionZh": "用里雅各击败超级撒但。",
         "achievementLink": "/achievements/ids-601-641#achievement-617",
-        "items": [],
-        "notes": "开放掉落物、箱子或机器机制；不是一件普通道具收藏项。"
+        "items": [
+          {
+            "name": "金饰品",
+            "link": "/pickups/golden-trinket"
+          }
+        ],
+        "notes": "奖励为掉落物、箱子或机器，不计入普通道具收藏。"
       },
       {
         "id": 542,

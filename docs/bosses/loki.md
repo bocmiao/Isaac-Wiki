@@ -15,15 +15,13 @@ title: "洛基"
 | 召唤 | 额外敌人出现 | 先清阻挡走位的目标 |
 | 传送 | 消失后在另一位置出现 | 重新判断两者相对位置，不照旧方向一直冲 |
 
-## 安全站位与打法
+## 站位与打法
 
 留在能向侧面躲的区域；出现额外本体或召唤物后先观察交叉攻击。
 
-## 最容易受伤的地方
+## 容易受伤的地方
 
 只盯本体，退路被召唤物和弹幕堵住。Lokii 的两个半身不是 Loki 的一个普通精英配色。
-
-精英与变体可能改变速度、弹幕或召唤；进入战斗先看实际外观和攻击，不能只靠名称套用一个节奏。
 
 ## 不要混淆
 
@@ -31,6 +29,8 @@ title: "洛基"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Loki](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L27-L32)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
+::: details 查看招式出处
+招式类型参考 IsaacDocs：[Loki](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L27-L32)。打法由本站整理；精英招式可能不同，见[核实记录](/about-verification)。
+:::
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

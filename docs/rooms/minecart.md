@@ -14,11 +14,11 @@ next: {"text": "奇怪的门与便条房", "link": "/rooms/strange-door"}
 
 ## 进入与机制
 
-前提是已经持有刀片 1。找到并按下三个黄色按钮，再乘矿车进入特殊区域；没拿第一块刀片就不能指望在这里补齐完整刀片。
+前提是已经持有刀片 1。找到并按下三个黄色按钮，再乘矿车进入特殊区域；这里取得第二块刀片，第一块要先从镜面世界拿到。
 
 ## 推进与注意事项
 
-取得刀片 2 后妈妈的影子开始追击，按安全路线返回矿车。先看坑与可走通道，再躲它的冲锋；特殊段落会暂时限制能力，不能按平时飞行或主动联动估算容错。
+取得刀片 2 后妈妈的影子开始追击，按安全路线返回矿车。先看坑与可走通道，再躲它的冲锋；特殊段落会暂时限制能力，先按地面通道找退路，别依赖平时的飞行或主动。
 
 回到原楼层后确认两块刀片已经合成，再规划陵墓门的两心入门成本与后续血量。
 
@@ -36,4 +36,6 @@ next: {"text": "奇怪的门与便条房", "link": "/rooms/strange-door"}
 
 ## 资料来源
 
-本站已校对的房间 / 楼层攻略、路线与角色解锁教程；分类核对 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值沿用[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+::: details 查看出处
+房间与楼层规则见路线、机制和角色解锁教程；分类参考 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/enums)。具体数值见[机制详解](/strategy/mechanics)及[成就条件](/achievements/)。
+:::

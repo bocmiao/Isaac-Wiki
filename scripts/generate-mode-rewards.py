@@ -67,7 +67,7 @@ def collect_rewards():
 
 def reward_cell(reward):
     if reward is None:
-        return '无独立的普通贪婪通关奖励；仍可记标记、捐款'
+        return '无专属奖励'
     names = '、'.join(f"[{item['name']}]({item['link']})" for item in reward['items'])
     return f"{names}<br>[成就 #{reward['id']}]({reward['achievementLink']})"
 
@@ -110,7 +110,7 @@ description: 34 个表角色与里角色的贪婪、极贪完成奖励、解锁�
 
 ## 解锁后怎么拿到
 
-通关解锁后，道具、饰品和卡牌只是加入可用范围，不会自动给你永久收藏记录，也不保证下一局立刻掉落。点击物品查看可出现的来源；反向牌、饰品与收集页道具的记录方式不同。[读取本地存档对照](/tools/local-progress)。
+通关解锁后，道具、饰品和卡牌只是加入可用范围，需要之后实际捡到，才会记入对应收藏记录。点击物品查看可出现的来源；反向牌、饰品与收集页道具的记录方式不同。[读取本地存档对照](/tools/local-progress)。
 
 ## 推荐推进方式
 

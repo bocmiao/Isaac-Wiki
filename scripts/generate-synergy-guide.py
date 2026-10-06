@@ -11,17 +11,17 @@ title: 道具组合与负面联动
 
 <VersionBadge checked="2026-10" />
 
-组合是取舍建议，不保证任何角色都同样生效。先检查攻击形态、生命机制、主动容量与版本。[组合查询工具](/tools/synergies)。
+看两件或多件道具配在一起会发生什么，再看使用提醒。已有这些道具时，可用[组合查询工具](/tools/synergies)找还缺的那件。
 
 '''
 for row in combos:
  text+=f'## {row["title"]} {{#{row["id"]}}}\n\n'
  text+=' + '.join(f'[{items[id]["name"]}](/items/c{id})' for id in row['items'])+'\n\n'
  text+=row['individual']+'\n\n'+row['effect']+'\n\n'
- text+=f'**版本**：{row["version"]}。\n\n**适用与风险**：{row["limits"]}\n\n'
-text+='''## 来源与核对范围
+ text+=f'**要注意**：{row["limits"]}\n\n**版本**：{row["version"]}。\n\n'
+text+='''## 资料来源
 
-单件机制使用本站固定 EID 快照，具体版本差异见各道具页；原有八组保留[道具取舍](/strategy/items#常见组合)的来源。新增条目以已知单件能力解释发育、操作与风险，不补未经核实的复合倍率。嗝屁猫组件依据 EID 的变身说明，圣经与撒但的风险依据[Boss 指南](/strategy/bosses)。
+效果参考 EID 及[道具取舍](/strategy/items#常见组合)的资料；具体版本差异见每件道具页。嗝屁猫变身条件见 EID 说明。出处与仍待核实的规则见[资料记录](/about-verification)。
 '''
 (ROOT/'docs/strategy/synergies.md').write_text(text)
 print('Generated',len(combos),'combination guides with canonical item links')
