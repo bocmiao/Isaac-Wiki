@@ -11,6 +11,8 @@ for path in DOCS.rglob('*.md'):
  if '在线联机的胜利圈不受影响' in text:errors.append(f'Unsupported eligibility: {path}')
  if '[网页图鉴](/about)' in text:errors.append(f'Wrong catalog destination: {path}')
  if '弹珠（Marbles）' in text:errors.append(f'Noncanonical Marbles: {path}')
+ if '注意：：' in text:errors.append(f'Doubled warning punctuation: {path}')
+ if path.name=='console-generator.md' and '不含模组道具、饰品、卡牌和胶囊' in text:errors.append(f'Stale console capabilities: {path}')
  for old in ['水潭','水牢','深牢','矿井']:
   if old in text:errors.append(f'Outdated floor name {old}: {path}')
 for family in ['boss','pickup']:

@@ -7,9 +7,13 @@ title: "浮肿"
 
 正下方和两侧的激光、跳跃与漂浮眼球共同限制走位。
 
-## 招式与观察
+## 招式、前摇与应对
 
-正下方和两侧的激光、跳跃与漂浮眼球共同限制走位。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 横向 / 下方激光 | 角色与本体对齐 | 优先在本体上方找输出角度 |
+| 跳跃 | 本体离地 | 重新判断落地位置，不把上一次安全角度当永久安全 |
+| 眼球与地面危害 | 移动眼球或危险地面出现 | 同时看眼球和可站区域，别贴眼球绕圈 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "浮肿"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[The Bloat](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L38-L44)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

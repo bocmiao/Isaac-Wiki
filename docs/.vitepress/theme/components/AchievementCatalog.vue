@@ -16,6 +16,7 @@ const shown = ref(PAGE)
 const done = ref<Set<number>>(new Set())
 const ready = ref(false)
 const message = ref('')
+const storageError = ref('')
 const importMode = ref<'merge'|'replace'>('merge')
 const fileInput = ref<HTMLInputElement>()
 
@@ -49,8 +50,9 @@ onMounted(() => {
   try {
     const ids = parseIds(JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '[]'))
     if (ids) done.value = new Set(ids)
+    else storageError.value = '保存的进度格式异常，未读取旧勾选；可以导入有效备份。'
   } catch {
-    /* 隐私模式等情况读不到，按空进度处理 */
+    storageError.value = '无法读取本地进度；可以继续勾选并导出备份。'
   }
   ready.value = true
 })
@@ -58,8 +60,9 @@ onMounted(() => {
 function save() {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify([...done.value].sort((a, b) => a - b)))
+    storageError.value = ''
   } catch {
-    message.value = '浏览器不允许保存，刷新后进度会丢失。可以先「导出」。'
+    storageError.value = '浏览器不允许保存，刷新后本页新进度会丢失，请先导出备份。'
   }
 }
 
@@ -113,6 +116,7 @@ async function importJson(e: Event) {
         </span>
       </p>
       <p v-if="message" class="msg" role="status">{{ message }}</p>
+      <p v-if="storageError" class="msg" role="alert">{{ storageError }}</p>
     </div>
 
     <div class="filters">

@@ -5,11 +5,15 @@ title: "小咕噜大"
 
 <VersionBadge checked="2026-10" />
 
-跳动、滑行和弹幕交替，近身冲撞是主要威胁。
+滑行冲锋、吐弹与召唤交替，近身冲撞是主要威胁。
 
-## 招式与观察
+## 招式、前摇与应对
 
-跳动、滑行和弹幕交替，近身冲撞是主要威胁。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 滑行 | 蓄力后向前冲 | 往垂直于冲刺的方向躲，不直退到墙角 |
+| 吐弹 | 喷射前摇 | 保留距离，穿过展开后的空隙 |
+| 召唤 | 小怪出场 | 先清最近威胁，避免冲锋和小怪同时封路 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "小咕噜大"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Gurdy Jr.](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L32-L35)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

@@ -1,0 +1,85 @@
+{
+  "isaacDocsCommit": "e05b1fd90e33608a7a7a8dcb70a89cef908cc41a",
+  "enums": {
+    "PickupVariant": {
+      "PICKUP_NULL": 0,
+      "PICKUP_HEART": 10,
+      "PICKUP_COIN": 20,
+      "PICKUP_KEY": 30,
+      "PICKUP_BOMB": 40,
+      "PICKUP_THROWABLEBOMB": 41,
+      "PICKUP_POOP": 42,
+      "PICKUP_CHEST": 50,
+      "PICKUP_BOMBCHEST": 51,
+      "PICKUP_SPIKEDCHEST": 52,
+      "PICKUP_ETERNALCHEST": 53,
+      "PICKUP_MIMICCHEST": 54,
+      "PICKUP_OLDCHEST": 55,
+      "PICKUP_WOODENCHEST": 56,
+      "PICKUP_MEGACHEST": 57,
+      "PICKUP_HAUNTEDCHEST": 58,
+      "PICKUP_LOCKEDCHEST": 60,
+      "PICKUP_GRAB_BAG": 69,
+      "PICKUP_PILL": 70,
+      "PICKUP_LIL_BATTERY": 90,
+      "PICKUP_COLLECTIBLE": 100,
+      "PICKUP_BROKEN_SHOVEL": 110,
+      "PICKUP_SHOPITEM": 150,
+      "PICKUP_TAROTCARD": 300,
+      "PICKUP_BIGCHEST": 340,
+      "PICKUP_TRINKET": 350,
+      "PICKUP_REDCHEST": 360,
+      "PICKUP_TROPHY": 370,
+      "PICKUP_BED": 380,
+      "PICKUP_MOMSCHEST": 390
+    },
+    "HeartSubType": {
+      "HEART_FULL": 1,
+      "HEART_HALF": 2,
+      "HEART_SOUL": 3,
+      "HEART_ETERNAL": 4,
+      "HEART_DOUBLEPACK": 5,
+      "HEART_BLACK": 6,
+      "HEART_GOLDEN": 7,
+      "HEART_HALF_SOUL": 8,
+      "HEART_SCARED": 9,
+      "HEART_BLENDED": 10,
+      "HEART_BONE": 11,
+      "HEART_ROTTEN": 12
+    },
+    "CoinSubType": {
+      "COIN_PENNY": 1,
+      "COIN_NICKEL": 2,
+      "COIN_DIME": 3,
+      "COIN_DOUBLEPACK": 4,
+      "COIN_LUCKYPENNY": 5,
+      "COIN_STICKYNICKEL": 6,
+      "COIN_GOLDEN": 7
+    },
+    "KeySubType": {
+      "KEY_NORMAL": 1,
+      "KEY_GOLDEN": 2,
+      "KEY_DOUBLEPACK": 3,
+      "KEY_CHARGED": 4
+    },
+    "BombSubType": {
+      "BOMB_NORMAL": 1,
+      "BOMB_DOUBLEPACK": 2,
+      "BOMB_TROLL": 3,
+      "BOMB_GOLDEN": 4,
+      "BOMB_SUPERTROLL": 5,
+      "BOMB_GOLDENTROLL": 6,
+      "BOMB_GIGA": 7
+    },
+    "BatterySubType": {
+      "BATTERY_NORMAL": 1,
+      "BATTERY_MICRO": 2,
+      "BATTERY_MEGA": 3,
+      "BATTERY_GOLDEN": 4
+    },
+    "ChestSubType": {
+      "CHEST_OPENED": 0,
+      "CHEST_CLOSED": 1
+    }
+  }
+}

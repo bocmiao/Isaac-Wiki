@@ -7,9 +7,13 @@ title: "牢笼"
 
 跳跃与滚动会改变本体位置和安全区域。
 
-## 招式与观察
+## 招式、前摇与应对
 
-跳跃与滚动会改变本体位置和安全区域。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 滚动 | 蜷缩并开始滚行 | 让开滚动路线，不跟着追 |
+| 跳跃 | 跃起后准备落地 | 离开落点，并观察落地后的危险 |
+| 吐出或召唤 | 本体停顿并张嘴 | 清靠近威胁，再利用停顿输出 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "牢笼"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[The Cage](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L17-L22)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

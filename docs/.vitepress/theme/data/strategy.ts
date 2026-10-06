@@ -1,3 +1,4 @@
+import bossEntries from './catalog/bosses.json'
 import type { IconName } from '../components/GameIcon.vue'
 
 // 攻略库栏目。group 决定在攻略库页和侧栏里的分组；link 缺省时为 /strategy/<id>
@@ -43,6 +44,7 @@ export const strategyCategories: StrategyCategory[] = [
     group: '规则与选择',
     link: '/items/',
   },
+  {id:'health',name:'生命与付血预算',icon:'heart',desc:'角色回复、受伤、交易与资源上限分别判断',covers:['普通受伤与付血','特殊角色生命','金色资源','保命与购物预算'],group:'规则与选择'},
   {id:'pickups',name:'拾取物与机器',icon:'chest',desc:'心、资源、特殊箱子与机器使用',covers:['特殊拾取物','宝箱危险','付费预算','永久解锁'],group:'规则与选择',link:'/pickups/'},
   {
     id: 'mechanics',
@@ -103,7 +105,7 @@ export const strategyCategories: StrategyCategory[] = [
     group: 'Boss 与结局',
     link: '/guide/unlocks/endings',
   },
-  {id:'early-bosses',name:'前中期 Boss',icon:'skull',desc:'24 个常见 Boss 的招式、走位和易错点',covers:['第一至第三章','攻击预兆','安全站位','常见敌人'],group:'Boss 与结局',link:'/bosses/'},
+  {id:'early-bosses',name:'常见 Boss 图鉴',icon:'skull',desc:`${bossEntries.length} 个 Boss 的招式、走位和易错点`,covers:['第一至第四章与特殊战斗','攻击预兆','安全站位','常见敌人'],group:'Boss 与结局',link:'/bosses/'},
   {
     id: 'bosses',
     name: 'Boss 打法',

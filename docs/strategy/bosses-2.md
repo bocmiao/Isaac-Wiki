@@ -6,7 +6,7 @@ title: Boss 打法（二）：死寂、精神错乱、母亲、祸兽、究极�
 
 <VersionBadge checked="2026-10" />
 
-前中期练习见[24 个常见 Boss](/bosses/)，进房先看[敌人与地形](/strategy/enemies)。
+前中期练习见[常见 Boss 图鉴](/bosses/)，进房先看[敌人与地形](/strategy/enemies)。
 
 ::: tip 速览
 - **五个 Boss 都血厚、弹幕密**，减速和挡弹道具最值钱（[死寂打法要点](#死寂-hush)）

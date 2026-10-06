@@ -16,4 +16,9 @@ assert.equal(ids('9999').length, 0) // golden-pill sentinel is not an engine eff
 assert.deepEqual(ids('p9999'), ['p9999'])
 assert.equal(filterCatalog(entries, '', '饰品').length, 188)
 assert.equal(new Set(entries.map(entry => entry.id)).size, entries.length)
+assert.deepEqual(ids('ｃ１１８'), ['c118'])
+assert.equal(ids('Soul  of Isaac')[0], 'k81')
+const floorAliases: CatalogEntry[] = [{id:'dross',name:'污水渠',en:'Dross',group:'替代路线',summary:'',icon:'map',link:'/floors/dross',aliases:['水潭','水牢']}]
+assert.equal(filterCatalog(floorAliases,'水潭')[0]?.id,'dross')
+assert.equal(filterCatalog(floorAliases,'水牢','替代路线')[0]?.id,'dross')
 console.log('PASS catalog numeric IDs, duplicate names, type filters, effect search and golden-pill sentinel')

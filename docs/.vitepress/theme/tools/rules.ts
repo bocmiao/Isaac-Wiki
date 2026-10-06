@@ -46,7 +46,7 @@ export function calculateDeal(i: DealInput) {
   if (guaranteed) { angel=1; reason='满足天使保底 / 圣餐' }
   else if (eligibleAngel && i.previousDoor!=='never') { angel=1-checks.reduce((p,[,v])=>p*(1-v),1); reason='独立判定：1 − ∏(1 − p)' }
   // The source does not specify the precedence of a forced Angel override versus reverse Devil roll.
-  const uncertain = guaranteed && i.devilPayout
+  const uncertain = door>0 && guaranteed && i.devilPayout
   if (i.devilPayout && !guaranteed) { angel*=0.9; reason+='；恶魔乞丐反向判定 ×0.9' }
   return { terms, raw, penalty, door, checks, angel, angelTotal:door*angel, devilTotal:door*(1-angel), reason, uncertain }
 }

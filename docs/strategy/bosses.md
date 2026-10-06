@@ -6,7 +6,7 @@ title: Boss 打法（一）：主线终局
 
 <VersionBadge checked="2026-10" />
 
-前中期练习见[24 个常见 Boss](/bosses/)，进房先看[敌人与地形](/strategy/enemies)。
+前中期练习见[常见 Boss 图鉴](/bosses/)，进房先看[敌人与地形](/strategy/enemies)。
 
 ::: tip 速览
 - **从子宫起每次受伤扣一整颗心**，这几场拼的是少挨打（[通用原则](#打所有终局-boss-的通用原则)）

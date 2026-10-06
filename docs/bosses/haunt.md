@@ -7,9 +7,13 @@ title: "恶鬼"
 
 先处理小幽灵，再对付沿上方移动的主本体与激光。
 
-## 招式与观察
+## 招式、前摇与应对
 
-先处理小幽灵，再对付沿上方移动的主本体与激光。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 小幽灵阶段 | 本体仍有保护，小幽灵在场 | 先处理可受伤的小幽灵 |
+| 本体吐弹 | 上方本体张嘴 | 先留弹幕展开距离，不向上顶 |
+| 激光 | 本体正对攻击线蓄势 | 在发射前离开正前方，不要等激光出现再穿线 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "恶鬼"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[The Haunt](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter1.md#L53-L59)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

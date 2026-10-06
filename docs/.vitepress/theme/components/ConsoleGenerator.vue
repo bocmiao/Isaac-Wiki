@@ -1,11 +1,14 @@
 <script setup lang="ts">
-import { computed, reactive, ref } from 'vue'
+import { computed, onMounted, reactive, ref } from 'vue'
 
+import { withBase } from 'vitepress'
 import { characters, taintedName } from '../data/characters'
-import { buildCommand, playerIds, commandItems, findCommandItems, stageNames } from '../tools/commands'
-const input=reactive({action:'give',kind:'c',item:105,player:0,stage:1,suffix:'',debug:3,version:'plus'})
+import { buildCommand, playerIds, commandItems, commandPickups, findCommandItems, stageNames } from '../tools/commands'
+const input=reactive({action:'give',kind:'c',item:105,player:0,stage:1,suffix:'',debug:3,version:'plus',pickup:'red-heart'})
 const query=ref(''),queue=ref<string[]>([]),message=ref('')
 const filtered=computed(()=>findCommandItems(query.value,input.kind))
+onMounted(()=>{const id=new URLSearchParams(window.location.search).get('pickup');if(commandPickups.some(row=>row.id===id)){input.pickup=id!;input.action='pickup'}})
+const selectedPickup=computed(()=>commandPickups.find(row=>row.id===input.pickup))
 const selected=computed(()=>commandItems.find(i=>i.id===input.kind+input.item))
 function changeKind(){query.value='';input.item=commandItems.find(i=>i.id.startsWith(input.kind))?.gameId??0}
 const itemAction=computed(()=>['give','remove','pedestal','give2'].includes(input.action))
@@ -17,8 +20,9 @@ function add(){if(command.value&&queue.value.length<100){queue.value.push(comman
 </script>
 <template>
  <div class="tool-panel">
-  <div class="tool-grid"><label>游戏版本<select v-model="input.version" aria-label="游戏版本"><option value="plus">忏悔+</option><option value="rep">忏悔</option></select></label><label>操作<select v-model="input.action" aria-label="操作"><option value="give">直接给道具</option><option value="pedestal">生成地上道具底座</option><option value="remove">移除道具</option><option value="give2">给次角色（如以扫）</option><option value="restart">指定角色开新局</option><option value="stage">切楼层</option><option value="debug">切换 debug 开关</option><option value="time">读取时间</option><option value="listcollectibles">列出持有道具</option><option value="clear">清屏</option></select></label></div>
+  <div class="tool-grid"><label>游戏版本<select v-model="input.version" aria-label="游戏版本"><option value="plus">忏悔+</option><option value="rep">忏悔</option></select></label><label>操作<select v-model="input.action" aria-label="操作"><option value="give">直接给道具</option><option value="pedestal">生成地上道具底座</option><option value="remove">移除道具</option><option value="give2">给次角色（如以扫）</option><option value="pickup">生成资源 / 宝箱</option><option value="restart">指定角色开新局</option><option value="stage">切楼层</option><option value="debug">切换 debug 开关</option><option value="time">读取时间</option><option value="listcollectibles">列出持有道具</option><option value="clear">清屏</option></select></label></div>
   <template v-if="itemAction"><label>物品类型<select v-model="input.kind" aria-label="物品类型" @change="changeKind"><option value="c">道具 c</option><option value="t">饰品 t</option><option value="k">卡牌 / 符文 / 魂石 k</option><option value="p">胶囊效果 p</option></select></label><label>搜索道具<input v-model="query" type="search" placeholder="中文、英文或ID" /></label><label>选择道具<select v-model.number="input.item" aria-label="选择道具"><option v-for="i in filtered" :key="i.id" :value="i.gameId">{{i.id}} · {{i.name}} · {{i.en}}</option></select></label><p v-if="!filtered.length">没有找到道具；搜索不会自动改动之前已选的编号。</p></template>
+  <template v-if="input.action==='pickup'"><label>资源或宝箱<select v-model="input.pickup" aria-label="资源或宝箱"><option v-for="row in commandPickups" :key="row.id" :value="row.id">{{row.name}}</option></select></label><p>{{selectedPickup?.summary}} · 只生成地上实体，不代表永久解锁；即爆炸弹会爆炸，金电池有伤害风险。<a :href="withBase(`/pickups/${input.pickup}`)">查看使用与风险</a></p></template>
   <label v-if="input.action==='restart'">开局角色<select v-model.number="input.player" aria-label="开局角色"><option v-for="c in roster" :key="c.id" :value="c.id">{{c.id}} · {{c.name}}</option></select></label>
   <div v-if="input.action==='stage'" class="tool-grid"><label>楼层编号（1–13）<select v-model.number="input.stage" aria-label="楼层名称"><option v-for="(name,index) in stageNames" :key="index" :value="index+1">{{index+1}} · {{name}}</option></select></label><label>楼层变体<select v-model="input.suffix" aria-label="楼层变体"><option value="">默认</option><option value="a">a</option><option value="b">b</option><option value="c">c</option><option value="d">d</option></select></label></div>
   <label v-if="input.action==='debug'">debug编号<input v-model.number="input.debug" type="number" min="1" :max="input.version==='plus'?14:13" /></label>

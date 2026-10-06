@@ -7,9 +7,13 @@ title: "巨口"
 
 吐出的火焰 / 弹幕有展开和移动过程。
 
-## 招式与观察
+## 招式、前摇与应对
 
-吐出的火焰 / 弹幕有展开和移动过程。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 火焰弹 | 嘴部吐出火焰 | 先拉开距离看展开轨迹，再走空隙 |
+| 火圈与其他吐弹 | 大范围展开的攻击 | 不要贴脸，留足左右移动空间 |
+| 召唤 | 额外敌人出现 | 先打靠近的敌人，不让小怪和火焰一起到达 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "巨口"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Mega Maw](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L28-L31)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

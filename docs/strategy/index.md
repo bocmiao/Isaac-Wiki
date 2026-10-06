@@ -23,9 +23,10 @@ aside: false
 | 先做哪些开局强化 | [角色速查 · 开局强化](/strategy/character-roster#upgrades) |
 | 完成标记（十二格）是什么、给什么 | [完成标记、合并奖励与补缺路线](/strategy/completion-marks) |
 | 某个结局怎么去、要先解锁什么 | [结局与路线](/guide/unlocks/endings) |
-| 前中期 Boss 怎么躲、普通敌人为什么总撞到我 | [前中期 Boss 图鉴](/bosses/) · [常见敌人与地形](/strategy/enemies) |
+| 常见 Boss 怎么躲、普通敌人为什么总撞到我 | [常见 Boss 图鉴](/bosses/) · [常见敌人与地形](/strategy/enemies) |
 | 箱子、电池、特殊硬币怎么用 | [拾取物与宝箱](/pickups/) · [机器与乞丐](/strategy/machines) |
 | 楼层解锁还差哪些条件 | [楼层解锁与 Boss 补缺](/strategy/floor-unlocks) |
+| 血条、付血与购物预算怎么安排 | [生命与付血预算](/strategy/health) · [机器与乞丐](/strategy/machines) |
 | 某个终局 Boss 怎么打 | [Boss（一）主线终局](/strategy/bosses) · [Boss（二）死寂到祸兽](/strategy/bosses-2) |
 | 某个模式怎么进、能不能解锁 | [全部模式与玩法](/modes/) |
 | 某个挑战怎么过、先做哪些 | [45 个挑战独立攻略](/challenges/) · [推荐顺序](/strategy/challenges#先做哪些) |

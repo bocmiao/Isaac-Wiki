@@ -21,21 +21,21 @@ const markKeys = new Set(characters.flatMap((c) =>
 const isRecord = (value: unknown): value is Record<string, unknown> =>
   value !== null && typeof value === 'object' && !Array.isArray(value)
 
-// Keep v1 exports compatible, ignore unknown entries, and validate before replacing any progress.
+// Keep valid v1 exports compatible; reject unknown IDs before replacing any progress.
 export function parseProgress(value: unknown): Progress | null {
   if (!isRecord(value) || value.v !== 1) return null
   if (!isRecord(value.chars) || !isRecord(value.tainted) || !isRecord(value.marks)) return null
   const result = emptyProgress()
   for (const field of ['chars', 'tainted'] as const) {
     for (const [id, unlocked] of Object.entries(value[field])) {
-      if (!characterIds.has(id)) continue
+      if (!characterIds.has(id)) return null
       if (typeof unlocked !== 'boolean') return null
       result[field][id] = unlocked
     }
   }
   result.chars.isaac = true
   for (const [key, state] of Object.entries(value.marks)) {
-    if (!markKeys.has(key)) continue
+    if (!markKeys.has(key)) return null
     if (state !== 0 && state !== 1 && state !== 2) return null
     if (state !== 0) result.marks[key] = state
   }

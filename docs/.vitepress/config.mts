@@ -15,7 +15,7 @@ const catalogLinks = [
   { text: '房间图鉴', link: '/rooms/' },
   { text: '楼层图鉴', link: '/floors/' },
   { text: '道具图鉴', link: '/items/' },
-  { text: '前中期 Boss', link: '/bosses/' },
+  { text: '常见 Boss', link: '/bosses/' },
   { text: '拾取物与宝箱', link: '/pickups/' },
 ]
 function entrySidebar(label: string, path: string, entries: { group: string; name: string; link: string }[]) {
@@ -84,6 +84,7 @@ const strategySidebar = [
       { text: '道具图鉴', link: '/items/' },
       { text: '机制详解', link: '/strategy/mechanics' },
       { text: '机器与乞丐', link: '/strategy/machines' },
+      { text: '生命与付血预算', link: '/strategy/health' },
       { text: '道具组合与风险', link: '/strategy/synergies' },
       { text: '道具取舍与流派', link: '/strategy/items' },
     ],
@@ -101,7 +102,7 @@ const strategySidebar = [
   {
     text: 'Boss 与结局',
     items: [
-      { text: '前中期 Boss 图鉴', link: '/bosses/' },
+      { text: '常见 Boss 图鉴', link: '/bosses/' },
       { text: '常见敌人与地形', link: '/strategy/enemies' },
       { text: '楼层解锁与 Boss 补缺', link: '/strategy/floor-unlocks' },
       { text: 'Boss（一）：主线终局', link: '/strategy/bosses' },
@@ -277,7 +278,7 @@ export default defineConfig({
         })),
         { text: '每日与其他模式', link: '/modes/' },
       ],
-      '/bosses/': entrySidebar('前中期 Boss', '/bosses/', bossEntries),
+      '/bosses/': entrySidebar('常见 Boss', '/bosses/', bossEntries),
       '/pickups/': entrySidebar('拾取物与宝箱', '/pickups/', pickupEntries),
       '/characters/': entrySidebar('人物图鉴', '/characters/', characterEntries),
       '/rooms/': entrySidebar('房间图鉴', '/rooms/', roomEntries),

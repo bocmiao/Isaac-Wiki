@@ -1,15 +1,21 @@
 // IDs come from the full reviewed catalog. Pill effect IDs never become pickup color IDs.
 import catalog from '../data/catalog/items.json'
+import pickups from '../data/catalog/pickups.json'
 import { filterCatalog } from '../data/catalog'
 export const commandItems = catalog.filter(item => item.id !== 'p9999' && item.id !== 'c59')
 const ids = new Set(commandItems.map(i => i.id))
+export const commandPickups = pickups.filter(row => 'entity' in row).map(row => ({id:row.id,name:row.name,summary:row.summary,entity:row.entity!}))
 export const playerIds=[0,1,2,3,4,5,6,7,8,9,10,13,14,15,16,18,19,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37]
 export const stageNames=['地下室 I','地下室 II','洞穴 I','洞穴 II','深处 I','深处 II','子宫 I','子宫 II','蓝子宫','阴间','暗室','虚空','家']
-export interface CommandInput {action:string;item:number;kind?:string;player:number;stage:number;suffix:string;debug:number;version:string}
+export interface CommandInput {action:string;item:number;kind?:string;player:number;stage:number;suffix:string;debug:number;version:string;pickup?:string}
 export function findCommandItems(query:string,kind='c') {
  return filterCatalog(commandItems.filter(item=>item.id.startsWith(kind)),query)
 }
 export function buildCommand(i:CommandInput):string|null {
+ if(i.action==='pickup'){
+  const row=commandPickups.find(row=>row.id===i.pickup)
+  return row?`spawn 5.${row.entity.variant}.${row.entity.subtype}`:null
+ }
  if(['give','remove','pedestal','give2'].includes(i.action)){
   const kind=i.kind??'c', key=kind+i.item
   if(!ids.has(key))return null

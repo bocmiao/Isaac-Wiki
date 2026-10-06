@@ -21,11 +21,19 @@ assert.equal(buildCommand({...cmd,kind:'p',action:'pedestal'}),null)
 assert.equal(buildCommand({...cmd,kind:'k',action:'remove'}),null)
 assert.deepEqual(findCommandItems('1','t').map(x=>x.id),['t1'])
 assert.deepEqual(findCommandItems('p9999','p'),[])
+assert.equal(buildCommand({...cmd,action:'pickup',pickup:'golden-key'}),'spawn 5.30.2')
+assert.equal(buildCommand({...cmd,action:'pickup',pickup:'charged-key'}),'spawn 5.30.4')
+assert.equal(buildCommand({...cmd,action:'pickup',pickup:'old-chest'}),'spawn 5.55.1')
+assert.equal(buildCommand({...cmd,action:'pickup',pickup:'golden-trinket'}),null)
+assert.equal(buildCommand({...cmd,action:'pickup',pickup:'999;restart'}),null)
 const save:SaveProgress={format:'09R',version:'plus',filename:'fixture.dat',achievements:Array(642).fill(0),collectibles:Array(733).fill(0),challenges:Array(46).fill(0),counters:Array(512).fill(0)}
 save.achievements[154]=1;save.challenges[45]=1;save.counters[20]=20;save.counters[115]=500
 const tainted=lookup.characters.find(c=>c.id==='tainted-isaac')!
 save.achievements[tainted.achievement]=1;save.counters[tainted.marks[0].counter]=2
 const exported=characterExport(save);assert.equal(exported.tainted.isaac,true);assert.equal(exported.marks['isaac-t:heart'],2)
+assert.equal(parseProgress({v:1,chars:{isaac:true,'tainted-isaac':true},tainted:{},marks:{}}),null)
+assert.equal(parseProgress({v:1,chars:{isaac:true},tainted:{},marks:{'isaac:new-mark':2}}),null)
+assert.equal(parseProgress({v:1,chars:{isaac:true},tainted:{},marks:{'isaac:heart':3}}),null)
 assert(parseProgress(exported));assert.deepEqual(parseChallenges(challengeExport(save)),{v:1,completed:[45]})
 assert.deepEqual(donationExport(save).normalUnlocked,[154])
 assert(parseDonations(donationExport(save),lookup.characters.map(c=>c.id.replace(/^tainted-(.*)$/,'$1-t'))))

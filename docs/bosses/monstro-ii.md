@@ -7,9 +7,13 @@ title: "萌死戳二世"
 
 跳跃、召唤与横向激光交替。
 
-## 招式与观察
+## 招式、前摇与应对
 
-跳跃、召唤与横向激光交替。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 横向激光 | 和本体处在同一水平线 | 预先移到上方或下方，别沿水平线后退 |
+| 跳跃 | 本体离地 | 离开落点，落地后重新确认激光轴 |
+| 召唤 | 小怪进入场地 | 优先清脚边威胁，避免侧移方向被堵 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "萌死戳二世"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Monstro II](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter3.md#L13-L16)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

@@ -7,7 +7,17 @@
     "summary": "填充已有红心容器，不会单凭拾取增加容器。",
     "icon": "chest",
     "link": "/pickups/red-heart",
-    "aliases": []
+    "aliases": [
+      "半红心",
+      "Heart"
+    ],
+    "search": "填充已有红心容器，不会单凭拾取增加容器。 先看有没有空红心格。能回头拾取时，可先留给付血后的治疗。 满红心时不增加容器；???、游魂等不能照普通红心角色回血。 先检查红心是否未满，再按是否需要付血决定拾取顺序。",
+    "entity": {
+      "variant": 10,
+      "subtype": 1,
+      "source": "HeartSubType",
+      "enum": "HEART_FULL"
+    }
   },
   {
     "id": "soul-heart",
@@ -17,7 +27,16 @@
     "summary": "独立临时生命，消耗后没有空容器可恢复。",
     "icon": "chest",
     "link": "/pickups/soul-heart",
-    "aliases": []
+    "aliases": [
+      "蓝心"
+    ],
+    "search": "独立临时生命，消耗后没有空容器可恢复。 保护红心并减少交易概率损失；无法储存魂心的角色按自身机制转化。 伯大尼将魂心当充能资源，不能按增加生命计算；店主也不能套魂心角色的血条。 普通红心角色可以把魂心留作红心外侧保护；进入危险房前再决定是否拾取。",
+    "entity": {
+      "variant": 10,
+      "subtype": 3,
+      "source": "HeartSubType",
+      "enum": "HEART_SOUL"
+    }
   },
   {
     "id": "black-heart",
@@ -27,7 +46,14 @@
     "summary": "类似魂心，耗尽对应黑心时有清房伤害效果。",
     "icon": "chest",
     "link": "/pickups/black-heart",
-    "aliases": []
+    "aliases": [],
+    "search": "类似魂心，耗尽对应黑心时有清房伤害效果。 不要为触发清屏故意受伤；该效果与普通清房奖励不是同一件事。 黑心被消耗的清房伤害不等于所有敌人一定死亡，更不是一次额外清房奖励。 先清场，再捡作临时保护；失去黑心的伤害效果只作额外收益。",
+    "entity": {
+      "variant": 10,
+      "subtype": 6,
+      "source": "HeartSubType",
+      "enum": "HEART_BLACK"
+    }
   },
   {
     "id": "bone-heart",
@@ -37,7 +63,14 @@
     "summary": "骨头容器可以装红心，容器破坏后消失。",
     "icon": "chest",
     "link": "/pickups/bone-heart",
-    "aliases": []
+    "aliases": [],
+    "search": "骨头容器可以装红心，容器破坏后消失。 红心被扣和骨头容器碎裂分开理解；遗骸的灵魂形态另管理魂心。 表遗骸身体与灵魂管理不同生命，别把灵魂的魂心当作身体骨心里的血。 先看骨容器内有没有红心；有恢复空间时用红心填充。",
+    "entity": {
+      "variant": 10,
+      "subtype": 11,
+      "source": "HeartSubType",
+      "enum": "HEART_BONE"
+    }
   },
   {
     "id": "rotten-heart",
@@ -47,7 +80,14 @@
     "summary": "与红心容器有关，清房能产生蓝苍蝇。",
     "icon": "chest",
     "link": "/pickups/rotten-heart",
-    "aliases": []
+    "aliases": [],
+    "search": "与红心容器有关，清房能产生蓝苍蝇。 不能将外观一整格当成普通完整红心的受伤次数；付血前先看有效生命。 一整格外观不代表与普通整颗红心相同的受伤预算。 用腐心前先比较后续付血与治疗需求，清房收益属于辅助输出。",
+    "entity": {
+      "variant": 10,
+      "subtype": 12,
+      "source": "HeartSubType",
+      "enum": "HEART_ROTTEN"
+    }
   },
   {
     "id": "gold-heart",
@@ -57,7 +97,14 @@
     "summary": "附在生命上的奖励效果，不自行增加可承受伤害。",
     "icon": "chest",
     "link": "/pickups/gold-heart",
-    "aliases": []
+    "aliases": [],
+    "search": "附在生命上的奖励效果，不自行增加可承受伤害。 金边不是额外一颗血，不能拿它预算献祭或恶魔交易。 拾取金心本身没有补回一颗生命，不能用它凑够开门付血。 先认清金边附着的生命，再决定是否继续献祭或交易。",
+    "entity": {
+      "variant": 10,
+      "subtype": 7,
+      "source": "HeartSubType",
+      "enum": "HEART_GOLDEN"
+    }
   },
   {
     "id": "eternal-heart",
@@ -67,7 +114,16 @@
     "summary": "半颗白心，取得另一半或带到下一层可增加红心容器。",
     "icon": "chest",
     "link": "/pickups/eternal-heart",
-    "aliases": []
+    "aliases": [
+      "白心"
+    ],
+    "search": "半颗白心，取得另一半或带到下一层可增加红心容器。 优先保住到下层；伤害消耗次序依血条组成与版本，见生命机制说明。 不同生命组成的伤害消耗顺序仍待核实，不把半颗白心算成能稳定挨一次攻击。 能安全下楼时尽量保住；同层取得第二半或下层结算后再看容器变化。",
+    "entity": {
+      "variant": 10,
+      "subtype": 4,
+      "source": "HeartSubType",
+      "enum": "HEART_ETERNAL"
+    }
   },
   {
     "id": "coin",
@@ -77,7 +133,22 @@
     "summary": "普通硬币 1 枚，镍币 5 枚，铸币 10 枚。",
     "icon": "chest",
     "link": "/pickups/coin",
-    "aliases": []
+    "aliases": [
+      "Penny",
+      "Nickel",
+      "Dime",
+      "五分币",
+      "镍币",
+      "铸币",
+      "一角币"
+    ],
+    "search": "普通硬币 1 枚，镍币 5 枚，铸币 10 枚。 先留开门、钥匙或治疗的钱；道具可修改硬币上限。 基础上限 99；深口袋可把硬币上限提高到 999。店主还可能需要硬币治疗。 先留商店、钥匙、治疗和路线门票；高面额硬币按其面值计入库存。",
+    "entity": {
+      "variant": 20,
+      "subtype": 1,
+      "source": "CoinSubType",
+      "enum": "COIN_PENNY"
+    }
   },
   {
     "id": "lucky-penny",
@@ -87,7 +158,14 @@
     "summary": "硬币同时提供运气提升。",
     "icon": "chest",
     "link": "/pickups/lucky-penny",
-    "aliases": []
+    "aliases": [],
+    "search": "硬币同时提供运气提升。 运气不自动提高所有随机事件概率，先看具体道具的判定。 不把运气加一理解为所有房间、机器和掉落都自动更容易成功。 安全时优先拾取；运气提升后仍按每个道具自己的运气判定理解收益。",
+    "entity": {
+      "variant": 20,
+      "subtype": 5,
+      "source": "CoinSubType",
+      "enum": "COIN_LUCKYPENNY"
+    }
   },
   {
     "id": "sticky-nickel",
@@ -97,7 +175,14 @@
     "summary": "粘在地上的镍币需要炸松。",
     "icon": "chest",
     "link": "/pickups/sticky-nickel",
-    "aliases": []
+    "aliases": [],
+    "search": "粘在地上的镍币需要炸松。 比较炸弹成本与 5 枚硬币收益，不在危险位置硬捡。 为 5 枚钱耗掉最后一颗炸弹，可能导致错过隐藏入口或母亲路线。 先对照自己炸弹数与需要留的路线炸弹，再炸松硬币。",
+    "entity": {
+      "variant": 20,
+      "subtype": 6,
+      "source": "CoinSubType",
+      "enum": "COIN_STICKYNICKEL"
+    }
   },
   {
     "id": "golden-penny",
@@ -107,7 +192,14 @@
     "summary": "拾取后可重新出现在附近，直到这一枚的连续奖励结束。",
     "icon": "chest",
     "link": "/pickups/golden-penny",
-    "aliases": []
+    "aliases": [],
+    "search": "拾取后可重新出现在附近，直到这一枚的连续奖励结束。 先清场再追硬币，可能出现在地形危险处；不承诺可无限捡。 会继续出现不等于无限硬币；生命危险时先停止追钱。 清掉敌人后再连续追捡，注意新的出现位置是否靠近尖刺或坑。",
+    "entity": {
+      "variant": 20,
+      "subtype": 7,
+      "source": "CoinSubType",
+      "enum": "COIN_GOLDEN"
+    }
   },
   {
     "id": "key",
@@ -117,7 +209,14 @@
     "summary": "普通钥匙开锁，双钥匙提供两把资源。",
     "icon": "chest",
     "link": "/pickups/key",
-    "aliases": []
+    "aliases": [],
+    "search": "普通钥匙开锁，双钥匙提供两把资源。 留给宝箱房、商店及路线入口，双锁房间仍要按门票预算。 双钥匙是一次补两把；双钥匙门通常仍需两把，不是捡过双钥匙就永久免费。 开宝箱房和商店前，先保留母亲路线或其他双锁入口所需数量。",
+    "entity": {
+      "variant": 30,
+      "subtype": 1,
+      "source": "KeySubType",
+      "enum": "KEY_NORMAL"
+    }
   },
   {
     "id": "golden-key",
@@ -127,7 +226,14 @@
     "summary": "当层普通用钥匙时不扣库存，换层不保留该层效果。",
     "icon": "chest",
     "link": "/pickups/golden-key",
-    "aliases": []
+    "aliases": [],
+    "search": "当层普通用钥匙时不扣库存，换层不保留该层效果。 当层优先开需要的锁，特殊机器的互动另看其规则。 效果按层消失；乞丐或特殊互动另有规则，不能一概按无限投喂计算。 当层把原本就需要的锁打开，换层前完成重要开门事项。",
+    "entity": {
+      "variant": 30,
+      "subtype": 2,
+      "source": "KeySubType",
+      "enum": "KEY_GOLDEN"
+    }
   },
   {
     "id": "charged-key",
@@ -137,7 +243,14 @@
     "summary": "提供钥匙资源，也能给主动道具充能。",
     "icon": "chest",
     "link": "/pickups/charged-key",
-    "aliases": []
+    "aliases": [],
+    "search": "提供钥匙资源，也能给主动道具充能。 主动已经满充时，先考虑使用后再拾取，避免充能收益浪费。 没有合适主动或已经满充时，不把充能收益重复算一次。 主动已满时，若本来就要使用可先用再捡，让钥匙和充能都产生收益。",
+    "entity": {
+      "variant": 30,
+      "subtype": 4,
+      "source": "KeySubType",
+      "enum": "KEY_CHARGED"
+    }
   },
   {
     "id": "bomb",
@@ -147,7 +260,14 @@
     "summary": "补炸弹资源，用于战斗、开口与破坏障碍。",
     "icon": "chest",
     "link": "/pickups/bomb",
-    "aliases": []
+    "aliases": [],
+    "search": "补炸弹资源，用于战斗、开口与破坏障碍。 不要站在爆炸范围里等开墙；优先隐藏入口、标记石头和路线门。 生成或放置炸弹不是爆炸免疫；自己的爆炸也可能造成伤害。 先留刀片路线、隐藏房和明显标记石头，再考虑用炸弹补 Boss 输出。",
+    "entity": {
+      "variant": 40,
+      "subtype": 1,
+      "source": "BombSubType",
+      "enum": "BOMB_NORMAL"
+    }
   },
   {
     "id": "golden-bomb",
@@ -157,7 +277,14 @@
     "summary": "当层放普通炸弹不消耗库存。",
     "icon": "chest",
     "link": "/pickups/golden-bomb",
-    "aliases": []
+    "aliases": [],
+    "search": "当层放普通炸弹不消耗库存。 当层使用仍会造成爆炸危险，不等于免疫自己的炸弹。 无限库存消耗不等于免疫爆炸，换层也不会保留当层效果。 当层优先完成原定的炸门、炸石头和找入口事项。",
+    "entity": {
+      "variant": 40,
+      "subtype": 4,
+      "source": "BombSubType",
+      "enum": "BOMB_GOLDEN"
+    }
   },
   {
     "id": "troll-bomb",
@@ -167,7 +294,14 @@
     "summary": "无法拾取为库存，出现后会自行爆炸。",
     "icon": "chest",
     "link": "/pickups/troll-bomb",
-    "aliases": []
+    "aliases": [],
+    "search": "无法拾取为库存，出现后会自行爆炸。 看到引线就先避开，箱子和机器也可能生成这种危险奖励。 这种炸弹无法捡进普通库存，不为了看清奖励停在爆炸中心。 看到引线先后退，开箱或机器付出后也要观察是否出现危险炸弹。",
+    "entity": {
+      "variant": 40,
+      "subtype": 3,
+      "source": "BombSubType",
+      "enum": "BOMB_TROLL"
+    }
   },
   {
     "id": "battery",
@@ -177,7 +311,14 @@
     "summary": "给主动道具补充充能，不等于得到电池类收藏道具。",
     "icon": "chest",
     "link": "/pickups/battery",
-    "aliases": []
+    "aliases": [],
+    "search": "给主动道具补充充能，不等于得到电池类收藏道具。 先确认主动的充能方式和是否已满；额外储存、过充由道具决定。 拾取电池与获得蓄电池、9 伏特等收藏道具不同，不会自动获得它们的被动效果。 先看主动是否需要充能，以及能否储存额外充能；有收益再捡。",
+    "entity": {
+      "variant": 90,
+      "subtype": 1,
+      "source": "BatterySubType",
+      "enum": "BATTERY_NORMAL"
+    }
   },
   {
     "id": "golden-battery",
@@ -187,7 +328,14 @@
     "summary": "提供充能收益，但拾取伴随伤害风险。",
     "icon": "chest",
     "link": "/pickups/golden-battery",
-    "aliases": []
+    "aliases": [],
+    "search": "提供充能收益，但拾取伴随伤害风险。 先确认生命够用；游魂类角色不能只看充能收益就直接碰。 游魂类角色不能只看主动缺电就直接拾取；不提供未经当前版本核实的完整扣血例外。 先确认当前生命和保护状态，再权衡充能是否值得承担伤害风险。",
+    "entity": {
+      "variant": 90,
+      "subtype": 4,
+      "source": "BatterySubType",
+      "enum": "BATTERY_GOLDEN"
+    }
   },
   {
     "id": "chest",
@@ -197,7 +345,14 @@
     "summary": "通常碰触即可打开，可能是奖励也可能有危险内容。",
     "icon": "chest",
     "link": "/pickups/chest",
-    "aliases": []
+    "aliases": [],
+    "search": "通常碰触即可打开，可能是奖励也可能有危险内容。 清场后开，别把开箱当作必定回血或一定出道具。 普通箱子也可能有危险内容；不要把开箱当成保证回血或一定出收藏道具。 先清场，在有退路的位置触碰；开后再观察具体内容。",
+    "entity": {
+      "variant": 50,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "locked-chest",
@@ -207,7 +362,16 @@
     "summary": "通常需要钥匙，开后可有拾取物或道具。",
     "icon": "chest",
     "link": "/pickups/locked-chest",
-    "aliases": []
+    "aliases": [
+      "Golden Chest"
+    ],
+    "search": "通常需要钥匙，开后可有拾取物或道具。 先留宝箱房钥匙，再比较开箱预算。 箱子解锁与道具解锁是两层条件，钥匙只解决这次开启。 先留宝箱房或路线钥匙，再决定是否开金箱；打开后继续观察内容。",
+    "entity": {
+      "variant": 60,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "bomb-chest",
@@ -217,7 +381,16 @@
     "summary": "需要爆炸打开。",
     "icon": "chest",
     "link": "/pickups/bomb-chest",
-    "aliases": []
+    "aliases": [
+      "Stone Chest"
+    ],
+    "search": "需要爆炸打开。 先摆好位置再放炸弹，避免把内容炸到坑或尖刺上。 不要把里面的资源连同下一颗爆炸推到坑里或尖刺上。 摆好炸弹位置并离开爆炸范围，炸开后再取内容。",
+    "entity": {
+      "variant": 51,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "spiked-chest",
@@ -227,7 +400,14 @@
     "summary": "碰触开箱有受伤成本。",
     "icon": "chest",
     "link": "/pickups/spiked-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "碰触开箱有受伤成本。 先清场并评估当前生命；飞行不等于所有接触付血都免费。 飞行不能直接推出所有付血接触都免费，游魂等特殊角色另看保护效果。 先清场并计算付血后的生命，再决定开箱；低血时可以暂时留下。",
+    "entity": {
+      "variant": 52,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "mimic-chest",
@@ -237,7 +417,14 @@
     "summary": "外观容易与普通箱子混淆，接近时可露出尖刺。",
     "icon": "chest",
     "link": "/pickups/mimic-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "外观容易与普通箱子混淆，接近时可露出尖刺。 观察变化后再决定是否开，不在低血或游魂局莽撞触碰。 不要把普通箱子的安全触碰经验照搬到外观相似的箱子。 接近前观察外观和尖刺变化，确认后按刺箱预算处理。",
+    "entity": {
+      "variant": 54,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "red-chest",
@@ -247,7 +434,14 @@
     "summary": "可有道具、心、传送或危险内容。",
     "icon": "chest",
     "link": "/pickups/red-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "可有道具、心、传送或危险内容。 保留落点与退路；蜘蛛或炸弹出现时先躲，不站在箱子中心。 传送可能改变当前位置；有路线物品待拿时先完成本层事项。 先清场并留退路，开箱后看到蜘蛛或炸弹立即移动。",
+    "entity": {
+      "variant": 360,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "old-chest",
@@ -257,7 +451,14 @@
     "summary": "特殊箱子，有自己的奖励来源。",
     "icon": "chest",
     "link": "/pickups/old-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "特殊箱子，有自己的奖励来源。 与普通金箱子奖池分开看；不把某一件道具当成必出。 这是旧箱子的独立来源池，不能把妈妈箱子、金箱子和旧箱子视为同一个奖池。 先清场并观察实际开启状态；如果产生道具，按其效果决定是否拿。",
+    "entity": {
+      "variant": 55,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "mega-chest",
@@ -267,7 +468,14 @@
     "summary": "通常需要多次付钥匙才能开启，不能按一次一把预算。",
     "icon": "chest",
     "link": "/pickups/mega-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "通常需要多次付钥匙才能开启，不能按一次一把预算。 有足够备用钥匙再尝试，别花光下一层开门资源。 不写未经核实的钥匙次数分布；尚未开成时别把内容当已获得。 先给下一层开门留钥匙，再尝试多次开启。",
+    "entity": {
+      "variant": 57,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "wooden-chest",
@@ -277,7 +485,14 @@
     "summary": "独立箱子类型，开放后可在正常掉落中出现。",
     "icon": "chest",
     "link": "/pickups/wooden-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "独立箱子类型，开放后可在正常掉落中出现。 先清场再开，具体内容以实际生成结果为准。 正常生成机会不等于每局必出现，也不能据箱子名称保证掉某一件道具。 先核对永久解锁，清场后再接近；按实际出现内容选择。",
+    "entity": {
+      "variant": 56,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "haunted-chest",
@@ -287,7 +502,14 @@
     "summary": "靠近时可能遭遇幽灵敌人的攻击。",
     "icon": "chest",
     "link": "/pickups/haunted-chest",
-    "aliases": []
+    "aliases": [],
+    "search": "靠近时可能遭遇幽灵敌人的攻击。 辨认后保持移动，先处理敌人，再考虑内容。 名称像宝箱不等于可以安全站桩；不要在低血时忽略幽灵攻击。 先观察靠近时出现的敌人并留移动路线，再处理箱子内容。",
+    "entity": {
+      "variant": 58,
+      "subtype": 1,
+      "source": "ChestSubType",
+      "enum": "CHEST_CLOSED"
+    }
   },
   {
     "id": "golden-trinket",
@@ -297,6 +519,9 @@
     "summary": "许多饰品的效果会加强，但并非全都简单翻倍。",
     "icon": "chest",
     "link": "/pickups/golden-trinket",
-    "aliases": []
+    "aliases": [
+      "黄金饰品"
+    ],
+    "search": "许多饰品的效果会加强，但并非全都简单翻倍。 按饰品详情查看金色版本差异；同名普通形态不能直接替代。 并非所有饰品都简单翻倍；解锁金饰品也不等于饰品已经有逐项收藏记录。 对照具体饰品的金色说明，再决定替换、吞下或暂时留下。"
   }
 ]

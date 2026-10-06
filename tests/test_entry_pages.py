@@ -90,6 +90,11 @@ class EntryPages(unittest.TestCase):
             self.assertIn('1 钥匙', page)
             self.assertIn('2 炸弹', page)
 
+    def test_warning_prefix_does_not_repeat_punctuation(self):
+        self.assertEqual(GEN['render_effect']('{{Warning}} 一次只能激活1个头目'),'注意： 一次只能激活1个头目')
+        self.assertNotIn('：：',GEN['render_effect']('{{Warning}}效果'))
+        self.assertIn('神圣屏障',GEN['render_effect']('{{HolyMantle}}保护'))
+
 
 if __name__ == '__main__':
     unittest.main()

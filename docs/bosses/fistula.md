@@ -7,9 +7,12 @@ title: "瘘管"
 
 大块分裂成小块，数量会逐渐增加。
 
-## 招式与观察
+## 招式、前摇与应对
 
-大块分裂成小块，数量会逐渐增加。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 分裂 | 大块被打散 | 集中清完一个分支，减少同时存在的小块 |
+| 碎块移动 | 多个目标向不同方向扩散 | 优先留下开阔走道，不平均打残全部碎块 |
 
 ## 安全站位与打法
 
@@ -23,6 +26,6 @@ title: "瘘管"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Fistula](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L13-L13)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

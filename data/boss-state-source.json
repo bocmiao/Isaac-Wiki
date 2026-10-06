@@ -1,0 +1,771 @@
+{
+  "isaacDocsCommit": "e05b1fd90e33608a7a7a8dcb70a89cef908cc41a",
+  "bosses": {
+    "monstro": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Monstro",
+          "startLine": 13,
+          "endLine": 18,
+          "attacks": [
+            "Small Hop",
+            "Bullet Spit",
+            "Jump"
+          ]
+        }
+      ]
+    },
+    "larry-jr": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Larry Jr.",
+          "startLine": 37,
+          "endLine": 38,
+          "attacks": [
+            "Idle",
+            "Poop"
+          ]
+        }
+      ]
+    },
+    "duke-of-flies": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "The Duke of Flies",
+          "startLine": 39,
+          "endLine": 42,
+          "attacks": [
+            "Small Flies",
+            "Big Fly",
+            "Swarm",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "gemini": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Gemini (Contusion)",
+          "startLine": 19,
+          "endLine": 21,
+          "attacks": [
+            "Walk",
+            "Chase",
+            "Pant"
+          ]
+        },
+        {
+          "label": "Gemini (Suture)",
+          "startLine": 22,
+          "endLine": 25,
+          "attacks": [
+            "Walk",
+            "Attack",
+            "Rage",
+            "Chase"
+          ]
+        }
+      ]
+    },
+    "pin": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Pin",
+          "startLine": 60,
+          "endLine": 61,
+          "attacks": [
+            "Burry",
+            "Ipecac"
+          ]
+        }
+      ]
+    },
+    "dingle": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Dingle",
+          "startLine": 26,
+          "endLine": 33,
+          "attacks": [
+            "Idle",
+            "Whistle",
+            "Spit",
+            "Slide"
+          ]
+        }
+      ]
+    },
+    "gurglings": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Gurglings",
+          "startLine": 34,
+          "endLine": 36,
+          "attacks": [
+            "Idle",
+            "Charge"
+          ]
+        }
+      ]
+    },
+    "haunt": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "The Haunt",
+          "startLine": 53,
+          "endLine": 59,
+          "attacks": [
+            "Idle (P1)",
+            "FlyUp",
+            "Idle (P2)",
+            "Spit",
+            "Laser"
+          ]
+        }
+      ]
+    },
+    "rag-man": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Rag Man",
+          "startLine": 80,
+          "endLine": 85,
+          "attacks": [
+            "Walk",
+            "Shoot",
+            "Spawn",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "gurdy": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Gurdy",
+          "startLine": 19,
+          "endLine": 23,
+          "attacks": [
+            "Idle",
+            "Spit",
+            "Red Flies",
+            "Pooter",
+            "Boils"
+          ]
+        }
+      ]
+    },
+    "gurdy-jr": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Gurdy Jr.",
+          "startLine": 32,
+          "endLine": 35,
+          "attacks": [
+            "Idle",
+            "Pooter",
+            "Tears",
+            "Slide"
+          ]
+        }
+      ]
+    },
+    "chub": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Chub",
+          "startLine": 14,
+          "endLine": 18,
+          "attacks": [
+            "Idle",
+            "Charge",
+            "Summon",
+            "Bomb"
+          ]
+        }
+      ]
+    },
+    "fistula": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Fistula",
+          "startLine": 13,
+          "endLine": 13,
+          "attacks": [
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "hollow": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "The Hollow",
+          "startLine": 44,
+          "endLine": 44,
+          "attacks": [
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "peep": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Peep",
+          "startLine": 36,
+          "endLine": 39,
+          "attacks": [
+            "Idle",
+            "Pee",
+            "Tears",
+            "Jump"
+          ]
+        }
+      ]
+    },
+    "mega-maw": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Mega Maw",
+          "startLine": 28,
+          "endLine": 31,
+          "attacks": [
+            "Idle",
+            "Spit",
+            "Summon",
+            "Fire"
+          ]
+        }
+      ]
+    },
+    "mega-fatty": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Mega Fatty",
+          "startLine": 24,
+          "endLine": 27,
+          "attacks": [
+            "Fart",
+            "High Jump Low Jump",
+            "Puke",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "monstro-ii": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "Monstro II",
+          "startLine": 13,
+          "endLine": 16,
+          "attacks": [
+            "Jump",
+            "Brimstone",
+            "Hop"
+          ]
+        }
+      ]
+    },
+    "loki": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "Loki",
+          "startLine": 27,
+          "endLine": 32,
+          "attacks": [
+            "Summon",
+            "Ring",
+            "+ x",
+            "Teleport",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "cage": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "The Cage",
+          "startLine": 17,
+          "endLine": 22,
+          "attacks": [
+            "Idle",
+            "Puke",
+            "Summon",
+            "Roll",
+            "Jump"
+          ]
+        }
+      ]
+    },
+    "gate": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "The Gate",
+          "startLine": 23,
+          "endLine": 26,
+          "attacks": [
+            "Summon",
+            "Tears",
+            "Brimstone",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "adversary": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "The Adversary",
+          "startLine": 33,
+          "endLine": 37,
+          "attacks": [
+            "Idle",
+            "Darken",
+            "Spiders",
+            "Fly",
+            "Brimstone"
+          ]
+        }
+      ]
+    },
+    "bloat": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "The Bloat",
+          "startLine": 38,
+          "endLine": 44,
+          "attacks": [
+            "Jump",
+            "Hop",
+            "Bleed",
+            "Idle",
+            "H Brimstone",
+            "V Brimstone"
+          ]
+        }
+      ]
+    },
+    "mask-of-infamy": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "Mask of Infamy",
+          "startLine": 45,
+          "endLine": 48,
+          "attacks": [
+            "Idle",
+            "Attack",
+            "Angry"
+          ]
+        }
+      ]
+    },
+    "widow": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Widow",
+          "startLine": 43,
+          "endLine": 48,
+          "attacks": [
+            "Jump",
+            "Sack",
+            "Spider"
+          ]
+        }
+      ]
+    },
+    "little-horn": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Little Horn",
+          "startLine": 86,
+          "endLine": 93,
+          "attacks": [
+            "Ball",
+            "Perma Pit",
+            "Multi Pit",
+            "Troll",
+            "Mega Troll",
+            "Teleport",
+            "Multi TP",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "baby-plum": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Baby Plum",
+          "startLine": 94,
+          "endLine": 99,
+          "attacks": [
+            "Idle",
+            "Spiral",
+            "Rings",
+            "Bullet hell"
+          ]
+        }
+      ]
+    },
+    "famine": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "Famine",
+          "startLine": 62,
+          "endLine": 65,
+          "attacks": [
+            "Dash",
+            "Spawn",
+            "Idle"
+          ]
+        },
+        {
+          "label": "Famine (head)",
+          "startLine": 66,
+          "endLine": 67,
+          "attacks": [
+            "Idle",
+            "Attack"
+          ]
+        }
+      ]
+    },
+    "fallen": {
+      "file": "Chapter1.md",
+      "blocks": [
+        {
+          "label": "The Fallen",
+          "startLine": 68,
+          "endLine": 74,
+          "attacks": [
+            "Idle",
+            "Spit",
+            "Charge",
+            "Split"
+          ]
+        }
+      ]
+    },
+    "husk": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "The Husk",
+          "startLine": 40,
+          "endLine": 43,
+          "attacks": [
+            "Idle",
+            "Summons",
+            "Spit cluster",
+            "Tears"
+          ]
+        }
+      ]
+    },
+    "dark-one": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Dark One",
+          "startLine": 49,
+          "endLine": 53,
+          "attacks": [
+            "Darkness",
+            "Ring",
+            "Idle",
+            "Charge",
+            "Brimstone"
+          ]
+        }
+      ]
+    },
+    "carrion-queen": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Carrion Queen",
+          "startLine": 45,
+          "endLine": 48,
+          "attacks": [
+            "Idle",
+            "Poop",
+            "Bomb",
+            "Charge"
+          ]
+        }
+      ]
+    },
+    "pestilence": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "Pestilence",
+          "startLine": 63,
+          "endLine": 68,
+          "attacks": [
+            "Ipecac",
+            "Summon",
+            "Idle",
+            "Ipecac (headless)",
+            "Summon (headless)",
+            "Idle (headless)"
+          ]
+        }
+      ]
+    },
+    "stain": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "The Stain",
+          "startLine": 69,
+          "endLine": 73,
+          "attacks": [
+            "Idle",
+            "Burrow",
+            "Bullet hell",
+            "Tendrils",
+            "Summons"
+          ]
+        }
+      ]
+    },
+    "frail": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "The Frail",
+          "startLine": 74,
+          "endLine": 78,
+          "attacks": [
+            "Walk",
+            "Ipecac",
+            "Cum",
+            "Brimstone (follow)",
+            "Brimstone (discrete)"
+          ]
+        }
+      ]
+    },
+    "forsaken": {
+      "file": "Chapter2.md",
+      "blocks": [
+        {
+          "label": "The Forsaken",
+          "startLine": 79,
+          "endLine": 82,
+          "attacks": [
+            "Idle",
+            "Fade",
+            "Summon",
+            "Blast"
+          ]
+        }
+      ]
+    },
+    "lokii": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "Loki",
+          "startLine": 27,
+          "endLine": 32,
+          "attacks": [
+            "Summon",
+            "Ring",
+            "+ x",
+            "Teleport",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "war": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "War",
+          "startLine": 49,
+          "endLine": 54,
+          "attacks": [
+            "Idle",
+            "Dash",
+            "Bombs",
+            "Tears",
+            "Chase",
+            "Sob"
+          ]
+        }
+      ]
+    },
+    "sisters-vis": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "Sisters Vis",
+          "startLine": 61,
+          "endLine": 70,
+          "attacks": [
+            "Roll",
+            "Brimstone",
+            "Spawn Vis",
+            "Rotating Brimstone",
+            "Idle",
+            "Jump",
+            "Tears",
+            "Shared Brimstone",
+            "Spawn Begotten"
+          ]
+        }
+      ]
+    },
+    "reap-creep": {
+      "file": "Chapter3.md",
+      "blocks": [
+        {
+          "label": "Reap Creep",
+          "startLine": 71,
+          "endLine": 78,
+          "attacks": [
+            "Wall Creep",
+            "Bullet Line",
+            "Idle",
+            "Puke",
+            "Spiders/Trite",
+            "Charge",
+            "Brimstones",
+            "Transition"
+          ]
+        }
+      ]
+    },
+    "scolex": {
+      "file": "Chapter4.md",
+      "blocks": [
+        {
+          "label": "Scolex",
+          "startLine": 25,
+          "endLine": 27,
+          "attacks": [
+            "Idle",
+            "Ipecac",
+            "Puke"
+          ]
+        }
+      ]
+    },
+    "mama-gurdy": {
+      "file": "Chapter4.md",
+      "blocks": [
+        {
+          "label": "Mama Gurdy",
+          "startLine": 21,
+          "endLine": 24,
+          "attacks": [
+            "Idle",
+            "Orange puke",
+            "Spikes",
+            "Tears"
+          ]
+        }
+      ]
+    },
+    "blastocyst": {
+      "file": "Chapter4.md",
+      "blocks": [
+        {
+          "label": "Blastocyst",
+          "startLine": 13,
+          "endLine": 20,
+          "attacks": [
+            "Idle",
+            "In-Place Hop",
+            "Offscreen Jump",
+            "Attack"
+          ]
+        }
+      ]
+    },
+    "daddy-long-legs": {
+      "file": "Chapter4.md",
+      "blocks": [
+        {
+          "label": "Daddy Long Legs",
+          "startLine": 33,
+          "endLine": 38,
+          "attacks": [
+            "4 Stomps",
+            "Spiders",
+            "Up",
+            "Idle"
+          ]
+        }
+      ]
+    },
+    "death": {
+      "file": "Chapter4.md",
+      "blocks": [
+        {
+          "label": "Death",
+          "startLine": 39,
+          "endLine": 44,
+          "attacks": [
+            "Homing Scythes",
+            "Normal Scythes",
+            "Hourglass",
+            "Idle",
+            "Knights"
+          ]
+        }
+      ]
+    },
+    "conquest": {
+      "file": "Chapter4.md",
+      "blocks": [
+        {
+          "label": "Conquest",
+          "startLine": 45,
+          "endLine": 49,
+          "attacks": [
+            "Dash",
+            "Idle",
+            "Bullets",
+            "Holy Light"
+          ]
+        }
+      ]
+    }
+  }
+}

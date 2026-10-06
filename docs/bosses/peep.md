@@ -7,9 +7,13 @@ title: "窥视眼"
 
 跳跃和地面危害交替，脱离的眼球继续运动。
 
-## 招式与观察
+## 招式、前摇与应对
 
-跳跃和地面危害交替，脱离的眼球继续运动。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 大跳 | 本体离开地面 | 移动离开落点，落地后再找输出角度 |
+| 地面危险与吐弹 | 房间地面和弹幕变化 | 同时看能站的位置和弹幕，别只顾血条 |
+| 漂浮眼球 | 眼球从本体脱离 | 当作独立移动障碍，别跟着眼球挤进角落 |
 
 ## 安全站位与打法
 
@@ -23,6 +27,6 @@ title: "窥视眼"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[Peep](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L36-L39)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

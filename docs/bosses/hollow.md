@@ -7,9 +7,12 @@ title: "空心虫"
 
 多段身体沿路径运动，多个身体可能交叉。
 
-## 招式与观察
+## 招式、前摇与应对
 
-多段身体沿路径运动，多个身体可能交叉。
+| 招式 | 看什么 | 怎么躲 |
+| --- | --- | --- |
+| 多段移动 | 蛇身沿路径转弯 | 从路径外侧射击，确认转弯后再穿空隙 |
+| 多个本体交叉 | 两条身体路线相交 | 不要夹在交点，同时观察两条路径 |
 
 ## 安全站位与打法
 
@@ -23,6 +26,6 @@ title: "空心虫"
 
 ## 来源与相关攻略
 
-打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式参照 [IsaacDocs 的 Boss 状态资料](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses)；章节分组用于查询，不承诺只在一个楼层出现。
+打法是本站走位建议，不提供未核实的血量、伤害或触发帧。招式类型对照固定 IsaacDocs 状态资料：[The Hollow](https://github.com/wofsauge/IsaacDocs/blob/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/docs/entities/bosses/Chapter2.md#L44-L44)。状态表只证明已记录招式，不能证明当前客户端所有精英变化；章节分组也不是完整的楼层解锁必需名单。
 
 [常见敌人与地形](/strategy/enemies) · [楼层图鉴](/floors/) · [终局 Boss](/strategy/bosses) · [Boss 总览](/bosses/)。

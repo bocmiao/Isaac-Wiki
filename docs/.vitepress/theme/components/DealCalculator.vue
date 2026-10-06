@@ -37,9 +37,10 @@ const angelFlags:[keyof DealInput,string][]=[['paid','本局做过恶魔交易']
      <span><small>最终是恶魔房</small><b>{{ percent(result.devilTotal) }}</b></span>
     </template>
    </div>
-   <p v-if="!result.uncertain">开门后是天使房的比例 {{ percent(result.angel) }}：{{ result.reason }}</p>
+   <p v-if="!input.eligible">当前楼层不允许主线交易门，两种房型的最终概率均为 0；山羊头 / 圣餐不覆盖楼层限制。</p>
+   <p v-else-if="!result.uncertain">开门后是天使房的比例 {{ percent(result.angel) }}：{{ result.reason }}</p>
    <p v-else>同时满足天使保底和恶魔乞丐的反向判定，资料没写哪个优先，这种组合不给最终房型概率。</p>
-   <p class="deal-note">开门加成合计 {{ result.raw.toFixed(2) }}% × 惩罚 {{ result.penalty }}，超过 100% 按 100% 算；山羊头 / 圣餐直接必开。</p>
+   <p class="deal-note">开门加成合计 {{ result.raw.toFixed(2) }}% × 惩罚 {{ result.penalty }}，超过 100% 按 100% 算；允许主线交易门的楼层，山羊头 / 圣餐直接必开。</p>
   </div>
   <details v-if="valid"><summary>查看加成与独立判定明细</summary><ul><li v-for="[name,value] in result.terms" :key="name">{{name}}：+{{value}}%</li></ul><p>天使普通判定为 1 − 所有失败概率的乘积。</p><ul><li v-for="[name,value] in result.checks" :key="name">{{name}}：{{percent(value)}}</li></ul></details>
   <button type="button" @click="Object.assign(input,defaultDeal())">重置条件</button>
