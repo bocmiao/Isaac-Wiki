@@ -63,9 +63,17 @@ title: 中英译名对照
 | 中文 | 英文 | 说明 |
 | --- | --- | --- |
 | 地下室 | Basement | 第 1 章 |
+| 地窖 | Cellar | 第 1 章变体 |
+| 燃烧地下室 | Burning Basement | 第 1 章变体 |
 | 洞穴 | Caves | 第 2 章 |
+| 墓穴 | Catacombs | 第 2 章变体 |
+| 淹水洞穴 | Flooded Caves | 第 2 章变体 |
 | 深处 | Depths | 第 3 章，妈妈在深处 II |
+| 坟场 | Necropolis | 第 3 章变体 |
+| 阴湿深处 | Dank Depths | 第 3 章变体 |
 | 子宫 | Womb | 第 4 章 |
+| 血宫 | Utero | 第 4 章变体 |
+| 疤痕子宫 | Scarred Womb | 第 4 章变体 |
 | 蓝子宫 | ??? (Blue Womb) | 死寂所在 |
 | 阴间 | Sheol | 第 5 章，撒但 |
 | 教堂 | Cathedral | 第 5 章，以撒 |
@@ -73,11 +81,15 @@ title: 中英译名对照
 | 宝箱 | The Chest | 第 6 章，??? |
 | 虚空 | The Void | 精神错乱 |
 | 下水道 | Downpour | 隐藏路线 |
+| 污水渠 | Dross | 下水道变体 |
 | 矿洞 | Mines | 隐藏路线 |
+| 灰坑 | Ashpit | 矿洞变体 |
 | 陵墓 | Mausoleum | 隐藏路线 |
 | 炼狱 | Gehenna | 隐藏路线（陵墓的变体） |
 | 尸宫 | Corpse | 隐藏路线，母亲 |
 | 家 | Home | 祸兽 |
+
+I / II、各变体解锁与路线出口见[全部楼层详解](/strategy/floors)。
 
 ## 房间
 
@@ -104,6 +116,15 @@ title: 中英译名对照
 | 黑市 | Black Market |
 | 星象房 | Planetarium |
 | 卧室 | Bedroom |
+| 干净卧室 / 以撒的卧室 | Isaac's Room |
+| 肮脏卧室 | Barren Room |
+| 错误房 | I AM ERROR Room |
+| 替代章节入口房 | Secret Exit |
+| 贪婪出口房 | Greed Exit |
+| 蓝钥匙房 | Blue Room |
+| 红房间 | Red Room |
+
+进入条件、奖励与风险见[全部房间详解](/strategy/rooms)。
 
 ## 拾取物
 

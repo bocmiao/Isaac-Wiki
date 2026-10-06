@@ -17,6 +17,22 @@ export const strategyGroups: StrategyGroup[] = ['规则与选择', '角色', 'Bo
 
 export const strategyCategories: StrategyCategory[] = [
   {
+    id: 'rooms',
+    name: '全部房间',
+    icon: 'lock',
+    desc: '常见与特殊房间的入口、奖励、消耗和打法',
+    covers: ['门票与生命条件', '三种隐藏房怎么找', '骰子、卧室、黑市与错误房', '路线功能房与红房间'],
+    group: '规则与选择',
+  },
+  {
+    id: 'floors',
+    name: '全部楼层',
+    icon: 'map',
+    desc: '主线变体、母亲路线、上行与贪婪七层',
+    covers: ['每章 I / II 与变体', '镜面、矿车和刀片', '照片出口与各终局层', '回家上行与贪婪楼层'],
+    group: '规则与选择',
+  },
+  {
     id: 'mechanics',
     name: '机制详解',
     icon: 'card',

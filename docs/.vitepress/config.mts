@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { itemLinks } from './item-links'
+import { tableLabels } from './table-labels'
 
 // 新手路线只放自己的文章；第 4、5 层的正文在攻略库，这里只留总览页，避免点进去侧栏整个跳走
 const guideSidebar = [
@@ -50,6 +51,8 @@ const strategySidebar = [
   {
     text: '规则与选择',
     items: [
+      { text: '全部房间详解', link: '/strategy/rooms' },
+      { text: '全部楼层详解', link: '/strategy/floors' },
       { text: '机制详解', link: '/strategy/mechanics' },
       { text: '道具取舍与流派', link: '/strategy/items' },
     ],
@@ -150,6 +153,7 @@ export default defineConfig({
   markdown: {
     config: (md) => {
       md.use(itemLinks)
+      md.use(tableLabels)
     },
     container: {
       tipLabel: '提示',

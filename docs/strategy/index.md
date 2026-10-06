@@ -11,6 +11,9 @@ aside: false
 
 | 我想知道…… | 去这里 |
 | --- | --- |
+| 这是什么房间、怎么进、有什么奖励 | [全部房间详解](/strategy/rooms#room-index) |
+| 这个楼层有什么危险、下一步去哪里 | [全部楼层详解](/strategy/floors#floor-index) |
+| 母亲的两块刀片怎么拿、回家怎么上行 | [母亲替代路线](/strategy/floors#alt-path) · [上行与家](/strategy/floors#home-path) |
 | 恶魔房 / 天使房怎么才会出现 | [机制详解 · 恶魔房与天使房](/strategy/mechanics#恶魔房与天使房) |
 | 这个恶魔交易该不该拿 | [道具取舍 · 恶魔交易](/strategy/items#恶魔交易-拿还是不拿) |
 | 每层进门后先做什么 | [道具取舍 · 每层流程清单](/strategy/items#每层流程清单) |
