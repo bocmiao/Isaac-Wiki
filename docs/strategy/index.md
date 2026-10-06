@@ -28,7 +28,7 @@ aside: false
 | 贪婪 / 极贪模式怎么打、捐款机怎么用 | [贪婪模式](/strategy/greed) |
 | 某个成就怎么解锁 | [全成就索引](/achievements/) |
 | 种子怎么输、哪些会禁成就 | [种子](/strategy/seeds) |
-| 某个道具有什么效果 | [道具速查](/tools/items)；文章里的道具名也可以直接点开查 wiki |
+| 某个道具有什么效果 | [道具图鉴](/items/) · [道具速查](/tools/items)；点击文章里的道具名可看效果、数值与解锁教程 |
 | 英文名对应哪个中文名 | [中英译名对照](/strategy/glossary) |
 
 ## 按分类翻 {#by-category}

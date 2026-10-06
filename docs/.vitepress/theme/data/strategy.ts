@@ -23,6 +23,7 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '常见与特殊房间的入口、奖励、消耗和打法',
     covers: ['门票与生命条件', '三种隐藏房怎么找', '骰子、卧室、黑市与错误房', '路线功能房与红房间'],
     group: '规则与选择',
+    link: '/rooms/',
   },
   {
     id: 'floors',
@@ -31,6 +32,16 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '主线变体、母亲路线、上行与贪婪七层',
     covers: ['每章 I / II 与变体', '镜面、矿车和刀片', '照片出口与各终局层', '回家上行与贪婪楼层'],
     group: '规则与选择',
+    link: '/floors/',
+  },
+  {
+    id: 'item-catalog',
+    name: '道具图鉴',
+    icon: 'crown',
+    desc: '1057 个道具、饰品、卡牌与胶囊独立页',
+    covers: ['按名称、ID 与效果搜索', '基础效果与数值', '版本差异与巨型胶囊', '来源、解锁与关联条目'],
+    group: '规则与选择',
+    link: '/items/',
   },
   {
     id: 'mechanics',
@@ -47,6 +58,15 @@ export const strategyCategories: StrategyCategory[] = [
     desc: '恶魔交易拿不拿、哪些道具值得换心',
     covers: ['道具强弱刻度', '恶魔交易取舍', '天使房 / 宝箱房好道具', '每层流程清单'],
     group: '规则与选择',
+  },
+  {
+    id: 'character-catalog',
+    name: '人物图鉴',
+    icon: 'face',
+    desc: '34 个表 / 里角色的独立攻略',
+    covers: ['开局与解锁', '分阶段发育', '清房与 Boss 打法', '相关角色与路线'],
+    group: '角色',
+    link: '/characters/',
   },
   {
     id: 'character-roster',

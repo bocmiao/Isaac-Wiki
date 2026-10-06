@@ -1,7 +1,7 @@
 import type MarkdownIt from 'markdown-it'
 import items from './theme/data/item-reference-links.json'
 
-// 文章里写成「中文（English）」的道具、饰品、卡牌、胶囊，自动链到 wiki.gg 中文站，并附 IsaacGuru 小链接。
+// 文章里写成「中文（English）」的道具、饰品、卡牌、胶囊，自动链到站内独立页，并附 IsaacGuru 小链接。
 // 只认英文名在 EID 名称表里的写法，避免把楼层、Boss 之类同名词误当成道具。每页每个道具只链第一次出现。
 // 数据由 scripts/gen-item-links.py 生成。
 
@@ -16,16 +16,16 @@ function lookup(en: string): Entry | undefined {
 }
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
-const wikiUrl = (zh: string) => `https://bindingofisaacrebirth.wiki.gg/zh/index.php?search=${encodeURIComponent(zh)}&go=Go`
 const guruUrl = ([, kind, id]: Entry) => `https://isaacguru.com/wiki/isaac/${kind}${id}`
 
-const nameLink = (text: string, e: Entry) =>
-  `<a class="item-ref" href="${wikiUrl(e[0])}" target="_blank" rel="noreferrer" title="在 wiki.gg 中文站查看${esc(e[0])}">${esc(text)}</a>`
+const nameLink = (text: string, e: Entry, base: string) =>
+  `<a class="item-ref" href="${base}items/${e[1]}${e[2]}" title="查看${esc(e[0])}的效果与解锁">${esc(text)}</a>`
 // IsaacGuru 小标放在括号后面，避免和名字连读成「痛悔短祷IG」
 const guruMark = (e: Entry) =>
   `<a class="item-guru" href="${guruUrl(e)}" target="_blank" rel="noreferrer" title="在 IsaacGuru 查看（英文）" aria-label="${esc(e[0])}：IsaacGuru">IG</a>`
 
-export function itemLinks(md: MarkdownIt) {
+export function itemLinks(md: MarkdownIt, options: { base?: string } = {}) {
+  const base = (options.base ?? '/').replace(/\/?$/, '/')
   md.core.ruler.push('item_links', (state) => {
     const seen = new Set<number | string>()
     const tokens = state.tokens
@@ -54,10 +54,10 @@ export function itemLinks(md: MarkdownIt) {
           // 中文名在括号前：只链中文名本身（前面可能连着别的字）
           if (before.endsWith(e[0])) {
             const pre = before.slice(0, before.length - e[0].length)
-            html += esc(t.content.slice(last, start)) + esc(pre) + nameLink(e[0], e) + esc(`（${m[2]}）`) + guruMark(e)
+            html += esc(t.content.slice(last, start)) + esc(pre) + nameLink(e[0], e, base) + esc(`（${m[2]}）`) + guruMark(e)
           } else if (before === '') {
             // 中文名在前一个 token 里（例如加粗了），链英文名
-            html += esc(t.content.slice(last, start)) + '（' + nameLink(m[2], e) + '）' + guruMark(e)
+            html += esc(t.content.slice(last, start)) + '（' + nameLink(m[2], e, base) + '）' + guruMark(e)
           } else continue
           last = start + m[0].length
           seen.add(key)

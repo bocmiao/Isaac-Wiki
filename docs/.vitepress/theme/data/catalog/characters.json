@@ -1,0 +1,546 @@
+[
+  {
+    "id": "isaac",
+    "name": "以撒",
+    "en": "Isaac",
+    "group": "表角色",
+    "summary": "属性平均、没有特殊规则，唯一初始可用的角色，适合新手。",
+    "icon": "face",
+    "link": "/characters/isaac",
+    "aliases": [
+      "isaac",
+      "isaac-build",
+      "isaac-combat",
+      "isaac-route",
+      "以撒-isaac"
+    ]
+  },
+  {
+    "id": "magdalene",
+    "name": "抹大拉",
+    "en": "Magdalene",
+    "group": "表角色",
+    "summary": "血厚、能自己回血，花得起血；最大弱点是移速慢（0.85）。",
+    "icon": "face",
+    "link": "/characters/magdalene",
+    "aliases": [
+      "magdalene",
+      "magdalene-build",
+      "magdalene-combat",
+      "magdalene-route",
+      "抹大拉-magdalene"
+    ]
+  },
+  {
+    "id": "cain",
+    "name": "该隐",
+    "en": "Cain",
+    "group": "表角色",
+    "summary": "只用右眼射击、只有 2 个红心容器，前期不适合恶魔交易，钱更适合花在提高天使房概率上。",
+    "icon": "face",
+    "link": "/characters/cain",
+    "aliases": [
+      "cain",
+      "cain-build",
+      "cain-combat",
+      "cain-route",
+      "该隐-cain"
+    ]
+  },
+  {
+    "id": "judas",
+    "name": "犹大",
+    "en": "Judas",
+    "group": "表角色",
+    "summary": "伤害倍率 1.35 的高输出，但只有 1 个红心容器，非常怕伤。",
+    "icon": "face",
+    "link": "/characters/judas",
+    "aliases": [
+      "judas",
+      "judas-build",
+      "judas-combat",
+      "judas-route",
+      "犹大-judas"
+    ]
+  },
+  {
+    "id": "bluebaby",
+    "name": "???",
+    "en": "Blue Baby",
+    "group": "表角色",
+    "summary": "只有魂心、不能有红心容器，靠大便挡弹、打碎换蓝苍蝇。",
+    "icon": "face",
+    "link": "/characters/bluebaby",
+    "aliases": [
+      "bluebaby",
+      "bluebaby-build",
+      "bluebaby-combat",
+      "bluebaby-route",
+      "blue-baby"
+    ]
+  },
+  {
+    "id": "eve",
+    "name": "夏娃",
+    "en": "Eve",
+    "group": "表角色",
+    "summary": "低血时变强；把红心压到 1 颗，再用魂心或黑心扛伤害。",
+    "icon": "face",
+    "link": "/characters/eve",
+    "aliases": [
+      "eve",
+      "eve-build",
+      "eve-combat",
+      "eve-route",
+      "夏娃-eve"
+    ]
+  },
+  {
+    "id": "samson",
+    "name": "参孙",
+    "en": "Samson",
+    "group": "表角色",
+    "summary": "挨打越多伤害越高，加成持续整层、换层清零。",
+    "icon": "face",
+    "link": "/characters/samson",
+    "aliases": [
+      "samson",
+      "samson-build",
+      "samson-combat",
+      "samson-route",
+      "参孙-samson"
+    ]
+  },
+  {
+    "id": "azazel",
+    "name": "阿撒泻勒",
+    "en": "Azazel",
+    "group": "表角色",
+    "summary": "短程硫磺火 + 飞行，高移速、高爆发，代价是射程很短。",
+    "icon": "face",
+    "link": "/characters/azazel",
+    "aliases": [
+      "azazel",
+      "azazel-build",
+      "azazel-combat",
+      "azazel-route",
+      "阿撒泻勒-azazel"
+    ]
+  },
+  {
+    "id": "lazarus",
+    "name": "拉撒路",
+    "en": "Lazarus",
+    "group": "表角色",
+    "summary": "每层可原地复活一次，等于多一条命；复活后属性更强，但红心容器会变少。",
+    "icon": "face",
+    "link": "/characters/lazarus",
+    "aliases": [
+      "lazarus",
+      "lazarus-build",
+      "lazarus-combat",
+      "lazarus-route",
+      "拉撒路-lazarus"
+    ]
+  },
+  {
+    "id": "eden",
+    "name": "伊甸",
+    "en": "Eden",
+    "group": "表角色",
+    "summary": "开局全部随机，每局耗 1 枚伊甸币。",
+    "icon": "face",
+    "link": "/characters/eden",
+    "aliases": [
+      "eden",
+      "eden-build",
+      "eden-combat",
+      "eden-route",
+      "伊甸-eden"
+    ]
+  },
+  {
+    "id": "lost",
+    "name": "游魂",
+    "en": "The Lost",
+    "group": "表角色",
+    "summary": "没有血，受到任何伤害都会死；恶魔交易免费。",
+    "icon": "face",
+    "link": "/characters/lost",
+    "aliases": [
+      "lost",
+      "lost-build",
+      "lost-combat",
+      "lost-route",
+      "游魂-the-lost"
+    ]
+  },
+  {
+    "id": "lilith",
+    "name": "莉莉丝",
+    "en": "Lilith",
+    "group": "表角色",
+    "summary": "自己不能发射泪弹，靠淫魔代为射击；跟班越多越强。",
+    "icon": "face",
+    "link": "/characters/lilith",
+    "aliases": [
+      "lilith",
+      "lilith-build",
+      "lilith-combat",
+      "lilith-route",
+      "莉莉丝-lilith"
+    ]
+  },
+  {
+    "id": "keeper",
+    "name": "店主",
+    "en": "Keeper",
+    "group": "表角色",
+    "summary": "硬币当血；刚解锁时是最弱的角色之一，拿到木制镍币后才变成高风险高回报。",
+    "icon": "face",
+    "link": "/characters/keeper",
+    "aliases": [
+      "keeper",
+      "keeper-build",
+      "keeper-combat",
+      "keeper-route",
+      "店主-keeper"
+    ]
+  },
+  {
+    "id": "apollyon",
+    "name": "亚玻伦",
+    "en": "Apollyon",
+    "group": "表角色",
+    "summary": "用虚空吞道具换属性，把用不上的道具变成属性，大大降低对运气的依赖。",
+    "icon": "face",
+    "link": "/characters/apollyon",
+    "aliases": [
+      "apollyon",
+      "apollyon-build",
+      "apollyon-combat",
+      "apollyon-route",
+      "亚玻伦-apollyon"
+    ]
+  },
+  {
+    "id": "forgotten",
+    "name": "遗骸",
+    "en": "The Forgotten",
+    "group": "表角色",
+    "summary": "骨棒近战与遗骸之魂远射两种形态切换，任一形态死亡即结束。",
+    "icon": "face",
+    "link": "/characters/forgotten",
+    "aliases": [
+      "forgotten",
+      "forgotten-build",
+      "forgotten-combat",
+      "forgotten-route",
+      "遗骸-the-forgotten"
+    ]
+  },
+  {
+    "id": "bethany",
+    "name": "伯大尼",
+    "en": "Bethany",
+    "group": "表角色",
+    "summary": "魂心、黑心不当血而变成充能，靠魂火挡伤害；第一个交易房必定是天使房。",
+    "icon": "face",
+    "link": "/characters/bethany",
+    "aliases": [
+      "bethany",
+      "bethany-build",
+      "bethany-combat",
+      "bethany-route",
+      "伯大尼-bethany"
+    ]
+  },
+  {
+    "id": "jacob",
+    "name": "雅各和以扫",
+    "en": "Jacob & Esau",
+    "group": "表角色",
+    "summary": "一次操控两人，任一人死亡两人都死。",
+    "icon": "face",
+    "link": "/characters/jacob",
+    "aliases": [
+      "jacob",
+      "jacob-build",
+      "jacob-combat",
+      "jacob-route",
+      "雅各和以扫-jacob-esau"
+    ]
+  },
+  {
+    "id": "tainted-isaac",
+    "name": "里以撒",
+    "en": "Tainted Isaac",
+    "group": "里角色",
+    "summary": "最多带 8 个被动道具，换来道具底座在两个道具之间轮换、由你挑；规则改动集中在这一处。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-isaac",
+    "aliases": [
+      "isaac",
+      "isaac-build",
+      "isaac-combat",
+      "isaac-route",
+      "里以撒-tainted-isaac"
+    ]
+  },
+  {
+    "id": "tainted-magdalene",
+    "name": "里抹大拉",
+    "en": "Tainted Magdalene",
+    "group": "里角色",
+    "summary": "碰到敌人自动近身攻击，打死掉半颗红心来回血；多出来的红心会流失，伤害倍率 0.75。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-magdalene",
+    "aliases": [
+      "magdalene",
+      "magdalene-build",
+      "magdalene-combat",
+      "magdalene-route",
+      "里抹大拉-tainted-magdalene"
+    ]
+  },
+  {
+    "id": "tainted-cain",
+    "name": "里该隐",
+    "en": "Tainted Cain",
+    "group": "里角色",
+    "summary": "碰道具会拆成掉落物，只能用合成宝袋合成道具。强烈建议先解锁大部分甚至全部掉落物再玩他。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-cain",
+    "aliases": [
+      "cain",
+      "cain-build",
+      "cain-combat",
+      "cain-route",
+      "里该隐-tainted-cain"
+    ]
+  },
+  {
+    "id": "tainted-judas",
+    "name": "里犹大",
+    "en": "Tainted Judas",
+    "group": "里角色",
+    "summary": "只有黑心、不能获得红心；用暗仪刺刀冲进敌群定住敌人、穿过弹幕，结束时一起结算。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-judas",
+    "aliases": [
+      "judas",
+      "judas-build",
+      "judas-combat",
+      "judas-route",
+      "里犹大-tainted-judas"
+    ]
+  },
+  {
+    "id": "tainted-bluebaby",
+    "name": "里???",
+    "en": "Tainted ???",
+    "group": "里角色",
+    "summary": "炸弹换成大便；射速低，前期几乎必须靠大便。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-bluebaby",
+    "aliases": [
+      "bluebaby",
+      "bluebaby-build",
+      "bluebaby-combat",
+      "bluebaby-route",
+      "里-tainted"
+    ]
+  },
+  {
+    "id": "tainted-eve",
+    "name": "里夏娃",
+    "en": "Tainted Eve",
+    "group": "里角色",
+    "summary": "按住射击把心变成血团跟班，强度和血团数量成正比；血少、血团又少时很脆。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-eve",
+    "aliases": [
+      "eve",
+      "eve-build",
+      "eve-combat",
+      "eve-route",
+      "里夏娃-tainted-eve"
+    ]
+  },
+  {
+    "id": "tainted-samson",
+    "name": "里参孙",
+    "en": "Tainted Samson",
+    "group": "里角色",
+    "summary": "打出或受到伤害积攒狂暴；狂暴收益很大，代价是强制近战，适合非常激进的打法。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-samson",
+    "aliases": [
+      "samson",
+      "samson-build",
+      "samson-combat",
+      "samson-route",
+      "里参孙-tainted-samson"
+    ]
+  },
+  {
+    "id": "tainted-azazel",
+    "name": "里阿撒泻勒",
+    "en": "Tainted Azazel",
+    "group": "里角色",
+    "summary": "不会飞；先用喷嚏给敌人挂诅咒，再用贯穿全屏的硫磺火收割。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-azazel",
+    "aliases": [
+      "azazel",
+      "azazel-build",
+      "azazel-combat",
+      "azazel-route",
+      "里阿撒泻勒-tainted-azazel"
+    ]
+  },
+  {
+    "id": "tainted-lazarus",
+    "name": "里拉撒路",
+    "en": "Tainted Lazarus",
+    "group": "里角色",
+    "summary": "每清一个房间切换生死形态，要同时维持两套构筑；强项是能控制两条血量。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-lazarus",
+    "aliases": [
+      "lazarus",
+      "lazarus-build",
+      "lazarus-combat",
+      "lazarus-route",
+      "里拉撒路-tainted-lazarus"
+    ]
+  },
+  {
+    "id": "tainted-eden",
+    "name": "里伊甸",
+    "en": "Tainted Eden",
+    "group": "里角色",
+    "summary": "一受伤就重置属性和道具，构筑随时被打乱。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-eden",
+    "aliases": [
+      "eden",
+      "eden-build",
+      "eden-combat",
+      "eden-route",
+      "里伊甸-tainted-eden"
+    ]
+  },
+  {
+    "id": "tainted-lost",
+    "name": "里游魂",
+    "en": "Tainted Lost",
+    "group": "里角色",
+    "summary": "没有血量，也没有神圣屏障，只能靠神圣卡保护；恶魔交易免费，只会遇到攻击性道具。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-lost",
+    "aliases": [
+      "lost",
+      "lost-build",
+      "lost-combat",
+      "lost-route",
+      "里游魂-tainted-lost"
+    ]
+  },
+  {
+    "id": "tainted-lilith",
+    "name": "里莉莉丝",
+    "en": "Tainted Lilith",
+    "group": "里角色",
+    "summary": "自己不能发射泪弹，甩出连着脐带的恶魔胎儿近战（3 倍伤害）。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-lilith",
+    "aliases": [
+      "lilith",
+      "lilith-build",
+      "lilith-combat",
+      "lilith-route",
+      "里莉莉丝-tainted-lilith"
+    ]
+  },
+  {
+    "id": "tainted-keeper",
+    "name": "里店主",
+    "en": "Tainted Keeper",
+    "group": "里角色",
+    "summary": "硬币心上限固定 2 个，一次射 4 发；道具大多要花硬币买，但能攒钱，每层能买的比多数角色多。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-keeper",
+    "aliases": [
+      "keeper",
+      "keeper-build",
+      "keeper-combat",
+      "keeper-route",
+      "里店主-tainted-keeper"
+    ]
+  },
+  {
+    "id": "tainted-apollyon",
+    "name": "里亚玻伦",
+    "en": "Tainted Apollyon",
+    "group": "里角色",
+    "summary": "用无底坑把道具吃成蝗虫跟班。表亚玻伦的虚空吃道具给的效果随机，无底坑换成了稳定的输出提升。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-apollyon",
+    "aliases": [
+      "apollyon",
+      "apollyon-build",
+      "apollyon-combat",
+      "apollyon-route",
+      "里亚玻伦-tainted-apollyon"
+    ]
+  },
+  {
+    "id": "tainted-forgotten",
+    "name": "里遗骸",
+    "en": "Tainted Forgotten",
+    "group": "里角色",
+    "summary": "遗骸无敌但不能动，会飞的灵魂几乎无法造成伤害；靠灵魂扛着、扔出遗骸打人。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-forgotten",
+    "aliases": [
+      "forgotten",
+      "forgotten-build",
+      "forgotten-combat",
+      "forgotten-route",
+      "里遗骸-tainted-forgotten"
+    ]
+  },
+  {
+    "id": "tainted-bethany",
+    "name": "里伯大尼",
+    "en": "Tainted Bethany",
+    "group": "里角色",
+    "summary": "不能用红心当血，红心变成血充能补主动道具；属性提升只算 75%。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-bethany",
+    "aliases": [
+      "bethany",
+      "bethany-build",
+      "bethany-combat",
+      "bethany-route",
+      "里伯大尼-tainted-bethany"
+    ]
+  },
+  {
+    "id": "tainted-jacob",
+    "name": "里雅各（Tainted Jacob）和里以扫",
+    "en": "",
+    "group": "里角色",
+    "summary": "里以扫整层追杀，被撞到后本层变成一碰就死的灵魂；孤魂铁索是关键。",
+    "icon": "face-dark",
+    "link": "/characters/tainted-jacob",
+    "aliases": [
+      "jacob",
+      "jacob-build",
+      "jacob-combat",
+      "jacob-route",
+      "里雅各-tainted-jacob-和里以扫"
+    ]
+  }
+]

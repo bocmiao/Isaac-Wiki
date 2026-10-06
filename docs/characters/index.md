@@ -1,0 +1,32 @@
+---
+title: "人物图鉴"
+aside: false
+---
+
+<script setup lang="ts">
+import type { CatalogEntry } from "../.vitepress/theme/data/catalog"
+import allEntries from "../.vitepress/theme/data/catalog/characters.json"
+const entries = allEntries as CatalogEntry[]
+</script>
+
+# 人物图鉴
+
+<VersionBadge checked="2026-10" />
+
+每个角色都有独立页，包含开局、获取方式、核心机制、分阶段发育、清房与 Boss 操作、路线与标记建议。表角色与对应里角色互相链接。
+
+## 按名称与类型查找 {#catalog}
+
+<EntryCatalog :entries="entries" label="人物图鉴" />
+
+## 解锁与练习
+
+- [角色解锁步骤](/guide/unlocks/order) · [全部里角色获取方式](/guide/unlocks/order#tainted-list)
+- [开局强化](/strategy/character-roster#upgrades) · [完成标记](/strategy/character-roster#marks)
+- [新手练习建议](/strategy/characters#新手先练哪个) · [角色解锁清单](/tools/tracker)
+
+<span id="参考资料"></span>
+
+## 数据依据 {#sources}
+
+[条目来源与更新方式](/about#entry-sources)。各详情页附原始资料链接；道具名称按类型与 ID 区分，同名的特殊形态不会相互覆盖。

@@ -6,7 +6,7 @@ title: 关于
 
 以撒路书是一个非官方的《以撒的结合》中文教程站，目标是让新玩家按顺序从第一局走到白金神。
 
-- **只写教程和攻略**：道具效果交给 [wiki.gg 中文站](https://bindingofisaacrebirth.wiki.gg/zh/)和 [IsaacGuru](https://isaacguru.com/)。文章里的道具名可以直接点开查，也可以用[道具速查](/tools/items)。
+- **教程与图鉴相互连接**：[人物](/characters/)、[房间](/rooms/)、[楼层](/floors/)和[道具](/items/)都有分类总览和独立详情页。文章里的道具名可以直接点开查，详情页附 wiki.gg 与 IsaacGuru 资料链接。
 - **标注版本**：每篇文章顶部写明适用版本和校对日期。
 - **统一译名**：道具、角色、房间名以 EID 中文版为准，见[中英译名对照](/strategy/glossary)。
 - **事实有出处**：每篇文章末尾列出参考资料，查不到可靠来源的内容不写。
@@ -15,3 +15,10 @@ title: 关于
 《以撒的结合》相关名称和素材版权归 Edmund McMillen 与 Nicalis 所有。
 
 成就索引、条件数据及其翻译改编来自 wiki.gg 的 CC BY-SA 4.0 资料，依该授权发布；各成就页面和数据来源说明注明出处与授权例外。
+
+## 图鉴条目来源 {#entry-sources}
+
+- **人物、房间与楼层**：保留站内已校对攻略的机制、获取步骤和打法，并按条目拆分。开发枚举只用于核对分类，未使用的标识不写成可正常探索的路线。
+- **道具类效果**：数值与机制整理自 [External Item Descriptions](https://github.com/wofsauge/External-Item-Descriptions) 的中文说明，保留忏悔 / 忏悔+ 差异与巨型胶囊说明。类型、基础充能和忏悔道具池快照参照 [IsaacDocs](https://github.com/wofsauge/IsaacDocs/tree/e05b1fd90e33608a7a7a8dcb70a89cef908cc41a/scripts/data)。不使用源仓库的游戏图片或运行其代码。
+- **解锁条件**：关联本站已校对的成就条件与详细教程。道具池表示可能来源，解锁并不保证本局掉落；特殊形态与普通同名条目分别说明。
+- **更新方式**：事实快照与源稿保存在仓库 `data/`，生成脚本可离线重建页面，更新前需核对来源版本及差异。

@@ -1,17 +1,17 @@
 ---
 title: 道具速查
-description: 按中文名、英文名或 ID 查道具、饰品、卡牌、胶囊，一键跳到 wiki.gg 中文站或 IsaacGuru。
+description: 按中文名、英文名、游戏内 ID 或效果关键词搜索 1057 个道具、饰品、卡牌、符文和胶囊，打开站内独立详情页。
+aside: false
 ---
 
 # 道具速查
 
-输入中文名、英文名或游戏内 ID，查到后点链接去 wiki 看效果和数值。译名和站内文章一致，都以 EID 中文版为准。
+输入名称、ID 或效果关键词，点击卡片查看站内的效果、数值、版本差异、来源与解锁教程。完整分类入口在[道具图鉴](/items/)。
 
 <ItemFinder />
 
-::: info 说明
-- **wiki.gg 中文**：中文站有对应页面就直接打开；中文站的页面名和 EID 译名不一样时，会打开搜索结果。
-- **IsaacGuru**：英文站，忏悔+ 数据，可以看道具池、品质和组合。
-- 文章里写成「中文（English）」的道具名也可以直接点：点名字去 wiki.gg 中文站，点旁边的 <span class="item-guru-demo">IG</span> 去 IsaacGuru。
-- 名称数据来自 [External Item Descriptions](https://github.com/wofsauge/External-Item-Descriptions)（MIT 授权）的中文名称表，共 1052 条。
+::: info 查找提示
+- 数字 ID 可能在不同类型中重复；输入 `c118`、`t39` 等类型前缀可准确定位。
+- 同名特殊形态与普通道具分别列出，例如主动版彼列之书和被动形态。
+- 文章里的道具名称链接会打开站内详情；旁边的 IG 标记可查看 IsaacGuru。
 :::

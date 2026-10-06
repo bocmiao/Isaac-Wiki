@@ -48,7 +48,7 @@ export function taintedName(character: Character): string {
 }
 
 export function characterGuide(character: Character, tainted = false): string {
-  return `/strategy/${tainted ? 'tainted' : 'characters'}#${character.id}`
+  return `/characters/${tainted ? 'tainted-' : ''}${character.id}`
 }
 
 export function characterUnlockGuide(character: Character, tainted = false): string {

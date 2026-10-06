@@ -182,23 +182,23 @@ description: 全部 17 个表角色、17 个里角色与隐藏角色的获取条
 
 | 里角色 | 用哪个角色 | 操作 |
 | --- | --- | --- |
-| <span id="tainted-isaac"></span>[里以撒](/strategy/tainted#isaac) | [以撒](#unlock-isaac) | 用以撒本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-magdalene"></span>[里抹大拉](/strategy/tainted#magdalene) | [抹大拉](#unlock-magdalene) | 用抹大拉本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-cain"></span>[里该隐](/strategy/tainted#cain) | [该隐](#unlock-cain) | 用该隐本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-judas"></span>[里犹大](/strategy/tainted#judas) | [犹大](#unlock-judas) | 用犹大本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-bluebaby"></span>[里???](/strategy/tainted#bluebaby) | [???](#unlock-bluebaby) | 用???本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-eve"></span>[里夏娃](/strategy/tainted#eve) | [夏娃](#unlock-eve) | 用夏娃本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-samson"></span>[里参孙](/strategy/tainted#samson) | [参孙](#unlock-samson) | 用参孙本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-azazel"></span>[里阿撒泻勒](/strategy/tainted#azazel) | [阿撒泻勒](#unlock-azazel) | 用阿撒泻勒本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-lazarus"></span>[里拉撒路](/strategy/tainted#lazarus) | [拉撒路](#unlock-lazarus) | 用拉撒路本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-eden"></span>[里伊甸](/strategy/tainted#eden) | [伊甸](#unlock-eden) | 用伊甸本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-lost"></span>[里游魂](/strategy/tainted#lost) | [游魂](#unlock-lost) | 用游魂本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-lilith"></span>[里莉莉丝](/strategy/tainted#lilith) | [莉莉丝](#unlock-lilith) | 用莉莉丝本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-keeper"></span>[里店主](/strategy/tainted#keeper) | [店主](#unlock-keeper) | 用店主本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-apollyon"></span>[里亚玻伦](/strategy/tainted#apollyon) | [亚玻伦](#unlock-apollyon) | 用亚玻伦本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-forgotten"></span>[里遗骸](/strategy/tainted#forgotten) | [遗骸](#unlock-forgotten) | 用遗骸本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-bethany"></span>[里伯大尼](/strategy/tainted#bethany) | [伯大尼](#unlock-bethany) | 用伯大尼本人到家，开走廊左侧隐藏房并接触角色 |
-| <span id="tainted-jacob"></span>[里雅各](/strategy/tainted#jacob) | [雅各和以扫](#unlock-jacob) | 用雅各和以扫本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-isaac"></span>[里以撒](/characters/tainted-isaac#isaac) | [以撒](#unlock-isaac) | 用以撒本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-magdalene"></span>[里抹大拉](/characters/tainted-magdalene#magdalene) | [抹大拉](#unlock-magdalene) | 用抹大拉本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-cain"></span>[里该隐](/characters/tainted-cain#cain) | [该隐](#unlock-cain) | 用该隐本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-judas"></span>[里犹大](/characters/tainted-judas#judas) | [犹大](#unlock-judas) | 用犹大本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-bluebaby"></span>[里???](/characters/tainted-bluebaby#bluebaby) | [???](#unlock-bluebaby) | 用???本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-eve"></span>[里夏娃](/characters/tainted-eve#eve) | [夏娃](#unlock-eve) | 用夏娃本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-samson"></span>[里参孙](/characters/tainted-samson#samson) | [参孙](#unlock-samson) | 用参孙本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-azazel"></span>[里阿撒泻勒](/characters/tainted-azazel#azazel) | [阿撒泻勒](#unlock-azazel) | 用阿撒泻勒本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-lazarus"></span>[里拉撒路](/characters/tainted-lazarus#lazarus) | [拉撒路](#unlock-lazarus) | 用拉撒路本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-eden"></span>[里伊甸](/characters/tainted-eden#eden) | [伊甸](#unlock-eden) | 用伊甸本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-lost"></span>[里游魂](/characters/tainted-lost#lost) | [游魂](#unlock-lost) | 用游魂本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-lilith"></span>[里莉莉丝](/characters/tainted-lilith#lilith) | [莉莉丝](#unlock-lilith) | 用莉莉丝本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-keeper"></span>[里店主](/characters/tainted-keeper#keeper) | [店主](#unlock-keeper) | 用店主本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-apollyon"></span>[里亚玻伦](/characters/tainted-apollyon#apollyon) | [亚玻伦](#unlock-apollyon) | 用亚玻伦本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-forgotten"></span>[里遗骸](/characters/tainted-forgotten#forgotten) | [遗骸](#unlock-forgotten) | 用遗骸本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-bethany"></span>[里伯大尼](/characters/tainted-bethany#bethany) | [伯大尼](#unlock-bethany) | 用伯大尼本人到家，开走廊左侧隐藏房并接触角色 |
+| <span id="tainted-jacob"></span>[里雅各](/characters/tainted-jacob#jacob) | [雅各和以扫](#unlock-jacob) | 用雅各和以扫本人到家，开走廊左侧隐藏房并接触角色 |
 
 ### 到家了却没解锁：按这张表排查
 

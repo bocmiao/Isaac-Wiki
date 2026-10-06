@@ -1,6 +1,27 @@
 import { defineConfig } from 'vitepress'
 import { itemLinks } from './item-links'
 import { tableLabels } from './table-labels'
+import characterEntries from './theme/data/catalog/characters.json'
+import roomEntries from './theme/data/catalog/rooms.json'
+import floorEntries from './theme/data/catalog/floors.json'
+
+const catalogLinks = [
+  { text: '人物图鉴', link: '/characters/' },
+  { text: '房间图鉴', link: '/rooms/' },
+  { text: '楼层图鉴', link: '/floors/' },
+  { text: '道具图鉴', link: '/items/' },
+]
+function entrySidebar(label: string, path: string, entries: { group: string; name: string; link: string }[]) {
+  return [
+    { text: label, link: path },
+    ...[...new Set(entries.map(entry => entry.group))].map(group => ({
+      text: group,
+      collapsed: true,
+      items: entries.filter(entry => entry.group === group).map(entry => ({ text: entry.name, link: entry.link })),
+    })),
+    { text: '其他图鉴', items: catalogLinks.filter(entry => entry.link !== path) },
+  ]
+}
 
 // 新手路线只放自己的文章；第 4、5 层的正文在攻略库，这里只留总览页，避免点进去侧栏整个跳走
 const guideSidebar = [
@@ -51,8 +72,9 @@ const strategySidebar = [
   {
     text: '规则与选择',
     items: [
-      { text: '全部房间详解', link: '/strategy/rooms' },
-      { text: '全部楼层详解', link: '/strategy/floors' },
+      { text: '房间图鉴', link: '/rooms/' },
+      { text: '楼层图鉴', link: '/floors/' },
+      { text: '道具图鉴', link: '/items/' },
       { text: '机制详解', link: '/strategy/mechanics' },
       { text: '道具取舍与流派', link: '/strategy/items' },
     ],
@@ -60,6 +82,7 @@ const strategySidebar = [
   {
     text: '角色',
     items: [
+      { text: '人物图鉴', link: '/characters/' },
       { text: '角色速查与开局强化', link: '/strategy/character-roster' },
       { text: '表角色攻略', link: '/strategy/characters' },
       { text: '里角色攻略', link: '/strategy/tainted' },
@@ -152,7 +175,7 @@ export default defineConfig({
   ],
   markdown: {
     config: (md) => {
-      md.use(itemLinks)
+      md.use(itemLinks, { base })
       md.use(tableLabels)
     },
     container: {
@@ -168,6 +191,7 @@ export default defineConfig({
     nav: [
       { text: '新手路线', link: '/guide/', activeMatch: '^/guide/' },
       { text: '攻略库', link: '/strategy/', activeMatch: '^/strategy/' },
+      { text: '图鉴', activeMatch: '^/(characters|rooms|floors|items)/', items: catalogLinks },
       { text: '全成就', link: '/achievements/', activeMatch: '^/achievements/' },
       {
         text: '专题',
@@ -201,6 +225,19 @@ export default defineConfig({
     sidebar: {
       '/guide/': guideSidebar,
       '/strategy/': strategySidebar,
+      '/characters/': entrySidebar('人物图鉴', '/characters/', characterEntries),
+      '/rooms/': entrySidebar('房间图鉴', '/rooms/', roomEntries),
+      '/floors/': entrySidebar('楼层图鉴', '/floors/', floorEntries),
+      '/items/': [
+        { text: '道具图鉴 · 搜索全部条目', link: '/items/' },
+        { text: '取舍与工具', items: [
+          { text: '道具取舍与流派', link: '/strategy/items' },
+          { text: '道具组合查询', link: '/tools/synergies' },
+          { text: '控制台命令生成器', link: '/tools/console-generator' },
+          { text: '全成就与解锁', link: '/achievements/' },
+        ] },
+        { text: '其他图鉴', items: catalogLinks.filter(entry => entry.link !== '/items/') },
+      ],
       '/achievements/': achievementSidebar,
       '/topics/': topicsSidebar,
       '/tools/': [

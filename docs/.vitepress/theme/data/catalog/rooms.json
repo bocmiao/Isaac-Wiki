@@ -1,0 +1,408 @@
+[
+  {
+    "id": "normal",
+    "name": "初始房间与普通房间",
+    "en": "Default",
+    "group": "基础与发育",
+    "summary": "初始房间是本层出生点，普通房间使用常规门。宽房、长房、L 形房只是形状差异，不能据此断定房间用途。带敌人的普通房会锁门，清场后再开；部分常规门能用炸弹强行逃离，但不能据此打开所有特殊门或终局门。",
+    "icon": "lock",
+    "link": "/rooms/normal",
+    "aliases": [
+      "normal"
+    ]
+  },
+  {
+    "id": "treasure",
+    "name": "宝箱房",
+    "en": "Treasure Room",
+    "group": "基础与发育",
+    "summary": "金色门框，地图通常是王冠。正常主线前三章一般生成，第一层通常不耗钥匙，之后一般耗 1 把。挑战限制、角色和特殊种子能改变生成。子宫及更深主线通常没有常规宝箱房；贪婪模式的两间宝箱房另见贪婪楼层。",
+    "icon": "crown",
+    "link": "/rooms/treasure",
+    "aliases": [
+      "treasure"
+    ]
+  },
+  {
+    "id": "shop",
+    "name": "商店",
+    "en": "Shop",
+    "group": "基础与发育",
+    "summary": "硬币标记，通常要 1 把钥匙；忏悔起第一层通常免费，商店钥匙等有例外。常规主线前三章有商店，子宫不再按这个规则生成，银元等能改变范围。",
+    "icon": "coin",
+    "link": "/rooms/shop",
+    "aliases": [
+      "shop"
+    ]
+  },
+  {
+    "id": "boss",
+    "name": "Boss 房",
+    "en": "Boss Room / 头目房",
+    "group": "基础与发育",
+    "summary": "骷髅标记，进场后封门。普通楼层的 Boss 往往在远离起点的尽头，但这不是判断每种特殊地图的保证。",
+    "icon": "skull",
+    "link": "/rooms/boss",
+    "aliases": [
+      "boss"
+    ]
+  },
+  {
+    "id": "miniboss",
+    "name": "小头目房",
+    "en": "Miniboss Room",
+    "group": "基础与发育",
+    "summary": "常见七宗罪及其超级版本；商店里碰到贪婪是商店被占据的情形，不等于所有小头目都只出在商店。门与地图表现会随布局不同。",
+    "icon": "skull",
+    "link": "/rooms/miniboss",
+    "aliases": [
+      "miniboss"
+    ]
+  },
+  {
+    "id": "secret",
+    "name": "隐藏房",
+    "en": "Secret Room",
+    "group": "隐藏与交易",
+    "summary": "常在同时接触多个房间的空格，通常不邻 Boss 房。候选入口在相邻房的墙中间，所有相邻房的对应入口都不能被坑、石头等阻挡。地图看起来“被围住”但入口堵住的格子，应先排除。大房间按占据的小格检查。",
+    "icon": "bomb",
+    "link": "/rooms/secret",
+    "aliases": [
+      "secret"
+    ]
+  },
+  {
+    "id": "supersecret",
+    "name": "超级隐藏房",
+    "en": "Super Secret Room",
+    "group": "隐藏与交易",
+    "summary": "通常只接触一个普通房间，位于地图外围尽头，常靠近 Boss 支路；不按普通隐藏房“被多个房围住”的方法找。入口同样不能被障碍物堵住，通常炸墙开启。",
+    "icon": "bomb",
+    "link": "/rooms/supersecret",
+    "aliases": [
+      "supersecret"
+    ]
+  },
+  {
+    "id": "ultrasecret",
+    "name": "究极隐藏房",
+    "en": "Ultra Secret Room",
+    "group": "隐藏与交易",
+    "summary": "忏悔新增，位于正常地图外，需通过红钥匙、红钥匙碎片、该隐魂石等开红房拓路，或用逆位月亮直接传送。普通炸弹不能从正常房的墙上炸出它；普通地图显示效果也不必然标出它。",
+    "icon": "key",
+    "link": "/rooms/ultrasecret",
+    "aliases": [
+      "ultrasecret"
+    ]
+  },
+  {
+    "id": "devil",
+    "name": "恶魔房",
+    "en": "Devil Room",
+    "group": "隐藏与交易",
+    "summary": "常规交易门从第一章第二层到第四章判定，打完本层相应 Boss 后出现；第一章 XL 在第二个 Boss 后判定。鬼牌、红箱子、献祭等传送另有规则。门开了又离开 Boss 房，再回来可能关闭，想交易就当场决定。",
+    "icon": "heart",
+    "link": "/rooms/devil",
+    "aliases": [
+      "devil"
+    ]
+  },
+  {
+    "id": "angel",
+    "name": "天使房",
+    "en": "Angel Room",
+    "group": "隐藏与交易",
+    "summary": "与恶魔房共用开门机会，再决定房间种类。忏悔起，本局第一次出现的恶魔房完全不进入，下一次成功生成常规交易门会是天使房；不是下一层必开门。天使加成的多次独立判定不能直接相加，想算本层概率用概率工具。",
+    "icon": "soul",
+    "link": "/rooms/angel",
+    "aliases": [
+      "angel"
+    ]
+  },
+  {
+    "id": "curse",
+    "name": "诅咒房",
+    "en": "Curse Room",
+    "group": "资源与挑战",
+    "summary": "尖刺门，默认进门与出门分别造成一次伤害，要先预算往返。飞行通常免进门伤害，但出门仍会受伤；圣斗篷、短暂无敌、传送和隐藏房侧门可以改变实际消耗。飞行不等于免费往返。",
+    "icon": "heart",
+    "link": "/rooms/curse",
+    "aliases": [
+      "curse"
+    ]
+  },
+  {
+    "id": "challenge",
+    "name": "普通挑战房",
+    "en": "Challenge Room",
+    "group": "资源与挑战",
+    "summary": "通常从非首层开始，生成时检查生命状态；进入时也要满足总血量不少于红心容器容量的条件。魂心、黑心可以使红心未满的角色达到要求，因此“必须所有红心都填满”不准确。没生成的挑战房不会因为本层后来补满血就凭空生成。",
+    "icon": "trophy",
+    "link": "/rooms/challenge",
+    "aliases": [
+      "challenge"
+    ]
+  },
+  {
+    "id": "boss-challenge",
+    "name": "Boss 挑战房",
+    "en": "Boss Challenge Room",
+    "group": "资源与挑战",
+    "summary": "红色剑标记，是挑战房的另一种形式，通常出在每章第二层。忏悔起一般要求总血量不超过 1 颗心才能从正门进，魂心和黑心也计入；不能照搬旧版本只看红心的打法。门锁与血量限制是两件事，特殊绕路或传送另算。",
+    "icon": "skull",
+    "link": "/rooms/boss-challenge",
+    "aliases": [
+      "boss-challenge"
+    ]
+  },
+  {
+    "id": "sacrifice",
+    "name": "献祭房",
+    "en": "Sacrifice Room",
+    "group": "资源与挑战",
+    "summary": "进门免费，中央尖刺每次有效献祭通常扣 1 心；部分减伤与特殊角色机制改变实际消耗。被圣斗篷挡掉的伤害不算一次献祭，不能靠“无限挡伤”白拿奖励。次数按本层累计，下层重置。",
+    "icon": "heart",
+    "link": "/rooms/sacrifice",
+    "aliases": [
+      "sacrifice"
+    ]
+  },
+  {
+    "id": "library",
+    "name": "图书馆",
+    "en": "Library",
+    "group": "资源与挑战",
+    "summary": "书图标，通常耗 1 钥匙，可能放多本书及卡牌、符文。它不是普通楼层必定生成的房间，不应为其预留一个“保证拿书”的位置。",
+    "icon": "card",
+    "link": "/rooms/library",
+    "aliases": [
+      "library"
+    ]
+  },
+  {
+    "id": "arcade",
+    "name": "赌博房",
+    "en": "Arcade",
+    "group": "资源与挑战",
+    "summary": "常规生成主要在每章第二层，通常要求离开上一层时至少持有 5 硬币；并非达到条件就保证生成。正门通常另收 1 硬币。",
+    "icon": "coin",
+    "link": "/rooms/arcade",
+    "aliases": [
+      "arcade"
+    ]
+  },
+  {
+    "id": "vault",
+    "name": "宝库",
+    "en": "Chest Room / Vault",
+    "group": "资源与挑战",
+    "summary": "通常双钥匙门，一次消耗 2 把钥匙；里面常有多个箱子与拾取物。金箱子还需要单独开锁，因此“2 钥匙开门”不是本房总消费的上限。",
+    "icon": "chest",
+    "link": "/rooms/vault",
+    "aliases": [
+      "vault"
+    ]
+  },
+  {
+    "id": "dice",
+    "name": "骰子房",
+    "en": "Dice Room",
+    "group": "资源与挑战",
+    "summary": "双钥匙门通常花 2 钥匙；进入不会自动重置，踩中央骰子区域才触发。看清点数，拿完其他拾取物时避开中央。",
+    "icon": "dice",
+    "link": "/rooms/dice",
+    "aliases": [
+      "dice"
+    ]
+  },
+  {
+    "id": "clean-bedroom",
+    "name": "干净卧室",
+    "en": "Isaac's Room",
+    "group": "特殊奖励",
+    "summary": "常见木板封门，通常要炸两次；房内有床和地毯。睡床可回满可恢复的红心，没有红心容器的常规情形改给 3 魂心；特殊角色与合作模式的回复按角色机制处理。",
+    "icon": "heart",
+    "link": "/rooms/clean-bedroom",
+    "aliases": [
+      "clean-bedroom"
+    ]
+  },
+  {
+    "id": "dirty-bedroom",
+    "name": "肮脏卧室",
+    "en": "Barren Room",
+    "group": "特殊奖励",
+    "summary": "是脏乱的卧室布局，木板门与床的基本用途相同。关键区别是地毯下通常为通向下一层的活板门，不是干净卧室的夹层。",
+    "icon": "heart",
+    "link": "/rooms/dirty-bedroom",
+    "aliases": [
+      "dirty-bedroom"
+    ]
+  },
+  {
+    "id": "crawlspace",
+    "name": "夹层",
+    "en": "Crawl Space / Dungeon",
+    "group": "特殊奖励",
+    "summary": "炸岩石等可能露出带梯子的入口；我们需要深入一层！、铲子等开洞效果也受地形和道具规则影响，不是每次开洞都保证夹层。干净卧室地毯下是另一个来源。",
+    "icon": "rock",
+    "link": "/rooms/crawlspace",
+    "aliases": [
+      "crawlspace"
+    ]
+  },
+  {
+    "id": "black-market",
+    "name": "黑市",
+    "en": "Black Market",
+    "group": "特殊奖励",
+    "summary": "可由夹层的侧向通道等抵达，里面通常有多件待交易道具。交易以生命资源标价，游魂等角色有不同规则，不能按普通商店的 15 元预算处理。",
+    "icon": "coin",
+    "link": "/rooms/black-market",
+    "aliases": [
+      "black-market"
+    ]
+  },
+  {
+    "id": "planetarium",
+    "name": "星象房",
+    "en": "Planetarium",
+    "group": "特殊奖励",
+    "summary": "一局取得 3 件带 stars 标签的道具，例如星座道具、魔力八号球、水晶球，解锁成就 406。解锁后才会正常参与生成，不代表之后每层都有。",
+    "icon": "eye",
+    "link": "/rooms/planetarium",
+    "aliases": [
+      "planetarium"
+    ]
+  },
+  {
+    "id": "boss-rush",
+    "name": "Boss Rush",
+    "en": "头目车轮战房",
+    "group": "路线与特殊区域",
+    "summary": "常规条件是在 20 分钟内击败妈妈；陵墓 / 炼狱 II 的通常时限为 25 分钟。首次击败妈妈直接进入序章结局，不能指望这局进 Boss Rush。妈咪炸弹！、遗骸解锁相关铲子流程等有独立开门方式。",
+    "icon": "trophy",
+    "link": "/rooms/boss-rush",
+    "aliases": [
+      "boss-rush"
+    ]
+  },
+  {
+    "id": "error",
+    "name": "错误房",
+    "en": "I AM ERROR Room",
+    "group": "路线与特殊区域",
+    "summary": "不能靠普通地图炸墙寻找；特殊传送可能到达。传送 2.0 在满足探索条件后可将这里作为最后目标，直接使用一次不保证到错误房。",
+    "icon": "dice",
+    "link": "/rooms/error",
+    "aliases": [
+      "error"
+    ]
+  },
+  {
+    "id": "secret-exit",
+    "name": "替代章节入口房",
+    "en": "Secret Exit",
+    "group": "路线与特殊区域",
+    "summary": "击败死寂 3 次解锁秘密出口（成就 407），Boss 房旁才会正常出现母亲路线入口。它是路线连接房，不是隐藏房，不按普通隐藏房炸墙逻辑寻找。",
+    "icon": "key",
+    "link": "/rooms/secret-exit",
+    "aliases": [
+      "secret-exit"
+    ]
+  },
+  {
+    "id": "greed-exit",
+    "name": "贪婪出口房",
+    "en": "Greed Exit",
+    "group": "路线与特殊区域",
+    "summary": "贪婪 / 极贪模式的下楼连接房。规定战斗完成后入口才正常开放，不提供普通主线 Boss 房那样的常规底座奖励。",
+    "icon": "coin",
+    "link": "/rooms/greed-exit",
+    "aliases": [
+      "greed-exit"
+    ]
+  },
+  {
+    "id": "blue",
+    "name": "蓝钥匙房",
+    "en": "Blue Room",
+    "group": "路线与特殊区域",
+    "summary": "携带饰品蓝钥匙开相应上锁门时，先进入一间蓝子宫风格的战斗房，清完后再进入原目标房，以额外战斗替代钥匙消耗。",
+    "icon": "key",
+    "link": "/rooms/blue",
+    "aliases": [
+      "blue"
+    ]
+  },
+  {
+    "id": "red",
+    "name": "红房间",
+    "en": "Red Room",
+    "group": "路线与特殊区域",
+    "summary": "红钥匙等效果在正常地图之外开出的房间，是找究极隐藏房与里角色衣柜的基础。",
+    "icon": "key",
+    "link": "/rooms/red",
+    "aliases": []
+  },
+  {
+    "id": "mirror",
+    "name": "镜面世界",
+    "en": "Mirror World",
+    "group": "路线与特殊区域",
+    "summary": "下水道 / 污水渠 II 的特殊区域，临时游魂进入镜子后取得刀片 1。",
+    "icon": "map",
+    "link": "/rooms/mirror",
+    "aliases": []
+  },
+  {
+    "id": "minecart",
+    "name": "矿车与逃亡区域",
+    "en": "Mines Escape",
+    "group": "路线与特殊区域",
+    "summary": "矿洞 / 灰坑 II 的三个黄按钮与矿车区域，取刀片 2 后躲避妈妈的影子。",
+    "icon": "map",
+    "link": "/rooms/minecart",
+    "aliases": []
+  },
+  {
+    "id": "strange-door",
+    "name": "奇怪的门与便条房",
+    "en": "A Strange Door",
+    "group": "路线与特殊区域",
+    "summary": "深处 II 以照片开门的回家路线，特殊陵墓 II 拿爸爸的便条后上行。",
+    "icon": "key",
+    "link": "/rooms/strange-door",
+    "aliases": []
+  },
+  {
+    "id": "home-closet",
+    "name": "Home 隐藏衣柜",
+    "en": "Home Closet",
+    "group": "路线与特殊区域",
+    "summary": "妈妈卧室前走廊左侧墙后的隐藏房，接触对应里角色才能解锁。",
+    "icon": "key",
+    "link": "/rooms/home-closet",
+    "aliases": []
+  },
+  {
+    "id": "genesis",
+    "name": "创世记卧室",
+    "en": "Genesis Room",
+    "group": "路线与特殊区域",
+    "summary": "使用创世记后移除原道具并逐件选择替代道具的特殊卧室。",
+    "icon": "map",
+    "link": "/rooms/genesis",
+    "aliases": []
+  },
+  {
+    "id": "grave",
+    "name": "遗骸坟墓房",
+    "en": "Forgotten Grave",
+    "group": "路线与特殊区域",
+    "summary": "暗室的土堆布局，需要完整妈妈的铲子及前置任务来解锁遗骸。",
+    "icon": "map",
+    "link": "/rooms/grave",
+    "aliases": []
+  }
+]

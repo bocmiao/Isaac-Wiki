@@ -15,7 +15,8 @@ npm run build    # 生成静态站点到 docs/.vitepress/dist
 | 路径 | 内容 |
 | --- | --- |
 | `docs/guide/` | 新手路线，五层，每层一个目录 |
-| `docs/strategy/` | 攻略库，10 个栏目 |
+| `docs/strategy/` | 攻略库与旧入口兼容页面 |
+| `docs/characters/`、`docs/rooms/`、`docs/floors/`、`docs/items/` | 四类图鉴总览及独立详情页 |
 | `docs/topics/` | 专题：联机、主机、配置与模组 |
 | `docs/tools/tracker.md` | 解锁清单工具页 |
 | `docs/.vitepress/theme/` | 主题：配色、首页、组件 |
@@ -41,3 +42,16 @@ npm run build    # 生成静态站点到 docs/.vitepress/dist
 ## 投稿
 
 发现错误或想写攻略，直接提交 Pull Request。请用自己的文字和截图，不要搬运 wiki 或其他攻略站原文。
+
+## 图鉴数据更新
+
+人物、房间、楼层的编辑源稿在 `data/entry-guides/`；道具事实快照在 `data/item-source.json`，来源与版本见 `data/item-source.README.md`。不要只编辑生成后的详情页。
+
+```bash
+python3 scripts/generate-entry-pages.py
+npm test
+BASE=/Isaac-Wiki/ npm run build
+python3 scripts/check-built-links.py
+```
+
+源数据更新时可运行 `python3 scripts/import-item-source.py <EID checkout> <IsaacDocs checkout>`，审阅差异后再生成。导入器只解析声明，不执行上游 Lua。旧页面与锚点保留兼容入口。

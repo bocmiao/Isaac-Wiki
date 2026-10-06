@@ -13,6 +13,7 @@ import StrategyGrid from './components/StrategyGrid.vue'
 import StreakTitle from './components/StreakTitle.vue'
 import GameIcon from './components/GameIcon.vue'
 import KeyCap from './components/KeyCap.vue'
+import EntryHeader from './components/EntryHeader.vue'
 
 export default {
   extends: DefaultTheme,
@@ -39,6 +40,8 @@ export default {
     app.component('UnlockTracker', UnlockTracker)
     app.component('AchievementCatalog', defineAsyncComponent(() => import('./components/AchievementCatalog.vue')))
     app.component('ItemFinder', defineAsyncComponent(() => import('./components/ItemFinder.vue')))
+    app.component('EntryHeader', EntryHeader)
+    app.component('EntryCatalog', defineAsyncComponent(() => import('./components/EntryCatalog.vue')))
     for (const [name,loader] of Object.entries({
       DealCalculator: () => import('./components/DealCalculator.vue'),
       SacrificeLookup: () => import('./components/SacrificeLookup.vue'),
